@@ -1,7 +1,7 @@
 {
   "agent": "JARVIS MARK 2",
   "role": "EA RESEARCH AND DEVELOPMENT",
-  "observed_unix": 1793285871.6089492,
+  "observed_unix": 1793290742.4392693,
   "status": "RESEARCH_COMPLETE",
   "runtime": "GITHUB_ACTIONS",
   "cloud_deployed": true,
@@ -12,7 +12,7 @@
       "repository": "EA31337/EA31337",
       "url": "https://github.com/EA31337/EA31337",
       "updated_at": "2026-04-07T14:41:25Z",
-      "stars": 1344,
+      "stars": 1345,
       "license": "GPL-3.0",
       "performance": null,
       "status": "SOURCE_SCREEN_ONLY",
@@ -311,6 +311,26 @@
     "No new backtest or broker trade is automatically started",
     "No LLM connected; this is a deterministic autonomous research worker"
   ],
+  "spider": {
+    "identity": "JARVIS MARK 2 / SPIDER",
+    "fleet_run_id": "fleet-725fdd3f41d2",
+    "fleet_status": "COMPLETED",
+    "counts": {
+      "queued": 0,
+      "running": 0,
+      "completed": 24,
+      "failed": 0,
+      "timed_out": 0,
+      "repositories": 8,
+      "workers": 24,
+      "launched": 24
+    },
+    "new_findings": 30,
+    "open_findings": 30,
+    "model_children": false,
+    "worker_type": "DETERMINISTIC_TOOL_WORKER",
+    "external_ai_apis": 0
+  },
   "research_team": {
     "consulted_on": "2026-10-29",
     "coordinator": "Codex",
