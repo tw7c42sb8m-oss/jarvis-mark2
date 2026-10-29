@@ -6,6 +6,8 @@ data/journal.jsonl
 *.pid
 .env
 data/spider*
+data/crawl-index/
+data/crawler-status.json
 data/worker-fleet*.log
 data/worker-fleet*.pid
 data/worker-fleet*.lock

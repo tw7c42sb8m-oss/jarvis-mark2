@@ -17,6 +17,7 @@ from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
 from reuse import build as reuse_candidate
 from spider_hub import cloud_cycle
+from spider_crawler import bounded_crawl
 
 ROOT = Path(__file__).resolve().parent
 DATA = ROOT / 'data'
@@ -147,6 +148,9 @@ def research_cycle():
                              'No new backtest or broker trade is automatically started',
                              'No LLM connected; this is a deterministic autonomous research worker']}
     try:
+        crawl=bounded_crawl(ROOT,status)
+        status['crawler']=crawl['state']
+        status['repositories']=crawl['source_snapshot'].get('repositories',status['repositories'])
         status['spider']=cloud_cycle(ROOT,status)
     except Exception as error:
         errors.append({'stage':'spider_child_review','error':str(error)[:250]})

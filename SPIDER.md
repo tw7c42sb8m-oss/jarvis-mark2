@@ -50,3 +50,18 @@ tools in the cloud independently of the Mac when the deployed cycle runs.
 
 Native MT5 compilation, signal parity and profitability are still unverified.
 The worker reports those missing requirements rather than inventing results.
+
+## Public web/source crawler
+
+Spider now fetches actual pinned source URLs, checks their hashes and saves inert
+evidence before dispatching review tools. It discovers further MQL5 paths by
+reading public Git trees without checkout, submodules, hooks or code execution.
+The local crawler examines new source paths, then watches versions; it does not
+pretend to stay busy by endlessly refetching an immutable file. Discovery checks
+back off for 15 minutes. Oversized source is reported and not executed.
+
+Cloud cycles include a bounded source crawl (12 requests / approximately 90
+seconds plus an in-flight network timeout), followed by child review and lesson
+persistence. The prepared updated cloud schedule is hourly. Local live crawling
+requires the Mac display host; cloud batches run independently. No paid service
+or VPS process is added.
