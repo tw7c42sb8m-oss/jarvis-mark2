@@ -1,13 +1,24 @@
 import hashlib
 import io
+import json
 import tempfile
 import unittest
 from pathlib import Path
 from unittest.mock import patch
-from spider_crawler import Crawler
+from spider_crawler import Crawler, bounded_crawl
 from spider_hub import SpiderHub
 
 class CrawlerTests(unittest.TestCase):
+    def test_cloud_cursor_advances_instead_of_refetching_first_batch(self):
+        with tempfile.TemporaryDirectory() as folder:
+            root=Path(folder);(root/'data').mkdir()
+            key=['test/repo','a'*40,'Experts/Test.mq5']
+            (root/'data/cloud-crawler.json').write_text(json.dumps({'seen_sources':[key]}))
+            with patch.object(Crawler,'expand_frontier',return_value=None),patch('spider_crawler.urllib.request.urlopen',side_effect=AssertionError('Already visited pinned source must not be fetched again')):
+                result=bounded_crawl(root,self.status(b'x'))
+            self.assertEqual(result['state']['visited'],0)
+            saved=json.loads((root/'data/cloud-crawler.json').read_text())
+            self.assertIn(key,saved['seen_sources'])
     def status(self,text,sha=None,path='Experts/Test.mq5'):
         return {'repositories':[{'repository':'test/repo','commit':'a'*40,'license':'MIT','files':[{'path':path,'sha256':sha or hashlib.sha256(text).hexdigest()}]}]}
 

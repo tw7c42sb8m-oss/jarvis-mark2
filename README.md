@@ -49,7 +49,7 @@ Cloud deployment is active: first cloud run completed successfully on 29 Oct
 
 ## Prepared free cloud workflow
 
-The GitHub Actions workflow runs every six hours or manually, independently
+The GitHub Actions workflow runs hourly or manually, independently
 of Mac and Mark 1. It is restricted to a PUBLIC repository and a standard
 Ubuntu runner; private jobs are skipped. No paid APIs, artifacts, large runner
 or subscriptions. Only project code, public source analysis and generated own
@@ -63,8 +63,7 @@ repositories reviewed, three tester-only variants generated, zero research
 errors and zero broker orders. The three Python worker tests also passed in
 the cloud. This verifies software operation, not EA profitability.
 
-Cloud schedule is every six hours (approximately 02:23, 08:23, 14:23 and
-20:23 MYT). GitHub may delay schedules. Mac and trading VPS are not required
+Cloud schedule is hourly at minute 23 (MYT). GitHub may delay schedules. Mac and trading VPS are not required
 for these cloud cycles. Native MT5 compilation and performance evaluation
 remain pending; no backtest or broker trading is launched by this worker.
 

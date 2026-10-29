@@ -62,6 +62,10 @@ back off for 15 minutes. Oversized source is reported and not executed.
 
 Cloud cycles include a bounded source crawl (12 requests / approximately 90
 seconds plus an in-flight network timeout), followed by child review and lesson
-persistence. The prepared updated cloud schedule is hourly. Local live crawling
+persistence. The deployed cloud schedule is hourly. Local live crawling
 requires the Mac display host; cloud batches run independently. No paid service
 or VPS process is added.
+
+The cloud crawler retains a bounded frontier cursor so subsequent cycles can
+advance beyond the initial batch. Completed immutable sources are remembered;
+new commits create new source identities. Past findings remain in review memory.

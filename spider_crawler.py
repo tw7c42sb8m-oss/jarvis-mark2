@@ -17,11 +17,30 @@ class Crawler:
         self.state={'status':'STARTING','visited':0,'failed':0,'current_url':None,'queue_remaining':0,'recent':[],'external_code_executed':False}
         self.seen=set();self.thread=threading.Thread(target=self.run,daemon=True)
         self.indexed={};self.extra=[];self.discovered={}
+        self.wake=threading.Event()
         self.max_requests=max_requests;self.pause_seconds=pause_seconds;self.stop_when_idle=stop_when_idle
         self.deadline=time.monotonic()+max_seconds if max_seconds else None
+        if max_requests is None:
+            try:
+                previous=json.loads((self.root/'data/crawler-status.json').read_text())
+                self.state.update(previous,status='STARTING',current_url=None)
+            except (OSError,ValueError):pass
+            for file in list((self.root/'data/sources').glob('*.json'))[:512]:
+                try:
+                    item=json.loads(file.read_text());key=(item['repository'],item['commit'],item['path'])
+                    if all(isinstance(x,str) for x in key):self.seen.add(key)
+                except (OSError,ValueError,KeyError,TypeError):pass
+            for item in self.state.get('recent',[]):
+                if item.get('result')=='FETCH_FAILED':
+                    parts=urllib.parse.urlparse(item.get('url','')).path.strip('/').split('/',3)
+                    if len(parts)==4:self.seen.add((parts[0]+'/'+parts[1],parts[2],urllib.parse.unquote(parts[3])))
 
     def bounded_done(self):
         return (self.max_requests is not None and self.state['visited']+self.state['failed']>=self.max_requests) or (self.deadline is not None and time.monotonic()>=self.deadline)
+
+    def request_scan(self):
+        self.indexed.clear();self.wake.set()
+        return {'status':'SOURCE_VERSION_SCAN_REQUESTED','already_running':self.thread.is_alive()}
 
     def expand_frontier(self):
         """Read public Git trees without checkout, submodules, hooks or source execution."""
@@ -60,8 +79,11 @@ class Crawler:
         for repo in cloud.get('repositories',[]):
             if repo.get('repository') in self.discovered:
                 update=self.discovered[repo['repository']]
-                if repo.get('commit')!=update['commit']:repo['license']=None
-                repo['commit']=update['commit'];repo['files']=list(update['files'].values())
+                same_commit=repo.get('commit')==update['commit']
+                if not same_commit:repo['license']=None
+                merged={item['path']:item for item in repo.get('files',[]) if isinstance(item,dict) and 'path' in item} if same_commit else {}
+                merged.update(update['files'])
+                repo['commit']=update['commit'];repo['files']=list(merged.values())
         cloud['observed_unix']=time.time();return cloud
 
     def persist(self):
@@ -91,7 +113,7 @@ class Crawler:
                 if not jobs:
                     self.state.update(status='WATCHING_FOR_SOURCE_UPDATES',current_url=None);self.persist()
                     if self.stop_when_idle:return
-                    time.sleep(30);continue
+                    self.wake.wait(30);self.wake.clear();continue
             batch=0
             for key,repo,item in jobs:
                 if self.bounded_done():break
@@ -130,6 +152,18 @@ def bounded_crawl(root,status):
     crawler=Crawler(root,hub,lambda:status,
                     lambda root,cloud:{'status':'DEFERRED_TO_CLOUD_SUPERVISOR','pid':None},
                     max_requests=12,pause_seconds=0,stop_when_idle=True,max_seconds=90)
+    previous_path=Path(root)/'data/cloud-crawler.json'
+    try:
+        previous=json.loads(previous_path.read_text())
+        for key in previous.get('seen_sources',[]):
+            if isinstance(key,list) and len(key)==3 and all(isinstance(x,str) for x in key):crawler.seen.add(tuple(key))
+        # Upgrade the first saved batch to a persistent frontier without refetching it.
+        for item in previous.get('recent',[]):
+            parts=urllib.parse.urlparse(item.get('url','')).path.strip('/').split('/',3)
+            if len(parts)==4:crawler.seen.add((parts[0]+'/'+parts[1],parts[2],urllib.parse.unquote(parts[3])))
+    except (OSError,ValueError,TypeError):pass
     crawler.run()
-    atomic_json(Path(root)/'data/cloud-crawler.json',crawler.state)
+    cursor={**crawler.state,'seen_sources':[list(key) for key in sorted(crawler.seen)[-2000:]]}
+    crawler.state['frontier_total_seen']=len(crawler.seen)
+    atomic_json(Path(root)/'data/cloud-crawler.json',cursor)
     return {'state':crawler.state,'source_snapshot':crawler.worker_input()}
