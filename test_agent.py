@@ -46,7 +46,7 @@ class ResearchTests(unittest.TestCase):
                 self.assertIn('Avg(r,n,'+str(candidate['slow'])+')',source)
 
     def test_network_failure_is_explicit_not_success_or_winner(self):
-        with tempfile.TemporaryDirectory() as folder, patch.object(agent,'DATA',Path(folder)), patch.object(agent,'api',side_effect=OSError('offline')), patch.object(agent,'build_candidates',return_value=[]), patch.object(agent,'reuse_candidate',side_effect=OSError('offline')):
+        with tempfile.TemporaryDirectory() as folder, patch.object(agent,'DATA',Path(folder)), patch.object(agent,'api',side_effect=OSError('offline')), patch.object(agent,'build_candidates',return_value=[]), patch.object(agent,'reuse_candidate',side_effect=OSError('offline')), patch.object(agent,'cloud_cycle',return_value={'fleet_status':'COMPLETED','counts':{'workers':0}}):
             status=agent.research_cycle()
             self.assertEqual(status['status'],'RESEARCH_PARTIAL')
             self.assertIsNone(status['best_ea'])

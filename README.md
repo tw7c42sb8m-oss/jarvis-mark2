@@ -1,5 +1,9 @@
 # JARVIS MARK 2 — independent EA research worker
 
+Mark 2's identity is **SPIDER**, the research coordinator and data router.
+See [SPIDER.md](SPIDER.md) for real worker hierarchy, message routing and
+review lessons. Its named AI reviewers are distinct from actual tool processes.
+
 Mission: discover public MT5 EA source, retain reproducible source evidence,
 review code heuristics, and create isolated tester-only EA variants.
 Independent process, folder, state and journal. No Mark 1 runtime imports.

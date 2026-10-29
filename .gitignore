@@ -5,4 +5,9 @@ data/journal.jsonl
 *.log
 *.pid
 .env
+data/spider*
+data/worker-fleet*.log
+data/worker-fleet*.pid
+data/worker-fleet*.lock
+data/worker-fleet-input.json
 *.key

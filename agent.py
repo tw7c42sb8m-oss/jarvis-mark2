@@ -16,6 +16,7 @@ import urllib.request
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
 from reuse import build as reuse_candidate
+from spider_hub import cloud_cycle
 
 ROOT = Path(__file__).resolve().parent
 DATA = ROOT / 'data'
@@ -145,6 +146,11 @@ def research_cycle():
                              'Generated variants reuse an unproven long-only baseline',
                              'No new backtest or broker trade is automatically started',
                              'No LLM connected; this is a deterministic autonomous research worker']}
+    try:
+        status['spider']=cloud_cycle(ROOT,status)
+    except Exception as error:
+        errors.append({'stage':'spider_child_review','error':str(error)[:250]})
+        status['status']='RESEARCH_PARTIAL'
     save(DATA / 'status.json', status)
     team_path=ROOT/'team.json'
     if team_path.is_file():
