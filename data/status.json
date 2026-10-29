@@ -1,7 +1,7 @@
 {
   "agent": "JARVIS MARK 2",
   "role": "EA RESEARCH AND DEVELOPMENT",
-  "observed_unix": 1793311185.5056927,
+  "observed_unix": 1793314592.607843,
   "status": "RESEARCH_COMPLETE",
   "runtime": "GITHUB_ACTIONS",
   "cloud_deployed": true,
@@ -19,19 +19,21 @@
       "files": [
         {
           "path": "src/EA31337.mq5",
-          "sha256": "21f7d34b1171396c416f3987b3cdf2f1c9921924c499dae59627a3fafb50786c"
+          "sha256": "21f7d34b1171396c416f3987b3cdf2f1c9921924c499dae59627a3fafb50786c",
+          "checks": {
+            "mentions_stop_loss": false,
+            "mentions_take_profit": false,
+            "uses_dll_import": false,
+            "uses_web_request": false,
+            "mentions_martingale_or_grid": false,
+            "mentions_order_execution": false
+          },
+          "assessment": "MANUAL_CODE_REVIEW_REQUIRED",
+          "profitability": "UNPROVEN"
         },
         {
-          "path": "src/include/common/advanced/inputs.mqh",
-          "sha256": "831ff5c8a56aea245b6e747e147bca7641599f632964f8af6a02c7abe233116f"
-        },
-        {
-          "path": "src/include/common/elite/inputs.mqh",
-          "sha256": "54a2e6b2c92c455b009b9c2331a29b60b6a6760e378bd1d2e9b8292ccd529436"
-        },
-        {
-          "path": "src/include/common/lite/inputs.mqh",
-          "sha256": "77d41a093deff6e0a2b8019899c23e6294f024390a996cd0fafa7657d4835ba7"
+          "path": "src/include/common/rider/inputs.mqh",
+          "sha256": "e826454b11b3e796b8827e614a106b3c835a4e53fa2c905ff4d3afdb3876dca4"
         }
       ],
       "commit": "9b9bd38c4e49dd6916f4fe3936e50e97fca7a692",
@@ -48,7 +50,41 @@
       "files": [
         {
           "path": "MQL5/Experts/Position Sizer/Position Sizer.mq5",
-          "sha256": "ef0e6e8613d47c5e79286bd2011ac2568aa2fced46bc652228424c36be96adb1"
+          "sha256": "ef0e6e8613d47c5e79286bd2011ac2568aa2fced46bc652228424c36be96adb1",
+          "checks": {
+            "mentions_stop_loss": true,
+            "mentions_take_profit": true,
+            "uses_dll_import": false,
+            "uses_web_request": false,
+            "mentions_martingale_or_grid": false,
+            "mentions_order_execution": false
+          },
+          "assessment": "MANUAL_CODE_REVIEW_REQUIRED",
+          "profitability": "UNPROVEN"
+        },
+        {
+          "path": "MQL4/Experts/Position Sizer/Defines.mqh",
+          "sha256": "3c4e9a538e115cc3649b817e64e23298da22bfce36d51c4af4fa02ea0eb12a53"
+        },
+        {
+          "path": "MQL4/Experts/Position Sizer/HorizontalRadioGroup.mqh",
+          "sha256": "f4692d5785c6269f8d50ccf67b259e2b05bdb7e3a15cd276da72904d88626ffd"
+        },
+        {
+          "path": "MQL4/Experts/Position Sizer/Position Sizer Trading.mqh",
+          "sha256": "57ffd02ee5c7d4ef4986e9ed762707a753e32c0248a3bd46b5a892766a606eab"
+        },
+        {
+          "path": "MQL4/Experts/Position Sizer/TesterSupport.mqh",
+          "sha256": "38c3b41b9944266ed0d98741a67b36e25ecf7b33a810ae03333160a3811e8c3d"
+        },
+        {
+          "path": "MQL4/Experts/Position Sizer/Translations/Arabic.mqh",
+          "sha256": "49e7d8173ef94bed21015c7fd433db1349fc6a893c83c61c0a51342e0f2014b8"
+        },
+        {
+          "path": "MQL4/Experts/Position Sizer/Translations/Chinese.mqh",
+          "sha256": "39e3dddabeb23083f56383aed528cb6c080bd4046ae24d40b985649d469d0847"
         }
       ],
       "commit": "dadf3d5c869c34cac40db3fb6858b188cf101a25",
@@ -65,7 +101,17 @@
       "files": [
         {
           "path": "WHAM_FX_GOLD_BOT.mq5",
-          "sha256": "9ad2c574d23402b65cc57ce81ac8a33e248bed4e687c85cc459f6aa0dd112b72"
+          "sha256": "9ad2c574d23402b65cc57ce81ac8a33e248bed4e687c85cc459f6aa0dd112b72",
+          "checks": {
+            "mentions_stop_loss": false,
+            "mentions_take_profit": false,
+            "uses_dll_import": false,
+            "uses_web_request": false,
+            "mentions_martingale_or_grid": false,
+            "mentions_order_execution": true
+          },
+          "assessment": "MANUAL_CODE_REVIEW_REQUIRED",
+          "profitability": "UNPROVEN"
         }
       ],
       "commit": "8c7cf2e6cb5dcc4ed6291dc10fe40c1dce7ef7c2",
@@ -82,11 +128,47 @@
       "files": [
         {
           "path": "Experts/2MAAOS.mq5",
-          "sha256": "6be9d4196feebe94e7240ddfeb079ed677722735bea4a4c528a05ff17c341d77"
+          "sha256": "6be9d4196feebe94e7240ddfeb079ed677722735bea4a4c528a05ff17c341d77",
+          "checks": {
+            "mentions_stop_loss": true,
+            "mentions_take_profit": true,
+            "uses_dll_import": false,
+            "uses_web_request": false,
+            "mentions_martingale_or_grid": true,
+            "mentions_order_execution": false
+          },
+          "assessment": "MANUAL_CODE_REVIEW_REQUIRED",
+          "profitability": "UNPROVEN"
         },
         {
           "path": "Experts/2MACDSTO.mq5",
-          "sha256": "b2e3a95fde70c88b46fcab0c635b2b31132e1fe0969c22aeaa76a6b008e60105"
+          "sha256": "b2e3a95fde70c88b46fcab0c635b2b31132e1fe0969c22aeaa76a6b008e60105",
+          "checks": {
+            "mentions_stop_loss": true,
+            "mentions_take_profit": true,
+            "uses_dll_import": false,
+            "uses_web_request": false,
+            "mentions_martingale_or_grid": true,
+            "mentions_order_execution": false
+          },
+          "assessment": "MANUAL_CODE_REVIEW_REQUIRED",
+          "profitability": "UNPROVEN"
+        },
+        {
+          "path": "Experts/2MOMEMA.mq5",
+          "sha256": "12b43ba89e09e061ec89c51d0f992c574301b40f41e0e2499502165a07532d27"
+        },
+        {
+          "path": "Experts/3MACD.mq5",
+          "sha256": "e0e51c41129c34c1799ad38a54df7318377852fff239da9b306c92647598a736"
+        },
+        {
+          "path": "Experts/3MAF.mq5",
+          "sha256": "af356f421c81a8c828e9ffd50f06355af411236c9daf174e84e8714abfedcf35"
+        },
+        {
+          "path": "Experts/AFAOSMD.mq5",
+          "sha256": "c1ba3345fd490c55d37188748dc36fcb0cc23f0bfbc7d5be7fb540ad7b23eade"
         }
       ],
       "commit": "d3eb29c382acf715727d5cd6a0414151e821fc2d",
@@ -103,7 +185,17 @@
       "files": [
         {
           "path": "ForexScalperEA.mq5",
-          "sha256": "3e28a264feac3205f7c6e2c6685af9fe37ef9e5845a82305a7d5af11e62e29fa"
+          "sha256": "3e28a264feac3205f7c6e2c6685af9fe37ef9e5845a82305a7d5af11e62e29fa",
+          "checks": {
+            "mentions_stop_loss": true,
+            "mentions_take_profit": true,
+            "uses_dll_import": false,
+            "uses_web_request": false,
+            "mentions_martingale_or_grid": false,
+            "mentions_order_execution": true
+          },
+          "assessment": "MANUAL_CODE_REVIEW_REQUIRED",
+          "profitability": "UNPROVEN"
         }
       ],
       "commit": "5cfe7d97d4e44c13e6bfcd39faba1e7ae6e0314e",
@@ -120,11 +212,31 @@
       "files": [
         {
           "path": "templates/EA_Base.mq5",
-          "sha256": "cbdb4a15683a0ffbf553403a649a1babd39aba6997cd6876fc5a375eaa9a816b"
+          "sha256": "cbdb4a15683a0ffbf553403a649a1babd39aba6997cd6876fc5a375eaa9a816b",
+          "checks": {
+            "mentions_stop_loss": true,
+            "mentions_take_profit": true,
+            "uses_dll_import": true,
+            "uses_web_request": false,
+            "mentions_martingale_or_grid": true,
+            "mentions_order_execution": true
+          },
+          "assessment": "MANUAL_CODE_REVIEW_REQUIRED",
+          "profitability": "UNPROVEN"
         },
         {
           "path": "templates/arrows_indicator.mq5",
-          "sha256": "12d90c350d99d2a60519e480fabb0a0f2ed7710ac5d76649a01fd2508429c249"
+          "sha256": "12d90c350d99d2a60519e480fabb0a0f2ed7710ac5d76649a01fd2508429c249",
+          "checks": {
+            "mentions_stop_loss": false,
+            "mentions_take_profit": false,
+            "uses_dll_import": false,
+            "uses_web_request": false,
+            "mentions_martingale_or_grid": false,
+            "mentions_order_execution": false
+          },
+          "assessment": "MANUAL_CODE_REVIEW_REQUIRED",
+          "profitability": "UNPROVEN"
         }
       ],
       "commit": "6de6720fb67dcefda3f178850f73b5355309e1c8",
@@ -153,7 +265,17 @@
       "files": [
         {
           "path": "GOLD_ORB/GOLD_ORB.mq5",
-          "sha256": "259258ce70cf11fd97fb6d25d51c0f02fa00a24aeab5eeca5f159c1403d0b11f"
+          "sha256": "259258ce70cf11fd97fb6d25d51c0f02fa00a24aeab5eeca5f159c1403d0b11f",
+          "checks": {
+            "mentions_stop_loss": true,
+            "mentions_take_profit": true,
+            "uses_dll_import": false,
+            "uses_web_request": false,
+            "mentions_martingale_or_grid": false,
+            "mentions_order_execution": true
+          },
+          "assessment": "MANUAL_CODE_REVIEW_REQUIRED",
+          "profitability": "UNPROVEN"
         }
       ],
       "commit": "8af0d735288c0e9378e35d06c46f23b21d9a5424",
@@ -235,127 +357,127 @@
   ],
   "crawler": {
     "status": "BOUNDED_CRAWL_COMPLETE",
-    "visited": 12,
-    "failed": 0,
+    "visited": 11,
+    "failed": 1,
     "current_url": null,
-    "queue_remaining": 35,
+    "queue_remaining": 23,
     "recent": [
       {
-        "url": "https://raw.githubusercontent.com/EA31337/EA31337/9b9bd38c4e49dd6916f4fe3936e50e97fca7a692/src/include/common/lite/inputs.mqh",
-        "repository": "EA31337/EA31337",
-        "path": "src/include/common/lite/inputs.mqh",
-        "sha256": "77d41a093deff6e0a2b8019899c23e6294f024390a996cd0fafa7657d4835ba7",
-        "bytes": 2319,
-        "result": "SOURCE_SAVED",
-        "received_unix": 1793311188.150292
-      },
-      {
-        "url": "https://raw.githubusercontent.com/EA31337/EA31337/9b9bd38c4e49dd6916f4fe3936e50e97fca7a692/src/include/common/elite/inputs.mqh",
-        "repository": "EA31337/EA31337",
-        "path": "src/include/common/elite/inputs.mqh",
-        "sha256": "54a2e6b2c92c455b009b9c2331a29b60b6a6760e378bd1d2e9b8292ccd529436",
-        "bytes": 2839,
-        "result": "SOURCE_SAVED",
-        "received_unix": 1793311188.0709314
-      },
-      {
-        "url": "https://raw.githubusercontent.com/EA31337/EA31337/9b9bd38c4e49dd6916f4fe3936e50e97fca7a692/src/include/common/advanced/inputs.mqh",
-        "repository": "EA31337/EA31337",
-        "path": "src/include/common/advanced/inputs.mqh",
-        "sha256": "831ff5c8a56aea245b6e747e147bca7641599f632964f8af6a02c7abe233116f",
-        "bytes": 5736,
-        "result": "SOURCE_SAVED",
-        "received_unix": 1793311187.9825404
-      },
-      {
-        "url": "https://raw.githubusercontent.com/yulz008/GOLD_ORB/8af0d735288c0e9378e35d06c46f23b21d9a5424/GOLD_ORB/GOLD_ORB.mq5",
-        "repository": "yulz008/GOLD_ORB",
-        "path": "GOLD_ORB/GOLD_ORB.mq5",
-        "sha256": "259258ce70cf11fd97fb6d25d51c0f02fa00a24aeab5eeca5f159c1403d0b11f",
-        "bytes": 8751,
-        "result": "SOURCE_SAVED",
-        "received_unix": 1793311186.3538282
-      },
-      {
-        "url": "https://raw.githubusercontent.com/sibvic/mq5-templates/6de6720fb67dcefda3f178850f73b5355309e1c8/templates/arrows_indicator.mq5",
-        "repository": "sibvic/mq5-templates",
-        "path": "templates/arrows_indicator.mq5",
-        "sha256": "12d90c350d99d2a60519e480fabb0a0f2ed7710ac5d76649a01fd2508429c249",
-        "bytes": 5919,
-        "result": "SOURCE_SAVED",
-        "received_unix": 1793311186.2444084
-      },
-      {
-        "url": "https://raw.githubusercontent.com/sibvic/mq5-templates/6de6720fb67dcefda3f178850f73b5355309e1c8/templates/EA_Base.mq5",
-        "repository": "sibvic/mq5-templates",
-        "path": "templates/EA_Base.mq5",
-        "sha256": "cbdb4a15683a0ffbf553403a649a1babd39aba6997cd6876fc5a375eaa9a816b",
-        "bytes": 24938,
-        "result": "SOURCE_SAVED",
-        "received_unix": 1793311186.1579173
-      },
-      {
-        "url": "https://raw.githubusercontent.com/kibetval/forex-scalper-bot/5cfe7d97d4e44c13e6bfcd39faba1e7ae6e0314e/ForexScalperEA.mq5",
-        "repository": "kibetval/forex-scalper-bot",
-        "path": "ForexScalperEA.mq5",
-        "sha256": "3e28a264feac3205f7c6e2c6685af9fe37ef9e5845a82305a7d5af11e62e29fa",
-        "bytes": 10639,
-        "result": "SOURCE_SAVED",
-        "received_unix": 1793311186.0600023
-      },
-      {
-        "url": "https://raw.githubusercontent.com/geraked/metatrader5/d3eb29c382acf715727d5cd6a0414151e821fc2d/Experts/2MACDSTO.mq5",
+        "url": "https://raw.githubusercontent.com/geraked/metatrader5/d3eb29c382acf715727d5cd6a0414151e821fc2d/Experts/AFAOSMD.mq5",
         "repository": "geraked/metatrader5",
-        "path": "Experts/2MACDSTO.mq5",
-        "sha256": "b2e3a95fde70c88b46fcab0c635b2b31132e1fe0969c22aeaa76a6b008e60105",
-        "bytes": 7390,
+        "path": "Experts/AFAOSMD.mq5",
+        "sha256": "c1ba3345fd490c55d37188748dc36fcb0cc23f0bfbc7d5be7fb540ad7b23eade",
+        "bytes": 7917,
         "result": "SOURCE_SAVED",
-        "received_unix": 1793311185.944897
+        "received_unix": 1793314597.2160532
       },
       {
-        "url": "https://raw.githubusercontent.com/geraked/metatrader5/d3eb29c382acf715727d5cd6a0414151e821fc2d/Experts/2MAAOS.mq5",
+        "url": "https://raw.githubusercontent.com/geraked/metatrader5/d3eb29c382acf715727d5cd6a0414151e821fc2d/Experts/3MAF.mq5",
         "repository": "geraked/metatrader5",
-        "path": "Experts/2MAAOS.mq5",
-        "sha256": "6be9d4196feebe94e7240ddfeb079ed677722735bea4a4c528a05ff17c341d77",
-        "bytes": 8135,
+        "path": "Experts/3MAF.mq5",
+        "sha256": "af356f421c81a8c828e9ffd50f06355af411236c9daf174e84e8714abfedcf35",
+        "bytes": 7420,
         "result": "SOURCE_SAVED",
-        "received_unix": 1793311185.876734
+        "received_unix": 1793314597.0517213
       },
       {
-        "url": "https://raw.githubusercontent.com/WHAM-FX/WHAM-FX-GOLD-AI-2026/8c7cf2e6cb5dcc4ed6291dc10fe40c1dce7ef7c2/WHAM_FX_GOLD_BOT.mq5",
-        "repository": "WHAM-FX/WHAM-FX-GOLD-AI-2026",
-        "path": "WHAM_FX_GOLD_BOT.mq5",
-        "sha256": "9ad2c574d23402b65cc57ce81ac8a33e248bed4e687c85cc459f6aa0dd112b72",
-        "bytes": 5806,
+        "url": "https://raw.githubusercontent.com/geraked/metatrader5/d3eb29c382acf715727d5cd6a0414151e821fc2d/Experts/3MACD.mq5",
+        "repository": "geraked/metatrader5",
+        "path": "Experts/3MACD.mq5",
+        "sha256": "e0e51c41129c34c1799ad38a54df7318377852fff239da9b306c92647598a736",
+        "bytes": 10789,
         "result": "SOURCE_SAVED",
-        "received_unix": 1793311185.7780588
+        "received_unix": 1793314596.9010754
       },
       {
-        "url": "https://raw.githubusercontent.com/EarnForex/PositionSizer/dadf3d5c869c34cac40db3fb6858b188cf101a25/MQL5/Experts/Position%20Sizer/Position%20Sizer.mq5",
+        "url": "https://raw.githubusercontent.com/geraked/metatrader5/d3eb29c382acf715727d5cd6a0414151e821fc2d/Experts/2MOMEMA.mq5",
+        "repository": "geraked/metatrader5",
+        "path": "Experts/2MOMEMA.mq5",
+        "sha256": "12b43ba89e09e061ec89c51d0f992c574301b40f41e0e2499502165a07532d27",
+        "bytes": 6767,
+        "result": "SOURCE_SAVED",
+        "received_unix": 1793314596.7838752
+      },
+      {
+        "url": "https://raw.githubusercontent.com/EarnForex/PositionSizer/dadf3d5c869c34cac40db3fb6858b188cf101a25/MQL4/Experts/Position%20Sizer/Translations/Chinese.mqh",
         "repository": "EarnForex/PositionSizer",
-        "path": "MQL5/Experts/Position Sizer/Position Sizer.mq5",
-        "sha256": "ef0e6e8613d47c5e79286bd2011ac2568aa2fced46bc652228424c36be96adb1",
-        "bytes": 70058,
+        "path": "MQL4/Experts/Position Sizer/Translations/Chinese.mqh",
+        "sha256": "39e3dddabeb23083f56383aed528cb6c080bd4046ae24d40b985649d469d0847",
+        "bytes": 21006,
         "result": "SOURCE_SAVED",
-        "received_unix": 1793311185.7153172
+        "received_unix": 1793314596.5052946
       },
       {
-        "url": "https://raw.githubusercontent.com/EA31337/EA31337/9b9bd38c4e49dd6916f4fe3936e50e97fca7a692/src/EA31337.mq5",
-        "repository": "EA31337/EA31337",
-        "path": "src/EA31337.mq5",
-        "sha256": "21f7d34b1171396c416f3987b3cdf2f1c9921924c499dae59627a3fafb50786c",
-        "bytes": 12500,
+        "url": "https://raw.githubusercontent.com/EarnForex/PositionSizer/dadf3d5c869c34cac40db3fb6858b188cf101a25/MQL4/Experts/Position%20Sizer/Translations/Arabic.mqh",
+        "repository": "EarnForex/PositionSizer",
+        "path": "MQL4/Experts/Position Sizer/Translations/Arabic.mqh",
+        "sha256": "49e7d8173ef94bed21015c7fd433db1349fc6a893c83c61c0a51342e0f2014b8",
+        "bytes": 26923,
         "result": "SOURCE_SAVED",
-        "received_unix": 1793311185.619954
+        "received_unix": 1793314596.3748841
+      },
+      {
+        "url": "https://raw.githubusercontent.com/EarnForex/PositionSizer/dadf3d5c869c34cac40db3fb6858b188cf101a25/MQL4/Experts/Position%20Sizer/TesterSupport.mqh",
+        "repository": "EarnForex/PositionSizer",
+        "path": "MQL4/Experts/Position Sizer/TesterSupport.mqh",
+        "sha256": "38c3b41b9944266ed0d98741a67b36e25ecf7b33a810ae03333160a3811e8c3d",
+        "bytes": 17342,
+        "result": "SOURCE_SAVED",
+        "received_unix": 1793314596.1737506
+      },
+      {
+        "url": "https://raw.githubusercontent.com/EarnForex/PositionSizer/dadf3d5c869c34cac40db3fb6858b188cf101a25/MQL4/Experts/Position%20Sizer/Position%20Sizer.mqh",
+        "repository": "EarnForex/PositionSizer",
+        "path": "MQL4/Experts/Position Sizer/Position Sizer.mqh",
+        "result": "FETCH_FAILED",
+        "error": "Source size limit",
+        "received_unix": 1793314595.9989967
+      },
+      {
+        "url": "https://raw.githubusercontent.com/EarnForex/PositionSizer/dadf3d5c869c34cac40db3fb6858b188cf101a25/MQL4/Experts/Position%20Sizer/Position%20Sizer%20Trading.mqh",
+        "repository": "EarnForex/PositionSizer",
+        "path": "MQL4/Experts/Position Sizer/Position Sizer Trading.mqh",
+        "sha256": "57ffd02ee5c7d4ef4986e9ed762707a753e32c0248a3bd46b5a892766a606eab",
+        "bytes": 56250,
+        "result": "SOURCE_SAVED",
+        "received_unix": 1793314595.634233
+      },
+      {
+        "url": "https://raw.githubusercontent.com/EarnForex/PositionSizer/dadf3d5c869c34cac40db3fb6858b188cf101a25/MQL4/Experts/Position%20Sizer/HorizontalRadioGroup.mqh",
+        "repository": "EarnForex/PositionSizer",
+        "path": "MQL4/Experts/Position Sizer/HorizontalRadioGroup.mqh",
+        "sha256": "f4692d5785c6269f8d50ccf67b259e2b05bdb7e3a15cd276da72904d88626ffd",
+        "bytes": 8406,
+        "result": "SOURCE_SAVED",
+        "received_unix": 1793314595.4623864
+      },
+      {
+        "url": "https://raw.githubusercontent.com/EarnForex/PositionSizer/dadf3d5c869c34cac40db3fb6858b188cf101a25/MQL4/Experts/Position%20Sizer/Defines.mqh",
+        "repository": "EarnForex/PositionSizer",
+        "path": "MQL4/Experts/Position Sizer/Defines.mqh",
+        "sha256": "3c4e9a538e115cc3649b817e64e23298da22bfce36d51c4af4fa02ea0eb12a53",
+        "bytes": 9260,
+        "result": "SOURCE_SAVED",
+        "received_unix": 1793314595.3318307
+      },
+      {
+        "url": "https://raw.githubusercontent.com/EA31337/EA31337/9b9bd38c4e49dd6916f4fe3936e50e97fca7a692/src/include/common/rider/inputs.mqh",
+        "repository": "EA31337/EA31337",
+        "path": "src/include/common/rider/inputs.mqh",
+        "sha256": "e826454b11b3e796b8827e614a106b3c835a4e53fa2c905ff4d3afdb3876dca4",
+        "bytes": 4882,
+        "result": "SOURCE_SAVED",
+        "received_unix": 1793314595.2021172
       }
     ],
     "external_code_executed": false,
-    "current_repository": "EA31337/EA31337",
-    "observed_unix": 1793311188.1540112
+    "current_repository": "geraked/metatrader5",
+    "observed_unix": 1793314597.218705,
+    "frontier_total_seen": 24
   },
   "spider": {
     "identity": "JARVIS MARK 2 / SPIDER",
-    "fleet_run_id": "fleet-13180f741990",
+    "fleet_run_id": "fleet-5144370cbf20",
     "fleet_status": "COMPLETED",
     "counts": {
       "queued": 0,
@@ -367,8 +489,8 @@
       "workers": 24,
       "launched": 24
     },
-    "new_findings": 0,
-    "open_findings": 34,
+    "new_findings": 1,
+    "open_findings": 35,
     "model_children": false,
     "worker_type": "DETERMINISTIC_TOOL_WORKER",
     "external_ai_apis": 0
