@@ -2,10 +2,10 @@ name: Mark 2 independent EA research
 on:
   push:
     branches: [main]
-    paths: ['agent.py', 'reuse.py', 'worker_fleet.py', 'spider_hub.py', 'review_learning.py', 'JarvisTesterCore.mqh', 'test_*.py', 'templates/**', 'tests/**', '.github/workflows/research.yml']
+    paths: ['agent.py', 'reuse.py', 'worker_fleet.py', 'spider_hub.py', 'spider_crawler.py', 'review_learning.py', 'JarvisTesterCore.mqh', 'test_*.py', 'templates/**', 'tests/**', '.github/workflows/research.yml']
   workflow_dispatch:
   schedule:
-    - cron: '23 */6 * * *'
+    - cron: '23 * * * *'
 permissions:
   contents: write
 concurrency:
@@ -30,7 +30,7 @@ jobs:
         run: |
           git config user.name 'JARVIS Mark 2'
           git config user.email 'mark2@users.noreply.github.com'
-          git add data/status.json data/registry.json data/worker-fleet.json data/review-lessons.json generated
+          git add data/status.json data/registry.json data/worker-fleet.json data/review-lessons.json data/cloud-crawler.json generated
           if ! git diff --cached --quiet; then
             git commit -m 'Mark 2: refresh source research and generated EA manifest'
             git push
