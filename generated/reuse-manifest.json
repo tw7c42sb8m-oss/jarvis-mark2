@@ -1,0 +1,24 @@
+{
+  "id": "Mark2_Geraked_3MACD_SignalOnly",
+  "upstream": "geraked/metatrader5",
+  "commit": "d3eb29c382acf715727d5cd6a0414151e821fc2d",
+  "license": "MIT",
+  "source_sha256": "e0e51c41129c34c1799ad38a54df7318377852fff239da9b306c92647598a736",
+  "sha256": "d3ef49561a3a4da10965a1b6f86cfefc53521ab4c21589d94ccffb709784a8a0",
+  "kind": "REUSED_UPSTREAM_SIGNAL_LOGIC",
+  "execution": "STRATEGY_TESTER_SIGNAL_LOG_ONLY",
+  "compile_status": "NOT_COMPILED",
+  "performance": null,
+  "direction": "BUY_AND_SELL_SIGNALS",
+  "excluded": [
+    "EAUtils executor",
+    "grid",
+    "martingale",
+    "upstream default IgnoreSL/IgnoreTP"
+  ],
+  "limitations": [
+    "Not compiled on MT5",
+    "No performance test or trades",
+    "Signal equivalence with upstream not yet replay-verified"
+  ]
+}

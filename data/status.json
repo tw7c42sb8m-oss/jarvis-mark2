@@ -1,13 +1,40 @@
 {
   "agent": "JARVIS MARK 2",
   "role": "EA RESEARCH AND DEVELOPMENT",
-  "observed_unix": 1793285163.5632145,
+  "observed_unix": 1793285871.6089492,
   "status": "RESEARCH_COMPLETE",
   "runtime": "GITHUB_ACTIONS",
   "cloud_deployed": true,
   "broker_orders_sent": 0,
   "paid_services": false,
   "repositories": [
+    {
+      "repository": "EA31337/EA31337",
+      "url": "https://github.com/EA31337/EA31337",
+      "updated_at": "2026-04-07T14:41:25Z",
+      "stars": 1344,
+      "license": "GPL-3.0",
+      "performance": null,
+      "status": "SOURCE_SCREEN_ONLY",
+      "files": [
+        {
+          "path": "src/EA31337.mq5",
+          "sha256": "21f7d34b1171396c416f3987b3cdf2f1c9921924c499dae59627a3fafb50786c",
+          "checks": {
+            "mentions_stop_loss": false,
+            "mentions_take_profit": false,
+            "uses_dll_import": false,
+            "uses_web_request": false,
+            "mentions_martingale_or_grid": false,
+            "mentions_order_execution": false
+          },
+          "assessment": "MANUAL_CODE_REVIEW_REQUIRED",
+          "profitability": "UNPROVEN"
+        }
+      ],
+      "commit": "9b9bd38c4e49dd6916f4fe3936e50e97fca7a692",
+      "tree_truncated": false
+    },
     {
       "repository": "EarnForex/PositionSizer",
       "url": "https://github.com/EarnForex/PositionSizer",
@@ -131,6 +158,47 @@
       "tree_truncated": false
     },
     {
+      "repository": "sibvic/mq5-templates",
+      "url": "https://github.com/sibvic/mq5-templates",
+      "updated_at": "2026-09-26T01:56:14Z",
+      "stars": 239,
+      "license": "MIT",
+      "performance": null,
+      "status": "SOURCE_SCREEN_ONLY",
+      "files": [
+        {
+          "path": "templates/EA_Base.mq5",
+          "sha256": "cbdb4a15683a0ffbf553403a649a1babd39aba6997cd6876fc5a375eaa9a816b",
+          "checks": {
+            "mentions_stop_loss": true,
+            "mentions_take_profit": true,
+            "uses_dll_import": true,
+            "uses_web_request": false,
+            "mentions_martingale_or_grid": true,
+            "mentions_order_execution": true
+          },
+          "assessment": "MANUAL_CODE_REVIEW_REQUIRED",
+          "profitability": "UNPROVEN"
+        },
+        {
+          "path": "templates/arrows_indicator.mq5",
+          "sha256": "12d90c350d99d2a60519e480fabb0a0f2ed7710ac5d76649a01fd2508429c249",
+          "checks": {
+            "mentions_stop_loss": false,
+            "mentions_take_profit": false,
+            "uses_dll_import": false,
+            "uses_web_request": false,
+            "mentions_martingale_or_grid": false,
+            "mentions_order_execution": false
+          },
+          "assessment": "MANUAL_CODE_REVIEW_REQUIRED",
+          "profitability": "UNPROVEN"
+        }
+      ],
+      "commit": "6de6720fb67dcefda3f178850f73b5355309e1c8",
+      "tree_truncated": false
+    },
+    {
       "repository": "yanstd888/institutional-smc-scalper-mt5",
       "url": "https://github.com/yanstd888/institutional-smc-scalper-mt5",
       "updated_at": "2026-10-25T21:52:26Z",
@@ -203,13 +271,37 @@
       "compile_status": "NOT_COMPILED",
       "performance": null,
       "sha256": "3f1f6f6da9dabd23fb4e3ccb1fe706aeea3b36ad21189e0e3275be6c837847af"
+    },
+    {
+      "id": "Mark2_Geraked_3MACD_SignalOnly",
+      "upstream": "geraked/metatrader5",
+      "commit": "d3eb29c382acf715727d5cd6a0414151e821fc2d",
+      "license": "MIT",
+      "source_sha256": "e0e51c41129c34c1799ad38a54df7318377852fff239da9b306c92647598a736",
+      "sha256": "d3ef49561a3a4da10965a1b6f86cfefc53521ab4c21589d94ccffb709784a8a0",
+      "kind": "REUSED_UPSTREAM_SIGNAL_LOGIC",
+      "execution": "STRATEGY_TESTER_SIGNAL_LOG_ONLY",
+      "compile_status": "NOT_COMPILED",
+      "performance": null,
+      "direction": "BUY_AND_SELL_SIGNALS",
+      "excluded": [
+        "EAUtils executor",
+        "grid",
+        "martingale",
+        "upstream default IgnoreSL/IgnoreTP"
+      ],
+      "limitations": [
+        "Not compiled on MT5",
+        "No performance test or trades",
+        "Signal equivalence with upstream not yet replay-verified"
+      ]
     }
   ],
   "errors": [],
   "best_ea": null,
   "winner_status": "NO_VERIFIED_WINNER",
   "next_tasks": [
-    "Review source and license before reuse",
+    "Review pinned upstream signal adapter and retained MIT license",
     "Compile generated EA on isolated MT5 tester",
     "Collect broker-cost-aware forward-demo evidence before ranking"
   ],
@@ -218,5 +310,33 @@
     "Generated variants reuse an unproven long-only baseline",
     "No new backtest or broker trade is automatically started",
     "No LLM connected; this is a deterministic autonomous research worker"
-  ]
+  ],
+  "research_team": {
+    "consulted_on": "2026-10-29",
+    "coordinator": "Codex",
+    "external_web_reviews_received": [
+      "Claude",
+      "Kimi",
+      "Grok",
+      "DeepSeek",
+      "Gemini",
+      "Perplexity"
+    ],
+    "unattended_external_api_connections": [],
+    "local_mark1_analyst": "Qwen (existing role only; not changed)",
+    "adopted": [
+      "pinned MIT signal reuse",
+      "separate signal from executor",
+      "complete buffers and closed bars",
+      "preserve reversal convention",
+      "retain source provenance"
+    ],
+    "rejected": [
+      "AI consensus proves profit",
+      "grid always means martingale",
+      "all public curves necessarily used defaults",
+      "CopyBuffer indexing independent of AS_SERIES"
+    ],
+    "profitability_proven": false
+  }
 }
