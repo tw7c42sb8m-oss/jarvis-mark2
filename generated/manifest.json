@@ -1,0 +1,35 @@
+[
+  {
+    "id": "Mark2_Trend_5_20",
+    "kind": "GENERATED_FROM_EXISTING_TESTER_BASELINE",
+    "fast": 5,
+    "slow": 20,
+    "direction": "LONG_ONLY",
+    "execution": "STRATEGY_TESTER_ONLY",
+    "compile_status": "NOT_COMPILED",
+    "performance": null,
+    "sha256": "5418caa127afe5bebc25e27c6a5508de26433532e2b75d1b72f5a9d5bcb4367e"
+  },
+  {
+    "id": "Mark2_Trend_10_30",
+    "kind": "GENERATED_FROM_EXISTING_TESTER_BASELINE",
+    "fast": 10,
+    "slow": 30,
+    "direction": "LONG_ONLY",
+    "execution": "STRATEGY_TESTER_ONLY",
+    "compile_status": "NOT_COMPILED",
+    "performance": null,
+    "sha256": "3f11ea94a6e8a1afbc69dc7da67d1a3ec2c2290b5db656d2610828506f43daf8"
+  },
+  {
+    "id": "Mark2_Trend_10_50",
+    "kind": "GENERATED_FROM_EXISTING_TESTER_BASELINE",
+    "fast": 10,
+    "slow": 50,
+    "direction": "LONG_ONLY",
+    "execution": "STRATEGY_TESTER_ONLY",
+    "compile_status": "NOT_COMPILED",
+    "performance": null,
+    "sha256": "3f1f6f6da9dabd23fb4e3ccb1fe706aeea3b36ad21189e0e3275be6c837847af"
+  }
+]

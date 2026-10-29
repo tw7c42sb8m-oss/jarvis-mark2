@@ -1,0 +1,222 @@
+{
+  "agent": "JARVIS MARK 2",
+  "role": "EA RESEARCH AND DEVELOPMENT",
+  "observed_unix": 1793285163.5632145,
+  "status": "RESEARCH_COMPLETE",
+  "runtime": "GITHUB_ACTIONS",
+  "cloud_deployed": true,
+  "broker_orders_sent": 0,
+  "paid_services": false,
+  "repositories": [
+    {
+      "repository": "EarnForex/PositionSizer",
+      "url": "https://github.com/EarnForex/PositionSizer",
+      "updated_at": "2026-10-12T11:53:33Z",
+      "stars": 609,
+      "license": "Apache-2.0",
+      "performance": null,
+      "status": "SOURCE_SCREEN_ONLY",
+      "files": [
+        {
+          "path": "MQL5/Experts/Position Sizer/Position Sizer.mq5",
+          "sha256": "ef0e6e8613d47c5e79286bd2011ac2568aa2fced46bc652228424c36be96adb1",
+          "checks": {
+            "mentions_stop_loss": true,
+            "mentions_take_profit": true,
+            "uses_dll_import": false,
+            "uses_web_request": false,
+            "mentions_martingale_or_grid": false,
+            "mentions_order_execution": false
+          },
+          "assessment": "MANUAL_CODE_REVIEW_REQUIRED",
+          "profitability": "UNPROVEN"
+        }
+      ],
+      "commit": "dadf3d5c869c34cac40db3fb6858b188cf101a25",
+      "tree_truncated": false
+    },
+    {
+      "repository": "geraked/metatrader5",
+      "url": "https://github.com/geraked/metatrader5",
+      "updated_at": "2025-11-15T04:39:29Z",
+      "stars": 676,
+      "license": "MIT",
+      "performance": null,
+      "status": "SOURCE_SCREEN_ONLY",
+      "files": [
+        {
+          "path": "Experts/2MAAOS.mq5",
+          "sha256": "6be9d4196feebe94e7240ddfeb079ed677722735bea4a4c528a05ff17c341d77",
+          "checks": {
+            "mentions_stop_loss": true,
+            "mentions_take_profit": true,
+            "uses_dll_import": false,
+            "uses_web_request": false,
+            "mentions_martingale_or_grid": true,
+            "mentions_order_execution": false
+          },
+          "assessment": "MANUAL_CODE_REVIEW_REQUIRED",
+          "profitability": "UNPROVEN"
+        },
+        {
+          "path": "Experts/2MACDSTO.mq5",
+          "sha256": "b2e3a95fde70c88b46fcab0c635b2b31132e1fe0969c22aeaa76a6b008e60105",
+          "checks": {
+            "mentions_stop_loss": true,
+            "mentions_take_profit": true,
+            "uses_dll_import": false,
+            "uses_web_request": false,
+            "mentions_martingale_or_grid": true,
+            "mentions_order_execution": false
+          },
+          "assessment": "MANUAL_CODE_REVIEW_REQUIRED",
+          "profitability": "UNPROVEN"
+        }
+      ],
+      "commit": "d3eb29c382acf715727d5cd6a0414151e821fc2d",
+      "tree_truncated": false
+    },
+    {
+      "repository": "katlego231222/Katleg--Scalper-Robot",
+      "url": "https://github.com/katlego231222/Katleg--Scalper-Robot",
+      "updated_at": "2026-10-22T12:28:11Z",
+      "stars": 0,
+      "license": "MIT",
+      "performance": null,
+      "status": "SOURCE_SCREEN_ONLY",
+      "files": [
+        {
+          "path": "Katlego Scalper MT5.mq5",
+          "sha256": "d2b5032cb0b4f19ac72cf6b72aa77510eaa30f902423fc666b6b4001d76b5a4f",
+          "checks": {
+            "mentions_stop_loss": true,
+            "mentions_take_profit": true,
+            "uses_dll_import": false,
+            "uses_web_request": false,
+            "mentions_martingale_or_grid": false,
+            "mentions_order_execution": true
+          },
+          "assessment": "MANUAL_CODE_REVIEW_REQUIRED",
+          "profitability": "UNPROVEN"
+        }
+      ],
+      "commit": "981514660148e5c8f820f604b2fed974f29cc9d8",
+      "tree_truncated": false
+    },
+    {
+      "repository": "kibetval/forex-scalper-bot",
+      "url": "https://github.com/kibetval/forex-scalper-bot",
+      "updated_at": "2026-10-27T14:21:44Z",
+      "stars": 0,
+      "license": null,
+      "performance": null,
+      "status": "SOURCE_SCREEN_ONLY",
+      "files": [
+        {
+          "path": "ForexScalperEA.mq5",
+          "sha256": "3e28a264feac3205f7c6e2c6685af9fe37ef9e5845a82305a7d5af11e62e29fa",
+          "checks": {
+            "mentions_stop_loss": true,
+            "mentions_take_profit": true,
+            "uses_dll_import": false,
+            "uses_web_request": false,
+            "mentions_martingale_or_grid": false,
+            "mentions_order_execution": true
+          },
+          "assessment": "MANUAL_CODE_REVIEW_REQUIRED",
+          "profitability": "UNPROVEN"
+        }
+      ],
+      "commit": "5cfe7d97d4e44c13e6bfcd39faba1e7ae6e0314e",
+      "tree_truncated": false
+    },
+    {
+      "repository": "yanstd888/institutional-smc-scalper-mt5",
+      "url": "https://github.com/yanstd888/institutional-smc-scalper-mt5",
+      "updated_at": "2026-10-25T21:52:26Z",
+      "stars": 26,
+      "license": "MIT",
+      "performance": null,
+      "status": "SOURCE_SCREEN_ONLY",
+      "files": [],
+      "commit": "402186667fdabf53c648daf92fb861df425fdade",
+      "tree_truncated": false
+    },
+    {
+      "repository": "yulz008/GOLD_ORB",
+      "url": "https://github.com/yulz008/GOLD_ORB",
+      "updated_at": "2023-07-29T05:42:05Z",
+      "stars": 319,
+      "license": null,
+      "performance": null,
+      "status": "SOURCE_SCREEN_ONLY",
+      "files": [
+        {
+          "path": "GOLD_ORB/GOLD_ORB.mq5",
+          "sha256": "259258ce70cf11fd97fb6d25d51c0f02fa00a24aeab5eeca5f159c1403d0b11f",
+          "checks": {
+            "mentions_stop_loss": true,
+            "mentions_take_profit": true,
+            "uses_dll_import": false,
+            "uses_web_request": false,
+            "mentions_martingale_or_grid": false,
+            "mentions_order_execution": true
+          },
+          "assessment": "MANUAL_CODE_REVIEW_REQUIRED",
+          "profitability": "UNPROVEN"
+        }
+      ],
+      "commit": "8af0d735288c0e9378e35d06c46f23b21d9a5424",
+      "tree_truncated": false
+    }
+  ],
+  "generated_candidates": [
+    {
+      "id": "Mark2_Trend_5_20",
+      "kind": "GENERATED_FROM_EXISTING_TESTER_BASELINE",
+      "fast": 5,
+      "slow": 20,
+      "direction": "LONG_ONLY",
+      "execution": "STRATEGY_TESTER_ONLY",
+      "compile_status": "NOT_COMPILED",
+      "performance": null,
+      "sha256": "5418caa127afe5bebc25e27c6a5508de26433532e2b75d1b72f5a9d5bcb4367e"
+    },
+    {
+      "id": "Mark2_Trend_10_30",
+      "kind": "GENERATED_FROM_EXISTING_TESTER_BASELINE",
+      "fast": 10,
+      "slow": 30,
+      "direction": "LONG_ONLY",
+      "execution": "STRATEGY_TESTER_ONLY",
+      "compile_status": "NOT_COMPILED",
+      "performance": null,
+      "sha256": "3f11ea94a6e8a1afbc69dc7da67d1a3ec2c2290b5db656d2610828506f43daf8"
+    },
+    {
+      "id": "Mark2_Trend_10_50",
+      "kind": "GENERATED_FROM_EXISTING_TESTER_BASELINE",
+      "fast": 10,
+      "slow": 50,
+      "direction": "LONG_ONLY",
+      "execution": "STRATEGY_TESTER_ONLY",
+      "compile_status": "NOT_COMPILED",
+      "performance": null,
+      "sha256": "3f1f6f6da9dabd23fb4e3ccb1fe706aeea3b36ad21189e0e3275be6c837847af"
+    }
+  ],
+  "errors": [],
+  "best_ea": null,
+  "winner_status": "NO_VERIFIED_WINNER",
+  "next_tasks": [
+    "Review source and license before reuse",
+    "Compile generated EA on isolated MT5 tester",
+    "Collect broker-cost-aware forward-demo evidence before ranking"
+  ],
+  "limitations": [
+    "Source heuristics do not establish profitability or safety",
+    "Generated variants reuse an unproven long-only baseline",
+    "No new backtest or broker trade is automatically started",
+    "No LLM connected; this is a deterministic autonomous research worker"
+  ]
+}
