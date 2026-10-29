@@ -3,119 +3,119 @@
   "visited": 11,
   "failed": 1,
   "current_url": null,
-  "queue_remaining": 23,
+  "queue_remaining": 11,
   "recent": [
     {
-      "url": "https://raw.githubusercontent.com/geraked/metatrader5/d3eb29c382acf715727d5cd6a0414151e821fc2d/Experts/AFAOSMD.mq5",
-      "repository": "geraked/metatrader5",
-      "path": "Experts/AFAOSMD.mq5",
-      "sha256": "c1ba3345fd490c55d37188748dc36fcb0cc23f0bfbc7d5be7fb540ad7b23eade",
-      "bytes": 7917,
+      "url": "https://raw.githubusercontent.com/yanstd888/institutional-smc-scalper-mt5/402186667fdabf53c648daf92fb861df425fdade/Modules/Defines.mqh",
+      "repository": "yanstd888/institutional-smc-scalper-mt5",
+      "path": "Modules/Defines.mqh",
+      "sha256": "92403a297b3ac95480483ea35fe0c5360f61ee91f5a5135f0c495417789abb06",
+      "bytes": 79606,
       "result": "SOURCE_SAVED",
-      "received_unix": 1793314597.2160532
+      "received_unix": 1793314680.5464633
     },
     {
-      "url": "https://raw.githubusercontent.com/geraked/metatrader5/d3eb29c382acf715727d5cd6a0414151e821fc2d/Experts/3MAF.mq5",
-      "repository": "geraked/metatrader5",
-      "path": "Experts/3MAF.mq5",
-      "sha256": "af356f421c81a8c828e9ffd50f06355af411236c9daf174e84e8714abfedcf35",
-      "bytes": 7420,
+      "url": "https://raw.githubusercontent.com/yanstd888/institutional-smc-scalper-mt5/402186667fdabf53c648daf92fb861df425fdade/GUI/StatsDashboard.mqh",
+      "repository": "yanstd888/institutional-smc-scalper-mt5",
+      "path": "GUI/StatsDashboard.mqh",
+      "sha256": "2e08b38981aa850402f963eda67e36f70e51becaa1468f1f9642a46ddc0c4007",
+      "bytes": 82010,
       "result": "SOURCE_SAVED",
-      "received_unix": 1793314597.0517213
+      "received_unix": 1793314680.4362035
     },
     {
-      "url": "https://raw.githubusercontent.com/geraked/metatrader5/d3eb29c382acf715727d5cd6a0414151e821fc2d/Experts/3MACD.mq5",
-      "repository": "geraked/metatrader5",
-      "path": "Experts/3MACD.mq5",
-      "sha256": "e0e51c41129c34c1799ad38a54df7318377852fff239da9b306c92647598a736",
-      "bytes": 10789,
+      "url": "https://raw.githubusercontent.com/yanstd888/institutional-smc-scalper-mt5/402186667fdabf53c648daf92fb861df425fdade/GUI/ControlPanel.mqh",
+      "repository": "yanstd888/institutional-smc-scalper-mt5",
+      "path": "GUI/ControlPanel.mqh",
+      "sha256": "d6bef66bd225839a0a4b60ce7036a0c76ad1299478c4b12ca722dbe09f3f52a5",
+      "bytes": 2086,
       "result": "SOURCE_SAVED",
-      "received_unix": 1793314596.9010754
+      "received_unix": 1793314680.3356328
     },
     {
-      "url": "https://raw.githubusercontent.com/geraked/metatrader5/d3eb29c382acf715727d5cd6a0414151e821fc2d/Experts/2MOMEMA.mq5",
-      "repository": "geraked/metatrader5",
-      "path": "Experts/2MOMEMA.mq5",
-      "sha256": "12b43ba89e09e061ec89c51d0f992c574301b40f41e0e2499502165a07532d27",
-      "bytes": 6767,
-      "result": "SOURCE_SAVED",
-      "received_unix": 1793314596.7838752
-    },
-    {
-      "url": "https://raw.githubusercontent.com/EarnForex/PositionSizer/dadf3d5c869c34cac40db3fb6858b188cf101a25/MQL4/Experts/Position%20Sizer/Translations/Chinese.mqh",
-      "repository": "EarnForex/PositionSizer",
-      "path": "MQL4/Experts/Position Sizer/Translations/Chinese.mqh",
-      "sha256": "39e3dddabeb23083f56383aed528cb6c080bd4046ae24d40b985649d469d0847",
-      "bytes": 21006,
-      "result": "SOURCE_SAVED",
-      "received_unix": 1793314596.5052946
-    },
-    {
-      "url": "https://raw.githubusercontent.com/EarnForex/PositionSizer/dadf3d5c869c34cac40db3fb6858b188cf101a25/MQL4/Experts/Position%20Sizer/Translations/Arabic.mqh",
-      "repository": "EarnForex/PositionSizer",
-      "path": "MQL4/Experts/Position Sizer/Translations/Arabic.mqh",
-      "sha256": "49e7d8173ef94bed21015c7fd433db1349fc6a893c83c61c0a51342e0f2014b8",
-      "bytes": 26923,
-      "result": "SOURCE_SAVED",
-      "received_unix": 1793314596.3748841
-    },
-    {
-      "url": "https://raw.githubusercontent.com/EarnForex/PositionSizer/dadf3d5c869c34cac40db3fb6858b188cf101a25/MQL4/Experts/Position%20Sizer/TesterSupport.mqh",
-      "repository": "EarnForex/PositionSizer",
-      "path": "MQL4/Experts/Position Sizer/TesterSupport.mqh",
-      "sha256": "38c3b41b9944266ed0d98741a67b36e25ecf7b33a810ae03333160a3811e8c3d",
-      "bytes": 17342,
-      "result": "SOURCE_SAVED",
-      "received_unix": 1793314596.1737506
-    },
-    {
-      "url": "https://raw.githubusercontent.com/EarnForex/PositionSizer/dadf3d5c869c34cac40db3fb6858b188cf101a25/MQL4/Experts/Position%20Sizer/Position%20Sizer.mqh",
-      "repository": "EarnForex/PositionSizer",
-      "path": "MQL4/Experts/Position Sizer/Position Sizer.mqh",
+      "url": "https://raw.githubusercontent.com/yanstd888/institutional-smc-scalper-mt5/402186667fdabf53c648daf92fb861df425fdade/YANSTD.mq5",
+      "repository": "yanstd888/institutional-smc-scalper-mt5",
+      "path": "YANSTD.mq5",
       "result": "FETCH_FAILED",
       "error": "Source size limit",
-      "received_unix": 1793314595.9989967
+      "received_unix": 1793314680.2336388
     },
     {
-      "url": "https://raw.githubusercontent.com/EarnForex/PositionSizer/dadf3d5c869c34cac40db3fb6858b188cf101a25/MQL4/Experts/Position%20Sizer/Position%20Sizer%20Trading.mqh",
-      "repository": "EarnForex/PositionSizer",
-      "path": "MQL4/Experts/Position Sizer/Position Sizer Trading.mqh",
-      "sha256": "57ffd02ee5c7d4ef4986e9ed762707a753e32c0248a3bd46b5a892766a606eab",
-      "bytes": 56250,
+      "url": "https://raw.githubusercontent.com/sibvic/mq5-templates/6de6720fb67dcefda3f178850f73b5355309e1c8/snippets/Actions/CloseAllAction.mqh",
+      "repository": "sibvic/mq5-templates",
+      "path": "snippets/Actions/CloseAllAction.mqh",
+      "sha256": "dfa022e433929ccba27c46e2939769ac942709546984c7162ebda68c3ff3066d",
+      "bytes": 629,
       "result": "SOURCE_SAVED",
-      "received_unix": 1793314595.634233
+      "received_unix": 1793314680.0532095
     },
     {
-      "url": "https://raw.githubusercontent.com/EarnForex/PositionSizer/dadf3d5c869c34cac40db3fb6858b188cf101a25/MQL4/Experts/Position%20Sizer/HorizontalRadioGroup.mqh",
-      "repository": "EarnForex/PositionSizer",
-      "path": "MQL4/Experts/Position Sizer/HorizontalRadioGroup.mqh",
-      "sha256": "f4692d5785c6269f8d50ccf67b259e2b05bdb7e3a15cd276da72904d88626ffd",
-      "bytes": 8406,
+      "url": "https://raw.githubusercontent.com/sibvic/mq5-templates/6de6720fb67dcefda3f178850f73b5355309e1c8/snippets/Actions/AOrderAction.mqh",
+      "repository": "sibvic/mq5-templates",
+      "path": "snippets/Actions/AOrderAction.mqh",
+      "sha256": "7c63d16d7cf3f7f7d72473cb29b8b04bd74e85f9e9694e3c72773bb164c71e78",
+      "bytes": 429,
       "result": "SOURCE_SAVED",
-      "received_unix": 1793314595.4623864
+      "received_unix": 1793314679.971959
     },
     {
-      "url": "https://raw.githubusercontent.com/EarnForex/PositionSizer/dadf3d5c869c34cac40db3fb6858b188cf101a25/MQL4/Experts/Position%20Sizer/Defines.mqh",
-      "repository": "EarnForex/PositionSizer",
-      "path": "MQL4/Experts/Position Sizer/Defines.mqh",
-      "sha256": "3c4e9a538e115cc3649b817e64e23298da22bfce36d51c4af4fa02ea0eb12a53",
-      "bytes": 9260,
+      "url": "https://raw.githubusercontent.com/sibvic/mq5-templates/6de6720fb67dcefda3f178850f73b5355309e1c8/snippets/Actions/AAction.mqh",
+      "repository": "sibvic/mq5-templates",
+      "path": "snippets/Actions/AAction.mqh",
+      "sha256": "5f9a80c0f90a31def93c584efde56ddc12445ecbc6975259ab43beb428b64e34",
+      "bytes": 368,
       "result": "SOURCE_SAVED",
-      "received_unix": 1793314595.3318307
+      "received_unix": 1793314679.8814776
     },
     {
-      "url": "https://raw.githubusercontent.com/EA31337/EA31337/9b9bd38c4e49dd6916f4fe3936e50e97fca7a692/src/include/common/rider/inputs.mqh",
-      "repository": "EA31337/EA31337",
-      "path": "src/include/common/rider/inputs.mqh",
-      "sha256": "e826454b11b3e796b8827e614a106b3c835a4e53fa2c905ff4d3afdb3876dca4",
-      "bytes": 4882,
+      "url": "https://raw.githubusercontent.com/sibvic/mq5-templates/6de6720fb67dcefda3f178850f73b5355309e1c8/templates/indicator.mq5",
+      "repository": "sibvic/mq5-templates",
+      "path": "templates/indicator.mq5",
+      "sha256": "8a51ed7c0e13086035738a04f180ae5d5609a74314e30db4904537e25e592213",
+      "bytes": 1874,
       "result": "SOURCE_SAVED",
-      "received_unix": 1793314595.2021172
+      "received_unix": 1793314679.7921627
+    },
+    {
+      "url": "https://raw.githubusercontent.com/sibvic/mq5-templates/6de6720fb67dcefda3f178850f73b5355309e1c8/templates/heatmap.mq5",
+      "repository": "sibvic/mq5-templates",
+      "path": "templates/heatmap.mq5",
+      "sha256": "cb9318de075dd7685bff5cdc0eba6ff43ff36e56e23de7a40501317f4d8d133c",
+      "bytes": 5505,
+      "result": "SOURCE_SAVED",
+      "received_unix": 1793314679.6945572
+    },
+    {
+      "url": "https://raw.githubusercontent.com/sibvic/mq5-templates/6de6720fb67dcefda3f178850f73b5355309e1c8/templates/dashboard.mq5",
+      "repository": "sibvic/mq5-templates",
+      "path": "templates/dashboard.mq5",
+      "sha256": "731c2db2714292a2ac3c8364d57310dd5bb1640eca4e8c2536246c44bcd2e36d",
+      "bytes": 5773,
+      "result": "SOURCE_SAVED",
+      "received_unix": 1793314679.6065931
+    },
+    {
+      "url": "https://raw.githubusercontent.com/geraked/metatrader5/d3eb29c382acf715727d5cd6a0414151e821fc2d/Experts/CEZLSMA.mq5",
+      "repository": "geraked/metatrader5",
+      "path": "Experts/CEZLSMA.mq5",
+      "sha256": "af2d1745aafc868b8d54c20c5d34005cc0570e75400f69d6768c54a4da40f09f",
+      "bytes": 7605,
+      "result": "SOURCE_SAVED",
+      "received_unix": 1793314679.5039864
+    },
+    {
+      "url": "https://raw.githubusercontent.com/geraked/metatrader5/d3eb29c382acf715727d5cd6a0414151e821fc2d/Experts/BBRSI.mq5",
+      "repository": "geraked/metatrader5",
+      "path": "Experts/BBRSI.mq5",
+      "sha256": "477462db9974ae77343c085b2749b7d3558236a01dca12817ac6b32c122fc0fe",
+      "bytes": 7792,
+      "result": "SOURCE_SAVED",
+      "received_unix": 1793314679.415988
     }
   ],
   "external_code_executed": false,
-  "current_repository": "geraked/metatrader5",
-  "observed_unix": 1793314597.218705,
+  "current_repository": "yanstd888/institutional-smc-scalper-mt5",
+  "observed_unix": 1793314680.5499604,
   "seen_sources": [
     [
       "EA31337/EA31337",
@@ -218,9 +218,34 @@
       "Experts/AFAOSMD.mq5"
     ],
     [
+      "geraked/metatrader5",
+      "d3eb29c382acf715727d5cd6a0414151e821fc2d",
+      "Experts/BBRSI.mq5"
+    ],
+    [
+      "geraked/metatrader5",
+      "d3eb29c382acf715727d5cd6a0414151e821fc2d",
+      "Experts/CEZLSMA.mq5"
+    ],
+    [
       "kibetval/forex-scalper-bot",
       "5cfe7d97d4e44c13e6bfcd39faba1e7ae6e0314e",
       "ForexScalperEA.mq5"
+    ],
+    [
+      "sibvic/mq5-templates",
+      "6de6720fb67dcefda3f178850f73b5355309e1c8",
+      "snippets/Actions/AAction.mqh"
+    ],
+    [
+      "sibvic/mq5-templates",
+      "6de6720fb67dcefda3f178850f73b5355309e1c8",
+      "snippets/Actions/AOrderAction.mqh"
+    ],
+    [
+      "sibvic/mq5-templates",
+      "6de6720fb67dcefda3f178850f73b5355309e1c8",
+      "snippets/Actions/CloseAllAction.mqh"
     ],
     [
       "sibvic/mq5-templates",
@@ -231,6 +256,41 @@
       "sibvic/mq5-templates",
       "6de6720fb67dcefda3f178850f73b5355309e1c8",
       "templates/arrows_indicator.mq5"
+    ],
+    [
+      "sibvic/mq5-templates",
+      "6de6720fb67dcefda3f178850f73b5355309e1c8",
+      "templates/dashboard.mq5"
+    ],
+    [
+      "sibvic/mq5-templates",
+      "6de6720fb67dcefda3f178850f73b5355309e1c8",
+      "templates/heatmap.mq5"
+    ],
+    [
+      "sibvic/mq5-templates",
+      "6de6720fb67dcefda3f178850f73b5355309e1c8",
+      "templates/indicator.mq5"
+    ],
+    [
+      "yanstd888/institutional-smc-scalper-mt5",
+      "402186667fdabf53c648daf92fb861df425fdade",
+      "GUI/ControlPanel.mqh"
+    ],
+    [
+      "yanstd888/institutional-smc-scalper-mt5",
+      "402186667fdabf53c648daf92fb861df425fdade",
+      "GUI/StatsDashboard.mqh"
+    ],
+    [
+      "yanstd888/institutional-smc-scalper-mt5",
+      "402186667fdabf53c648daf92fb861df425fdade",
+      "Modules/Defines.mqh"
+    ],
+    [
+      "yanstd888/institutional-smc-scalper-mt5",
+      "402186667fdabf53c648daf92fb861df425fdade",
+      "YANSTD.mq5"
     ],
     [
       "yulz008/GOLD_ORB",

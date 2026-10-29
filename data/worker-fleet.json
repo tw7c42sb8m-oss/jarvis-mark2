@@ -1,50 +1,50 @@
 {
   "schema_version": 1,
-  "run_id": "fleet-5144370cbf20",
+  "run_id": "fleet-1a670a8bab14",
   "status": "COMPLETED",
-  "started_unix": 1793314597.2208276,
-  "completed_unix": 1793314597.6968148,
-  "source_observed_unix": 1793314592.607843,
+  "started_unix": 1793314680.5525472,
+  "completed_unix": 1793314681.2701657,
+  "source_observed_unix": 1793314677.7659352,
   "nodes": [
     {
-      "id": "fleet-5144370cbf20/supervisor",
+      "id": "fleet-1a670a8bab14/supervisor",
       "parent_id": null,
       "name": "Mark 2 repository supervisor",
       "kind": "DETERMINISTIC_SUPERVISOR",
       "status": "COMPLETED",
       "repository": null,
       "task": "Coordinate bounded public-evidence subprocess workers",
-      "started_unix": 1793314597.2208276,
-      "completed_unix": 1793314597.6968148,
-      "pid": 2065,
+      "started_unix": 1793314680.5525472,
+      "completed_unix": 1793314681.2701657,
+      "pid": 2296,
       "result": null,
       "model_provider": null
     },
     {
-      "id": "fleet-5144370cbf20/repo-1",
-      "parent_id": "fleet-5144370cbf20/supervisor",
+      "id": "fleet-1a670a8bab14/repo-1",
+      "parent_id": "fleet-1a670a8bab14/supervisor",
       "name": "EA31337/EA31337",
       "kind": "REPOSITORY_TASK_GROUP",
       "status": "COMPLETED",
       "repository": "EA31337/EA31337",
       "task": "Three source-evidence tasks; grouping only, not another process",
-      "started_unix": 1793314597.2231467,
-      "completed_unix": 1793314597.2946954,
+      "started_unix": 1793314680.5558167,
+      "completed_unix": 1793314680.6665978,
       "pid": null,
       "result": null,
       "model_provider": null
     },
     {
-      "id": "fleet-5144370cbf20/repo-1/license_check",
-      "parent_id": "fleet-5144370cbf20/repo-1",
+      "id": "fleet-1a670a8bab14/repo-1/license_check",
+      "parent_id": "fleet-1a670a8bab14/repo-1",
       "name": "License Check",
       "kind": "DETERMINISTIC_TOOL_WORKER",
       "status": "COMPLETED",
       "repository": "EA31337/EA31337",
       "task": "LICENSE_CHECK",
-      "started_unix": 1793314597.2231467,
-      "completed_unix": 1793314597.256238,
-      "pid": 2133,
+      "started_unix": 1793314680.5558167,
+      "completed_unix": 1793314680.6074696,
+      "pid": 2363,
       "result": {
         "repository": "EA31337/EA31337",
         "commit": "9b9bd38c4e49dd6916f4fe3936e50e97fca7a692",
@@ -65,16 +65,16 @@
       "error": null
     },
     {
-      "id": "fleet-5144370cbf20/repo-1/source_static_review",
-      "parent_id": "fleet-5144370cbf20/repo-1",
+      "id": "fleet-1a670a8bab14/repo-1/source_static_review",
+      "parent_id": "fleet-1a670a8bab14/repo-1",
       "name": "Source Static Review",
       "kind": "DETERMINISTIC_TOOL_WORKER",
       "status": "COMPLETED",
       "repository": "EA31337/EA31337",
       "task": "SOURCE_STATIC_REVIEW",
-      "started_unix": 1793314597.2238445,
-      "completed_unix": 1793314597.258955,
-      "pid": 2134,
+      "started_unix": 1793314680.5568674,
+      "completed_unix": 1793314680.6125138,
+      "pid": 2364,
       "result": {
         "repository": "EA31337/EA31337",
         "commit": "9b9bd38c4e49dd6916f4fe3936e50e97fca7a692",
@@ -84,8 +84,8 @@
         "broker_commands": 0,
         "external_code_executed": false,
         "source_scope": "SAVED_PUBLIC_EVIDENCE_ONLY",
-        "matched_source_files": 2,
-        "declared_source_files": 2,
+        "matched_source_files": 1,
+        "declared_source_files": 1,
         "missing_sources": [],
         "rejected_sources": [],
         "decision": "MANUAL_SOURCE_REVIEW_REQUIRED",
@@ -101,18 +101,6 @@
               "mentions_stop_loss": false,
               "mentions_take_profit": false
             }
-          },
-          {
-            "path": "src/include/common/rider/inputs.mqh",
-            "sha256": "e826454b11b3e796b8827e614a106b3c835a4e53fa2c905ff4d3afdb3876dca4",
-            "heuristics": {
-              "mentions_grid_or_martingale": true,
-              "mentions_order_send": false,
-              "mentions_dll_import": false,
-              "mentions_web_request": false,
-              "mentions_stop_loss": true,
-              "mentions_take_profit": false
-            }
           }
         ],
         "notice": "Raw text heuristics include comments and do not prove reachable behavior, safety, or edge."
@@ -122,16 +110,16 @@
       "error": null
     },
     {
-      "id": "fleet-5144370cbf20/repo-1/candidate_readiness",
-      "parent_id": "fleet-5144370cbf20/repo-1",
+      "id": "fleet-1a670a8bab14/repo-1/candidate_readiness",
+      "parent_id": "fleet-1a670a8bab14/repo-1",
       "name": "Candidate Readiness",
       "kind": "DETERMINISTIC_TOOL_WORKER",
       "status": "COMPLETED",
       "repository": "EA31337/EA31337",
       "task": "CANDIDATE_READINESS",
-      "started_unix": 1793314597.2575068,
-      "completed_unix": 1793314597.2946954,
-      "pid": 2135,
+      "started_unix": 1793314680.6092982,
+      "completed_unix": 1793314680.6665978,
+      "pid": 2365,
       "result": {
         "repository": "EA31337/EA31337",
         "commit": "9b9bd38c4e49dd6916f4fe3936e50e97fca7a692",
@@ -141,8 +129,8 @@
         "broker_commands": 0,
         "external_code_executed": false,
         "source_scope": "SAVED_PUBLIC_EVIDENCE_ONLY",
-        "matched_source_files": 2,
-        "declared_source_files": 2,
+        "matched_source_files": 1,
+        "declared_source_files": 1,
         "missing_sources": [],
         "rejected_sources": [],
         "decision": "NOT_READY_FOR_TRADING",
@@ -160,30 +148,30 @@
       "error": null
     },
     {
-      "id": "fleet-5144370cbf20/repo-2",
-      "parent_id": "fleet-5144370cbf20/supervisor",
+      "id": "fleet-1a670a8bab14/repo-2",
+      "parent_id": "fleet-1a670a8bab14/supervisor",
       "name": "EarnForex/PositionSizer",
       "kind": "REPOSITORY_TASK_GROUP",
       "status": "COMPLETED",
       "repository": "EarnForex/PositionSizer",
       "task": "Three source-evidence tasks; grouping only, not another process",
-      "started_unix": 1793314597.2597957,
-      "completed_unix": 1793314597.336221,
+      "started_unix": 1793314680.6141355,
+      "completed_unix": 1793314680.72626,
       "pid": null,
       "result": null,
       "model_provider": null
     },
     {
-      "id": "fleet-5144370cbf20/repo-2/license_check",
-      "parent_id": "fleet-5144370cbf20/repo-2",
+      "id": "fleet-1a670a8bab14/repo-2/license_check",
+      "parent_id": "fleet-1a670a8bab14/repo-2",
       "name": "License Check",
       "kind": "DETERMINISTIC_TOOL_WORKER",
       "status": "COMPLETED",
       "repository": "EarnForex/PositionSizer",
       "task": "LICENSE_CHECK",
-      "started_unix": 1793314597.2597957,
-      "completed_unix": 1793314597.2934926,
-      "pid": 2136,
+      "started_unix": 1793314680.6141355,
+      "completed_unix": 1793314680.6650867,
+      "pid": 2366,
       "result": {
         "repository": "EarnForex/PositionSizer",
         "commit": "dadf3d5c869c34cac40db3fb6858b188cf101a25",
@@ -204,16 +192,16 @@
       "error": null
     },
     {
-      "id": "fleet-5144370cbf20/repo-2/source_static_review",
-      "parent_id": "fleet-5144370cbf20/repo-2",
+      "id": "fleet-1a670a8bab14/repo-2/source_static_review",
+      "parent_id": "fleet-1a670a8bab14/repo-2",
       "name": "Source Static Review",
       "kind": "DETERMINISTIC_TOOL_WORKER",
       "status": "COMPLETED",
       "repository": "EarnForex/PositionSizer",
       "task": "SOURCE_STATIC_REVIEW",
-      "started_unix": 1793314597.295342,
-      "completed_unix": 1793314597.3353274,
-      "pid": 2137,
+      "started_unix": 1793314680.6676462,
+      "completed_unix": 1793314680.7247953,
+      "pid": 2367,
       "result": {
         "repository": "EarnForex/PositionSizer",
         "commit": "dadf3d5c869c34cac40db3fb6858b188cf101a25",
@@ -223,72 +211,12 @@
         "broker_commands": 0,
         "external_code_executed": false,
         "source_scope": "SAVED_PUBLIC_EVIDENCE_ONLY",
-        "matched_source_files": 7,
-        "declared_source_files": 7,
+        "matched_source_files": 1,
+        "declared_source_files": 1,
         "missing_sources": [],
         "rejected_sources": [],
         "decision": "MANUAL_SOURCE_REVIEW_REQUIRED",
         "files": [
-          {
-            "path": "MQL4/Experts/Position Sizer/TesterSupport.mqh",
-            "sha256": "38c3b41b9944266ed0d98741a67b36e25ecf7b33a810ae03333160a3811e8c3d",
-            "heuristics": {
-              "mentions_grid_or_martingale": false,
-              "mentions_order_send": false,
-              "mentions_dll_import": false,
-              "mentions_web_request": false,
-              "mentions_stop_loss": true,
-              "mentions_take_profit": true
-            }
-          },
-          {
-            "path": "MQL4/Experts/Position Sizer/Translations/Chinese.mqh",
-            "sha256": "39e3dddabeb23083f56383aed528cb6c080bd4046ae24d40b985649d469d0847",
-            "heuristics": {
-              "mentions_grid_or_martingale": false,
-              "mentions_order_send": false,
-              "mentions_dll_import": false,
-              "mentions_web_request": false,
-              "mentions_stop_loss": true,
-              "mentions_take_profit": true
-            }
-          },
-          {
-            "path": "MQL4/Experts/Position Sizer/Defines.mqh",
-            "sha256": "3c4e9a538e115cc3649b817e64e23298da22bfce36d51c4af4fa02ea0eb12a53",
-            "heuristics": {
-              "mentions_grid_or_martingale": false,
-              "mentions_order_send": false,
-              "mentions_dll_import": false,
-              "mentions_web_request": false,
-              "mentions_stop_loss": true,
-              "mentions_take_profit": true
-            }
-          },
-          {
-            "path": "MQL4/Experts/Position Sizer/Translations/Arabic.mqh",
-            "sha256": "49e7d8173ef94bed21015c7fd433db1349fc6a893c83c61c0a51342e0f2014b8",
-            "heuristics": {
-              "mentions_grid_or_martingale": false,
-              "mentions_order_send": false,
-              "mentions_dll_import": false,
-              "mentions_web_request": false,
-              "mentions_stop_loss": true,
-              "mentions_take_profit": true
-            }
-          },
-          {
-            "path": "MQL4/Experts/Position Sizer/Position Sizer Trading.mqh",
-            "sha256": "57ffd02ee5c7d4ef4986e9ed762707a753e32c0248a3bd46b5a892766a606eab",
-            "heuristics": {
-              "mentions_grid_or_martingale": false,
-              "mentions_order_send": true,
-              "mentions_dll_import": false,
-              "mentions_web_request": false,
-              "mentions_stop_loss": true,
-              "mentions_take_profit": true
-            }
-          },
           {
             "path": "MQL5/Experts/Position Sizer/Position Sizer.mq5",
             "sha256": "ef0e6e8613d47c5e79286bd2011ac2568aa2fced46bc652228424c36be96adb1",
@@ -300,18 +228,6 @@
               "mentions_stop_loss": true,
               "mentions_take_profit": true
             }
-          },
-          {
-            "path": "MQL4/Experts/Position Sizer/HorizontalRadioGroup.mqh",
-            "sha256": "f4692d5785c6269f8d50ccf67b259e2b05bdb7e3a15cd276da72904d88626ffd",
-            "heuristics": {
-              "mentions_grid_or_martingale": false,
-              "mentions_order_send": false,
-              "mentions_dll_import": false,
-              "mentions_web_request": false,
-              "mentions_stop_loss": false,
-              "mentions_take_profit": false
-            }
           }
         ],
         "notice": "Raw text heuristics include comments and do not prove reachable behavior, safety, or edge."
@@ -321,16 +237,16 @@
       "error": null
     },
     {
-      "id": "fleet-5144370cbf20/repo-2/candidate_readiness",
-      "parent_id": "fleet-5144370cbf20/repo-2",
+      "id": "fleet-1a670a8bab14/repo-2/candidate_readiness",
+      "parent_id": "fleet-1a670a8bab14/repo-2",
       "name": "Candidate Readiness",
       "kind": "DETERMINISTIC_TOOL_WORKER",
       "status": "COMPLETED",
       "repository": "EarnForex/PositionSizer",
       "task": "CANDIDATE_READINESS",
-      "started_unix": 1793314597.2961946,
-      "completed_unix": 1793314597.336221,
-      "pid": 2138,
+      "started_unix": 1793314680.6691287,
+      "completed_unix": 1793314680.72626,
+      "pid": 2368,
       "result": {
         "repository": "EarnForex/PositionSizer",
         "commit": "dadf3d5c869c34cac40db3fb6858b188cf101a25",
@@ -340,8 +256,8 @@
         "broker_commands": 0,
         "external_code_executed": false,
         "source_scope": "SAVED_PUBLIC_EVIDENCE_ONLY",
-        "matched_source_files": 7,
-        "declared_source_files": 7,
+        "matched_source_files": 1,
+        "declared_source_files": 1,
         "missing_sources": [],
         "rejected_sources": [],
         "decision": "NOT_READY_FOR_TRADING",
@@ -359,30 +275,30 @@
       "error": null
     },
     {
-      "id": "fleet-5144370cbf20/repo-3",
-      "parent_id": "fleet-5144370cbf20/supervisor",
+      "id": "fleet-1a670a8bab14/repo-3",
+      "parent_id": "fleet-1a670a8bab14/supervisor",
       "name": "WHAM-FX/WHAM-FX-GOLD-AI-2026",
       "kind": "REPOSITORY_TASK_GROUP",
       "status": "COMPLETED",
       "repository": "WHAM-FX/WHAM-FX-GOLD-AI-2026",
       "task": "Three source-evidence tasks; grouping only, not another process",
-      "started_unix": 1793314597.3372228,
-      "completed_unix": 1793314597.4091957,
+      "started_unix": 1793314680.7274287,
+      "completed_unix": 1793314680.8356123,
       "pid": null,
       "result": null,
       "model_provider": null
     },
     {
-      "id": "fleet-5144370cbf20/repo-3/license_check",
-      "parent_id": "fleet-5144370cbf20/repo-3",
+      "id": "fleet-1a670a8bab14/repo-3/license_check",
+      "parent_id": "fleet-1a670a8bab14/repo-3",
       "name": "License Check",
       "kind": "DETERMINISTIC_TOOL_WORKER",
       "status": "COMPLETED",
       "repository": "WHAM-FX/WHAM-FX-GOLD-AI-2026",
       "task": "LICENSE_CHECK",
-      "started_unix": 1793314597.3372228,
-      "completed_unix": 1793314597.3716848,
-      "pid": 2139,
+      "started_unix": 1793314680.7274287,
+      "completed_unix": 1793314680.779277,
+      "pid": 2369,
       "result": {
         "repository": "WHAM-FX/WHAM-FX-GOLD-AI-2026",
         "commit": "8c7cf2e6cb5dcc4ed6291dc10fe40c1dce7ef7c2",
@@ -403,16 +319,16 @@
       "error": null
     },
     {
-      "id": "fleet-5144370cbf20/repo-3/source_static_review",
-      "parent_id": "fleet-5144370cbf20/repo-3",
+      "id": "fleet-1a670a8bab14/repo-3/source_static_review",
+      "parent_id": "fleet-1a670a8bab14/repo-3",
       "name": "Source Static Review",
       "kind": "DETERMINISTIC_TOOL_WORKER",
       "status": "COMPLETED",
       "repository": "WHAM-FX/WHAM-FX-GOLD-AI-2026",
       "task": "SOURCE_STATIC_REVIEW",
-      "started_unix": 1793314597.3380556,
-      "completed_unix": 1793314597.372852,
-      "pid": 2140,
+      "started_unix": 1793314680.728691,
+      "completed_unix": 1793314680.7831628,
+      "pid": 2370,
       "result": {
         "repository": "WHAM-FX/WHAM-FX-GOLD-AI-2026",
         "commit": "8c7cf2e6cb5dcc4ed6291dc10fe40c1dce7ef7c2",
@@ -448,16 +364,16 @@
       "error": null
     },
     {
-      "id": "fleet-5144370cbf20/repo-3/candidate_readiness",
-      "parent_id": "fleet-5144370cbf20/repo-3",
+      "id": "fleet-1a670a8bab14/repo-3/candidate_readiness",
+      "parent_id": "fleet-1a670a8bab14/repo-3",
       "name": "Candidate Readiness",
       "kind": "DETERMINISTIC_TOOL_WORKER",
       "status": "COMPLETED",
       "repository": "WHAM-FX/WHAM-FX-GOLD-AI-2026",
       "task": "CANDIDATE_READINESS",
-      "started_unix": 1793314597.3736155,
-      "completed_unix": 1793314597.4091957,
-      "pid": 2141,
+      "started_unix": 1793314680.780862,
+      "completed_unix": 1793314680.8356123,
+      "pid": 2371,
       "result": {
         "repository": "WHAM-FX/WHAM-FX-GOLD-AI-2026",
         "commit": "8c7cf2e6cb5dcc4ed6291dc10fe40c1dce7ef7c2",
@@ -487,30 +403,30 @@
       "error": null
     },
     {
-      "id": "fleet-5144370cbf20/repo-4",
-      "parent_id": "fleet-5144370cbf20/supervisor",
+      "id": "fleet-1a670a8bab14/repo-4",
+      "parent_id": "fleet-1a670a8bab14/supervisor",
       "name": "geraked/metatrader5",
       "kind": "REPOSITORY_TASK_GROUP",
       "status": "COMPLETED",
       "repository": "geraked/metatrader5",
       "task": "Three source-evidence tasks; grouping only, not another process",
-      "started_unix": 1793314597.3744955,
-      "completed_unix": 1793314597.4487882,
+      "started_unix": 1793314680.7845066,
+      "completed_unix": 1793314680.9061737,
       "pid": null,
       "result": null,
       "model_provider": null
     },
     {
-      "id": "fleet-5144370cbf20/repo-4/license_check",
-      "parent_id": "fleet-5144370cbf20/repo-4",
+      "id": "fleet-1a670a8bab14/repo-4/license_check",
+      "parent_id": "fleet-1a670a8bab14/repo-4",
       "name": "License Check",
       "kind": "DETERMINISTIC_TOOL_WORKER",
       "status": "COMPLETED",
       "repository": "geraked/metatrader5",
       "task": "LICENSE_CHECK",
-      "started_unix": 1793314597.3744955,
-      "completed_unix": 1793314597.4080665,
-      "pid": 2142,
+      "started_unix": 1793314680.7845066,
+      "completed_unix": 1793314680.8370934,
+      "pid": 2372,
       "result": {
         "repository": "geraked/metatrader5",
         "commit": "d3eb29c382acf715727d5cd6a0414151e821fc2d",
@@ -531,16 +447,16 @@
       "error": null
     },
     {
-      "id": "fleet-5144370cbf20/repo-4/source_static_review",
-      "parent_id": "fleet-5144370cbf20/repo-4",
+      "id": "fleet-1a670a8bab14/repo-4/source_static_review",
+      "parent_id": "fleet-1a670a8bab14/repo-4",
       "name": "Source Static Review",
       "kind": "DETERMINISTIC_TOOL_WORKER",
       "status": "COMPLETED",
       "repository": "geraked/metatrader5",
       "task": "SOURCE_STATIC_REVIEW",
-      "started_unix": 1793314597.4099548,
-      "completed_unix": 1793314597.4476726,
-      "pid": 2143,
+      "started_unix": 1793314680.8385143,
+      "completed_unix": 1793314680.9061737,
+      "pid": 2373,
       "result": {
         "repository": "geraked/metatrader5",
         "commit": "d3eb29c382acf715727d5cd6a0414151e821fc2d",
@@ -550,15 +466,15 @@
         "broker_commands": 0,
         "external_code_executed": false,
         "source_scope": "SAVED_PUBLIC_EVIDENCE_ONLY",
-        "matched_source_files": 6,
-        "declared_source_files": 6,
+        "matched_source_files": 4,
+        "declared_source_files": 4,
         "missing_sources": [],
         "rejected_sources": [],
         "decision": "MANUAL_SOURCE_REVIEW_REQUIRED",
         "files": [
           {
-            "path": "Experts/2MOMEMA.mq5",
-            "sha256": "12b43ba89e09e061ec89c51d0f992c574301b40f41e0e2499502165a07532d27",
+            "path": "Experts/BBRSI.mq5",
+            "sha256": "477462db9974ae77343c085b2749b7d3558236a01dca12817ac6b32c122fc0fe",
             "heuristics": {
               "mentions_grid_or_martingale": true,
               "mentions_order_send": false,
@@ -581,8 +497,8 @@
             }
           },
           {
-            "path": "Experts/3MAF.mq5",
-            "sha256": "af356f421c81a8c828e9ffd50f06355af411236c9daf174e84e8714abfedcf35",
+            "path": "Experts/CEZLSMA.mq5",
+            "sha256": "af2d1745aafc868b8d54c20c5d34005cc0570e75400f69d6768c54a4da40f09f",
             "heuristics": {
               "mentions_grid_or_martingale": true,
               "mentions_order_send": false,
@@ -603,30 +519,6 @@
               "mentions_stop_loss": true,
               "mentions_take_profit": true
             }
-          },
-          {
-            "path": "Experts/AFAOSMD.mq5",
-            "sha256": "c1ba3345fd490c55d37188748dc36fcb0cc23f0bfbc7d5be7fb540ad7b23eade",
-            "heuristics": {
-              "mentions_grid_or_martingale": true,
-              "mentions_order_send": false,
-              "mentions_dll_import": false,
-              "mentions_web_request": false,
-              "mentions_stop_loss": true,
-              "mentions_take_profit": true
-            }
-          },
-          {
-            "path": "Experts/3MACD.mq5",
-            "sha256": "e0e51c41129c34c1799ad38a54df7318377852fff239da9b306c92647598a736",
-            "heuristics": {
-              "mentions_grid_or_martingale": true,
-              "mentions_order_send": false,
-              "mentions_dll_import": false,
-              "mentions_web_request": false,
-              "mentions_stop_loss": true,
-              "mentions_take_profit": true
-            }
           }
         ],
         "notice": "Raw text heuristics include comments and do not prove reachable behavior, safety, or edge."
@@ -636,16 +528,16 @@
       "error": null
     },
     {
-      "id": "fleet-5144370cbf20/repo-4/candidate_readiness",
-      "parent_id": "fleet-5144370cbf20/repo-4",
+      "id": "fleet-1a670a8bab14/repo-4/candidate_readiness",
+      "parent_id": "fleet-1a670a8bab14/repo-4",
       "name": "Candidate Readiness",
       "kind": "DETERMINISTIC_TOOL_WORKER",
       "status": "COMPLETED",
       "repository": "geraked/metatrader5",
       "task": "CANDIDATE_READINESS",
-      "started_unix": 1793314597.4109223,
-      "completed_unix": 1793314597.4487882,
-      "pid": 2144,
+      "started_unix": 1793314680.8396993,
+      "completed_unix": 1793314680.9048884,
+      "pid": 2374,
       "result": {
         "repository": "geraked/metatrader5",
         "commit": "d3eb29c382acf715727d5cd6a0414151e821fc2d",
@@ -655,8 +547,8 @@
         "broker_commands": 0,
         "external_code_executed": false,
         "source_scope": "SAVED_PUBLIC_EVIDENCE_ONLY",
-        "matched_source_files": 6,
-        "declared_source_files": 6,
+        "matched_source_files": 4,
+        "declared_source_files": 4,
         "missing_sources": [],
         "rejected_sources": [],
         "decision": "NOT_READY_FOR_TRADING",
@@ -674,30 +566,30 @@
       "error": null
     },
     {
-      "id": "fleet-5144370cbf20/repo-5",
-      "parent_id": "fleet-5144370cbf20/supervisor",
+      "id": "fleet-1a670a8bab14/repo-5",
+      "parent_id": "fleet-1a670a8bab14/supervisor",
       "name": "kibetval/forex-scalper-bot",
       "kind": "REPOSITORY_TASK_GROUP",
       "status": "COMPLETED",
       "repository": "kibetval/forex-scalper-bot",
       "task": "Three source-evidence tasks; grouping only, not another process",
-      "started_unix": 1793314597.4498024,
-      "completed_unix": 1793314597.524685,
+      "started_unix": 1793314680.9080422,
+      "completed_unix": 1793314681.0192316,
       "pid": null,
       "result": null,
       "model_provider": null
     },
     {
-      "id": "fleet-5144370cbf20/repo-5/license_check",
-      "parent_id": "fleet-5144370cbf20/repo-5",
+      "id": "fleet-1a670a8bab14/repo-5/license_check",
+      "parent_id": "fleet-1a670a8bab14/repo-5",
       "name": "License Check",
       "kind": "DETERMINISTIC_TOOL_WORKER",
       "status": "COMPLETED",
       "repository": "kibetval/forex-scalper-bot",
       "task": "LICENSE_CHECK",
-      "started_unix": 1793314597.4498024,
-      "completed_unix": 1793314597.4848287,
-      "pid": 2145,
+      "started_unix": 1793314680.9080422,
+      "completed_unix": 1793314680.9602032,
+      "pid": 2375,
       "result": {
         "repository": "kibetval/forex-scalper-bot",
         "commit": "5cfe7d97d4e44c13e6bfcd39faba1e7ae6e0314e",
@@ -718,16 +610,16 @@
       "error": null
     },
     {
-      "id": "fleet-5144370cbf20/repo-5/source_static_review",
-      "parent_id": "fleet-5144370cbf20/repo-5",
+      "id": "fleet-1a670a8bab14/repo-5/source_static_review",
+      "parent_id": "fleet-1a670a8bab14/repo-5",
       "name": "Source Static Review",
       "kind": "DETERMINISTIC_TOOL_WORKER",
       "status": "COMPLETED",
       "repository": "kibetval/forex-scalper-bot",
       "task": "SOURCE_STATIC_REVIEW",
-      "started_unix": 1793314597.4508226,
-      "completed_unix": 1793314597.4876935,
-      "pid": 2146,
+      "started_unix": 1793314680.9094324,
+      "completed_unix": 1793314680.9639854,
+      "pid": 2376,
       "result": {
         "repository": "kibetval/forex-scalper-bot",
         "commit": "5cfe7d97d4e44c13e6bfcd39faba1e7ae6e0314e",
@@ -763,16 +655,16 @@
       "error": null
     },
     {
-      "id": "fleet-5144370cbf20/repo-5/candidate_readiness",
-      "parent_id": "fleet-5144370cbf20/repo-5",
+      "id": "fleet-1a670a8bab14/repo-5/candidate_readiness",
+      "parent_id": "fleet-1a670a8bab14/repo-5",
       "name": "Candidate Readiness",
       "kind": "DETERMINISTIC_TOOL_WORKER",
       "status": "COMPLETED",
       "repository": "kibetval/forex-scalper-bot",
       "task": "CANDIDATE_READINESS",
-      "started_unix": 1793314597.4866128,
-      "completed_unix": 1793314597.524685,
-      "pid": 2147,
+      "started_unix": 1793314680.9619825,
+      "completed_unix": 1793314681.0192316,
+      "pid": 2377,
       "result": {
         "repository": "kibetval/forex-scalper-bot",
         "commit": "5cfe7d97d4e44c13e6bfcd39faba1e7ae6e0314e",
@@ -802,30 +694,30 @@
       "error": null
     },
     {
-      "id": "fleet-5144370cbf20/repo-6",
-      "parent_id": "fleet-5144370cbf20/supervisor",
+      "id": "fleet-1a670a8bab14/repo-6",
+      "parent_id": "fleet-1a670a8bab14/supervisor",
       "name": "sibvic/mq5-templates",
       "kind": "REPOSITORY_TASK_GROUP",
       "status": "COMPLETED",
       "repository": "sibvic/mq5-templates",
       "task": "Three source-evidence tasks; grouping only, not another process",
-      "started_unix": 1793314597.4889746,
-      "completed_unix": 1793314597.5676866,
+      "started_unix": 1793314680.9657905,
+      "completed_unix": 1793314681.0806863,
       "pid": null,
       "result": null,
       "model_provider": null
     },
     {
-      "id": "fleet-5144370cbf20/repo-6/license_check",
-      "parent_id": "fleet-5144370cbf20/repo-6",
+      "id": "fleet-1a670a8bab14/repo-6/license_check",
+      "parent_id": "fleet-1a670a8bab14/repo-6",
       "name": "License Check",
       "kind": "DETERMINISTIC_TOOL_WORKER",
       "status": "COMPLETED",
       "repository": "sibvic/mq5-templates",
       "task": "LICENSE_CHECK",
-      "started_unix": 1793314597.4889746,
-      "completed_unix": 1793314597.5234232,
-      "pid": 2148,
+      "started_unix": 1793314680.9657905,
+      "completed_unix": 1793314681.017467,
+      "pid": 2378,
       "result": {
         "repository": "sibvic/mq5-templates",
         "commit": "6de6720fb67dcefda3f178850f73b5355309e1c8",
@@ -846,16 +738,16 @@
       "error": null
     },
     {
-      "id": "fleet-5144370cbf20/repo-6/source_static_review",
-      "parent_id": "fleet-5144370cbf20/repo-6",
+      "id": "fleet-1a670a8bab14/repo-6/source_static_review",
+      "parent_id": "fleet-1a670a8bab14/repo-6",
       "name": "Source Static Review",
       "kind": "DETERMINISTIC_TOOL_WORKER",
       "status": "COMPLETED",
       "repository": "sibvic/mq5-templates",
       "task": "SOURCE_STATIC_REVIEW",
-      "started_unix": 1793314597.5255182,
-      "completed_unix": 1793314597.5665078,
-      "pid": 2149,
+      "started_unix": 1793314681.0209403,
+      "completed_unix": 1793314681.0788722,
+      "pid": 2379,
       "result": {
         "repository": "sibvic/mq5-templates",
         "commit": "6de6720fb67dcefda3f178850f73b5355309e1c8",
@@ -865,8 +757,8 @@
         "broker_commands": 0,
         "external_code_executed": false,
         "source_scope": "SAVED_PUBLIC_EVIDENCE_ONLY",
-        "matched_source_files": 2,
-        "declared_source_files": 2,
+        "matched_source_files": 8,
+        "declared_source_files": 8,
         "missing_sources": [],
         "rejected_sources": [],
         "decision": "MANUAL_SOURCE_REVIEW_REQUIRED",
@@ -874,6 +766,66 @@
           {
             "path": "templates/arrows_indicator.mq5",
             "sha256": "12d90c350d99d2a60519e480fabb0a0f2ed7710ac5d76649a01fd2508429c249",
+            "heuristics": {
+              "mentions_grid_or_martingale": false,
+              "mentions_order_send": false,
+              "mentions_dll_import": false,
+              "mentions_web_request": false,
+              "mentions_stop_loss": false,
+              "mentions_take_profit": false
+            }
+          },
+          {
+            "path": "snippets/Actions/AAction.mqh",
+            "sha256": "5f9a80c0f90a31def93c584efde56ddc12445ecbc6975259ab43beb428b64e34",
+            "heuristics": {
+              "mentions_grid_or_martingale": false,
+              "mentions_order_send": false,
+              "mentions_dll_import": false,
+              "mentions_web_request": false,
+              "mentions_stop_loss": false,
+              "mentions_take_profit": false
+            }
+          },
+          {
+            "path": "templates/dashboard.mq5",
+            "sha256": "731c2db2714292a2ac3c8364d57310dd5bb1640eca4e8c2536246c44bcd2e36d",
+            "heuristics": {
+              "mentions_grid_or_martingale": true,
+              "mentions_order_send": false,
+              "mentions_dll_import": false,
+              "mentions_web_request": false,
+              "mentions_stop_loss": false,
+              "mentions_take_profit": false
+            }
+          },
+          {
+            "path": "snippets/Actions/AOrderAction.mqh",
+            "sha256": "7c63d16d7cf3f7f7d72473cb29b8b04bd74e85f9e9694e3c72773bb164c71e78",
+            "heuristics": {
+              "mentions_grid_or_martingale": false,
+              "mentions_order_send": false,
+              "mentions_dll_import": false,
+              "mentions_web_request": false,
+              "mentions_stop_loss": false,
+              "mentions_take_profit": false
+            }
+          },
+          {
+            "path": "templates/indicator.mq5",
+            "sha256": "8a51ed7c0e13086035738a04f180ae5d5609a74314e30db4904537e25e592213",
+            "heuristics": {
+              "mentions_grid_or_martingale": false,
+              "mentions_order_send": false,
+              "mentions_dll_import": false,
+              "mentions_web_request": false,
+              "mentions_stop_loss": false,
+              "mentions_take_profit": false
+            }
+          },
+          {
+            "path": "templates/heatmap.mq5",
+            "sha256": "cb9318de075dd7685bff5cdc0eba6ff43ff36e56e23de7a40501317f4d8d133c",
             "heuristics": {
               "mentions_grid_or_martingale": false,
               "mentions_order_send": false,
@@ -894,6 +846,18 @@
               "mentions_stop_loss": true,
               "mentions_take_profit": true
             }
+          },
+          {
+            "path": "snippets/Actions/CloseAllAction.mqh",
+            "sha256": "dfa022e433929ccba27c46e2939769ac942709546984c7162ebda68c3ff3066d",
+            "heuristics": {
+              "mentions_grid_or_martingale": false,
+              "mentions_order_send": false,
+              "mentions_dll_import": false,
+              "mentions_web_request": false,
+              "mentions_stop_loss": false,
+              "mentions_take_profit": false
+            }
           }
         ],
         "notice": "Raw text heuristics include comments and do not prove reachable behavior, safety, or edge."
@@ -903,16 +867,16 @@
       "error": null
     },
     {
-      "id": "fleet-5144370cbf20/repo-6/candidate_readiness",
-      "parent_id": "fleet-5144370cbf20/repo-6",
+      "id": "fleet-1a670a8bab14/repo-6/candidate_readiness",
+      "parent_id": "fleet-1a670a8bab14/repo-6",
       "name": "Candidate Readiness",
       "kind": "DETERMINISTIC_TOOL_WORKER",
       "status": "COMPLETED",
       "repository": "sibvic/mq5-templates",
       "task": "CANDIDATE_READINESS",
-      "started_unix": 1793314597.526466,
-      "completed_unix": 1793314597.5676866,
-      "pid": 2150,
+      "started_unix": 1793314681.0226874,
+      "completed_unix": 1793314681.0806863,
+      "pid": 2380,
       "result": {
         "repository": "sibvic/mq5-templates",
         "commit": "6de6720fb67dcefda3f178850f73b5355309e1c8",
@@ -922,8 +886,8 @@
         "broker_commands": 0,
         "external_code_executed": false,
         "source_scope": "SAVED_PUBLIC_EVIDENCE_ONLY",
-        "matched_source_files": 2,
-        "declared_source_files": 2,
+        "matched_source_files": 8,
+        "declared_source_files": 8,
         "missing_sources": [],
         "rejected_sources": [],
         "decision": "NOT_READY_FOR_TRADING",
@@ -941,30 +905,30 @@
       "error": null
     },
     {
-      "id": "fleet-5144370cbf20/repo-7",
-      "parent_id": "fleet-5144370cbf20/supervisor",
+      "id": "fleet-1a670a8bab14/repo-7",
+      "parent_id": "fleet-1a670a8bab14/supervisor",
       "name": "yanstd888/institutional-smc-scalper-mt5",
       "kind": "REPOSITORY_TASK_GROUP",
       "status": "COMPLETED",
       "repository": "yanstd888/institutional-smc-scalper-mt5",
       "task": "Three source-evidence tasks; grouping only, not another process",
-      "started_unix": 1793314597.5688584,
-      "completed_unix": 1793314597.6440415,
+      "started_unix": 1793314681.0822196,
+      "completed_unix": 1793314681.2084095,
       "pid": null,
       "result": null,
       "model_provider": null
     },
     {
-      "id": "fleet-5144370cbf20/repo-7/license_check",
-      "parent_id": "fleet-5144370cbf20/repo-7",
+      "id": "fleet-1a670a8bab14/repo-7/license_check",
+      "parent_id": "fleet-1a670a8bab14/repo-7",
       "name": "License Check",
       "kind": "DETERMINISTIC_TOOL_WORKER",
       "status": "COMPLETED",
       "repository": "yanstd888/institutional-smc-scalper-mt5",
       "task": "LICENSE_CHECK",
-      "started_unix": 1793314597.5688584,
-      "completed_unix": 1793314597.6047451,
-      "pid": 2151,
+      "started_unix": 1793314681.0822196,
+      "completed_unix": 1793314681.1351686,
+      "pid": 2381,
       "result": {
         "repository": "yanstd888/institutional-smc-scalper-mt5",
         "commit": "402186667fdabf53c648daf92fb861df425fdade",
@@ -985,16 +949,16 @@
       "error": null
     },
     {
-      "id": "fleet-5144370cbf20/repo-7/source_static_review",
-      "parent_id": "fleet-5144370cbf20/repo-7",
+      "id": "fleet-1a670a8bab14/repo-7/source_static_review",
+      "parent_id": "fleet-1a670a8bab14/repo-7",
       "name": "Source Static Review",
       "kind": "DETERMINISTIC_TOOL_WORKER",
       "status": "COMPLETED",
       "repository": "yanstd888/institutional-smc-scalper-mt5",
       "task": "SOURCE_STATIC_REVIEW",
-      "started_unix": 1793314597.569893,
-      "completed_unix": 1793314597.6059892,
-      "pid": 2152,
+      "started_unix": 1793314681.083879,
+      "completed_unix": 1793314681.1555903,
+      "pid": 2382,
       "result": {
         "repository": "yanstd888/institutional-smc-scalper-mt5",
         "commit": "402186667fdabf53c648daf92fb861df425fdade",
@@ -1004,12 +968,49 @@
         "broker_commands": 0,
         "external_code_executed": false,
         "source_scope": "SAVED_PUBLIC_EVIDENCE_ONLY",
-        "matched_source_files": 0,
-        "declared_source_files": 0,
+        "matched_source_files": 3,
+        "declared_source_files": 3,
         "missing_sources": [],
         "rejected_sources": [],
-        "decision": "HOLD_NO_MATCHING_SOURCE",
-        "files": [],
+        "decision": "MANUAL_SOURCE_REVIEW_REQUIRED",
+        "files": [
+          {
+            "path": "GUI/StatsDashboard.mqh",
+            "sha256": "2e08b38981aa850402f963eda67e36f70e51becaa1468f1f9642a46ddc0c4007",
+            "heuristics": {
+              "mentions_grid_or_martingale": true,
+              "mentions_order_send": false,
+              "mentions_dll_import": false,
+              "mentions_web_request": false,
+              "mentions_stop_loss": true,
+              "mentions_take_profit": false
+            }
+          },
+          {
+            "path": "Modules/Defines.mqh",
+            "sha256": "92403a297b3ac95480483ea35fe0c5360f61ee91f5a5135f0c495417789abb06",
+            "heuristics": {
+              "mentions_grid_or_martingale": false,
+              "mentions_order_send": false,
+              "mentions_dll_import": false,
+              "mentions_web_request": false,
+              "mentions_stop_loss": true,
+              "mentions_take_profit": true
+            }
+          },
+          {
+            "path": "GUI/ControlPanel.mqh",
+            "sha256": "d6bef66bd225839a0a4b60ce7036a0c76ad1299478c4b12ca722dbe09f3f52a5",
+            "heuristics": {
+              "mentions_grid_or_martingale": false,
+              "mentions_order_send": false,
+              "mentions_dll_import": false,
+              "mentions_web_request": false,
+              "mentions_stop_loss": false,
+              "mentions_take_profit": false
+            }
+          }
+        ],
         "notice": "Raw text heuristics include comments and do not prove reachable behavior, safety, or edge."
       },
       "model_provider": null,
@@ -1017,16 +1018,16 @@
       "error": null
     },
     {
-      "id": "fleet-5144370cbf20/repo-7/candidate_readiness",
-      "parent_id": "fleet-5144370cbf20/repo-7",
+      "id": "fleet-1a670a8bab14/repo-7/candidate_readiness",
+      "parent_id": "fleet-1a670a8bab14/repo-7",
       "name": "Candidate Readiness",
       "kind": "DETERMINISTIC_TOOL_WORKER",
       "status": "COMPLETED",
       "repository": "yanstd888/institutional-smc-scalper-mt5",
       "task": "CANDIDATE_READINESS",
-      "started_unix": 1793314597.6072147,
-      "completed_unix": 1793314597.6440415,
-      "pid": 2153,
+      "started_unix": 1793314681.1372032,
+      "completed_unix": 1793314681.2084095,
+      "pid": 2383,
       "result": {
         "repository": "yanstd888/institutional-smc-scalper-mt5",
         "commit": "402186667fdabf53c648daf92fb861df425fdade",
@@ -1036,16 +1037,15 @@
         "broker_commands": 0,
         "external_code_executed": false,
         "source_scope": "SAVED_PUBLIC_EVIDENCE_ONLY",
-        "matched_source_files": 0,
-        "declared_source_files": 0,
+        "matched_source_files": 3,
+        "declared_source_files": 3,
         "missing_sources": [],
         "rejected_sources": [],
         "decision": "NOT_READY_FOR_TRADING",
         "blockers": [
           "NATIVE_MT5_COMPILE_NOT_VERIFIED",
           "SIGNAL_PARITY_NOT_VERIFIED",
-          "PROFITABILITY_NOT_VERIFIED",
-          "SOURCE_EVIDENCE_INCOMPLETE"
+          "PROFITABILITY_NOT_VERIFIED"
         ],
         "compile_status": "NOT_VERIFIED",
         "automatic_promotion": false,
@@ -1056,30 +1056,30 @@
       "error": null
     },
     {
-      "id": "fleet-5144370cbf20/repo-8",
-      "parent_id": "fleet-5144370cbf20/supervisor",
+      "id": "fleet-1a670a8bab14/repo-8",
+      "parent_id": "fleet-1a670a8bab14/supervisor",
       "name": "yulz008/GOLD_ORB",
       "kind": "REPOSITORY_TASK_GROUP",
       "status": "COMPLETED",
       "repository": "yulz008/GOLD_ORB",
       "task": "Three source-evidence tasks; grouping only, not another process",
-      "started_unix": 1793314597.608278,
-      "completed_unix": 1793314597.6957593,
+      "started_unix": 1793314681.157548,
+      "completed_unix": 1793314681.268642,
       "pid": null,
       "result": null,
       "model_provider": null
     },
     {
-      "id": "fleet-5144370cbf20/repo-8/license_check",
-      "parent_id": "fleet-5144370cbf20/repo-8",
+      "id": "fleet-1a670a8bab14/repo-8/license_check",
+      "parent_id": "fleet-1a670a8bab14/repo-8",
       "name": "License Check",
       "kind": "DETERMINISTIC_TOOL_WORKER",
       "status": "COMPLETED",
       "repository": "yulz008/GOLD_ORB",
       "task": "LICENSE_CHECK",
-      "started_unix": 1793314597.608278,
-      "completed_unix": 1793314597.6429143,
-      "pid": 2154,
+      "started_unix": 1793314681.157548,
+      "completed_unix": 1793314681.2100484,
+      "pid": 2384,
       "result": {
         "repository": "yulz008/GOLD_ORB",
         "commit": "8af0d735288c0e9378e35d06c46f23b21d9a5424",
@@ -1100,16 +1100,16 @@
       "error": null
     },
     {
-      "id": "fleet-5144370cbf20/repo-8/source_static_review",
-      "parent_id": "fleet-5144370cbf20/repo-8",
+      "id": "fleet-1a670a8bab14/repo-8/source_static_review",
+      "parent_id": "fleet-1a670a8bab14/repo-8",
       "name": "Source Static Review",
       "kind": "DETERMINISTIC_TOOL_WORKER",
       "status": "COMPLETED",
       "repository": "yulz008/GOLD_ORB",
       "task": "SOURCE_STATIC_REVIEW",
-      "started_unix": 1793314597.6588929,
-      "completed_unix": 1793314597.6814234,
-      "pid": 2155,
+      "started_unix": 1793314681.2116396,
+      "completed_unix": 1793314681.2670574,
+      "pid": 2385,
       "result": {
         "repository": "yulz008/GOLD_ORB",
         "commit": "8af0d735288c0e9378e35d06c46f23b21d9a5424",
@@ -1145,16 +1145,16 @@
       "error": null
     },
     {
-      "id": "fleet-5144370cbf20/repo-8/candidate_readiness",
-      "parent_id": "fleet-5144370cbf20/repo-8",
+      "id": "fleet-1a670a8bab14/repo-8/candidate_readiness",
+      "parent_id": "fleet-1a670a8bab14/repo-8",
       "name": "Candidate Readiness",
       "kind": "DETERMINISTIC_TOOL_WORKER",
       "status": "COMPLETED",
       "repository": "yulz008/GOLD_ORB",
       "task": "CANDIDATE_READINESS",
-      "started_unix": 1793314597.660013,
-      "completed_unix": 1793314597.6957593,
-      "pid": 2156,
+      "started_unix": 1793314681.2135851,
+      "completed_unix": 1793314681.268642,
+      "pid": 2386,
       "result": {
         "repository": "yulz008/GOLD_ORB",
         "commit": "8af0d735288c0e9378e35d06c46f23b21d9a5424",
