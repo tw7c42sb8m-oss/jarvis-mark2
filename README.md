@@ -18,6 +18,20 @@ native MT5 testing and forward-demo evaluation are NOT completed. No new
 backtest was launched. Every generated EA refuses to initialize outside the
 MT5 Strategy Tester. No automatic promotion into Mark 1 or trading terminals.
 
+## Reuse-first extension
+
+An additional candidate reuses the actual BUY/SELL signal functions from
+geraked/metatrader5 `Experts/3MACD.mq5` at pinned commit
+`d3eb29c382acf715727d5cd6a0414151e821fc2d`. The upstream source, MIT license
+and SHA256 provenance are retained. `reuse.py` extracts the signal functions
+and removes order execution; the generated adapter only prints signal events
+inside the Strategy Tester. It does not reuse EAUtils, grids or stock risk
+defaults. Reverse=true is preserved explicitly. It is NOT compiled,
+profit-tested or replay-verified against upstream yet.
+
+Six external AI web reviews were received and checked; see [AI-TEAM.md](AI-TEAM.md).
+These are session consultations, not unattended cloud API integrations.
+
 ## Operation
 
 Python 3 standard library only. `python agent.py --once` runs one research
@@ -26,7 +40,8 @@ on `127.0.0.1:8766`. Logs and source evidence are in `data/`; generated source
 and hashes are in `generated/`. No account data or passwords belong here.
 The local process stops when its host stops. User selected free cloud and is
 concerned about VPS load: DO NOT deploy this worker onto the trading VPS.
-Cloud deployment is not yet done; storage alone does not run the agent.
+Cloud deployment is active: first cloud run completed successfully on 29 Oct
+2026 at 22:46 MYT. No Mark 2 process is installed on the trading VPS.
 
 ## Prepared free cloud workflow
 
@@ -38,9 +53,16 @@ EA are published. Raw downloaded external source is ignored. Each run has an
 eight-minute limit and retains a bounded repository registry. GitHub schedule
 can be delayed or disabled by GitHub; it is not an always-on service.
 
-Deployment is being verified. A successful Actions run and its persisted
-`data/status.json` with `runtime: GITHUB_ACTIONS` establish the first cloud
-cycle; source files alone do not establish that the worker is running.
+First cloud run verified: https://github.com/tw7c42sb8m-oss/jarvis-mark2/actions/runs/40894740797
+The persisted `data/status.json` confirms `runtime: GITHUB_ACTIONS`, six
+repositories reviewed, three tester-only variants generated, zero research
+errors and zero broker orders. The three Python worker tests also passed in
+the cloud. This verifies software operation, not EA profitability.
+
+Cloud schedule is every six hours (approximately 02:23, 08:23, 14:23 and
+20:23 MYT). GitHub may delay schedules. Mac and trading VPS are not required
+for these cloud cycles. Native MT5 compilation and performance evaluation
+remain pending; no backtest or broker trading is launched by this worker.
 
 Public GitHub API: https://docs.github.com/en/rest/search/search
 MT5 tester: https://www.metatrader5.com/en/terminal/help/algotrading/testing

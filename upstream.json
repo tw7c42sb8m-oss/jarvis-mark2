@@ -1,0 +1,7 @@
+{
+  "repository": "geraked/metatrader5",
+  "commit": "d3eb29c382acf715727d5cd6a0414151e821fc2d",
+  "source": "Experts/3MACD.mq5",
+  "sha256": "e0e51c41129c34c1799ad38a54df7318377852fff239da9b306c92647598a736",
+  "license_sha256": "8bf1e92b94f3575c1c80a10c885d59554e8ed185351330b05da29947f0ff4626"
+}

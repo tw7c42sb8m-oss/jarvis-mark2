@@ -1,0 +1,10 @@
+{
+  "consulted_on": "2026-10-29",
+  "coordinator": "Codex",
+  "external_web_reviews_received": ["Claude", "Kimi", "Grok", "DeepSeek", "Gemini", "Perplexity"],
+  "unattended_external_api_connections": [],
+  "local_mark1_analyst": "Qwen (existing role only; not changed)",
+  "adopted": ["pinned MIT signal reuse", "separate signal from executor", "complete buffers and closed bars", "preserve reversal convention", "retain source provenance"],
+  "rejected": ["AI consensus proves profit", "grid always means martingale", "all public curves necessarily used defaults", "CopyBuffer indexing independent of AS_SERIES"],
+  "profitability_proven": false
+}

@@ -15,6 +15,7 @@ import urllib.parse
 import urllib.request
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
+from reuse import build as reuse_candidate
 
 ROOT = Path(__file__).resolve().parent
 DATA = ROOT / 'data'
@@ -81,6 +82,13 @@ def build_candidates():
 def research_cycle():
     DATA.mkdir(exist_ok=True)
     errors, repositories = [], {}
+    # Curated reusable sources remain in scope even when search rankings change.
+    for name in ('geraked/metatrader5','EA31337/EA31337','sibvic/mq5-templates'):
+        try:
+            repo=api('repos/'+name)
+            repositories[repo['full_name']]=repo
+        except Exception as error:
+            errors.append({'stage':'curated_source','repository':name,'error':str(error)[:250]})
     for index, query in enumerate(QUERIES):
         try:
             result = api('search/repositories?' + urllib.parse.urlencode({'q': query, 'sort': 'stars' if index == 0 else 'updated', 'per_page': 3}))
@@ -118,21 +126,30 @@ def research_cycle():
                 entry['files'].append({'path': item['path'], **analysis})
         except Exception as error:
             entry['error'] = str(error)[:250]
+            errors.append({'stage':'source_screen','repository':name,'error':str(error)[:250]})
         reviewed.append(entry)
     generated = build_candidates()
+    try:
+        generated.append(reuse_candidate(ROOT, api))
+    except Exception as error:
+        errors.append({'stage':'source_reuse', 'error':str(error)[:250]})
     status = {'agent': 'JARVIS MARK 2', 'role': 'EA RESEARCH AND DEVELOPMENT',
               'observed_unix': time.time(), 'status': 'RESEARCH_COMPLETE' if not errors else 'RESEARCH_PARTIAL',
               'runtime': 'GITHUB_ACTIONS' if os.environ.get('GITHUB_ACTIONS') == 'true' else ('LOCAL_MAC' if __import__('sys').platform == 'darwin' else 'INDEPENDENT_HOST'),
               'cloud_deployed': os.environ.get('GITHUB_ACTIONS') == 'true', 'broker_orders_sent': 0, 'paid_services': False,
               'repositories': reviewed, 'generated_candidates': generated, 'errors': errors,
               'best_ea': None, 'winner_status': 'NO_VERIFIED_WINNER',
-              'next_tasks': ['Review source and license before reuse', 'Compile generated EA on isolated MT5 tester',
+              'next_tasks': ['Review pinned upstream signal adapter and retained MIT license', 'Compile generated EA on isolated MT5 tester',
                              'Collect broker-cost-aware forward-demo evidence before ranking'],
               'limitations': ['Source heuristics do not establish profitability or safety',
                              'Generated variants reuse an unproven long-only baseline',
                              'No new backtest or broker trade is automatically started',
                              'No LLM connected; this is a deterministic autonomous research worker']}
     save(DATA / 'status.json', status)
+    team_path=ROOT/'team.json'
+    if team_path.is_file():
+        status['research_team']=json.loads(team_path.read_text())
+        save(DATA/'status.json',status)
     registry_path = DATA / 'registry.json'
     try:
         registry = json.loads(registry_path.read_text())
