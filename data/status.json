@@ -1,7 +1,7 @@
 {
   "agent": "JARVIS MARK 2",
   "role": "EA RESEARCH AND DEVELOPMENT",
-  "observed_unix": 1793379727.858286,
+  "observed_unix": 1793383010.9984667,
   "status": "RESEARCH_COMPLETE",
   "runtime": "GITHUB_ACTIONS",
   "cloud_deployed": true,
@@ -141,7 +141,17 @@
       "files": [
         {
           "path": "ForexScalperEA.mq5",
-          "sha256": "3e28a264feac3205f7c6e2c6685af9fe37ef9e5845a82305a7d5af11e62e29fa"
+          "sha256": "3e28a264feac3205f7c6e2c6685af9fe37ef9e5845a82305a7d5af11e62e29fa",
+          "checks": {
+            "mentions_stop_loss": true,
+            "mentions_take_profit": true,
+            "uses_dll_import": false,
+            "uses_web_request": false,
+            "mentions_martingale_or_grid": false,
+            "mentions_order_execution": true
+          },
+          "assessment": "MANUAL_CODE_REVIEW_REQUIRED",
+          "profitability": "UNPROVEN"
         }
       ],
       "commit": "e997a97131785be57273eeb7e14be9c521bca672",
@@ -151,7 +161,7 @@
       "repository": "sibvic/mq5-templates",
       "url": "https://github.com/sibvic/mq5-templates",
       "updated_at": "2026-09-26T01:56:14Z",
-      "stars": 239,
+      "stars": 240,
       "license": "MIT",
       "performance": null,
       "status": "SOURCE_SCREEN_ONLY",
@@ -303,33 +313,23 @@
   ],
   "crawler": {
     "status": "WATCHING_FOR_SOURCE_UPDATES",
-    "visited": 1,
+    "visited": 0,
     "failed": 0,
     "current_url": null,
     "queue_remaining": 0,
-    "recent": [
-      {
-        "url": "https://raw.githubusercontent.com/kibetval/forex-scalper-bot/e997a97131785be57273eeb7e14be9c521bca672/ForexScalperEA.mq5",
-        "repository": "kibetval/forex-scalper-bot",
-        "path": "ForexScalperEA.mq5",
-        "sha256": "3e28a264feac3205f7c6e2c6685af9fe37ef9e5845a82305a7d5af11e62e29fa",
-        "bytes": 10639,
-        "result": "SOURCE_SAVED",
-        "received_unix": 1793379727.990506
-      }
-    ],
+    "recent": [],
     "external_code_executed": false,
     "current_repository": "yulz008/GOLD_ORB",
-    "observed_unix": 1793379730.9935234,
+    "observed_unix": 1793383018.3166409,
     "frontier_total_seen": 48
   },
   "spider": {
     "improvement_status": "WAITING_FOR_NEW_EVIDENCE",
     "improvements_accepted": 6,
-    "mission_run_id": "mission-04576561449b",
+    "mission_run_id": "mission-4426d0b234c2",
     "mission_status": "COMPLETED",
     "identity": "JARVIS MARK 2 / SPIDER",
-    "fleet_run_id": "fleet-e8bea2a1b190",
+    "fleet_run_id": "fleet-328715cab92d",
     "fleet_status": "COMPLETED",
     "counts": {
       "queued": 0,
@@ -341,7 +341,7 @@
       "workers": 24,
       "launched": 24
     },
-    "new_findings": 4,
+    "new_findings": 0,
     "open_findings": 40,
     "model_children": false,
     "worker_type": "DETERMINISTIC_TOOL_WORKER",
