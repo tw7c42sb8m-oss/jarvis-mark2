@@ -1,0 +1,1195 @@
+{
+  "schema_version": 1,
+  "run_id": "mission-c91e741ab103",
+  "input_fingerprint": "34c5224d299817870d29895ddfc86d6877c7df2d62318a689f34bae581ca67c2",
+  "status": "COMPLETED",
+  "started_unix": 1793321220.6257575,
+  "completed_unix": 1793321220.847826,
+  "supervisor_pid": 2302,
+  "objective_status": "NOT_ACHIEVED",
+  "verdict": "WAITING_FOR_NATIVE_VALIDATION_AND_DEMO_EVIDENCE",
+  "verified_winner": null,
+  "model_provider": null,
+  "broker_commands": 0,
+  "external_code_executed": false,
+  "results": {
+    "EVIDENCE_TRIAGE": {
+      "agent": "EVIDENCE_TRIAGE",
+      "model_provider": null,
+      "broker_commands": 0,
+      "external_code_executed": false,
+      "profitability": "UNPROVEN",
+      "automatic_promotion": false,
+      "candidates": [
+        {
+          "id": "Mark2_Trend_5_20",
+          "hash_verified": true,
+          "license": null,
+          "license_metadata_recognized": true,
+          "source_origin": "LOCAL_BASELINE",
+          "blockers": [],
+          "next_action": "STATIC_ENGINEERING_AUDIT"
+        },
+        {
+          "id": "Mark2_Trend_10_30",
+          "hash_verified": true,
+          "license": null,
+          "license_metadata_recognized": true,
+          "source_origin": "LOCAL_BASELINE",
+          "blockers": [],
+          "next_action": "STATIC_ENGINEERING_AUDIT"
+        },
+        {
+          "id": "Mark2_Trend_10_50",
+          "hash_verified": true,
+          "license": null,
+          "license_metadata_recognized": true,
+          "source_origin": "LOCAL_BASELINE",
+          "blockers": [],
+          "next_action": "STATIC_ENGINEERING_AUDIT"
+        },
+        {
+          "id": "Mark2_Geraked_3MACD_SignalOnly",
+          "hash_verified": true,
+          "license": "MIT",
+          "license_metadata_recognized": true,
+          "source_origin": "UPSTREAM",
+          "blockers": [],
+          "next_action": "STATIC_ENGINEERING_AUDIT"
+        }
+      ],
+      "files_verified": 4,
+      "repository_count": 8,
+      "notice": "License metadata recognition is not a distribution-obligation review."
+    },
+    "EA_ENGINEERING": {
+      "agent": "EA_ENGINEERING",
+      "model_provider": null,
+      "broker_commands": 0,
+      "external_code_executed": false,
+      "profitability": "UNPROVEN",
+      "automatic_promotion": false,
+      "candidates": [
+        {
+          "id": "Mark2_Trend_5_20",
+          "source_sha256": "5418caa127afe5bebc25e27c6a5508de26433532e2b75d1b72f5a9d5bcb4367e",
+          "static_hints": {
+            "tester_guard": true,
+            "stop_loss": true,
+            "take_profit": true,
+            "risk_sizing": true,
+            "order_check": true,
+            "magic_scope": true,
+            "signal_only": false
+          },
+          "engineering_score": 1.0,
+          "score_basis": "Fraction of expected static engineering hints; not a profit ranking",
+          "signal_only": false,
+          "blockers": [],
+          "patch_requirements": [],
+          "source_modified": false
+        },
+        {
+          "id": "Mark2_Trend_10_30",
+          "source_sha256": "3f11ea94a6e8a1afbc69dc7da67d1a3ec2c2290b5db656d2610828506f43daf8",
+          "static_hints": {
+            "tester_guard": true,
+            "stop_loss": true,
+            "take_profit": true,
+            "risk_sizing": true,
+            "order_check": true,
+            "magic_scope": true,
+            "signal_only": false
+          },
+          "engineering_score": 1.0,
+          "score_basis": "Fraction of expected static engineering hints; not a profit ranking",
+          "signal_only": false,
+          "blockers": [],
+          "patch_requirements": [],
+          "source_modified": false
+        },
+        {
+          "id": "Mark2_Trend_10_50",
+          "source_sha256": "3f1f6f6da9dabd23fb4e3ccb1fe706aeea3b36ad21189e0e3275be6c837847af",
+          "static_hints": {
+            "tester_guard": true,
+            "stop_loss": true,
+            "take_profit": true,
+            "risk_sizing": true,
+            "order_check": true,
+            "magic_scope": true,
+            "signal_only": false
+          },
+          "engineering_score": 1.0,
+          "score_basis": "Fraction of expected static engineering hints; not a profit ranking",
+          "signal_only": false,
+          "blockers": [],
+          "patch_requirements": [],
+          "source_modified": false
+        },
+        {
+          "id": "Mark2_Geraked_3MACD_SignalOnly",
+          "source_sha256": "d3ef49561a3a4da10965a1b6f86cfefc53521ab4c21589d94ccffb709784a8a0",
+          "static_hints": {
+            "tester_guard": true,
+            "stop_loss": false,
+            "take_profit": false,
+            "risk_sizing": false,
+            "order_check": false,
+            "magic_scope": false,
+            "signal_only": true
+          },
+          "engineering_score": 1.0,
+          "score_basis": "Fraction of expected static engineering hints; not a profit ranking",
+          "signal_only": true,
+          "blockers": [],
+          "patch_requirements": [],
+          "source_modified": false
+        }
+      ],
+      "notice": "Static text hints can be misleading; native control-flow and runtime validation remain required."
+    },
+    "VALIDATION_REVIEW": {
+      "agent": "VALIDATION_REVIEW",
+      "model_provider": null,
+      "broker_commands": 0,
+      "external_code_executed": false,
+      "profitability": "UNPROVEN",
+      "automatic_promotion": false,
+      "candidates": [
+        {
+          "id": "Mark2_Trend_5_20",
+          "status": "HOLD_FOR_EVIDENCE",
+          "blockers": [
+            "NATIVE_MT5_COMPILE_NOT_VERIFIED",
+            "SIGNAL_PARITY_NOT_VERIFIED",
+            "BROKER_COST_FORWARD_DEMO_NOT_VERIFIED"
+          ],
+          "required_evidence": [
+            {
+              "type": "NATIVE_MT5_COMPILER_REPORT",
+              "candidate_sha256": "5418caa127afe5bebc25e27c6a5508de26433532e2b75d1b72f5a9d5bcb4367e",
+              "status": "MISSING"
+            },
+            {
+              "type": "SIGNAL_PARITY_REPORT",
+              "candidate_sha256": "5418caa127afe5bebc25e27c6a5508de26433532e2b75d1b72f5a9d5bcb4367e",
+              "status": "MISSING"
+            },
+            {
+              "type": "ISOLATED_DEMO_FORWARD_REPORT",
+              "include": [
+                "spread",
+                "commission",
+                "slippage",
+                "drawdown",
+                "sample_size"
+              ],
+              "status": "MISSING"
+            }
+          ],
+          "compile_launched": false,
+          "backtest_launched": false,
+          "trading_enabled": false
+        },
+        {
+          "id": "Mark2_Trend_10_30",
+          "status": "HOLD_FOR_EVIDENCE",
+          "blockers": [
+            "NATIVE_MT5_COMPILE_NOT_VERIFIED",
+            "SIGNAL_PARITY_NOT_VERIFIED",
+            "BROKER_COST_FORWARD_DEMO_NOT_VERIFIED"
+          ],
+          "required_evidence": [
+            {
+              "type": "NATIVE_MT5_COMPILER_REPORT",
+              "candidate_sha256": "3f11ea94a6e8a1afbc69dc7da67d1a3ec2c2290b5db656d2610828506f43daf8",
+              "status": "MISSING"
+            },
+            {
+              "type": "SIGNAL_PARITY_REPORT",
+              "candidate_sha256": "3f11ea94a6e8a1afbc69dc7da67d1a3ec2c2290b5db656d2610828506f43daf8",
+              "status": "MISSING"
+            },
+            {
+              "type": "ISOLATED_DEMO_FORWARD_REPORT",
+              "include": [
+                "spread",
+                "commission",
+                "slippage",
+                "drawdown",
+                "sample_size"
+              ],
+              "status": "MISSING"
+            }
+          ],
+          "compile_launched": false,
+          "backtest_launched": false,
+          "trading_enabled": false
+        },
+        {
+          "id": "Mark2_Trend_10_50",
+          "status": "HOLD_FOR_EVIDENCE",
+          "blockers": [
+            "NATIVE_MT5_COMPILE_NOT_VERIFIED",
+            "SIGNAL_PARITY_NOT_VERIFIED",
+            "BROKER_COST_FORWARD_DEMO_NOT_VERIFIED"
+          ],
+          "required_evidence": [
+            {
+              "type": "NATIVE_MT5_COMPILER_REPORT",
+              "candidate_sha256": "3f1f6f6da9dabd23fb4e3ccb1fe706aeea3b36ad21189e0e3275be6c837847af",
+              "status": "MISSING"
+            },
+            {
+              "type": "SIGNAL_PARITY_REPORT",
+              "candidate_sha256": "3f1f6f6da9dabd23fb4e3ccb1fe706aeea3b36ad21189e0e3275be6c837847af",
+              "status": "MISSING"
+            },
+            {
+              "type": "ISOLATED_DEMO_FORWARD_REPORT",
+              "include": [
+                "spread",
+                "commission",
+                "slippage",
+                "drawdown",
+                "sample_size"
+              ],
+              "status": "MISSING"
+            }
+          ],
+          "compile_launched": false,
+          "backtest_launched": false,
+          "trading_enabled": false
+        },
+        {
+          "id": "Mark2_Geraked_3MACD_SignalOnly",
+          "status": "HOLD_FOR_EVIDENCE",
+          "blockers": [
+            "NATIVE_MT5_COMPILE_NOT_VERIFIED",
+            "SIGNAL_PARITY_NOT_VERIFIED",
+            "BROKER_COST_FORWARD_DEMO_NOT_VERIFIED"
+          ],
+          "required_evidence": [
+            {
+              "type": "NATIVE_MT5_COMPILER_REPORT",
+              "candidate_sha256": "d3ef49561a3a4da10965a1b6f86cfefc53521ab4c21589d94ccffb709784a8a0",
+              "status": "MISSING"
+            },
+            {
+              "type": "SIGNAL_PARITY_REPORT",
+              "candidate_sha256": "d3ef49561a3a4da10965a1b6f86cfefc53521ab4c21589d94ccffb709784a8a0",
+              "status": "MISSING"
+            },
+            {
+              "type": "ISOLATED_DEMO_FORWARD_REPORT",
+              "include": [
+                "spread",
+                "commission",
+                "slippage",
+                "drawdown",
+                "sample_size"
+              ],
+              "status": "MISSING"
+            }
+          ],
+          "compile_launched": false,
+          "backtest_launched": false,
+          "trading_enabled": false
+        }
+      ],
+      "verified_winner": null
+    },
+    "MISSION_PLANNER": {
+      "agent": "MISSION_PLANNER",
+      "model_provider": null,
+      "broker_commands": 0,
+      "external_code_executed": false,
+      "profitability": "UNPROVEN",
+      "automatic_promotion": false,
+      "objective": "Find or build an EA with verified engineering and demo-performance evidence",
+      "objective_status": "NOT_ACHIEVED",
+      "verified_winner": null,
+      "engineering_priority": [
+        {
+          "id": "Mark2_Geraked_3MACD_SignalOnly",
+          "score": 1.0,
+          "basis": "Fraction of expected static engineering hints; not a profit ranking"
+        },
+        {
+          "id": "Mark2_Trend_10_30",
+          "score": 1.0,
+          "basis": "Fraction of expected static engineering hints; not a profit ranking"
+        },
+        {
+          "id": "Mark2_Trend_10_50",
+          "score": 1.0,
+          "basis": "Fraction of expected static engineering hints; not a profit ranking"
+        },
+        {
+          "id": "Mark2_Trend_5_20",
+          "score": 1.0,
+          "basis": "Fraction of expected static engineering hints; not a profit ranking"
+        }
+      ],
+      "tasks": [
+        {
+          "candidate": "Mark2_Trend_5_20",
+          "task": "NATIVE_MT5_COMPILE_AND_SIGNAL_PARITY",
+          "owner": "VALIDATION_REVIEW",
+          "status": "WAITING_FOR_ISOLATED_MT5_VALIDATION",
+          "requirements": [
+            {
+              "type": "NATIVE_MT5_COMPILER_REPORT",
+              "candidate_sha256": "5418caa127afe5bebc25e27c6a5508de26433532e2b75d1b72f5a9d5bcb4367e",
+              "status": "MISSING"
+            },
+            {
+              "type": "SIGNAL_PARITY_REPORT",
+              "candidate_sha256": "5418caa127afe5bebc25e27c6a5508de26433532e2b75d1b72f5a9d5bcb4367e",
+              "status": "MISSING"
+            }
+          ]
+        },
+        {
+          "candidate": "Mark2_Trend_5_20",
+          "task": "COST_AWARE_FORWARD_DEMO",
+          "owner": "VALIDATION_REVIEW",
+          "status": "BLOCKED_BY_NATIVE_VALIDATION",
+          "requirements": [
+            {
+              "type": "ISOLATED_DEMO_FORWARD_REPORT",
+              "include": [
+                "spread",
+                "commission",
+                "slippage",
+                "drawdown",
+                "sample_size"
+              ],
+              "status": "MISSING"
+            }
+          ]
+        },
+        {
+          "candidate": "Mark2_Trend_10_30",
+          "task": "NATIVE_MT5_COMPILE_AND_SIGNAL_PARITY",
+          "owner": "VALIDATION_REVIEW",
+          "status": "WAITING_FOR_ISOLATED_MT5_VALIDATION",
+          "requirements": [
+            {
+              "type": "NATIVE_MT5_COMPILER_REPORT",
+              "candidate_sha256": "3f11ea94a6e8a1afbc69dc7da67d1a3ec2c2290b5db656d2610828506f43daf8",
+              "status": "MISSING"
+            },
+            {
+              "type": "SIGNAL_PARITY_REPORT",
+              "candidate_sha256": "3f11ea94a6e8a1afbc69dc7da67d1a3ec2c2290b5db656d2610828506f43daf8",
+              "status": "MISSING"
+            }
+          ]
+        },
+        {
+          "candidate": "Mark2_Trend_10_30",
+          "task": "COST_AWARE_FORWARD_DEMO",
+          "owner": "VALIDATION_REVIEW",
+          "status": "BLOCKED_BY_NATIVE_VALIDATION",
+          "requirements": [
+            {
+              "type": "ISOLATED_DEMO_FORWARD_REPORT",
+              "include": [
+                "spread",
+                "commission",
+                "slippage",
+                "drawdown",
+                "sample_size"
+              ],
+              "status": "MISSING"
+            }
+          ]
+        },
+        {
+          "candidate": "Mark2_Trend_10_50",
+          "task": "NATIVE_MT5_COMPILE_AND_SIGNAL_PARITY",
+          "owner": "VALIDATION_REVIEW",
+          "status": "WAITING_FOR_ISOLATED_MT5_VALIDATION",
+          "requirements": [
+            {
+              "type": "NATIVE_MT5_COMPILER_REPORT",
+              "candidate_sha256": "3f1f6f6da9dabd23fb4e3ccb1fe706aeea3b36ad21189e0e3275be6c837847af",
+              "status": "MISSING"
+            },
+            {
+              "type": "SIGNAL_PARITY_REPORT",
+              "candidate_sha256": "3f1f6f6da9dabd23fb4e3ccb1fe706aeea3b36ad21189e0e3275be6c837847af",
+              "status": "MISSING"
+            }
+          ]
+        },
+        {
+          "candidate": "Mark2_Trend_10_50",
+          "task": "COST_AWARE_FORWARD_DEMO",
+          "owner": "VALIDATION_REVIEW",
+          "status": "BLOCKED_BY_NATIVE_VALIDATION",
+          "requirements": [
+            {
+              "type": "ISOLATED_DEMO_FORWARD_REPORT",
+              "include": [
+                "spread",
+                "commission",
+                "slippage",
+                "drawdown",
+                "sample_size"
+              ],
+              "status": "MISSING"
+            }
+          ]
+        },
+        {
+          "candidate": "Mark2_Geraked_3MACD_SignalOnly",
+          "task": "NATIVE_MT5_COMPILE_AND_SIGNAL_PARITY",
+          "owner": "VALIDATION_REVIEW",
+          "status": "WAITING_FOR_ISOLATED_MT5_VALIDATION",
+          "requirements": [
+            {
+              "type": "NATIVE_MT5_COMPILER_REPORT",
+              "candidate_sha256": "d3ef49561a3a4da10965a1b6f86cfefc53521ab4c21589d94ccffb709784a8a0",
+              "status": "MISSING"
+            },
+            {
+              "type": "SIGNAL_PARITY_REPORT",
+              "candidate_sha256": "d3ef49561a3a4da10965a1b6f86cfefc53521ab4c21589d94ccffb709784a8a0",
+              "status": "MISSING"
+            }
+          ]
+        },
+        {
+          "candidate": "Mark2_Geraked_3MACD_SignalOnly",
+          "task": "COST_AWARE_FORWARD_DEMO",
+          "owner": "VALIDATION_REVIEW",
+          "status": "BLOCKED_BY_NATIVE_VALIDATION",
+          "requirements": [
+            {
+              "type": "ISOLATED_DEMO_FORWARD_REPORT",
+              "include": [
+                "spread",
+                "commission",
+                "slippage",
+                "drawdown",
+                "sample_size"
+              ],
+              "status": "MISSING"
+            }
+          ]
+        }
+      ],
+      "next_move": {
+        "candidate": "Mark2_Trend_5_20",
+        "task": "NATIVE_MT5_COMPILE_AND_SIGNAL_PARITY",
+        "owner": "VALIDATION_REVIEW",
+        "status": "WAITING_FOR_ISOLATED_MT5_VALIDATION",
+        "requirements": [
+          {
+            "type": "NATIVE_MT5_COMPILER_REPORT",
+            "candidate_sha256": "5418caa127afe5bebc25e27c6a5508de26433532e2b75d1b72f5a9d5bcb4367e",
+            "status": "MISSING"
+          },
+          {
+            "type": "SIGNAL_PARITY_REPORT",
+            "candidate_sha256": "5418caa127afe5bebc25e27c6a5508de26433532e2b75d1b72f5a9d5bcb4367e",
+            "status": "MISSING"
+          }
+        ]
+      },
+      "notice": "No native or performance evidence is supplied by this deterministic pipeline. It cannot declare an EA profitable."
+    }
+  },
+  "nodes": [
+    {
+      "id": "mission-c91e741ab103/evidence_triage",
+      "name": "Evidence Triage",
+      "task": "EVIDENCE_TRIAGE",
+      "role": "TRIAGE",
+      "ui_node": "TRIAGE",
+      "kind": "DETERMINISTIC_MISSION_WORKER",
+      "status": "COMPLETED",
+      "pid": 2400,
+      "started_unix": 1793321220.6266837,
+      "completed_unix": 1793321220.6773548,
+      "result": {
+        "agent": "EVIDENCE_TRIAGE",
+        "model_provider": null,
+        "broker_commands": 0,
+        "external_code_executed": false,
+        "profitability": "UNPROVEN",
+        "automatic_promotion": false,
+        "candidates": [
+          {
+            "id": "Mark2_Trend_5_20",
+            "hash_verified": true,
+            "license": null,
+            "license_metadata_recognized": true,
+            "source_origin": "LOCAL_BASELINE",
+            "blockers": [],
+            "next_action": "STATIC_ENGINEERING_AUDIT"
+          },
+          {
+            "id": "Mark2_Trend_10_30",
+            "hash_verified": true,
+            "license": null,
+            "license_metadata_recognized": true,
+            "source_origin": "LOCAL_BASELINE",
+            "blockers": [],
+            "next_action": "STATIC_ENGINEERING_AUDIT"
+          },
+          {
+            "id": "Mark2_Trend_10_50",
+            "hash_verified": true,
+            "license": null,
+            "license_metadata_recognized": true,
+            "source_origin": "LOCAL_BASELINE",
+            "blockers": [],
+            "next_action": "STATIC_ENGINEERING_AUDIT"
+          },
+          {
+            "id": "Mark2_Geraked_3MACD_SignalOnly",
+            "hash_verified": true,
+            "license": "MIT",
+            "license_metadata_recognized": true,
+            "source_origin": "UPSTREAM",
+            "blockers": [],
+            "next_action": "STATIC_ENGINEERING_AUDIT"
+          }
+        ],
+        "files_verified": 4,
+        "repository_count": 8,
+        "notice": "License metadata recognition is not a distribution-obligation review."
+      }
+    },
+    {
+      "id": "mission-c91e741ab103/ea_engineering",
+      "name": "Ea Engineering",
+      "task": "EA_ENGINEERING",
+      "role": "ENGINEER",
+      "ui_node": "ENGINEER",
+      "kind": "DETERMINISTIC_MISSION_WORKER",
+      "status": "COMPLETED",
+      "pid": 2401,
+      "started_unix": 1793321220.6790338,
+      "completed_unix": 1793321220.7346866,
+      "result": {
+        "agent": "EA_ENGINEERING",
+        "model_provider": null,
+        "broker_commands": 0,
+        "external_code_executed": false,
+        "profitability": "UNPROVEN",
+        "automatic_promotion": false,
+        "candidates": [
+          {
+            "id": "Mark2_Trend_5_20",
+            "source_sha256": "5418caa127afe5bebc25e27c6a5508de26433532e2b75d1b72f5a9d5bcb4367e",
+            "static_hints": {
+              "tester_guard": true,
+              "stop_loss": true,
+              "take_profit": true,
+              "risk_sizing": true,
+              "order_check": true,
+              "magic_scope": true,
+              "signal_only": false
+            },
+            "engineering_score": 1.0,
+            "score_basis": "Fraction of expected static engineering hints; not a profit ranking",
+            "signal_only": false,
+            "blockers": [],
+            "patch_requirements": [],
+            "source_modified": false
+          },
+          {
+            "id": "Mark2_Trend_10_30",
+            "source_sha256": "3f11ea94a6e8a1afbc69dc7da67d1a3ec2c2290b5db656d2610828506f43daf8",
+            "static_hints": {
+              "tester_guard": true,
+              "stop_loss": true,
+              "take_profit": true,
+              "risk_sizing": true,
+              "order_check": true,
+              "magic_scope": true,
+              "signal_only": false
+            },
+            "engineering_score": 1.0,
+            "score_basis": "Fraction of expected static engineering hints; not a profit ranking",
+            "signal_only": false,
+            "blockers": [],
+            "patch_requirements": [],
+            "source_modified": false
+          },
+          {
+            "id": "Mark2_Trend_10_50",
+            "source_sha256": "3f1f6f6da9dabd23fb4e3ccb1fe706aeea3b36ad21189e0e3275be6c837847af",
+            "static_hints": {
+              "tester_guard": true,
+              "stop_loss": true,
+              "take_profit": true,
+              "risk_sizing": true,
+              "order_check": true,
+              "magic_scope": true,
+              "signal_only": false
+            },
+            "engineering_score": 1.0,
+            "score_basis": "Fraction of expected static engineering hints; not a profit ranking",
+            "signal_only": false,
+            "blockers": [],
+            "patch_requirements": [],
+            "source_modified": false
+          },
+          {
+            "id": "Mark2_Geraked_3MACD_SignalOnly",
+            "source_sha256": "d3ef49561a3a4da10965a1b6f86cfefc53521ab4c21589d94ccffb709784a8a0",
+            "static_hints": {
+              "tester_guard": true,
+              "stop_loss": false,
+              "take_profit": false,
+              "risk_sizing": false,
+              "order_check": false,
+              "magic_scope": false,
+              "signal_only": true
+            },
+            "engineering_score": 1.0,
+            "score_basis": "Fraction of expected static engineering hints; not a profit ranking",
+            "signal_only": true,
+            "blockers": [],
+            "patch_requirements": [],
+            "source_modified": false
+          }
+        ],
+        "notice": "Static text hints can be misleading; native control-flow and runtime validation remain required."
+      }
+    },
+    {
+      "id": "mission-c91e741ab103/validation_review",
+      "name": "Validation Review",
+      "task": "VALIDATION_REVIEW",
+      "role": "VALIDATOR",
+      "ui_node": "VALIDATOR",
+      "kind": "DETERMINISTIC_MISSION_WORKER",
+      "status": "COMPLETED",
+      "pid": 2402,
+      "started_unix": 1793321220.7368536,
+      "completed_unix": 1793321220.7889297,
+      "result": {
+        "agent": "VALIDATION_REVIEW",
+        "model_provider": null,
+        "broker_commands": 0,
+        "external_code_executed": false,
+        "profitability": "UNPROVEN",
+        "automatic_promotion": false,
+        "candidates": [
+          {
+            "id": "Mark2_Trend_5_20",
+            "status": "HOLD_FOR_EVIDENCE",
+            "blockers": [
+              "NATIVE_MT5_COMPILE_NOT_VERIFIED",
+              "SIGNAL_PARITY_NOT_VERIFIED",
+              "BROKER_COST_FORWARD_DEMO_NOT_VERIFIED"
+            ],
+            "required_evidence": [
+              {
+                "type": "NATIVE_MT5_COMPILER_REPORT",
+                "candidate_sha256": "5418caa127afe5bebc25e27c6a5508de26433532e2b75d1b72f5a9d5bcb4367e",
+                "status": "MISSING"
+              },
+              {
+                "type": "SIGNAL_PARITY_REPORT",
+                "candidate_sha256": "5418caa127afe5bebc25e27c6a5508de26433532e2b75d1b72f5a9d5bcb4367e",
+                "status": "MISSING"
+              },
+              {
+                "type": "ISOLATED_DEMO_FORWARD_REPORT",
+                "include": [
+                  "spread",
+                  "commission",
+                  "slippage",
+                  "drawdown",
+                  "sample_size"
+                ],
+                "status": "MISSING"
+              }
+            ],
+            "compile_launched": false,
+            "backtest_launched": false,
+            "trading_enabled": false
+          },
+          {
+            "id": "Mark2_Trend_10_30",
+            "status": "HOLD_FOR_EVIDENCE",
+            "blockers": [
+              "NATIVE_MT5_COMPILE_NOT_VERIFIED",
+              "SIGNAL_PARITY_NOT_VERIFIED",
+              "BROKER_COST_FORWARD_DEMO_NOT_VERIFIED"
+            ],
+            "required_evidence": [
+              {
+                "type": "NATIVE_MT5_COMPILER_REPORT",
+                "candidate_sha256": "3f11ea94a6e8a1afbc69dc7da67d1a3ec2c2290b5db656d2610828506f43daf8",
+                "status": "MISSING"
+              },
+              {
+                "type": "SIGNAL_PARITY_REPORT",
+                "candidate_sha256": "3f11ea94a6e8a1afbc69dc7da67d1a3ec2c2290b5db656d2610828506f43daf8",
+                "status": "MISSING"
+              },
+              {
+                "type": "ISOLATED_DEMO_FORWARD_REPORT",
+                "include": [
+                  "spread",
+                  "commission",
+                  "slippage",
+                  "drawdown",
+                  "sample_size"
+                ],
+                "status": "MISSING"
+              }
+            ],
+            "compile_launched": false,
+            "backtest_launched": false,
+            "trading_enabled": false
+          },
+          {
+            "id": "Mark2_Trend_10_50",
+            "status": "HOLD_FOR_EVIDENCE",
+            "blockers": [
+              "NATIVE_MT5_COMPILE_NOT_VERIFIED",
+              "SIGNAL_PARITY_NOT_VERIFIED",
+              "BROKER_COST_FORWARD_DEMO_NOT_VERIFIED"
+            ],
+            "required_evidence": [
+              {
+                "type": "NATIVE_MT5_COMPILER_REPORT",
+                "candidate_sha256": "3f1f6f6da9dabd23fb4e3ccb1fe706aeea3b36ad21189e0e3275be6c837847af",
+                "status": "MISSING"
+              },
+              {
+                "type": "SIGNAL_PARITY_REPORT",
+                "candidate_sha256": "3f1f6f6da9dabd23fb4e3ccb1fe706aeea3b36ad21189e0e3275be6c837847af",
+                "status": "MISSING"
+              },
+              {
+                "type": "ISOLATED_DEMO_FORWARD_REPORT",
+                "include": [
+                  "spread",
+                  "commission",
+                  "slippage",
+                  "drawdown",
+                  "sample_size"
+                ],
+                "status": "MISSING"
+              }
+            ],
+            "compile_launched": false,
+            "backtest_launched": false,
+            "trading_enabled": false
+          },
+          {
+            "id": "Mark2_Geraked_3MACD_SignalOnly",
+            "status": "HOLD_FOR_EVIDENCE",
+            "blockers": [
+              "NATIVE_MT5_COMPILE_NOT_VERIFIED",
+              "SIGNAL_PARITY_NOT_VERIFIED",
+              "BROKER_COST_FORWARD_DEMO_NOT_VERIFIED"
+            ],
+            "required_evidence": [
+              {
+                "type": "NATIVE_MT5_COMPILER_REPORT",
+                "candidate_sha256": "d3ef49561a3a4da10965a1b6f86cfefc53521ab4c21589d94ccffb709784a8a0",
+                "status": "MISSING"
+              },
+              {
+                "type": "SIGNAL_PARITY_REPORT",
+                "candidate_sha256": "d3ef49561a3a4da10965a1b6f86cfefc53521ab4c21589d94ccffb709784a8a0",
+                "status": "MISSING"
+              },
+              {
+                "type": "ISOLATED_DEMO_FORWARD_REPORT",
+                "include": [
+                  "spread",
+                  "commission",
+                  "slippage",
+                  "drawdown",
+                  "sample_size"
+                ],
+                "status": "MISSING"
+              }
+            ],
+            "compile_launched": false,
+            "backtest_launched": false,
+            "trading_enabled": false
+          }
+        ],
+        "verified_winner": null
+      }
+    },
+    {
+      "id": "mission-c91e741ab103/mission_planner",
+      "name": "Mission Planner",
+      "task": "MISSION_PLANNER",
+      "role": "DIRECTOR",
+      "ui_node": "DIRECTOR",
+      "kind": "DETERMINISTIC_MISSION_WORKER",
+      "status": "COMPLETED",
+      "pid": 2403,
+      "started_unix": 1793321220.792018,
+      "completed_unix": 1793321220.8446095,
+      "result": {
+        "agent": "MISSION_PLANNER",
+        "model_provider": null,
+        "broker_commands": 0,
+        "external_code_executed": false,
+        "profitability": "UNPROVEN",
+        "automatic_promotion": false,
+        "objective": "Find or build an EA with verified engineering and demo-performance evidence",
+        "objective_status": "NOT_ACHIEVED",
+        "verified_winner": null,
+        "engineering_priority": [
+          {
+            "id": "Mark2_Geraked_3MACD_SignalOnly",
+            "score": 1.0,
+            "basis": "Fraction of expected static engineering hints; not a profit ranking"
+          },
+          {
+            "id": "Mark2_Trend_10_30",
+            "score": 1.0,
+            "basis": "Fraction of expected static engineering hints; not a profit ranking"
+          },
+          {
+            "id": "Mark2_Trend_10_50",
+            "score": 1.0,
+            "basis": "Fraction of expected static engineering hints; not a profit ranking"
+          },
+          {
+            "id": "Mark2_Trend_5_20",
+            "score": 1.0,
+            "basis": "Fraction of expected static engineering hints; not a profit ranking"
+          }
+        ],
+        "tasks": [
+          {
+            "candidate": "Mark2_Trend_5_20",
+            "task": "NATIVE_MT5_COMPILE_AND_SIGNAL_PARITY",
+            "owner": "VALIDATION_REVIEW",
+            "status": "WAITING_FOR_ISOLATED_MT5_VALIDATION",
+            "requirements": [
+              {
+                "type": "NATIVE_MT5_COMPILER_REPORT",
+                "candidate_sha256": "5418caa127afe5bebc25e27c6a5508de26433532e2b75d1b72f5a9d5bcb4367e",
+                "status": "MISSING"
+              },
+              {
+                "type": "SIGNAL_PARITY_REPORT",
+                "candidate_sha256": "5418caa127afe5bebc25e27c6a5508de26433532e2b75d1b72f5a9d5bcb4367e",
+                "status": "MISSING"
+              }
+            ]
+          },
+          {
+            "candidate": "Mark2_Trend_5_20",
+            "task": "COST_AWARE_FORWARD_DEMO",
+            "owner": "VALIDATION_REVIEW",
+            "status": "BLOCKED_BY_NATIVE_VALIDATION",
+            "requirements": [
+              {
+                "type": "ISOLATED_DEMO_FORWARD_REPORT",
+                "include": [
+                  "spread",
+                  "commission",
+                  "slippage",
+                  "drawdown",
+                  "sample_size"
+                ],
+                "status": "MISSING"
+              }
+            ]
+          },
+          {
+            "candidate": "Mark2_Trend_10_30",
+            "task": "NATIVE_MT5_COMPILE_AND_SIGNAL_PARITY",
+            "owner": "VALIDATION_REVIEW",
+            "status": "WAITING_FOR_ISOLATED_MT5_VALIDATION",
+            "requirements": [
+              {
+                "type": "NATIVE_MT5_COMPILER_REPORT",
+                "candidate_sha256": "3f11ea94a6e8a1afbc69dc7da67d1a3ec2c2290b5db656d2610828506f43daf8",
+                "status": "MISSING"
+              },
+              {
+                "type": "SIGNAL_PARITY_REPORT",
+                "candidate_sha256": "3f11ea94a6e8a1afbc69dc7da67d1a3ec2c2290b5db656d2610828506f43daf8",
+                "status": "MISSING"
+              }
+            ]
+          },
+          {
+            "candidate": "Mark2_Trend_10_30",
+            "task": "COST_AWARE_FORWARD_DEMO",
+            "owner": "VALIDATION_REVIEW",
+            "status": "BLOCKED_BY_NATIVE_VALIDATION",
+            "requirements": [
+              {
+                "type": "ISOLATED_DEMO_FORWARD_REPORT",
+                "include": [
+                  "spread",
+                  "commission",
+                  "slippage",
+                  "drawdown",
+                  "sample_size"
+                ],
+                "status": "MISSING"
+              }
+            ]
+          },
+          {
+            "candidate": "Mark2_Trend_10_50",
+            "task": "NATIVE_MT5_COMPILE_AND_SIGNAL_PARITY",
+            "owner": "VALIDATION_REVIEW",
+            "status": "WAITING_FOR_ISOLATED_MT5_VALIDATION",
+            "requirements": [
+              {
+                "type": "NATIVE_MT5_COMPILER_REPORT",
+                "candidate_sha256": "3f1f6f6da9dabd23fb4e3ccb1fe706aeea3b36ad21189e0e3275be6c837847af",
+                "status": "MISSING"
+              },
+              {
+                "type": "SIGNAL_PARITY_REPORT",
+                "candidate_sha256": "3f1f6f6da9dabd23fb4e3ccb1fe706aeea3b36ad21189e0e3275be6c837847af",
+                "status": "MISSING"
+              }
+            ]
+          },
+          {
+            "candidate": "Mark2_Trend_10_50",
+            "task": "COST_AWARE_FORWARD_DEMO",
+            "owner": "VALIDATION_REVIEW",
+            "status": "BLOCKED_BY_NATIVE_VALIDATION",
+            "requirements": [
+              {
+                "type": "ISOLATED_DEMO_FORWARD_REPORT",
+                "include": [
+                  "spread",
+                  "commission",
+                  "slippage",
+                  "drawdown",
+                  "sample_size"
+                ],
+                "status": "MISSING"
+              }
+            ]
+          },
+          {
+            "candidate": "Mark2_Geraked_3MACD_SignalOnly",
+            "task": "NATIVE_MT5_COMPILE_AND_SIGNAL_PARITY",
+            "owner": "VALIDATION_REVIEW",
+            "status": "WAITING_FOR_ISOLATED_MT5_VALIDATION",
+            "requirements": [
+              {
+                "type": "NATIVE_MT5_COMPILER_REPORT",
+                "candidate_sha256": "d3ef49561a3a4da10965a1b6f86cfefc53521ab4c21589d94ccffb709784a8a0",
+                "status": "MISSING"
+              },
+              {
+                "type": "SIGNAL_PARITY_REPORT",
+                "candidate_sha256": "d3ef49561a3a4da10965a1b6f86cfefc53521ab4c21589d94ccffb709784a8a0",
+                "status": "MISSING"
+              }
+            ]
+          },
+          {
+            "candidate": "Mark2_Geraked_3MACD_SignalOnly",
+            "task": "COST_AWARE_FORWARD_DEMO",
+            "owner": "VALIDATION_REVIEW",
+            "status": "BLOCKED_BY_NATIVE_VALIDATION",
+            "requirements": [
+              {
+                "type": "ISOLATED_DEMO_FORWARD_REPORT",
+                "include": [
+                  "spread",
+                  "commission",
+                  "slippage",
+                  "drawdown",
+                  "sample_size"
+                ],
+                "status": "MISSING"
+              }
+            ]
+          }
+        ],
+        "next_move": {
+          "candidate": "Mark2_Trend_5_20",
+          "task": "NATIVE_MT5_COMPILE_AND_SIGNAL_PARITY",
+          "owner": "VALIDATION_REVIEW",
+          "status": "WAITING_FOR_ISOLATED_MT5_VALIDATION",
+          "requirements": [
+            {
+              "type": "NATIVE_MT5_COMPILER_REPORT",
+              "candidate_sha256": "5418caa127afe5bebc25e27c6a5508de26433532e2b75d1b72f5a9d5bcb4367e",
+              "status": "MISSING"
+            },
+            {
+              "type": "SIGNAL_PARITY_REPORT",
+              "candidate_sha256": "5418caa127afe5bebc25e27c6a5508de26433532e2b75d1b72f5a9d5bcb4367e",
+              "status": "MISSING"
+            }
+          ]
+        },
+        "notice": "No native or performance evidence is supplied by this deterministic pipeline. It cannot declare an EA profitable."
+      }
+    }
+  ],
+  "next_tasks": [
+    {
+      "candidate": "Mark2_Trend_5_20",
+      "task": "NATIVE_MT5_COMPILE_AND_SIGNAL_PARITY",
+      "owner": "VALIDATION_REVIEW",
+      "status": "WAITING_FOR_ISOLATED_MT5_VALIDATION",
+      "requirements": [
+        {
+          "type": "NATIVE_MT5_COMPILER_REPORT",
+          "candidate_sha256": "5418caa127afe5bebc25e27c6a5508de26433532e2b75d1b72f5a9d5bcb4367e",
+          "status": "MISSING"
+        },
+        {
+          "type": "SIGNAL_PARITY_REPORT",
+          "candidate_sha256": "5418caa127afe5bebc25e27c6a5508de26433532e2b75d1b72f5a9d5bcb4367e",
+          "status": "MISSING"
+        }
+      ]
+    },
+    {
+      "candidate": "Mark2_Trend_5_20",
+      "task": "COST_AWARE_FORWARD_DEMO",
+      "owner": "VALIDATION_REVIEW",
+      "status": "BLOCKED_BY_NATIVE_VALIDATION",
+      "requirements": [
+        {
+          "type": "ISOLATED_DEMO_FORWARD_REPORT",
+          "include": [
+            "spread",
+            "commission",
+            "slippage",
+            "drawdown",
+            "sample_size"
+          ],
+          "status": "MISSING"
+        }
+      ]
+    },
+    {
+      "candidate": "Mark2_Trend_10_30",
+      "task": "NATIVE_MT5_COMPILE_AND_SIGNAL_PARITY",
+      "owner": "VALIDATION_REVIEW",
+      "status": "WAITING_FOR_ISOLATED_MT5_VALIDATION",
+      "requirements": [
+        {
+          "type": "NATIVE_MT5_COMPILER_REPORT",
+          "candidate_sha256": "3f11ea94a6e8a1afbc69dc7da67d1a3ec2c2290b5db656d2610828506f43daf8",
+          "status": "MISSING"
+        },
+        {
+          "type": "SIGNAL_PARITY_REPORT",
+          "candidate_sha256": "3f11ea94a6e8a1afbc69dc7da67d1a3ec2c2290b5db656d2610828506f43daf8",
+          "status": "MISSING"
+        }
+      ]
+    },
+    {
+      "candidate": "Mark2_Trend_10_30",
+      "task": "COST_AWARE_FORWARD_DEMO",
+      "owner": "VALIDATION_REVIEW",
+      "status": "BLOCKED_BY_NATIVE_VALIDATION",
+      "requirements": [
+        {
+          "type": "ISOLATED_DEMO_FORWARD_REPORT",
+          "include": [
+            "spread",
+            "commission",
+            "slippage",
+            "drawdown",
+            "sample_size"
+          ],
+          "status": "MISSING"
+        }
+      ]
+    },
+    {
+      "candidate": "Mark2_Trend_10_50",
+      "task": "NATIVE_MT5_COMPILE_AND_SIGNAL_PARITY",
+      "owner": "VALIDATION_REVIEW",
+      "status": "WAITING_FOR_ISOLATED_MT5_VALIDATION",
+      "requirements": [
+        {
+          "type": "NATIVE_MT5_COMPILER_REPORT",
+          "candidate_sha256": "3f1f6f6da9dabd23fb4e3ccb1fe706aeea3b36ad21189e0e3275be6c837847af",
+          "status": "MISSING"
+        },
+        {
+          "type": "SIGNAL_PARITY_REPORT",
+          "candidate_sha256": "3f1f6f6da9dabd23fb4e3ccb1fe706aeea3b36ad21189e0e3275be6c837847af",
+          "status": "MISSING"
+        }
+      ]
+    },
+    {
+      "candidate": "Mark2_Trend_10_50",
+      "task": "COST_AWARE_FORWARD_DEMO",
+      "owner": "VALIDATION_REVIEW",
+      "status": "BLOCKED_BY_NATIVE_VALIDATION",
+      "requirements": [
+        {
+          "type": "ISOLATED_DEMO_FORWARD_REPORT",
+          "include": [
+            "spread",
+            "commission",
+            "slippage",
+            "drawdown",
+            "sample_size"
+          ],
+          "status": "MISSING"
+        }
+      ]
+    },
+    {
+      "candidate": "Mark2_Geraked_3MACD_SignalOnly",
+      "task": "NATIVE_MT5_COMPILE_AND_SIGNAL_PARITY",
+      "owner": "VALIDATION_REVIEW",
+      "status": "WAITING_FOR_ISOLATED_MT5_VALIDATION",
+      "requirements": [
+        {
+          "type": "NATIVE_MT5_COMPILER_REPORT",
+          "candidate_sha256": "d3ef49561a3a4da10965a1b6f86cfefc53521ab4c21589d94ccffb709784a8a0",
+          "status": "MISSING"
+        },
+        {
+          "type": "SIGNAL_PARITY_REPORT",
+          "candidate_sha256": "d3ef49561a3a4da10965a1b6f86cfefc53521ab4c21589d94ccffb709784a8a0",
+          "status": "MISSING"
+        }
+      ]
+    },
+    {
+      "candidate": "Mark2_Geraked_3MACD_SignalOnly",
+      "task": "COST_AWARE_FORWARD_DEMO",
+      "owner": "VALIDATION_REVIEW",
+      "status": "BLOCKED_BY_NATIVE_VALIDATION",
+      "requirements": [
+        {
+          "type": "ISOLATED_DEMO_FORWARD_REPORT",
+          "include": [
+            "spread",
+            "commission",
+            "slippage",
+            "drawdown",
+            "sample_size"
+          ],
+          "status": "MISSING"
+        }
+      ]
+    }
+  ]
+}

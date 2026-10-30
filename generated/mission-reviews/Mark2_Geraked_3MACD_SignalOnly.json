@@ -1,0 +1,108 @@
+{
+  "candidate": "Mark2_Geraked_3MACD_SignalOnly",
+  "mission_run_id": "mission-c91e741ab103",
+  "profitability": "UNPROVEN",
+  "trading_enabled": false,
+  "EVIDENCE_TRIAGE": {
+    "id": "Mark2_Geraked_3MACD_SignalOnly",
+    "hash_verified": true,
+    "license": "MIT",
+    "license_metadata_recognized": true,
+    "source_origin": "UPSTREAM",
+    "blockers": [],
+    "next_action": "STATIC_ENGINEERING_AUDIT"
+  },
+  "EA_ENGINEERING": {
+    "id": "Mark2_Geraked_3MACD_SignalOnly",
+    "source_sha256": "d3ef49561a3a4da10965a1b6f86cfefc53521ab4c21589d94ccffb709784a8a0",
+    "static_hints": {
+      "tester_guard": true,
+      "stop_loss": false,
+      "take_profit": false,
+      "risk_sizing": false,
+      "order_check": false,
+      "magic_scope": false,
+      "signal_only": true
+    },
+    "engineering_score": 1.0,
+    "score_basis": "Fraction of expected static engineering hints; not a profit ranking",
+    "signal_only": true,
+    "blockers": [],
+    "patch_requirements": [],
+    "source_modified": false
+  },
+  "VALIDATION_REVIEW": {
+    "id": "Mark2_Geraked_3MACD_SignalOnly",
+    "status": "HOLD_FOR_EVIDENCE",
+    "blockers": [
+      "NATIVE_MT5_COMPILE_NOT_VERIFIED",
+      "SIGNAL_PARITY_NOT_VERIFIED",
+      "BROKER_COST_FORWARD_DEMO_NOT_VERIFIED"
+    ],
+    "required_evidence": [
+      {
+        "type": "NATIVE_MT5_COMPILER_REPORT",
+        "candidate_sha256": "d3ef49561a3a4da10965a1b6f86cfefc53521ab4c21589d94ccffb709784a8a0",
+        "status": "MISSING"
+      },
+      {
+        "type": "SIGNAL_PARITY_REPORT",
+        "candidate_sha256": "d3ef49561a3a4da10965a1b6f86cfefc53521ab4c21589d94ccffb709784a8a0",
+        "status": "MISSING"
+      },
+      {
+        "type": "ISOLATED_DEMO_FORWARD_REPORT",
+        "include": [
+          "spread",
+          "commission",
+          "slippage",
+          "drawdown",
+          "sample_size"
+        ],
+        "status": "MISSING"
+      }
+    ],
+    "compile_launched": false,
+    "backtest_launched": false,
+    "trading_enabled": false
+  },
+  "next_tasks": [
+    {
+      "candidate": "Mark2_Geraked_3MACD_SignalOnly",
+      "task": "NATIVE_MT5_COMPILE_AND_SIGNAL_PARITY",
+      "owner": "VALIDATION_REVIEW",
+      "status": "WAITING_FOR_ISOLATED_MT5_VALIDATION",
+      "requirements": [
+        {
+          "type": "NATIVE_MT5_COMPILER_REPORT",
+          "candidate_sha256": "d3ef49561a3a4da10965a1b6f86cfefc53521ab4c21589d94ccffb709784a8a0",
+          "status": "MISSING"
+        },
+        {
+          "type": "SIGNAL_PARITY_REPORT",
+          "candidate_sha256": "d3ef49561a3a4da10965a1b6f86cfefc53521ab4c21589d94ccffb709784a8a0",
+          "status": "MISSING"
+        }
+      ]
+    },
+    {
+      "candidate": "Mark2_Geraked_3MACD_SignalOnly",
+      "task": "COST_AWARE_FORWARD_DEMO",
+      "owner": "VALIDATION_REVIEW",
+      "status": "BLOCKED_BY_NATIVE_VALIDATION",
+      "requirements": [
+        {
+          "type": "ISOLATED_DEMO_FORWARD_REPORT",
+          "include": [
+            "spread",
+            "commission",
+            "slippage",
+            "drawdown",
+            "sample_size"
+          ],
+          "status": "MISSING"
+        }
+      ]
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "agent": "JARVIS MARK 2",
   "role": "EA RESEARCH AND DEVELOPMENT",
-  "observed_unix": 1793318068.0552647,
+  "observed_unix": 1793321218.0520835,
   "status": "RESEARCH_COMPLETE",
   "runtime": "GITHUB_ACTIONS",
   "cloud_deployed": true,
@@ -206,24 +206,7 @@
       "license": "MIT",
       "performance": null,
       "status": "SOURCE_SCREEN_ONLY",
-      "files": [
-        {
-          "path": "Modules/FVGValidator.mqh",
-          "sha256": "4a55f8ff87ed9f568d30ae11f3c1ec9b13cbe8dbc06dc311f0f560c5d5bb904e"
-        },
-        {
-          "path": "Modules/MSNREngine.mqh",
-          "sha256": "6b84666e772dc0650031ebb627b6b39a00e40ba226eb525e5715734fda709353"
-        },
-        {
-          "path": "Modules/MTFTrendMeter.mqh",
-          "sha256": "a5a991ef6bc7e21e7eef9823a42d182071a5c3db065fb147c3485b845cc70ae9"
-        },
-        {
-          "path": "Modules/NewsFilter.mqh",
-          "sha256": "c1b85e0453131bd78d7ec9247e36faab586c3911c0cf685a003857a7ee6e92cd"
-        }
-      ],
+      "files": [],
       "commit": "402186667fdabf53c648daf92fb861df425fdade",
       "tree_truncated": false
     },
@@ -249,26 +232,6 @@
           },
           "assessment": "MANUAL_CODE_REVIEW_REQUIRED",
           "profitability": "UNPROVEN"
-        },
-        {
-          "path": "GOLD_ORB/Include/Indicators.mqh",
-          "sha256": "12155efaeea4886b06a9f18744eb72feaf29027391e677d6bd2f90e64849348e"
-        },
-        {
-          "path": "GOLD_ORB/Include/Math/Alglib/alglibmisc.mqh",
-          "sha256": "81f3016d14f682dba24d4afd712df1e381d3eeda2303b0a9ddcfebe7565859f9"
-        },
-        {
-          "path": "GOLD_ORB/Include/Math/Alglib/ap.mqh",
-          "sha256": "7a433bb8dff077a32d342bb1844733ab972c75c1425dee390966d158feb52544"
-        },
-        {
-          "path": "GOLD_ORB/Include/Math/Alglib/arrayresize.mqh",
-          "sha256": "b3b20734cd2a730665502d5bb13e8b100b9b2a288d3c2aef54131bc7fc13cf3b"
-        },
-        {
-          "path": "GOLD_ORB/Include/Math/Alglib/bitconvert.mqh",
-          "sha256": "4c5bd4ab3c7e23eecd0bf929128e51b7bbd477ec7b9ebc0d97c3e0c1b20ebe81"
         }
       ],
       "commit": "8af0d735288c0e9378e35d06c46f23b21d9a5424",
@@ -350,117 +313,21 @@
   ],
   "crawler": {
     "status": "WATCHING_FOR_SOURCE_UPDATES",
-    "visited": 9,
-    "failed": 2,
+    "visited": 0,
+    "failed": 0,
     "current_url": null,
     "queue_remaining": 0,
-    "recent": [
-      {
-        "url": "https://raw.githubusercontent.com/yulz008/GOLD_ORB/8af0d735288c0e9378e35d06c46f23b21d9a5424/GOLD_ORB/Include/Math/Alglib/bitconvert.mqh",
-        "repository": "yulz008/GOLD_ORB",
-        "path": "GOLD_ORB/Include/Math/Alglib/bitconvert.mqh",
-        "sha256": "4c5bd4ab3c7e23eecd0bf929128e51b7bbd477ec7b9ebc0d97c3e0c1b20ebe81",
-        "bytes": 17664,
-        "result": "SOURCE_SAVED",
-        "received_unix": 1793318070.9709709
-      },
-      {
-        "url": "https://raw.githubusercontent.com/yulz008/GOLD_ORB/8af0d735288c0e9378e35d06c46f23b21d9a5424/GOLD_ORB/Include/Math/Alglib/arrayresize.mqh",
-        "repository": "yulz008/GOLD_ORB",
-        "path": "GOLD_ORB/Include/Math/Alglib/arrayresize.mqh",
-        "sha256": "b3b20734cd2a730665502d5bb13e8b100b9b2a288d3c2aef54131bc7fc13cf3b",
-        "bytes": 6749,
-        "result": "SOURCE_SAVED",
-        "received_unix": 1793318070.856967
-      },
-      {
-        "url": "https://raw.githubusercontent.com/yulz008/GOLD_ORB/8af0d735288c0e9378e35d06c46f23b21d9a5424/GOLD_ORB/Include/Math/Alglib/ap.mqh",
-        "repository": "yulz008/GOLD_ORB",
-        "path": "GOLD_ORB/Include/Math/Alglib/ap.mqh",
-        "sha256": "7a433bb8dff077a32d342bb1844733ab972c75c1425dee390966d158feb52544",
-        "bytes": 77603,
-        "result": "SOURCE_SAVED",
-        "received_unix": 1793318070.6919963
-      },
-      {
-        "url": "https://raw.githubusercontent.com/yulz008/GOLD_ORB/8af0d735288c0e9378e35d06c46f23b21d9a5424/GOLD_ORB/Include/Math/Alglib/alglibmisc.mqh",
-        "repository": "yulz008/GOLD_ORB",
-        "path": "GOLD_ORB/Include/Math/Alglib/alglibmisc.mqh",
-        "sha256": "81f3016d14f682dba24d4afd712df1e381d3eeda2303b0a9ddcfebe7565859f9",
-        "bytes": 61677,
-        "result": "SOURCE_SAVED",
-        "received_unix": 1793318070.5769904
-      },
-      {
-        "url": "https://raw.githubusercontent.com/yulz008/GOLD_ORB/8af0d735288c0e9378e35d06c46f23b21d9a5424/GOLD_ORB/Include/Math/Alglib/alglibinternal.mqh",
-        "repository": "yulz008/GOLD_ORB",
-        "path": "GOLD_ORB/Include/Math/Alglib/alglibinternal.mqh",
-        "result": "FETCH_FAILED",
-        "error": "Source size limit",
-        "received_unix": 1793318070.4617634
-      },
-      {
-        "url": "https://raw.githubusercontent.com/yulz008/GOLD_ORB/8af0d735288c0e9378e35d06c46f23b21d9a5424/GOLD_ORB/Include/Math/Alglib/alglib.mqh",
-        "repository": "yulz008/GOLD_ORB",
-        "path": "GOLD_ORB/Include/Math/Alglib/alglib.mqh",
-        "result": "FETCH_FAILED",
-        "error": "Source size limit",
-        "received_unix": 1793318070.3314965
-      },
-      {
-        "url": "https://raw.githubusercontent.com/yulz008/GOLD_ORB/8af0d735288c0e9378e35d06c46f23b21d9a5424/GOLD_ORB/Include/Indicators.mqh",
-        "repository": "yulz008/GOLD_ORB",
-        "path": "GOLD_ORB/Include/Indicators.mqh",
-        "sha256": "12155efaeea4886b06a9f18744eb72feaf29027391e677d6bd2f90e64849348e",
-        "bytes": 5776,
-        "result": "SOURCE_SAVED",
-        "received_unix": 1793318070.1603546
-      },
-      {
-        "url": "https://raw.githubusercontent.com/yanstd888/institutional-smc-scalper-mt5/402186667fdabf53c648daf92fb861df425fdade/Modules/NewsFilter.mqh",
-        "repository": "yanstd888/institutional-smc-scalper-mt5",
-        "path": "Modules/NewsFilter.mqh",
-        "sha256": "c1b85e0453131bd78d7ec9247e36faab586c3911c0cf685a003857a7ee6e92cd",
-        "bytes": 20180,
-        "result": "SOURCE_SAVED",
-        "received_unix": 1793318070.0385075
-      },
-      {
-        "url": "https://raw.githubusercontent.com/yanstd888/institutional-smc-scalper-mt5/402186667fdabf53c648daf92fb861df425fdade/Modules/MTFTrendMeter.mqh",
-        "repository": "yanstd888/institutional-smc-scalper-mt5",
-        "path": "Modules/MTFTrendMeter.mqh",
-        "sha256": "a5a991ef6bc7e21e7eef9823a42d182071a5c3db065fb147c3485b845cc70ae9",
-        "bytes": 5366,
-        "result": "SOURCE_SAVED",
-        "received_unix": 1793318069.9416208
-      },
-      {
-        "url": "https://raw.githubusercontent.com/yanstd888/institutional-smc-scalper-mt5/402186667fdabf53c648daf92fb861df425fdade/Modules/MSNREngine.mqh",
-        "repository": "yanstd888/institutional-smc-scalper-mt5",
-        "path": "Modules/MSNREngine.mqh",
-        "sha256": "6b84666e772dc0650031ebb627b6b39a00e40ba226eb525e5715734fda709353",
-        "bytes": 48994,
-        "result": "SOURCE_SAVED",
-        "received_unix": 1793318069.8595538
-      },
-      {
-        "url": "https://raw.githubusercontent.com/yanstd888/institutional-smc-scalper-mt5/402186667fdabf53c648daf92fb861df425fdade/Modules/FVGValidator.mqh",
-        "repository": "yanstd888/institutional-smc-scalper-mt5",
-        "path": "Modules/FVGValidator.mqh",
-        "sha256": "4a55f8ff87ed9f568d30ae11f3c1ec9b13cbe8dbc06dc311f0f560c5d5bb904e",
-        "bytes": 14321,
-        "result": "SOURCE_SAVED",
-        "received_unix": 1793318069.7453568
-      }
-    ],
+    "recent": [],
     "external_code_executed": false,
     "current_repository": "yulz008/GOLD_ORB",
-    "observed_unix": 1793318070.9741843,
+    "observed_unix": 1793321219.9225338,
     "frontier_total_seen": 47
   },
   "spider": {
+    "mission_run_id": "mission-c91e741ab103",
+    "mission_status": "COMPLETED",
     "identity": "JARVIS MARK 2 / SPIDER",
-    "fleet_run_id": "fleet-48231ac6963c",
+    "fleet_run_id": "fleet-bba9f09fa115",
     "fleet_status": "COMPLETED",
     "counts": {
       "queued": 0,

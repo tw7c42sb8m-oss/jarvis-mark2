@@ -1,0 +1,108 @@
+{
+  "candidate": "Mark2_Trend_10_30",
+  "mission_run_id": "mission-c91e741ab103",
+  "profitability": "UNPROVEN",
+  "trading_enabled": false,
+  "EVIDENCE_TRIAGE": {
+    "id": "Mark2_Trend_10_30",
+    "hash_verified": true,
+    "license": null,
+    "license_metadata_recognized": true,
+    "source_origin": "LOCAL_BASELINE",
+    "blockers": [],
+    "next_action": "STATIC_ENGINEERING_AUDIT"
+  },
+  "EA_ENGINEERING": {
+    "id": "Mark2_Trend_10_30",
+    "source_sha256": "3f11ea94a6e8a1afbc69dc7da67d1a3ec2c2290b5db656d2610828506f43daf8",
+    "static_hints": {
+      "tester_guard": true,
+      "stop_loss": true,
+      "take_profit": true,
+      "risk_sizing": true,
+      "order_check": true,
+      "magic_scope": true,
+      "signal_only": false
+    },
+    "engineering_score": 1.0,
+    "score_basis": "Fraction of expected static engineering hints; not a profit ranking",
+    "signal_only": false,
+    "blockers": [],
+    "patch_requirements": [],
+    "source_modified": false
+  },
+  "VALIDATION_REVIEW": {
+    "id": "Mark2_Trend_10_30",
+    "status": "HOLD_FOR_EVIDENCE",
+    "blockers": [
+      "NATIVE_MT5_COMPILE_NOT_VERIFIED",
+      "SIGNAL_PARITY_NOT_VERIFIED",
+      "BROKER_COST_FORWARD_DEMO_NOT_VERIFIED"
+    ],
+    "required_evidence": [
+      {
+        "type": "NATIVE_MT5_COMPILER_REPORT",
+        "candidate_sha256": "3f11ea94a6e8a1afbc69dc7da67d1a3ec2c2290b5db656d2610828506f43daf8",
+        "status": "MISSING"
+      },
+      {
+        "type": "SIGNAL_PARITY_REPORT",
+        "candidate_sha256": "3f11ea94a6e8a1afbc69dc7da67d1a3ec2c2290b5db656d2610828506f43daf8",
+        "status": "MISSING"
+      },
+      {
+        "type": "ISOLATED_DEMO_FORWARD_REPORT",
+        "include": [
+          "spread",
+          "commission",
+          "slippage",
+          "drawdown",
+          "sample_size"
+        ],
+        "status": "MISSING"
+      }
+    ],
+    "compile_launched": false,
+    "backtest_launched": false,
+    "trading_enabled": false
+  },
+  "next_tasks": [
+    {
+      "candidate": "Mark2_Trend_10_30",
+      "task": "NATIVE_MT5_COMPILE_AND_SIGNAL_PARITY",
+      "owner": "VALIDATION_REVIEW",
+      "status": "WAITING_FOR_ISOLATED_MT5_VALIDATION",
+      "requirements": [
+        {
+          "type": "NATIVE_MT5_COMPILER_REPORT",
+          "candidate_sha256": "3f11ea94a6e8a1afbc69dc7da67d1a3ec2c2290b5db656d2610828506f43daf8",
+          "status": "MISSING"
+        },
+        {
+          "type": "SIGNAL_PARITY_REPORT",
+          "candidate_sha256": "3f11ea94a6e8a1afbc69dc7da67d1a3ec2c2290b5db656d2610828506f43daf8",
+          "status": "MISSING"
+        }
+      ]
+    },
+    {
+      "candidate": "Mark2_Trend_10_30",
+      "task": "COST_AWARE_FORWARD_DEMO",
+      "owner": "VALIDATION_REVIEW",
+      "status": "BLOCKED_BY_NATIVE_VALIDATION",
+      "requirements": [
+        {
+          "type": "ISOLATED_DEMO_FORWARD_REPORT",
+          "include": [
+            "spread",
+            "commission",
+            "slippage",
+            "drawdown",
+            "sample_size"
+          ],
+          "status": "MISSING"
+        }
+      ]
+    }
+  ]
+}
