@@ -1,0 +1,65 @@
+{
+  "attempts": [
+    {
+      "id": "17362c94832d9f265085",
+      "parent": "Mark2_Trend_5_20",
+      "parent_sha256": "5418caa127afe5bebc25e27c6a5508de26433532e2b75d1b72f5a9d5bcb4367e",
+      "recipe": "FINITE_RISK_INPUTS",
+      "observed_at": "2026-10-30T09:44:50.580293+00:00",
+      "native_compile": "NOT_RUN",
+      "trading_deployed": false,
+      "before": {
+        "status": "HOST_NUMERIC_PROBE_FAIL",
+        "passed": false,
+        "checks": 375,
+        "failures": 8,
+        "scope": "C++ compatibility probe of extracted pure function; not native MQL5 validation"
+      },
+      "after": {
+        "status": "HOST_NUMERIC_PROBE_PASS",
+        "passed": true,
+        "checks": 375,
+        "failures": 0,
+        "scope": "C++ compatibility probe of extracted pure function; not native MQL5 validation"
+      },
+      "candidate_sha256": "a62fa2e6282dfea3bb4295c3c6eac4349fb9fc54d4c1024ca0baaf9097804cea",
+      "decision": "ACCEPTED_RESEARCH_CANDIDATE",
+      "artifact": "generated/improvements/17362c94832d9f265085.mq5"
+    }
+  ],
+  "status": "CYCLE_COMPLETE",
+  "mode": "BOUNDED_RULE_BASED_RESEARCH_IMPROVEMENT",
+  "latest": {
+    "id": "17362c94832d9f265085",
+    "parent": "Mark2_Trend_5_20",
+    "parent_sha256": "5418caa127afe5bebc25e27c6a5508de26433532e2b75d1b72f5a9d5bcb4367e",
+    "recipe": "FINITE_RISK_INPUTS",
+    "observed_at": "2026-10-30T09:44:50.580293+00:00",
+    "native_compile": "NOT_RUN",
+    "trading_deployed": false,
+    "before": {
+      "status": "HOST_NUMERIC_PROBE_FAIL",
+      "passed": false,
+      "checks": 375,
+      "failures": 8,
+      "scope": "C++ compatibility probe of extracted pure function; not native MQL5 validation"
+    },
+    "after": {
+      "status": "HOST_NUMERIC_PROBE_PASS",
+      "passed": true,
+      "checks": 375,
+      "failures": 0,
+      "scope": "C++ compatibility probe of extracted pure function; not native MQL5 validation"
+    },
+    "candidate_sha256": "a62fa2e6282dfea3bb4295c3c6eac4349fb9fc54d4c1024ca0baaf9097804cea",
+    "decision": "ACCEPTED_RESEARCH_CANDIDATE",
+    "artifact": "generated/improvements/17362c94832d9f265085.mq5"
+  },
+  "accepted": 1,
+  "rejected": 0,
+  "paid_api_calls": 0,
+  "trading_deployed": false,
+  "native_validation": "PENDING",
+  "automatic_runner_rewriting": false,
+  "notice": "One approved repair per cloud cycle; accepted means host numeric/source improvement only, not profitable or native MT5 tested."
+}
