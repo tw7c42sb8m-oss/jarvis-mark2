@@ -25,7 +25,7 @@
     ],
     "commit": "dadf3d5c869c34cac40db3fb6858b188cf101a25",
     "tree_truncated": false,
-    "last_reviewed_unix": 1793373118.4085312
+    "last_reviewed_unix": 1793376375.3078275
   },
   "geraked/metatrader5": {
     "repository": "geraked/metatrader5",
@@ -67,48 +67,7 @@
     ],
     "commit": "d3eb29c382acf715727d5cd6a0414151e821fc2d",
     "tree_truncated": false,
-    "last_reviewed_unix": 1793373118.4085312
-  },
-  "kibetval/forex-scalper-bot": {
-    "repository": "kibetval/forex-scalper-bot",
-    "url": "https://github.com/kibetval/forex-scalper-bot",
-    "updated_at": "2026-10-27T14:21:44Z",
-    "stars": 0,
-    "license": null,
-    "performance": null,
-    "status": "SOURCE_SCREEN_ONLY",
-    "files": [
-      {
-        "path": "ForexScalperEA.mq5",
-        "sha256": "3e28a264feac3205f7c6e2c6685af9fe37ef9e5845a82305a7d5af11e62e29fa",
-        "checks": {
-          "mentions_stop_loss": true,
-          "mentions_take_profit": true,
-          "uses_dll_import": false,
-          "uses_web_request": false,
-          "mentions_martingale_or_grid": false,
-          "mentions_order_execution": true
-        },
-        "assessment": "MANUAL_CODE_REVIEW_REQUIRED",
-        "profitability": "UNPROVEN"
-      }
-    ],
-    "commit": "5cfe7d97d4e44c13e6bfcd39faba1e7ae6e0314e",
-    "tree_truncated": false,
-    "last_reviewed_unix": 1793373118.4085312
-  },
-  "yanstd888/institutional-smc-scalper-mt5": {
-    "repository": "yanstd888/institutional-smc-scalper-mt5",
-    "url": "https://github.com/yanstd888/institutional-smc-scalper-mt5",
-    "updated_at": "2026-10-25T21:52:26Z",
-    "stars": 26,
-    "license": "MIT",
-    "performance": null,
-    "status": "SOURCE_SCREEN_ONLY",
-    "files": [],
-    "commit": "402186667fdabf53c648daf92fb861df425fdade",
-    "tree_truncated": false,
-    "last_reviewed_unix": 1793373118.4085312
+    "last_reviewed_unix": 1793376375.3078275
   },
   "yulz008/GOLD_ORB": {
     "repository": "yulz008/GOLD_ORB",
@@ -136,7 +95,7 @@
     ],
     "commit": "8af0d735288c0e9378e35d06c46f23b21d9a5424",
     "tree_truncated": false,
-    "last_reviewed_unix": 1793373118.4085312
+    "last_reviewed_unix": 1793376375.3078275
   },
   "EA31337/EA31337": {
     "repository": "EA31337/EA31337",
@@ -164,7 +123,7 @@
     ],
     "commit": "9b9bd38c4e49dd6916f4fe3936e50e97fca7a692",
     "tree_truncated": false,
-    "last_reviewed_unix": 1793373118.4085312
+    "last_reviewed_unix": 1793376375.3078275
   },
   "sibvic/mq5-templates": {
     "repository": "sibvic/mq5-templates",
@@ -205,6 +164,47 @@
       }
     ],
     "commit": "6de6720fb67dcefda3f178850f73b5355309e1c8",
+    "tree_truncated": false,
+    "last_reviewed_unix": 1793376375.3078275
+  },
+  "kibetval/forex-scalper-bot": {
+    "repository": "kibetval/forex-scalper-bot",
+    "url": "https://github.com/kibetval/forex-scalper-bot",
+    "updated_at": "2026-10-27T14:21:44Z",
+    "stars": 0,
+    "license": null,
+    "performance": null,
+    "status": "SOURCE_SCREEN_ONLY",
+    "files": [
+      {
+        "path": "ForexScalperEA.mq5",
+        "sha256": "3e28a264feac3205f7c6e2c6685af9fe37ef9e5845a82305a7d5af11e62e29fa",
+        "checks": {
+          "mentions_stop_loss": true,
+          "mentions_take_profit": true,
+          "uses_dll_import": false,
+          "uses_web_request": false,
+          "mentions_martingale_or_grid": false,
+          "mentions_order_execution": true
+        },
+        "assessment": "MANUAL_CODE_REVIEW_REQUIRED",
+        "profitability": "UNPROVEN"
+      }
+    ],
+    "commit": "5cfe7d97d4e44c13e6bfcd39faba1e7ae6e0314e",
+    "tree_truncated": false,
+    "last_reviewed_unix": 1793373118.4085312
+  },
+  "yanstd888/institutional-smc-scalper-mt5": {
+    "repository": "yanstd888/institutional-smc-scalper-mt5",
+    "url": "https://github.com/yanstd888/institutional-smc-scalper-mt5",
+    "updated_at": "2026-10-25T21:52:26Z",
+    "stars": 26,
+    "license": "MIT",
+    "performance": null,
+    "status": "SOURCE_SCREEN_ONLY",
+    "files": [],
+    "commit": "402186667fdabf53c648daf92fb861df425fdade",
     "tree_truncated": false,
     "last_reviewed_unix": 1793373118.4085312
   },
