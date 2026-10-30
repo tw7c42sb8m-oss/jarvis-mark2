@@ -41,6 +41,15 @@ class SpiderHub:
                 'Perplexity': 'Discover primary repositories; separate strategy EAs from position-sizing tools.'}
             for name in team.get('external_web_reviews_received',[]):
                 if name in reviews:self.route(name.upper(),'CONTEXT','ARCHIVED_REVIEW',{'review_date':team['consulted_on'],'summary':reviews[name],'provenance':'AI-TEAM.md / recorded web consultation','direct_model_connection':False},'LOCAL_REVIEW_ARCHIVE')
+        builder=office.get('web_builder') or {}
+        if builder.get('job_id'):
+            request={k:builder.get(k) for k in ('job_id','mode','autonomous','prompt_sha256','sent_at')}
+            self.route('VAULT','DEEPSEEK','WEB_BUILD_REQUEST',request,'CODEX_MEDIATED_FREE_WEB')
+            if builder.get('response_sha256'):
+                result={k:builder.get(k) for k in ('job_id','status','mode','source_sha256','response_sha256','received_at','candidate_path','checks','native_compile','notice','trading_deployed')}
+                self.route('DEEPSEEK','ENGINEER','WEB_BUILD_RESPONSE',result,'ACTUAL_DEEPSEEK_WEB_RESPONSE')
+                self.route('ENGINEER','VALIDATOR','BUILDER_SOURCE_REVIEW',result,'LOCAL_SOURCE_REVIEW_NOT_NATIVE_EXECUTION')
+                self.route('VALIDATOR','VAULT','BUILDER_EVIDENCE',result,'LOCAL_BUILDER_EVIDENCE_ARCHIVE')
         cloud=office.get('cloud')
         if cloud:
             self.route('GITHUB','CONTEXT','CLOUD_RESEARCH',{'observed_unix':cloud.get('observed_unix'),'status':cloud.get('status'),'repositories':[{'repository':x.get('repository'),'files_screened':len(x.get('files',[]))} for x in cloud.get('repositories',[])],'candidates':[{'id':x.get('id'),'sha256':x.get('sha256'),'compile_status':x.get('compile_status')} for x in cloud.get('generated_candidates',[])],'origin':'public GitHub data/status.json'},'PUBLIC_CLOUD_RECORD')
@@ -96,6 +105,9 @@ def cloud_cycle(root,status):
     from mission_agents import run_once as run_mission
     mission=run_mission(root,status,fleet)
     hub.ingest_mission(mission)
-    return {'mission_run_id':mission.get('run_id'),'mission_status':mission.get('status'),'identity':'JARVIS MARK 2 / SPIDER','fleet_run_id':fleet.get('run_id'),'fleet_status':fleet['status'],'counts':fleet.get('counts'),
+    from self_improve import run_cycle as improve
+    improvement=improve(root,status,lessons)
+    hub.route('ENGINEER','VALIDATOR','AUTOMATIC_IMPROVEMENT',improvement,'BOUNDED_CLOUD_REPAIR_CYCLE')
+    return {'improvement_status':improvement['status'],'improvements_accepted':improvement['accepted'],'mission_run_id':mission.get('run_id'),'mission_status':mission.get('status'),'identity':'JARVIS MARK 2 / SPIDER','fleet_run_id':fleet.get('run_id'),'fleet_status':fleet['status'],'counts':fleet.get('counts'),
             'new_findings':lessons.get('new_findings_this_review',0),'open_findings':len(lessons.get('findings',{})),
             'model_children':False,'worker_type':'DETERMINISTIC_TOOL_WORKER','external_ai_apis':0}
