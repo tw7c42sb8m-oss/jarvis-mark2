@@ -26,7 +26,7 @@ class SpiderHub:
             # Fingerprint dedup is durable; timestamps mean hub receipt, not model activity.
             db.execute('INSERT OR IGNORE INTO packets(fingerprint,source,target,kind,received,payload,origin) VALUES(?,?,?,?,?,?,?)',(digest,source,target,kind,time.time(),body,origin))
             db.execute('INSERT OR REPLACE INTO latest VALUES(?,?)',(source,digest))
-            db.execute('DELETE FROM packets WHERE id < (SELECT COALESCE(MAX(id),0)-2000 FROM packets)')
+            db.execute('DELETE FROM packets WHERE id < (SELECT COALESCE(MAX(id),0)-2000 FROM packets) AND fingerprint NOT IN (SELECT fingerprint FROM latest)')
 
     def ingest(self, office):
         team_path=self.root/'team.json'
@@ -58,10 +58,19 @@ class SpiderHub:
             temp=file.with_suffix('.tmp');temp.write_text(json.dumps(context,indent=2));temp.replace(file)
         self.route('CONTEXT','OFFICE','CONTEXT_BUNDLE',context,'SPIDER_COMPILED_CONTEXT')
 
+    def ingest_mission(self, mission):
+        if not mission.get('run_id'):return
+        self.route('VAULT','TRIAGE','DEVELOPMENT_INPUT',{'run_id':mission['run_id'],'input_fingerprint':mission.get('input_fingerprint'),'purpose':'Turn saved evidence into auditable EA development tasks'},'ACTUAL_MISSION_DISPATCH')
+        routes={'TRIAGE':'ENGINEER','ENGINEER':'VALIDATOR','VALIDATOR':'DIRECTOR','DIRECTOR':'VAULT'}
+        for node in mission.get('nodes',[]):
+            role=str(node.get('role') or node.get('id','')).upper()
+            if role not in routes or node.get('status')!='COMPLETED':continue
+            self.route(role,routes[role],'DEVELOPMENT_RESULT',{'run_id':mission['run_id'],'pid':node.get('pid'),'started_unix':node.get('started_unix'),'completed_unix':node.get('completed_unix'),'result':node.get('result')},'ACTUAL_DEVELOPMENT_SUBPROCESS')
+
     def snapshot(self):
         with self.connect() as db:
             count=db.execute('SELECT COUNT(*) FROM packets').fetchone()[0]
-            rows=db.execute('SELECT * FROM packets ORDER BY id DESC LIMIT 40').fetchall()
+            rows=db.execute('SELECT * FROM packets WHERE id IN (SELECT id FROM packets ORDER BY id DESC LIMIT 40) OR fingerprint IN (SELECT fingerprint FROM latest) ORDER BY id DESC').fetchall()
         packets=[]
         for row in rows:
             item=dict(row);item['payload']=json.loads(item['payload']);item['via']='SPIDER';packets.append(item)
@@ -84,6 +93,9 @@ def cloud_cycle(root,status):
     lessons=review(root,fleet)
     hub.route('WORKER_FLEET','CONTEXT','WORKER_RESULTS',{'run_id':fleet.get('run_id'),'status':fleet.get('status'),'counts':fleet.get('counts')},'ACTUAL_CLOUD_SUBPROCESSES')
     hub.route('CONTEXT','OFFICE','REVIEW_LESSONS',{'new_findings':lessons.get('new_findings_this_review',0),'open_findings':len(lessons.get('findings',{})),'model_training':False,'automatic_trading_promotion':False},'PERSISTED_REVIEW_LESSONS')
-    return {'identity':'JARVIS MARK 2 / SPIDER','fleet_run_id':fleet.get('run_id'),'fleet_status':fleet['status'],'counts':fleet.get('counts'),
+    from mission_agents import run_once as run_mission
+    mission=run_mission(root,status,fleet)
+    hub.ingest_mission(mission)
+    return {'mission_run_id':mission.get('run_id'),'mission_status':mission.get('status'),'identity':'JARVIS MARK 2 / SPIDER','fleet_run_id':fleet.get('run_id'),'fleet_status':fleet['status'],'counts':fleet.get('counts'),
             'new_findings':lessons.get('new_findings_this_review',0),'open_findings':len(lessons.get('findings',{})),
             'model_children':False,'worker_type':'DETERMINISTIC_TOOL_WORKER','external_ai_apis':0}

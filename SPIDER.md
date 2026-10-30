@@ -69,3 +69,9 @@ or VPS process is added.
 The cloud crawler retains a bounded frontier cursor so subsequent cycles can
 advance beyond the initial batch. Completed immutable sources are remembered;
 new commits create new source identities. Past findings remain in review memory.
+
+
+## Post-Vault development minions
+Saved evidence now flows through four real sequential subprocess workers: TRIAGE (file/hash/provenance checks), ENGINEER (tester/risk-control static hints), VALIDATOR (missing native and forward-demo evidence), DIRECTOR (engineering priorities and next-task queue). Spider routes results back into the evidence Vault. These are deterministic tool agents, not external model clones. Each has its own PID and result. Identical evidence is deduplicated; no idle review loop fabricates work.
+
+Outputs: generated/mission-progress.json, generated/mission-review.md, and generated/mission-reviews/*.json. The existing free hourly cloud research cycle runs this pipeline after source workers. A local office can run it on saved evidence too. No EA is promoted without native validation and cost-aware demo-performance evidence. It does not automatically compile external code, launch a backtest, place broker orders, or claim a profitable winner.
