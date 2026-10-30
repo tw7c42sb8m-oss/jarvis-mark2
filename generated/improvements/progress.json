@@ -151,7 +151,7 @@
       "artifact": "generated/improvements/702f8a63a8b54ce64e89.mq5"
     }
   ],
-  "status": "CYCLE_COMPLETE",
+  "status": "WAITING_FOR_NEW_EVIDENCE",
   "mode": "BOUNDED_RULE_BASED_RESEARCH_IMPROVEMENT",
   "latest": {
     "id": "702f8a63a8b54ce64e89",
