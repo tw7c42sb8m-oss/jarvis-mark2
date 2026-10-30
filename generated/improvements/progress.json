@@ -99,35 +99,63 @@
       "candidate_sha256": "7459b71fe1efbe596968fd118200180f472b86c81968774f4aad64c004852e3e",
       "decision": "ACCEPTED_RESEARCH_CANDIDATE",
       "artifact": "generated/improvements/bc8ebd27d53fe82317a8.mq5"
+    },
+    {
+      "id": "8834c98e3fb23ac1153f",
+      "parent": "Mark2_Trend_10_50",
+      "parent_sha256": "3f1f6f6da9dabd23fb4e3ccb1fe706aeea3b36ad21189e0e3275be6c837847af",
+      "recipe": "FINITE_RISK_INPUTS",
+      "observed_at": "2026-10-30T13:19:24.534113+00:00",
+      "native_compile": "NOT_RUN",
+      "trading_deployed": false,
+      "before": {
+        "status": "HOST_NUMERIC_PROBE_FAIL",
+        "passed": false,
+        "checks": 375,
+        "failures": 8,
+        "scope": "C++ compatibility probe of extracted pure function; not native MQL5 validation"
+      },
+      "after": {
+        "status": "HOST_NUMERIC_PROBE_PASS",
+        "passed": true,
+        "checks": 375,
+        "failures": 0,
+        "scope": "C++ compatibility probe of extracted pure function; not native MQL5 validation"
+      },
+      "candidate_sha256": "cb38aae858e6ebbc1163b193680048129801c8d147f3ed3741bc23c01de0ae2c",
+      "decision": "ACCEPTED_RESEARCH_CANDIDATE",
+      "artifact": "generated/improvements/8834c98e3fb23ac1153f.mq5"
     }
   ],
   "status": "CYCLE_COMPLETE",
   "mode": "BOUNDED_RULE_BASED_RESEARCH_IMPROVEMENT",
   "latest": {
-    "id": "bc8ebd27d53fe82317a8",
-    "parent": "Mark2_Trend_10_30",
-    "parent_sha256": "3f11ea94a6e8a1afbc69dc7da67d1a3ec2c2290b5db656d2610828506f43daf8",
-    "recipe": "AVERAGE_ARRAY_BOUNDS",
-    "observed_at": "2026-10-30T11:59:40.786676+00:00",
+    "id": "8834c98e3fb23ac1153f",
+    "parent": "Mark2_Trend_10_50",
+    "parent_sha256": "3f1f6f6da9dabd23fb4e3ccb1fe706aeea3b36ad21189e0e3275be6c837847af",
+    "recipe": "FINITE_RISK_INPUTS",
+    "observed_at": "2026-10-30T13:19:24.534113+00:00",
     "native_compile": "NOT_RUN",
     "trading_deployed": false,
     "before": {
-      "status": "BOUNDS_GUARD_MISSING",
+      "status": "HOST_NUMERIC_PROBE_FAIL",
       "passed": false,
-      "checks": 3
+      "checks": 375,
+      "failures": 8,
+      "scope": "C++ compatibility probe of extracted pure function; not native MQL5 validation"
     },
     "after": {
       "status": "HOST_NUMERIC_PROBE_PASS",
       "passed": true,
-      "checks": 6,
+      "checks": 375,
       "failures": 0,
       "scope": "C++ compatibility probe of extracted pure function; not native MQL5 validation"
     },
-    "candidate_sha256": "7459b71fe1efbe596968fd118200180f472b86c81968774f4aad64c004852e3e",
+    "candidate_sha256": "cb38aae858e6ebbc1163b193680048129801c8d147f3ed3741bc23c01de0ae2c",
     "decision": "ACCEPTED_RESEARCH_CANDIDATE",
-    "artifact": "generated/improvements/bc8ebd27d53fe82317a8.mq5"
+    "artifact": "generated/improvements/8834c98e3fb23ac1153f.mq5"
   },
-  "accepted": 4,
+  "accepted": 5,
   "rejected": 0,
   "paid_api_calls": 0,
   "trading_deployed": false,
