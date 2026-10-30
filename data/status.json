@@ -1,8 +1,8 @@
 {
   "agent": "JARVIS MARK 2",
   "role": "EA RESEARCH AND DEVELOPMENT",
-  "observed_unix": 1793376375.3078275,
-  "status": "RESEARCH_PARTIAL",
+  "observed_unix": 1793379727.858286,
+  "status": "RESEARCH_COMPLETE",
   "runtime": "GITHUB_ACTIONS",
   "cloud_deployed": true,
   "broker_orders_sent": 0,
@@ -63,6 +63,33 @@
       "tree_truncated": false
     },
     {
+      "repository": "WHAM-FX/WHAM-FX-GOLD-AI-2026",
+      "url": "https://github.com/WHAM-FX/WHAM-FX-GOLD-AI-2026",
+      "updated_at": "2026-10-29T19:52:12Z",
+      "stars": 0,
+      "license": null,
+      "performance": null,
+      "status": "SOURCE_SCREEN_ONLY",
+      "files": [
+        {
+          "path": "WHAM_FX_GOLD_BOT.mq5",
+          "sha256": "9ad2c574d23402b65cc57ce81ac8a33e248bed4e687c85cc459f6aa0dd112b72",
+          "checks": {
+            "mentions_stop_loss": false,
+            "mentions_take_profit": false,
+            "uses_dll_import": false,
+            "uses_web_request": false,
+            "mentions_martingale_or_grid": false,
+            "mentions_order_execution": true
+          },
+          "assessment": "MANUAL_CODE_REVIEW_REQUIRED",
+          "profitability": "UNPROVEN"
+        }
+      ],
+      "commit": "8c7cf2e6cb5dcc4ed6291dc10fe40c1dce7ef7c2",
+      "tree_truncated": false
+    },
+    {
       "repository": "geraked/metatrader5",
       "url": "https://github.com/geraked/metatrader5",
       "updated_at": "2025-11-15T04:39:29Z",
@@ -104,6 +131,23 @@
       "tree_truncated": false
     },
     {
+      "repository": "kibetval/forex-scalper-bot",
+      "url": "https://github.com/kibetval/forex-scalper-bot",
+      "updated_at": "2026-10-30T15:50:03Z",
+      "stars": 0,
+      "license": null,
+      "performance": null,
+      "status": "SOURCE_SCREEN_ONLY",
+      "files": [
+        {
+          "path": "ForexScalperEA.mq5",
+          "sha256": "3e28a264feac3205f7c6e2c6685af9fe37ef9e5845a82305a7d5af11e62e29fa"
+        }
+      ],
+      "commit": "e997a97131785be57273eeb7e14be9c521bca672",
+      "tree_truncated": false
+    },
+    {
       "repository": "sibvic/mq5-templates",
       "url": "https://github.com/sibvic/mq5-templates",
       "updated_at": "2026-09-26T01:56:14Z",
@@ -142,6 +186,18 @@
         }
       ],
       "commit": "6de6720fb67dcefda3f178850f73b5355309e1c8",
+      "tree_truncated": false
+    },
+    {
+      "repository": "yanstd888/institutional-smc-scalper-mt5",
+      "url": "https://github.com/yanstd888/institutional-smc-scalper-mt5",
+      "updated_at": "2026-10-25T21:52:26Z",
+      "stars": 26,
+      "license": "MIT",
+      "performance": null,
+      "status": "SOURCE_SCREEN_ONLY",
+      "files": [],
+      "commit": "402186667fdabf53c648daf92fb861df425fdade",
       "tree_truncated": false
     },
     {
@@ -231,13 +287,7 @@
       ]
     }
   ],
-  "errors": [
-    {
-      "stage": "discovery",
-      "query": "scalping language:MQL5",
-      "error": "HTTP Error 403: rate limit exceeded"
-    }
-  ],
+  "errors": [],
   "best_ea": null,
   "winner_status": "NO_VERIFIED_WINNER",
   "next_tasks": [
@@ -253,36 +303,46 @@
   ],
   "crawler": {
     "status": "WATCHING_FOR_SOURCE_UPDATES",
-    "visited": 0,
+    "visited": 1,
     "failed": 0,
     "current_url": null,
     "queue_remaining": 0,
-    "recent": [],
+    "recent": [
+      {
+        "url": "https://raw.githubusercontent.com/kibetval/forex-scalper-bot/e997a97131785be57273eeb7e14be9c521bca672/ForexScalperEA.mq5",
+        "repository": "kibetval/forex-scalper-bot",
+        "path": "ForexScalperEA.mq5",
+        "sha256": "3e28a264feac3205f7c6e2c6685af9fe37ef9e5845a82305a7d5af11e62e29fa",
+        "bytes": 10639,
+        "result": "SOURCE_SAVED",
+        "received_unix": 1793379727.990506
+      }
+    ],
     "external_code_executed": false,
     "current_repository": "yulz008/GOLD_ORB",
-    "observed_unix": 1793376376.8051603,
-    "frontier_total_seen": 47
+    "observed_unix": 1793379730.9935234,
+    "frontier_total_seen": 48
   },
   "spider": {
     "improvement_status": "WAITING_FOR_NEW_EVIDENCE",
     "improvements_accepted": 6,
-    "mission_run_id": "mission-32149513596a",
+    "mission_run_id": "mission-04576561449b",
     "mission_status": "COMPLETED",
     "identity": "JARVIS MARK 2 / SPIDER",
-    "fleet_run_id": "fleet-f8bbbe10422a",
+    "fleet_run_id": "fleet-e8bea2a1b190",
     "fleet_status": "COMPLETED",
     "counts": {
       "queued": 0,
       "running": 0,
-      "completed": 15,
+      "completed": 24,
       "failed": 0,
       "timed_out": 0,
-      "repositories": 5,
-      "workers": 15,
-      "launched": 15
+      "repositories": 8,
+      "workers": 24,
+      "launched": 24
     },
-    "new_findings": 0,
-    "open_findings": 36,
+    "new_findings": 4,
+    "open_findings": 40,
     "model_children": false,
     "worker_type": "DETERMINISTIC_TOOL_WORKER",
     "external_ai_apis": 0
