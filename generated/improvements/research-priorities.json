@@ -12,6 +12,12 @@
     "next_action": "REVIEW_SOURCE_AND_NATIVE_VALIDATION"
   },
   {
+    "repository": "Ghost-Coder23/scalpingbot-mt5",
+    "source_files": 2,
+    "license": null,
+    "next_action": "REVIEW_LICENSE"
+  },
+  {
     "repository": "WHAM-FX/WHAM-FX-GOLD-AI-2026",
     "source_files": 1,
     "license": null,
@@ -32,12 +38,6 @@
   {
     "repository": "sibvic/mq5-templates",
     "source_files": 2,
-    "license": "MIT",
-    "next_action": "REVIEW_SOURCE_AND_NATIVE_VALIDATION"
-  },
-  {
-    "repository": "yanstd888/institutional-smc-scalper-mt5",
-    "source_files": 0,
     "license": "MIT",
     "next_action": "REVIEW_SOURCE_AND_NATIVE_VALIDATION"
   },

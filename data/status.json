@@ -1,7 +1,7 @@
 {
   "agent": "JARVIS MARK 2",
   "role": "EA RESEARCH AND DEVELOPMENT",
-  "observed_unix": 1793426222.4835334,
+  "observed_unix": 1793431102.3805003,
   "status": "RESEARCH_COMPLETE",
   "runtime": "GITHUB_ACTIONS",
   "cloud_deployed": true,
@@ -60,6 +60,27 @@
         }
       ],
       "commit": "dadf3d5c869c34cac40db3fb6858b188cf101a25",
+      "tree_truncated": false
+    },
+    {
+      "repository": "Ghost-Coder23/scalpingbot-mt5",
+      "url": "https://github.com/Ghost-Coder23/scalpingbot-mt5",
+      "updated_at": "2026-10-31T06:49:57Z",
+      "stars": 0,
+      "license": null,
+      "performance": null,
+      "status": "SOURCE_SCREEN_ONLY",
+      "files": [
+        {
+          "path": "ScalpingBot.mq5",
+          "sha256": "33bbd8df724c99c2cd82f4b1ffca45b04c19bfd04c6b4a198d530b00133dd2ca"
+        },
+        {
+          "path": "ScalpingBot.mqh",
+          "sha256": "773955decfe6d4ca8ff9092de727e652a1ebb3477aff1595a975317f9c80cc9b"
+        }
+      ],
+      "commit": "b2d7e0904d83ba5557c92270155cb8a5163e2e37",
       "tree_truncated": false
     },
     {
@@ -199,18 +220,6 @@
       "tree_truncated": false
     },
     {
-      "repository": "yanstd888/institutional-smc-scalper-mt5",
-      "url": "https://github.com/yanstd888/institutional-smc-scalper-mt5",
-      "updated_at": "2026-10-25T21:52:26Z",
-      "stars": 26,
-      "license": "MIT",
-      "performance": null,
-      "status": "SOURCE_SCREEN_ONLY",
-      "files": [],
-      "commit": "402186667fdabf53c648daf92fb861df425fdade",
-      "tree_truncated": false
-    },
-    {
       "repository": "yulz008/GOLD_ORB",
       "url": "https://github.com/yulz008/GOLD_ORB",
       "updated_at": "2023-07-29T05:42:05Z",
@@ -313,23 +322,42 @@
   ],
   "crawler": {
     "status": "WATCHING_FOR_SOURCE_UPDATES",
-    "visited": 0,
+    "visited": 2,
     "failed": 0,
     "current_url": null,
     "queue_remaining": 0,
-    "recent": [],
+    "recent": [
+      {
+        "url": "https://raw.githubusercontent.com/Ghost-Coder23/scalpingbot-mt5/b2d7e0904d83ba5557c92270155cb8a5163e2e37/ScalpingBot.mqh",
+        "repository": "Ghost-Coder23/scalpingbot-mt5",
+        "path": "ScalpingBot.mqh",
+        "sha256": "773955decfe6d4ca8ff9092de727e652a1ebb3477aff1595a975317f9c80cc9b",
+        "bytes": 24991,
+        "result": "SOURCE_SAVED",
+        "received_unix": 1793431104.4873197
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Ghost-Coder23/scalpingbot-mt5/b2d7e0904d83ba5557c92270155cb8a5163e2e37/ScalpingBot.mq5",
+        "repository": "Ghost-Coder23/scalpingbot-mt5",
+        "path": "ScalpingBot.mq5",
+        "sha256": "33bbd8df724c99c2cd82f4b1ffca45b04c19bfd04c6b4a198d530b00133dd2ca",
+        "bytes": 9836,
+        "result": "SOURCE_SAVED",
+        "received_unix": 1793431102.4794247
+      }
+    ],
     "external_code_executed": false,
-    "current_repository": "yulz008/GOLD_ORB",
-    "observed_unix": 1793426225.3725817,
-    "frontier_total_seen": 48
+    "current_repository": "Ghost-Coder23/scalpingbot-mt5",
+    "observed_unix": 1793431104.4903004,
+    "frontier_total_seen": 50
   },
   "spider": {
     "improvement_status": "WAITING_FOR_NEW_EVIDENCE",
     "improvements_accepted": 6,
-    "mission_run_id": "mission-914205dadc71",
+    "mission_run_id": "mission-932c08a1c45e",
     "mission_status": "COMPLETED",
     "identity": "JARVIS MARK 2 / SPIDER",
-    "fleet_run_id": "fleet-0e4a12defdc6",
+    "fleet_run_id": "fleet-e5f50cfc54a3",
     "fleet_status": "COMPLETED",
     "counts": {
       "queued": 0,
@@ -341,8 +369,8 @@
       "workers": 24,
       "launched": 24
     },
-    "new_findings": 0,
-    "open_findings": 41,
+    "new_findings": 4,
+    "open_findings": 45,
     "model_children": false,
     "worker_type": "DETERMINISTIC_TOOL_WORKER",
     "external_ai_apis": 0
