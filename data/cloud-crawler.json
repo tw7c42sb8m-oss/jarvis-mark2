@@ -1,23 +1,13 @@
 {
   "status": "WATCHING_FOR_SOURCE_UPDATES",
-  "visited": 1,
+  "visited": 0,
   "failed": 0,
   "current_url": null,
   "queue_remaining": 0,
-  "recent": [
-    {
-      "url": "https://raw.githubusercontent.com/WHAM-FX/WHAM-FX-GOLD-AI-2026/57f76d832ce0e80314a264c046274f40beb54f96/WHAM_FX_GOLD_BOT.mq5",
-      "repository": "WHAM-FX/WHAM-FX-GOLD-AI-2026",
-      "path": "WHAM_FX_GOLD_BOT.mq5",
-      "sha256": "9ad2c574d23402b65cc57ce81ac8a33e248bed4e687c85cc459f6aa0dd112b72",
-      "bytes": 5806,
-      "result": "SOURCE_SAVED",
-      "received_unix": 1793469012.419221
-    }
-  ],
+  "recent": [],
   "external_code_executed": false,
   "current_repository": "yulz008/GOLD_ORB",
-  "observed_unix": 1793469014.9847977,
+  "observed_unix": 1793473544.402156,
   "seen_sources": [
     [
       "EA31337/EA31337",
