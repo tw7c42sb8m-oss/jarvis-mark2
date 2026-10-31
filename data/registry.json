@@ -3,7 +3,7 @@
     "repository": "EarnForex/PositionSizer",
     "url": "https://github.com/EarnForex/PositionSizer",
     "updated_at": "2026-10-12T11:53:33Z",
-    "stars": 609,
+    "stars": 610,
     "license": "Apache-2.0",
     "performance": null,
     "status": "SOURCE_SCREEN_ONLY",
@@ -25,13 +25,13 @@
     ],
     "commit": "dadf3d5c869c34cac40db3fb6858b188cf101a25",
     "tree_truncated": false,
-    "last_reviewed_unix": 1793422818.760514
+    "last_reviewed_unix": 1793426222.4835334
   },
   "geraked/metatrader5": {
     "repository": "geraked/metatrader5",
     "url": "https://github.com/geraked/metatrader5",
     "updated_at": "2025-11-15T04:39:29Z",
-    "stars": 678,
+    "stars": 679,
     "license": "MIT",
     "performance": null,
     "status": "SOURCE_SCREEN_ONLY",
@@ -67,7 +67,7 @@
     ],
     "commit": "d3eb29c382acf715727d5cd6a0414151e821fc2d",
     "tree_truncated": false,
-    "last_reviewed_unix": 1793422818.760514
+    "last_reviewed_unix": 1793426222.4835334
   },
   "yulz008/GOLD_ORB": {
     "repository": "yulz008/GOLD_ORB",
@@ -95,7 +95,7 @@
     ],
     "commit": "8af0d735288c0e9378e35d06c46f23b21d9a5424",
     "tree_truncated": false,
-    "last_reviewed_unix": 1793422818.760514
+    "last_reviewed_unix": 1793426222.4835334
   },
   "EA31337/EA31337": {
     "repository": "EA31337/EA31337",
@@ -123,7 +123,7 @@
     ],
     "commit": "9b9bd38c4e49dd6916f4fe3936e50e97fca7a692",
     "tree_truncated": false,
-    "last_reviewed_unix": 1793422818.760514
+    "last_reviewed_unix": 1793426222.4835334
   },
   "sibvic/mq5-templates": {
     "repository": "sibvic/mq5-templates",
@@ -165,7 +165,7 @@
     ],
     "commit": "6de6720fb67dcefda3f178850f73b5355309e1c8",
     "tree_truncated": false,
-    "last_reviewed_unix": 1793422818.760514
+    "last_reviewed_unix": 1793426222.4835334
   },
   "kibetval/forex-scalper-bot": {
     "repository": "kibetval/forex-scalper-bot",
@@ -193,7 +193,7 @@
     ],
     "commit": "e997a97131785be57273eeb7e14be9c521bca672",
     "tree_truncated": false,
-    "last_reviewed_unix": 1793422818.760514
+    "last_reviewed_unix": 1793426222.4835334
   },
   "yanstd888/institutional-smc-scalper-mt5": {
     "repository": "yanstd888/institutional-smc-scalper-mt5",
@@ -206,7 +206,7 @@
     "files": [],
     "commit": "402186667fdabf53c648daf92fb861df425fdade",
     "tree_truncated": false,
-    "last_reviewed_unix": 1793422818.760514
+    "last_reviewed_unix": 1793426222.4835334
   },
   "WHAM-FX/WHAM-FX-GOLD-AI-2026": {
     "repository": "WHAM-FX/WHAM-FX-GOLD-AI-2026",
@@ -234,7 +234,7 @@
     ],
     "commit": "8c7cf2e6cb5dcc4ed6291dc10fe40c1dce7ef7c2",
     "tree_truncated": false,
-    "last_reviewed_unix": 1793422818.760514
+    "last_reviewed_unix": 1793426222.4835334
   },
   "katlego231222/Katleg--Scalper-Robot": {
     "repository": "katlego231222/Katleg--Scalper-Robot",
