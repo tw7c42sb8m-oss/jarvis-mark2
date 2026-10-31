@@ -25,7 +25,7 @@
     ],
     "commit": "dadf3d5c869c34cac40db3fb6858b188cf101a25",
     "tree_truncated": false,
-    "last_reviewed_unix": 1793404379.6227198
+    "last_reviewed_unix": 1793409803.31595
   },
   "geraked/metatrader5": {
     "repository": "geraked/metatrader5",
@@ -67,7 +67,7 @@
     ],
     "commit": "d3eb29c382acf715727d5cd6a0414151e821fc2d",
     "tree_truncated": false,
-    "last_reviewed_unix": 1793404379.6227198
+    "last_reviewed_unix": 1793409803.31595
   },
   "yulz008/GOLD_ORB": {
     "repository": "yulz008/GOLD_ORB",
@@ -77,25 +77,11 @@
     "license": null,
     "performance": null,
     "status": "SOURCE_SCREEN_ONLY",
-    "files": [
-      {
-        "path": "GOLD_ORB/GOLD_ORB.mq5",
-        "sha256": "259258ce70cf11fd97fb6d25d51c0f02fa00a24aeab5eeca5f159c1403d0b11f",
-        "checks": {
-          "mentions_stop_loss": true,
-          "mentions_take_profit": true,
-          "uses_dll_import": false,
-          "uses_web_request": false,
-          "mentions_martingale_or_grid": false,
-          "mentions_order_execution": true
-        },
-        "assessment": "MANUAL_CODE_REVIEW_REQUIRED",
-        "profitability": "UNPROVEN"
-      }
-    ],
+    "files": [],
     "commit": "8af0d735288c0e9378e35d06c46f23b21d9a5424",
     "tree_truncated": false,
-    "last_reviewed_unix": 1793404379.6227198
+    "error": "HTTP Error 403: rate limit exceeded",
+    "last_reviewed_unix": 1793409803.31595
   },
   "EA31337/EA31337": {
     "repository": "EA31337/EA31337",
@@ -123,7 +109,7 @@
     ],
     "commit": "9b9bd38c4e49dd6916f4fe3936e50e97fca7a692",
     "tree_truncated": false,
-    "last_reviewed_unix": 1793404379.6227198
+    "last_reviewed_unix": 1793409803.31595
   },
   "sibvic/mq5-templates": {
     "repository": "sibvic/mq5-templates",
@@ -165,7 +151,7 @@
     ],
     "commit": "6de6720fb67dcefda3f178850f73b5355309e1c8",
     "tree_truncated": false,
-    "last_reviewed_unix": 1793404379.6227198
+    "last_reviewed_unix": 1793409803.31595
   },
   "kibetval/forex-scalper-bot": {
     "repository": "kibetval/forex-scalper-bot",
@@ -193,7 +179,7 @@
     ],
     "commit": "e997a97131785be57273eeb7e14be9c521bca672",
     "tree_truncated": false,
-    "last_reviewed_unix": 1793404379.6227198
+    "last_reviewed_unix": 1793409803.31595
   },
   "yanstd888/institutional-smc-scalper-mt5": {
     "repository": "yanstd888/institutional-smc-scalper-mt5",
@@ -206,7 +192,7 @@
     "files": [],
     "commit": "402186667fdabf53c648daf92fb861df425fdade",
     "tree_truncated": false,
-    "last_reviewed_unix": 1793404379.6227198
+    "last_reviewed_unix": 1793409803.31595
   },
   "WHAM-FX/WHAM-FX-GOLD-AI-2026": {
     "repository": "WHAM-FX/WHAM-FX-GOLD-AI-2026",
@@ -234,7 +220,7 @@
     ],
     "commit": "8c7cf2e6cb5dcc4ed6291dc10fe40c1dce7ef7c2",
     "tree_truncated": false,
-    "last_reviewed_unix": 1793404379.6227198
+    "last_reviewed_unix": 1793409803.31595
   },
   "katlego231222/Katleg--Scalper-Robot": {
     "repository": "katlego231222/Katleg--Scalper-Robot",
