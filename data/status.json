@@ -1,8 +1,8 @@
 {
   "agent": "JARVIS MARK 2",
   "role": "EA RESEARCH AND DEVELOPMENT",
-  "observed_unix": 1793409803.31595,
-  "status": "RESEARCH_PARTIAL",
+  "observed_unix": 1793415837.3497941,
+  "status": "RESEARCH_COMPLETE",
   "runtime": "GITHUB_ACTIONS",
   "cloud_deployed": true,
   "broker_orders_sent": 0,
@@ -218,10 +218,24 @@
       "license": null,
       "performance": null,
       "status": "SOURCE_SCREEN_ONLY",
-      "files": [],
+      "files": [
+        {
+          "path": "GOLD_ORB/GOLD_ORB.mq5",
+          "sha256": "259258ce70cf11fd97fb6d25d51c0f02fa00a24aeab5eeca5f159c1403d0b11f",
+          "checks": {
+            "mentions_stop_loss": true,
+            "mentions_take_profit": true,
+            "uses_dll_import": false,
+            "uses_web_request": false,
+            "mentions_martingale_or_grid": false,
+            "mentions_order_execution": true
+          },
+          "assessment": "MANUAL_CODE_REVIEW_REQUIRED",
+          "profitability": "UNPROVEN"
+        }
+      ],
       "commit": "8af0d735288c0e9378e35d06c46f23b21d9a5424",
-      "tree_truncated": false,
-      "error": "HTTP Error 403: rate limit exceeded"
+      "tree_truncated": false
     }
   ],
   "generated_candidates": [
@@ -283,13 +297,7 @@
       ]
     }
   ],
-  "errors": [
-    {
-      "stage": "source_screen",
-      "repository": "yulz008/GOLD_ORB",
-      "error": "HTTP Error 403: rate limit exceeded"
-    }
-  ],
+  "errors": [],
   "best_ea": null,
   "winner_status": "NO_VERIFIED_WINNER",
   "next_tasks": [
@@ -312,16 +320,16 @@
     "recent": [],
     "external_code_executed": false,
     "current_repository": "yulz008/GOLD_ORB",
-    "observed_unix": 1793409804.7021146,
+    "observed_unix": 1793415840.618767,
     "frontier_total_seen": 48
   },
   "spider": {
     "improvement_status": "WAITING_FOR_NEW_EVIDENCE",
     "improvements_accepted": 6,
-    "mission_run_id": "mission-42b48ff14428",
+    "mission_run_id": "mission-b33efa546cd4",
     "mission_status": "COMPLETED",
     "identity": "JARVIS MARK 2 / SPIDER",
-    "fleet_run_id": "fleet-26f2b0fda3f9",
+    "fleet_run_id": "fleet-58114e5f8308",
     "fleet_status": "COMPLETED",
     "counts": {
       "queued": 0,
@@ -333,7 +341,7 @@
       "workers": 24,
       "launched": 24
     },
-    "new_findings": 1,
+    "new_findings": 0,
     "open_findings": 41,
     "model_children": false,
     "worker_type": "DETERMINISTIC_TOOL_WORKER",
