@@ -1,7 +1,7 @@
 {
   "agent": "JARVIS MARK 2",
   "role": "EA RESEARCH AND DEVELOPMENT",
-  "observed_unix": 1793431102.3805003,
+  "observed_unix": 1793433873.6731114,
   "status": "RESEARCH_COMPLETE",
   "runtime": "GITHUB_ACTIONS",
   "cloud_deployed": true,
@@ -73,11 +73,17 @@
       "files": [
         {
           "path": "ScalpingBot.mq5",
-          "sha256": "33bbd8df724c99c2cd82f4b1ffca45b04c19bfd04c6b4a198d530b00133dd2ca"
-        },
-        {
-          "path": "ScalpingBot.mqh",
-          "sha256": "773955decfe6d4ca8ff9092de727e652a1ebb3477aff1595a975317f9c80cc9b"
+          "sha256": "33bbd8df724c99c2cd82f4b1ffca45b04c19bfd04c6b4a198d530b00133dd2ca",
+          "checks": {
+            "mentions_stop_loss": true,
+            "mentions_take_profit": true,
+            "uses_dll_import": false,
+            "uses_web_request": false,
+            "mentions_martingale_or_grid": false,
+            "mentions_order_execution": false
+          },
+          "assessment": "MANUAL_CODE_REVIEW_REQUIRED",
+          "profitability": "UNPROVEN"
         }
       ],
       "commit": "b2d7e0904d83ba5557c92270155cb8a5163e2e37",
@@ -322,42 +328,23 @@
   ],
   "crawler": {
     "status": "WATCHING_FOR_SOURCE_UPDATES",
-    "visited": 2,
+    "visited": 0,
     "failed": 0,
     "current_url": null,
     "queue_remaining": 0,
-    "recent": [
-      {
-        "url": "https://raw.githubusercontent.com/Ghost-Coder23/scalpingbot-mt5/b2d7e0904d83ba5557c92270155cb8a5163e2e37/ScalpingBot.mqh",
-        "repository": "Ghost-Coder23/scalpingbot-mt5",
-        "path": "ScalpingBot.mqh",
-        "sha256": "773955decfe6d4ca8ff9092de727e652a1ebb3477aff1595a975317f9c80cc9b",
-        "bytes": 24991,
-        "result": "SOURCE_SAVED",
-        "received_unix": 1793431104.4873197
-      },
-      {
-        "url": "https://raw.githubusercontent.com/Ghost-Coder23/scalpingbot-mt5/b2d7e0904d83ba5557c92270155cb8a5163e2e37/ScalpingBot.mq5",
-        "repository": "Ghost-Coder23/scalpingbot-mt5",
-        "path": "ScalpingBot.mq5",
-        "sha256": "33bbd8df724c99c2cd82f4b1ffca45b04c19bfd04c6b4a198d530b00133dd2ca",
-        "bytes": 9836,
-        "result": "SOURCE_SAVED",
-        "received_unix": 1793431102.4794247
-      }
-    ],
+    "recent": [],
     "external_code_executed": false,
-    "current_repository": "Ghost-Coder23/scalpingbot-mt5",
-    "observed_unix": 1793431104.4903004,
+    "current_repository": "yulz008/GOLD_ORB",
+    "observed_unix": 1793433874.9932125,
     "frontier_total_seen": 50
   },
   "spider": {
     "improvement_status": "WAITING_FOR_NEW_EVIDENCE",
     "improvements_accepted": 6,
-    "mission_run_id": "mission-932c08a1c45e",
+    "mission_run_id": "mission-a184ea9627c3",
     "mission_status": "COMPLETED",
     "identity": "JARVIS MARK 2 / SPIDER",
-    "fleet_run_id": "fleet-e5f50cfc54a3",
+    "fleet_run_id": "fleet-6c4e8e5307db",
     "fleet_status": "COMPLETED",
     "counts": {
       "queued": 0,
@@ -369,7 +356,7 @@
       "workers": 24,
       "launched": 24
     },
-    "new_findings": 4,
+    "new_findings": 0,
     "open_findings": 45,
     "model_children": false,
     "worker_type": "DETERMINISTIC_TOOL_WORKER",
