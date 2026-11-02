@@ -1,7 +1,7 @@
 {
   "agent": "JARVIS MARK 2",
   "role": "EA RESEARCH AND DEVELOPMENT",
-  "observed_unix": 1793611577.3962467,
+  "observed_unix": 1793618216.293192,
   "status": "RESEARCH_COMPLETE",
   "runtime": "GITHUB_ACTIONS",
   "cloud_deployed": true,
@@ -161,42 +161,24 @@
       "repository": "helmibaharin/scalping-bot",
       "url": "https://github.com/helmibaharin/scalping-bot",
       "updated_at": "2026-11-02T08:43:19Z",
-      "stars": 1,
+      "stars": 2,
       "license": null,
       "performance": null,
       "status": "SOURCE_SCREEN_ONLY",
       "files": [
         {
           "path": "MQL5/Experts/ScalpingBot.mq5",
-          "sha256": "25e1c2d0d781d90e4790fb9af4328ad950b693788056468cbee99e7a48e93a54"
-        },
-        {
-          "path": "MQL5/Include/ScalpingBot/BrokerTimeConfig.mqh",
-          "sha256": "58621f085934d5c283e89b01eaa2115b5c1f04134413f3b675c2f447e8232829"
-        },
-        {
-          "path": "MQL5/Include/ScalpingBot/Config.mqh",
-          "sha256": "9d74851da754642944e4b55d02c241429ee160af07981d82244186addc6a3a20"
-        },
-        {
-          "path": "MQL5/Include/ScalpingBot/Diagnostics.mqh",
-          "sha256": "bfd6057c2a2fe1059200bb6a57242ba48e05e22c174e83a5552436e1a5f3ebf1"
-        },
-        {
-          "path": "MQL5/Include/ScalpingBot/FourHourBreakout.mqh",
-          "sha256": "c019d778fa69649f7dc64c2ff1ff656c9cc38a5642250a984257001560eed817"
-        },
-        {
-          "path": "MQL5/Include/ScalpingBot/LiquiditySweep.mqh",
-          "sha256": "e73ce1e75a86205d03350194970b5182a05f6ac65193190818ea3fbf0ab41348"
-        },
-        {
-          "path": "MQL5/Include/ScalpingBot/NewYorkTime.mqh",
-          "sha256": "f71bacb07350b403cd706809e766cab27f0b1c1df4c8a3fada37d9cca8df03d0"
-        },
-        {
-          "path": "MQL5/Include/ScalpingBot/ORBEngine.mqh",
-          "sha256": "6241cde443376785776cefb45f017123a87eede83c20f8d2aef7e58dc3ca2ee4"
+          "sha256": "25e1c2d0d781d90e4790fb9af4328ad950b693788056468cbee99e7a48e93a54",
+          "checks": {
+            "mentions_stop_loss": true,
+            "mentions_take_profit": true,
+            "uses_dll_import": false,
+            "uses_web_request": false,
+            "mentions_martingale_or_grid": false,
+            "mentions_order_execution": false
+          },
+          "assessment": "MANUAL_CODE_REVIEW_REQUIRED",
+          "profitability": "UNPROVEN"
         }
       ],
       "commit": "f2d15a4c27a68ca5dc3a83fffd8a3d2013ade9d1",
@@ -346,96 +328,23 @@
   ],
   "crawler": {
     "status": "WATCHING_FOR_SOURCE_UPDATES",
-    "visited": 8,
+    "visited": 0,
     "failed": 0,
     "current_url": null,
     "queue_remaining": 0,
-    "recent": [
-      {
-        "url": "https://raw.githubusercontent.com/helmibaharin/scalping-bot/f2d15a4c27a68ca5dc3a83fffd8a3d2013ade9d1/MQL5/Include/ScalpingBot/ORBEngine.mqh",
-        "repository": "helmibaharin/scalping-bot",
-        "path": "MQL5/Include/ScalpingBot/ORBEngine.mqh",
-        "sha256": "6241cde443376785776cefb45f017123a87eede83c20f8d2aef7e58dc3ca2ee4",
-        "bytes": 8521,
-        "result": "SOURCE_SAVED",
-        "received_unix": 1793611581.054514
-      },
-      {
-        "url": "https://raw.githubusercontent.com/helmibaharin/scalping-bot/f2d15a4c27a68ca5dc3a83fffd8a3d2013ade9d1/MQL5/Include/ScalpingBot/NewYorkTime.mqh",
-        "repository": "helmibaharin/scalping-bot",
-        "path": "MQL5/Include/ScalpingBot/NewYorkTime.mqh",
-        "sha256": "f71bacb07350b403cd706809e766cab27f0b1c1df4c8a3fada37d9cca8df03d0",
-        "bytes": 4311,
-        "result": "SOURCE_SAVED",
-        "received_unix": 1793611580.9117565
-      },
-      {
-        "url": "https://raw.githubusercontent.com/helmibaharin/scalping-bot/f2d15a4c27a68ca5dc3a83fffd8a3d2013ade9d1/MQL5/Include/ScalpingBot/LiquiditySweep.mqh",
-        "repository": "helmibaharin/scalping-bot",
-        "path": "MQL5/Include/ScalpingBot/LiquiditySweep.mqh",
-        "sha256": "e73ce1e75a86205d03350194970b5182a05f6ac65193190818ea3fbf0ab41348",
-        "bytes": 1717,
-        "result": "SOURCE_SAVED",
-        "received_unix": 1793611580.7902792
-      },
-      {
-        "url": "https://raw.githubusercontent.com/helmibaharin/scalping-bot/f2d15a4c27a68ca5dc3a83fffd8a3d2013ade9d1/MQL5/Include/ScalpingBot/FourHourBreakout.mqh",
-        "repository": "helmibaharin/scalping-bot",
-        "path": "MQL5/Include/ScalpingBot/FourHourBreakout.mqh",
-        "sha256": "c019d778fa69649f7dc64c2ff1ff656c9cc38a5642250a984257001560eed817",
-        "bytes": 5164,
-        "result": "SOURCE_SAVED",
-        "received_unix": 1793611580.6667469
-      },
-      {
-        "url": "https://raw.githubusercontent.com/helmibaharin/scalping-bot/f2d15a4c27a68ca5dc3a83fffd8a3d2013ade9d1/MQL5/Include/ScalpingBot/Diagnostics.mqh",
-        "repository": "helmibaharin/scalping-bot",
-        "path": "MQL5/Include/ScalpingBot/Diagnostics.mqh",
-        "sha256": "bfd6057c2a2fe1059200bb6a57242ba48e05e22c174e83a5552436e1a5f3ebf1",
-        "bytes": 4570,
-        "result": "SOURCE_SAVED",
-        "received_unix": 1793611580.5238485
-      },
-      {
-        "url": "https://raw.githubusercontent.com/helmibaharin/scalping-bot/f2d15a4c27a68ca5dc3a83fffd8a3d2013ade9d1/MQL5/Include/ScalpingBot/Config.mqh",
-        "repository": "helmibaharin/scalping-bot",
-        "path": "MQL5/Include/ScalpingBot/Config.mqh",
-        "sha256": "9d74851da754642944e4b55d02c241429ee160af07981d82244186addc6a3a20",
-        "bytes": 21519,
-        "result": "SOURCE_SAVED",
-        "received_unix": 1793611580.3956563
-      },
-      {
-        "url": "https://raw.githubusercontent.com/helmibaharin/scalping-bot/f2d15a4c27a68ca5dc3a83fffd8a3d2013ade9d1/MQL5/Include/ScalpingBot/BrokerTimeConfig.mqh",
-        "repository": "helmibaharin/scalping-bot",
-        "path": "MQL5/Include/ScalpingBot/BrokerTimeConfig.mqh",
-        "sha256": "58621f085934d5c283e89b01eaa2115b5c1f04134413f3b675c2f447e8232829",
-        "bytes": 3368,
-        "result": "SOURCE_SAVED",
-        "received_unix": 1793611580.2468865
-      },
-      {
-        "url": "https://raw.githubusercontent.com/helmibaharin/scalping-bot/f2d15a4c27a68ca5dc3a83fffd8a3d2013ade9d1/MQL5/Experts/ScalpingBot.mq5",
-        "repository": "helmibaharin/scalping-bot",
-        "path": "MQL5/Experts/ScalpingBot.mq5",
-        "sha256": "25e1c2d0d781d90e4790fb9af4328ad950b693788056468cbee99e7a48e93a54",
-        "bytes": 16131,
-        "result": "SOURCE_SAVED",
-        "received_unix": 1793611577.7346187
-      }
-    ],
+    "recent": [],
     "external_code_executed": false,
-    "current_repository": "helmibaharin/scalping-bot",
-    "observed_unix": 1793611581.0574365,
+    "current_repository": "yulz008/GOLD_ORB",
+    "observed_unix": 1793618217.9181998,
     "frontier_total_seen": 75
   },
   "spider": {
     "improvement_status": "WAITING_FOR_NEW_EVIDENCE",
     "improvements_accepted": 6,
-    "mission_run_id": "mission-16691f35672d",
+    "mission_run_id": "mission-71c5c0aa1c4e",
     "mission_status": "COMPLETED",
     "identity": "JARVIS MARK 2 / SPIDER",
-    "fleet_run_id": "fleet-f3efc062ae7e",
+    "fleet_run_id": "fleet-ee2a4b513784",
     "fleet_status": "COMPLETED",
     "counts": {
       "queued": 0,
@@ -447,7 +356,7 @@
       "workers": 24,
       "launched": 24
     },
-    "new_findings": 4,
+    "new_findings": 0,
     "open_findings": 89,
     "model_children": false,
     "worker_type": "DETERMINISTIC_TOOL_WORKER",
