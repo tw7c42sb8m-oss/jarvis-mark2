@@ -30,8 +30,8 @@
     "next_action": "REVIEW_SOURCE_AND_NATIVE_VALIDATION"
   },
   {
-    "repository": "kibetval/forex-scalper-bot",
-    "source_files": 1,
+    "repository": "helmibaharin/scalping-bot",
+    "source_files": 8,
     "license": null,
     "next_action": "REVIEW_LICENSE"
   },
