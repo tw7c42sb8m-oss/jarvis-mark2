@@ -25,7 +25,7 @@
     ],
     "commit": "dadf3d5c869c34cac40db3fb6858b188cf101a25",
     "tree_truncated": false,
-    "last_reviewed_unix": 1793596926.1567595
+    "last_reviewed_unix": 1793600585.6889734
   },
   "geraked/metatrader5": {
     "repository": "geraked/metatrader5",
@@ -67,7 +67,7 @@
     ],
     "commit": "d3eb29c382acf715727d5cd6a0414151e821fc2d",
     "tree_truncated": false,
-    "last_reviewed_unix": 1793596926.1567595
+    "last_reviewed_unix": 1793600585.6889734
   },
   "yulz008/GOLD_ORB": {
     "repository": "yulz008/GOLD_ORB",
@@ -95,7 +95,7 @@
     ],
     "commit": "8af0d735288c0e9378e35d06c46f23b21d9a5424",
     "tree_truncated": false,
-    "last_reviewed_unix": 1793596926.1567595
+    "last_reviewed_unix": 1793600585.6889734
   },
   "WHAM-FX/WHAM-FX-GOLD-AI-2026": {
     "repository": "WHAM-FX/WHAM-FX-GOLD-AI-2026",
@@ -123,7 +123,7 @@
     ],
     "commit": "57f76d832ce0e80314a264c046274f40beb54f96",
     "tree_truncated": false,
-    "last_reviewed_unix": 1793596926.1567595
+    "last_reviewed_unix": 1793600585.6889734
   },
   "Ghost-Coder23/scalpingbot-mt5": {
     "repository": "Ghost-Coder23/scalpingbot-mt5",
@@ -151,7 +151,7 @@
     ],
     "commit": "b2d7e0904d83ba5557c92270155cb8a5163e2e37",
     "tree_truncated": false,
-    "last_reviewed_unix": 1793596926.1567595
+    "last_reviewed_unix": 1793600585.6889734
   },
   "EA31337/EA31337": {
     "repository": "EA31337/EA31337",
@@ -179,7 +179,7 @@
     ],
     "commit": "9b9bd38c4e49dd6916f4fe3936e50e97fca7a692",
     "tree_truncated": false,
-    "last_reviewed_unix": 1793596926.1567595
+    "last_reviewed_unix": 1793600585.6889734
   },
   "sibvic/mq5-templates": {
     "repository": "sibvic/mq5-templates",
@@ -221,12 +221,12 @@
     ],
     "commit": "6de6720fb67dcefda3f178850f73b5355309e1c8",
     "tree_truncated": false,
-    "last_reviewed_unix": 1793596926.1567595
+    "last_reviewed_unix": 1793600585.6889734
   },
   "helmibaharin/scalping-bot": {
     "repository": "helmibaharin/scalping-bot",
     "url": "https://github.com/helmibaharin/scalping-bot",
-    "updated_at": "2026-11-02T03:46:57Z",
+    "updated_at": "2026-11-02T05:37:20Z",
     "stars": 1,
     "license": null,
     "performance": null,
@@ -234,7 +234,7 @@
     "files": [
       {
         "path": "MQL5/Experts/ScalpingBot.mq5",
-        "sha256": "46ecdd70355bfa3ba7eb71dd51009dd3cd924bce7cede39903d235af6db080ac",
+        "sha256": "f44b2b9647647cb1635b0398bdbd5a86beace7df54c75cecfcd7e490c72f38bc",
         "checks": {
           "mentions_stop_loss": true,
           "mentions_take_profit": true,
@@ -247,9 +247,9 @@
         "profitability": "UNPROVEN"
       }
     ],
-    "commit": "89a30d8faf5fd975bb235435727ad3ac43089e96",
+    "commit": "8817ea8141db0a4d8d52c2057cc9e588eb1979a5",
     "tree_truncated": false,
-    "last_reviewed_unix": 1793596926.1567595
+    "last_reviewed_unix": 1793600585.6889734
   },
   "kibetval/forex-scalper-bot": {
     "repository": "kibetval/forex-scalper-bot",
