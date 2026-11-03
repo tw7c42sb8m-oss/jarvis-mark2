@@ -1,13 +1,23 @@
 {
   "status": "WATCHING_FOR_SOURCE_UPDATES",
-  "visited": 0,
+  "visited": 1,
   "failed": 0,
   "current_url": null,
   "queue_remaining": 0,
-  "recent": [],
+  "recent": [
+    {
+      "url": "https://raw.githubusercontent.com/maasagodfrey27-code/GoldScalper-MT5/5cd256dc2c6200f941d14ab7fe7aca35b1d6a917/GoldScalper.mq5",
+      "repository": "maasagodfrey27-code/GoldScalper-MT5",
+      "path": "GoldScalper.mq5",
+      "sha256": "0663bac43a57b6c2e05389639b7b015451cddc82bc9d1ee0c8c6f05c00cf1130",
+      "bytes": 27,
+      "result": "SOURCE_SAVED",
+      "received_unix": 1793697066.5097458
+    }
+  ],
   "external_code_executed": false,
   "current_repository": "yulz008/GOLD_ORB",
-  "observed_unix": 1793691358.7938337,
+  "observed_unix": 1793697068.919546,
   "seen_sources": [
     [
       "EA31337/EA31337",
@@ -308,6 +318,11 @@
       "kibetval/forex-scalper-bot",
       "e997a97131785be57273eeb7e14be9c521bca672",
       "ForexScalperEA.mq5"
+    ],
+    [
+      "maasagodfrey27-code/GoldScalper-MT5",
+      "5cd256dc2c6200f941d14ab7fe7aca35b1d6a917",
+      "GoldScalper.mq5"
     ],
     [
       "sibvic/mq5-templates",
