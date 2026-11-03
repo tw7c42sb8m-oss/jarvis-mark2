@@ -1,7 +1,7 @@
 {
   "agent": "JARVIS MARK 2",
   "role": "EA RESEARCH AND DEVELOPMENT",
-  "observed_unix": 1793697066.3095067,
+  "observed_unix": 1793700855.6540697,
   "status": "RESEARCH_COMPLETE",
   "runtime": "GITHUB_ACTIONS",
   "cloud_deployed": true,
@@ -168,7 +168,17 @@
       "files": [
         {
           "path": "GoldScalper.mq5",
-          "sha256": "0663bac43a57b6c2e05389639b7b015451cddc82bc9d1ee0c8c6f05c00cf1130"
+          "sha256": "0663bac43a57b6c2e05389639b7b015451cddc82bc9d1ee0c8c6f05c00cf1130",
+          "checks": {
+            "mentions_stop_loss": false,
+            "mentions_take_profit": false,
+            "uses_dll_import": false,
+            "uses_web_request": false,
+            "mentions_martingale_or_grid": false,
+            "mentions_order_execution": false
+          },
+          "assessment": "MANUAL_CODE_REVIEW_REQUIRED",
+          "profitability": "UNPROVEN"
         }
       ],
       "commit": "5cd256dc2c6200f941d14ab7fe7aca35b1d6a917",
@@ -318,33 +328,23 @@
   ],
   "crawler": {
     "status": "WATCHING_FOR_SOURCE_UPDATES",
-    "visited": 1,
+    "visited": 0,
     "failed": 0,
     "current_url": null,
     "queue_remaining": 0,
-    "recent": [
-      {
-        "url": "https://raw.githubusercontent.com/maasagodfrey27-code/GoldScalper-MT5/5cd256dc2c6200f941d14ab7fe7aca35b1d6a917/GoldScalper.mq5",
-        "repository": "maasagodfrey27-code/GoldScalper-MT5",
-        "path": "GoldScalper.mq5",
-        "sha256": "0663bac43a57b6c2e05389639b7b015451cddc82bc9d1ee0c8c6f05c00cf1130",
-        "bytes": 27,
-        "result": "SOURCE_SAVED",
-        "received_unix": 1793697066.5097458
-      }
-    ],
+    "recent": [],
     "external_code_executed": false,
     "current_repository": "yulz008/GOLD_ORB",
-    "observed_unix": 1793697068.919546,
+    "observed_unix": 1793700857.097498,
     "frontier_total_seen": 85
   },
   "spider": {
     "improvement_status": "WAITING_FOR_NEW_EVIDENCE",
     "improvements_accepted": 6,
-    "mission_run_id": "mission-260264073b84",
+    "mission_run_id": "mission-dea74a0cfdb7",
     "mission_status": "COMPLETED",
     "identity": "JARVIS MARK 2 / SPIDER",
-    "fleet_run_id": "fleet-9ecbf427d5a7",
+    "fleet_run_id": "fleet-75c8b44d4b77",
     "fleet_status": "COMPLETED",
     "counts": {
       "queued": 0,
@@ -356,7 +356,7 @@
       "workers": 24,
       "launched": 24
     },
-    "new_findings": 4,
+    "new_findings": 0,
     "open_findings": 101,
     "model_children": false,
     "worker_type": "DETERMINISTIC_TOOL_WORKER",
