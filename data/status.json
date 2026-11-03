@@ -1,8 +1,8 @@
 {
   "agent": "JARVIS MARK 2",
   "role": "EA RESEARCH AND DEVELOPMENT",
-  "observed_unix": 1793729049.963112,
-  "status": "RESEARCH_COMPLETE",
+  "observed_unix": 1793733372.450108,
+  "status": "RESEARCH_PARTIAL",
   "runtime": "GITHUB_ACTIONS",
   "cloud_deployed": true,
   "broker_orders_sent": 0,
@@ -312,7 +312,13 @@
       ]
     }
   ],
-  "errors": [],
+  "errors": [
+    {
+      "stage": "curated_source",
+      "repository": "geraked/metatrader5",
+      "error": "HTTP Error 403: rate limit exceeded"
+    }
+  ],
   "best_ea": null,
   "winner_status": "NO_VERIFIED_WINNER",
   "next_tasks": [
@@ -335,16 +341,16 @@
     "recent": [],
     "external_code_executed": false,
     "current_repository": "yulz008/GOLD_ORB",
-    "observed_unix": 1793729127.4822786,
+    "observed_unix": 1793733476.8602102,
     "frontier_total_seen": 85
   },
   "spider": {
     "improvement_status": "WAITING_FOR_NEW_EVIDENCE",
     "improvements_accepted": 6,
-    "mission_run_id": "mission-ed7502aa0563",
+    "mission_run_id": "mission-e2f2ed8b66b9",
     "mission_status": "COMPLETED",
     "identity": "JARVIS MARK 2 / SPIDER",
-    "fleet_run_id": "fleet-742d7f505945",
+    "fleet_run_id": "fleet-bd3c63ab2279",
     "fleet_status": "COMPLETED",
     "counts": {
       "queued": 0,
