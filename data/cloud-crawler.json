@@ -1,13 +1,23 @@
 {
   "status": "WATCHING_FOR_SOURCE_UPDATES",
-  "visited": 0,
+  "visited": 1,
   "failed": 0,
   "current_url": null,
   "queue_remaining": 0,
-  "recent": [],
+  "recent": [
+    {
+      "url": "https://raw.githubusercontent.com/ezaam253/Yasin-Testing/4737b206bb6ce8ceb79f5fd7da1aff660a504e1b/AurumPulse_Research_v2.mq5",
+      "repository": "ezaam253/Yasin-Testing",
+      "path": "AurumPulse_Research_v2.mq5",
+      "sha256": "2a541be272d1e1ae6d5e3714beab22931f9c8845ec96f3b305d9637795d237ab",
+      "bytes": 51577,
+      "result": "SOURCE_SAVED",
+      "received_unix": 1793977559.300073
+    }
+  ],
   "external_code_executed": false,
-  "current_repository": "sibvic/mq5-templates",
-  "observed_unix": 1793971767.3701277,
+  "current_repository": "yulz008/GOLD_ORB",
+  "observed_unix": 1793977563.0064528,
   "seen_sources": [
     [
       "EA31337/EA31337",
@@ -93,6 +103,11 @@
       "WHAM-FX/WHAM-FX-GOLD-AI-2026",
       "8c7cf2e6cb5dcc4ed6291dc10fe40c1dce7ef7c2",
       "WHAM_FX_GOLD_BOT.mq5"
+    ],
+    [
+      "ezaam253/Yasin-Testing",
+      "4737b206bb6ce8ceb79f5fd7da1aff660a504e1b",
+      "AurumPulse_Research_v2.mq5"
     ],
     [
       "geraked/metatrader5",
