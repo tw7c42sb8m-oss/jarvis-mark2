@@ -1,13 +1,23 @@
 {
   "status": "WATCHING_FOR_SOURCE_UPDATES",
-  "visited": 0,
+  "visited": 1,
   "failed": 0,
   "current_url": null,
   "queue_remaining": 0,
-  "recent": [],
+  "recent": [
+    {
+      "url": "https://raw.githubusercontent.com/tzainab06-a11y/gold-ai-trading-bot/fb003818c329f85c71a54a22682c55484c538cca/AI_Gold_Scalper_Demo_v1_13.mq5",
+      "repository": "tzainab06-a11y/gold-ai-trading-bot",
+      "path": "AI_Gold_Scalper_Demo_v1_13.mq5",
+      "sha256": "9f7bf3acb1efede77b818264dca38ac6cccc2a7dbaf703f39ddf26dd60314b69",
+      "bytes": 14814,
+      "result": "SOURCE_SAVED",
+      "received_unix": 1793998945.3496232
+    }
+  ],
   "external_code_executed": false,
   "current_repository": "yulz008/GOLD_ORB",
-  "observed_unix": 1793995475.100086,
+  "observed_unix": 1793998947.7698684,
   "seen_sources": [
     [
       "EA31337/EA31337",
@@ -363,6 +373,11 @@
       "sibvic/mq5-templates",
       "6de6720fb67dcefda3f178850f73b5355309e1c8",
       "templates/indicator.mq5"
+    ],
+    [
+      "tzainab06-a11y/gold-ai-trading-bot",
+      "fb003818c329f85c71a54a22682c55484c538cca",
+      "AI_Gold_Scalper_Demo_v1_13.mq5"
     ],
     [
       "yanstd888/institutional-smc-scalper-mt5",

@@ -1,7 +1,7 @@
 {
   "agent": "JARVIS MARK 2",
   "role": "EA RESEARCH AND DEVELOPMENT",
-  "observed_unix": 1793995472.7666595,
+  "observed_unix": 1793998945.1919444,
   "status": "RESEARCH_COMPLETE",
   "runtime": "GITHUB_ACTIONS",
   "cloud_deployed": true,
@@ -158,33 +158,6 @@
       "tree_truncated": false
     },
     {
-      "repository": "maasagodfrey27-code/GoldScalper-MT5",
-      "url": "https://github.com/maasagodfrey27-code/GoldScalper-MT5",
-      "updated_at": "2026-11-03T08:29:47Z",
-      "stars": 0,
-      "license": null,
-      "performance": null,
-      "status": "SOURCE_SCREEN_ONLY",
-      "files": [
-        {
-          "path": "GoldScalper.mq5",
-          "sha256": "0663bac43a57b6c2e05389639b7b015451cddc82bc9d1ee0c8c6f05c00cf1130",
-          "checks": {
-            "mentions_stop_loss": false,
-            "mentions_take_profit": false,
-            "uses_dll_import": false,
-            "uses_web_request": false,
-            "mentions_martingale_or_grid": false,
-            "mentions_order_execution": false
-          },
-          "assessment": "MANUAL_CODE_REVIEW_REQUIRED",
-          "profitability": "UNPROVEN"
-        }
-      ],
-      "commit": "5cd256dc2c6200f941d14ab7fe7aca35b1d6a917",
-      "tree_truncated": false
-    },
-    {
       "repository": "sibvic/mq5-templates",
       "url": "https://github.com/sibvic/mq5-templates",
       "updated_at": "2026-09-26T01:56:14Z",
@@ -223,6 +196,23 @@
         }
       ],
       "commit": "6de6720fb67dcefda3f178850f73b5355309e1c8",
+      "tree_truncated": false
+    },
+    {
+      "repository": "tzainab06-a11y/gold-ai-trading-bot",
+      "url": "https://github.com/tzainab06-a11y/gold-ai-trading-bot",
+      "updated_at": "2026-11-06T20:41:31Z",
+      "stars": 0,
+      "license": null,
+      "performance": null,
+      "status": "SOURCE_SCREEN_ONLY",
+      "files": [
+        {
+          "path": "AI_Gold_Scalper_Demo_v1_13.mq5",
+          "sha256": "9f7bf3acb1efede77b818264dca38ac6cccc2a7dbaf703f39ddf26dd60314b69"
+        }
+      ],
+      "commit": "fb003818c329f85c71a54a22682c55484c538cca",
       "tree_truncated": false
     },
     {
@@ -328,23 +318,33 @@
   ],
   "crawler": {
     "status": "WATCHING_FOR_SOURCE_UPDATES",
-    "visited": 0,
+    "visited": 1,
     "failed": 0,
     "current_url": null,
     "queue_remaining": 0,
-    "recent": [],
+    "recent": [
+      {
+        "url": "https://raw.githubusercontent.com/tzainab06-a11y/gold-ai-trading-bot/fb003818c329f85c71a54a22682c55484c538cca/AI_Gold_Scalper_Demo_v1_13.mq5",
+        "repository": "tzainab06-a11y/gold-ai-trading-bot",
+        "path": "AI_Gold_Scalper_Demo_v1_13.mq5",
+        "sha256": "9f7bf3acb1efede77b818264dca38ac6cccc2a7dbaf703f39ddf26dd60314b69",
+        "bytes": 14814,
+        "result": "SOURCE_SAVED",
+        "received_unix": 1793998945.3496232
+      }
+    ],
     "external_code_executed": false,
     "current_repository": "yulz008/GOLD_ORB",
-    "observed_unix": 1793995475.100086,
-    "frontier_total_seen": 87
+    "observed_unix": 1793998947.7698684,
+    "frontier_total_seen": 88
   },
   "spider": {
     "improvement_status": "WAITING_FOR_NEW_EVIDENCE",
     "improvements_accepted": 6,
-    "mission_run_id": "mission-1e23e520be4e",
+    "mission_run_id": "mission-34f65678a8be",
     "mission_status": "COMPLETED",
     "identity": "JARVIS MARK 2 / SPIDER",
-    "fleet_run_id": "fleet-915fb83a605b",
+    "fleet_run_id": "fleet-90fd2555916a",
     "fleet_status": "COMPLETED",
     "counts": {
       "queued": 0,
@@ -356,8 +356,8 @@
       "workers": 24,
       "launched": 24
     },
-    "new_findings": 0,
-    "open_findings": 123,
+    "new_findings": 4,
+    "open_findings": 127,
     "model_children": false,
     "worker_type": "DETERMINISTIC_TOOL_WORKER",
     "external_ai_apis": 0
