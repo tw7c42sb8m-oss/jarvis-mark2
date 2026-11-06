@@ -1,7 +1,7 @@
 {
   "agent": "JARVIS MARK 2",
   "role": "EA RESEARCH AND DEVELOPMENT",
-  "observed_unix": 1793998945.1919444,
+  "observed_unix": 1794002282.0753372,
   "status": "RESEARCH_COMPLETE",
   "runtime": "GITHUB_ACTIONS",
   "cloud_deployed": true,
@@ -209,7 +209,17 @@
       "files": [
         {
           "path": "AI_Gold_Scalper_Demo_v1_13.mq5",
-          "sha256": "9f7bf3acb1efede77b818264dca38ac6cccc2a7dbaf703f39ddf26dd60314b69"
+          "sha256": "9f7bf3acb1efede77b818264dca38ac6cccc2a7dbaf703f39ddf26dd60314b69",
+          "checks": {
+            "mentions_stop_loss": true,
+            "mentions_take_profit": true,
+            "uses_dll_import": false,
+            "uses_web_request": false,
+            "mentions_martingale_or_grid": false,
+            "mentions_order_execution": true
+          },
+          "assessment": "MANUAL_CODE_REVIEW_REQUIRED",
+          "profitability": "UNPROVEN"
         }
       ],
       "commit": "fb003818c329f85c71a54a22682c55484c538cca",
@@ -318,33 +328,23 @@
   ],
   "crawler": {
     "status": "WATCHING_FOR_SOURCE_UPDATES",
-    "visited": 1,
+    "visited": 0,
     "failed": 0,
     "current_url": null,
     "queue_remaining": 0,
-    "recent": [
-      {
-        "url": "https://raw.githubusercontent.com/tzainab06-a11y/gold-ai-trading-bot/fb003818c329f85c71a54a22682c55484c538cca/AI_Gold_Scalper_Demo_v1_13.mq5",
-        "repository": "tzainab06-a11y/gold-ai-trading-bot",
-        "path": "AI_Gold_Scalper_Demo_v1_13.mq5",
-        "sha256": "9f7bf3acb1efede77b818264dca38ac6cccc2a7dbaf703f39ddf26dd60314b69",
-        "bytes": 14814,
-        "result": "SOURCE_SAVED",
-        "received_unix": 1793998945.3496232
-      }
-    ],
+    "recent": [],
     "external_code_executed": false,
     "current_repository": "yulz008/GOLD_ORB",
-    "observed_unix": 1793998947.7698684,
+    "observed_unix": 1794002284.1153116,
     "frontier_total_seen": 88
   },
   "spider": {
     "improvement_status": "WAITING_FOR_NEW_EVIDENCE",
     "improvements_accepted": 6,
-    "mission_run_id": "mission-34f65678a8be",
+    "mission_run_id": "mission-d8ab4d3e0f4d",
     "mission_status": "COMPLETED",
     "identity": "JARVIS MARK 2 / SPIDER",
-    "fleet_run_id": "fleet-90fd2555916a",
+    "fleet_run_id": "fleet-887633446ce0",
     "fleet_status": "COMPLETED",
     "counts": {
       "queued": 0,
@@ -356,7 +356,7 @@
       "workers": 24,
       "launched": 24
     },
-    "new_findings": 4,
+    "new_findings": 0,
     "open_findings": 127,
     "model_children": false,
     "worker_type": "DETERMINISTIC_TOOL_WORKER",
