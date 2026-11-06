@@ -1,7 +1,7 @@
 {
   "agent": "JARVIS MARK 2",
   "role": "EA RESEARCH AND DEVELOPMENT",
-  "observed_unix": 1793977559.1255329,
+  "observed_unix": 1793981224.6231737,
   "status": "RESEARCH_COMPLETE",
   "runtime": "GITHUB_ACTIONS",
   "cloud_deployed": true,
@@ -73,7 +73,17 @@
       "files": [
         {
           "path": "AurumPulse_Research_v2.mq5",
-          "sha256": "2a541be272d1e1ae6d5e3714beab22931f9c8845ec96f3b305d9637795d237ab"
+          "sha256": "2a541be272d1e1ae6d5e3714beab22931f9c8845ec96f3b305d9637795d237ab",
+          "checks": {
+            "mentions_stop_loss": true,
+            "mentions_take_profit": true,
+            "uses_dll_import": false,
+            "uses_web_request": false,
+            "mentions_martingale_or_grid": false,
+            "mentions_order_execution": true
+          },
+          "assessment": "MANUAL_CODE_REVIEW_REQUIRED",
+          "profitability": "UNPROVEN"
         }
       ],
       "commit": "4737b206bb6ce8ceb79f5fd7da1aff660a504e1b",
@@ -318,33 +328,23 @@
   ],
   "crawler": {
     "status": "WATCHING_FOR_SOURCE_UPDATES",
-    "visited": 1,
+    "visited": 0,
     "failed": 0,
     "current_url": null,
     "queue_remaining": 0,
-    "recent": [
-      {
-        "url": "https://raw.githubusercontent.com/ezaam253/Yasin-Testing/4737b206bb6ce8ceb79f5fd7da1aff660a504e1b/AurumPulse_Research_v2.mq5",
-        "repository": "ezaam253/Yasin-Testing",
-        "path": "AurumPulse_Research_v2.mq5",
-        "sha256": "2a541be272d1e1ae6d5e3714beab22931f9c8845ec96f3b305d9637795d237ab",
-        "bytes": 51577,
-        "result": "SOURCE_SAVED",
-        "received_unix": 1793977559.300073
-      }
-    ],
+    "recent": [],
     "external_code_executed": false,
     "current_repository": "yulz008/GOLD_ORB",
-    "observed_unix": 1793977563.0064528,
+    "observed_unix": 1793981226.6176276,
     "frontier_total_seen": 87
   },
   "spider": {
     "improvement_status": "WAITING_FOR_NEW_EVIDENCE",
     "improvements_accepted": 6,
-    "mission_run_id": "mission-771e5e9f67ea",
+    "mission_run_id": "mission-44088c691dfd",
     "mission_status": "COMPLETED",
     "identity": "JARVIS MARK 2 / SPIDER",
-    "fleet_run_id": "fleet-d3fe6460902f",
+    "fleet_run_id": "fleet-cc9949a34bef",
     "fleet_status": "COMPLETED",
     "counts": {
       "queued": 0,
@@ -356,7 +356,7 @@
       "workers": 24,
       "launched": 24
     },
-    "new_findings": 4,
+    "new_findings": 0,
     "open_findings": 123,
     "model_children": false,
     "worker_type": "DETERMINISTIC_TOOL_WORKER",
