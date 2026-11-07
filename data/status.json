@@ -1,8 +1,8 @@
 {
   "agent": "JARVIS MARK 2",
   "role": "EA RESEARCH AND DEVELOPMENT",
-  "observed_unix": 1794057304.223971,
-  "status": "RESEARCH_PARTIAL",
+  "observed_unix": 1794060234.1587436,
+  "status": "RESEARCH_COMPLETE",
   "runtime": "GITHUB_ACTIONS",
   "cloud_deployed": true,
   "broker_orders_sent": 0,
@@ -33,6 +33,60 @@
         }
       ],
       "commit": "9b9bd38c4e49dd6916f4fe3936e50e97fca7a692",
+      "tree_truncated": false
+    },
+    {
+      "repository": "EarnForex/PositionSizer",
+      "url": "https://github.com/EarnForex/PositionSizer",
+      "updated_at": "2026-10-12T11:53:33Z",
+      "stars": 611,
+      "license": "Apache-2.0",
+      "performance": null,
+      "status": "SOURCE_SCREEN_ONLY",
+      "files": [
+        {
+          "path": "MQL5/Experts/Position Sizer/Position Sizer.mq5",
+          "sha256": "ef0e6e8613d47c5e79286bd2011ac2568aa2fced46bc652228424c36be96adb1",
+          "checks": {
+            "mentions_stop_loss": true,
+            "mentions_take_profit": true,
+            "uses_dll_import": false,
+            "uses_web_request": false,
+            "mentions_martingale_or_grid": false,
+            "mentions_order_execution": false
+          },
+          "assessment": "MANUAL_CODE_REVIEW_REQUIRED",
+          "profitability": "UNPROVEN"
+        }
+      ],
+      "commit": "dadf3d5c869c34cac40db3fb6858b188cf101a25",
+      "tree_truncated": false
+    },
+    {
+      "repository": "ezaam253/Yasin-Testing",
+      "url": "https://github.com/ezaam253/Yasin-Testing",
+      "updated_at": "2026-11-06T14:23:32Z",
+      "stars": 0,
+      "license": null,
+      "performance": null,
+      "status": "SOURCE_SCREEN_ONLY",
+      "files": [
+        {
+          "path": "AurumPulse_Research_v2.mq5",
+          "sha256": "2a541be272d1e1ae6d5e3714beab22931f9c8845ec96f3b305d9637795d237ab",
+          "checks": {
+            "mentions_stop_loss": true,
+            "mentions_take_profit": true,
+            "uses_dll_import": false,
+            "uses_web_request": false,
+            "mentions_martingale_or_grid": false,
+            "mentions_order_execution": true
+          },
+          "assessment": "MANUAL_CODE_REVIEW_REQUIRED",
+          "profitability": "UNPROVEN"
+        }
+      ],
+      "commit": "4737b206bb6ce8ceb79f5fd7da1aff660a504e1b",
       "tree_truncated": false
     },
     {
@@ -77,6 +131,33 @@
       "tree_truncated": false
     },
     {
+      "repository": "kibetval/forex-scalper-bot",
+      "url": "https://github.com/kibetval/forex-scalper-bot",
+      "updated_at": "2026-11-07T07:01:19Z",
+      "stars": 0,
+      "license": null,
+      "performance": null,
+      "status": "SOURCE_SCREEN_ONLY",
+      "files": [
+        {
+          "path": "ForexScalperEA.mq5",
+          "sha256": "3e28a264feac3205f7c6e2c6685af9fe37ef9e5845a82305a7d5af11e62e29fa",
+          "checks": {
+            "mentions_stop_loss": true,
+            "mentions_take_profit": true,
+            "uses_dll_import": false,
+            "uses_web_request": false,
+            "mentions_martingale_or_grid": false,
+            "mentions_order_execution": true
+          },
+          "assessment": "MANUAL_CODE_REVIEW_REQUIRED",
+          "profitability": "UNPROVEN"
+        }
+      ],
+      "commit": "441e79edf6a68de53fceb334a807444fb74eb331",
+      "tree_truncated": false
+    },
+    {
       "repository": "sibvic/mq5-templates",
       "url": "https://github.com/sibvic/mq5-templates",
       "updated_at": "2026-09-26T01:56:14Z",
@@ -115,6 +196,60 @@
         }
       ],
       "commit": "6de6720fb67dcefda3f178850f73b5355309e1c8",
+      "tree_truncated": false
+    },
+    {
+      "repository": "tzainab06-a11y/gold-ai-trading-bot",
+      "url": "https://github.com/tzainab06-a11y/gold-ai-trading-bot",
+      "updated_at": "2026-11-06T20:41:31Z",
+      "stars": 0,
+      "license": null,
+      "performance": null,
+      "status": "SOURCE_SCREEN_ONLY",
+      "files": [
+        {
+          "path": "AI_Gold_Scalper_Demo_v1_13.mq5",
+          "sha256": "9f7bf3acb1efede77b818264dca38ac6cccc2a7dbaf703f39ddf26dd60314b69",
+          "checks": {
+            "mentions_stop_loss": true,
+            "mentions_take_profit": true,
+            "uses_dll_import": false,
+            "uses_web_request": false,
+            "mentions_martingale_or_grid": false,
+            "mentions_order_execution": true
+          },
+          "assessment": "MANUAL_CODE_REVIEW_REQUIRED",
+          "profitability": "UNPROVEN"
+        }
+      ],
+      "commit": "fb003818c329f85c71a54a22682c55484c538cca",
+      "tree_truncated": false
+    },
+    {
+      "repository": "yulz008/GOLD_ORB",
+      "url": "https://github.com/yulz008/GOLD_ORB",
+      "updated_at": "2023-07-29T05:42:05Z",
+      "stars": 326,
+      "license": null,
+      "performance": null,
+      "status": "SOURCE_SCREEN_ONLY",
+      "files": [
+        {
+          "path": "GOLD_ORB/GOLD_ORB.mq5",
+          "sha256": "259258ce70cf11fd97fb6d25d51c0f02fa00a24aeab5eeca5f159c1403d0b11f",
+          "checks": {
+            "mentions_stop_loss": true,
+            "mentions_take_profit": true,
+            "uses_dll_import": false,
+            "uses_web_request": false,
+            "mentions_martingale_or_grid": false,
+            "mentions_order_execution": true
+          },
+          "assessment": "MANUAL_CODE_REVIEW_REQUIRED",
+          "profitability": "UNPROVEN"
+        }
+      ],
+      "commit": "8af0d735288c0e9378e35d06c46f23b21d9a5424",
       "tree_truncated": false
     }
   ],
@@ -177,18 +312,7 @@
       ]
     }
   ],
-  "errors": [
-    {
-      "stage": "discovery",
-      "query": "expert advisor language:MQL5",
-      "error": "HTTP Error 403: rate limit exceeded"
-    },
-    {
-      "stage": "discovery",
-      "query": "scalping language:MQL5",
-      "error": "HTTP Error 403: rate limit exceeded"
-    }
-  ],
+  "errors": [],
   "best_ea": null,
   "winner_status": "NO_VERIFIED_WINNER",
   "next_tasks": [
@@ -210,27 +334,27 @@
     "queue_remaining": 0,
     "recent": [],
     "external_code_executed": false,
-    "current_repository": "sibvic/mq5-templates",
-    "observed_unix": 1794057305.462804,
+    "current_repository": "yulz008/GOLD_ORB",
+    "observed_unix": 1794060235.438932,
     "frontier_total_seen": 89
   },
   "spider": {
     "improvement_status": "WAITING_FOR_NEW_EVIDENCE",
     "improvements_accepted": 6,
-    "mission_run_id": "mission-df4aa55fa6b0",
+    "mission_run_id": "mission-b7af4aa81dce",
     "mission_status": "COMPLETED",
     "identity": "JARVIS MARK 2 / SPIDER",
-    "fleet_run_id": "fleet-c5705b174fca",
+    "fleet_run_id": "fleet-6647841ba56c",
     "fleet_status": "COMPLETED",
     "counts": {
       "queued": 0,
       "running": 0,
-      "completed": 9,
+      "completed": 24,
       "failed": 0,
       "timed_out": 0,
-      "repositories": 3,
-      "workers": 9,
-      "launched": 9
+      "repositories": 8,
+      "workers": 24,
+      "launched": 24
     },
     "new_findings": 0,
     "open_findings": 131,
