@@ -1,13 +1,23 @@
 {
   "status": "WATCHING_FOR_SOURCE_UPDATES",
-  "visited": 0,
+  "visited": 1,
   "failed": 0,
   "current_url": null,
   "queue_remaining": 0,
-  "recent": [],
+  "recent": [
+    {
+      "url": "https://raw.githubusercontent.com/kibetval/forex-scalper-bot/e565e8d3f74f0091e0aec4daffe1d1833c914d9a/ForexScalperEA.mq5",
+      "repository": "kibetval/forex-scalper-bot",
+      "path": "ForexScalperEA.mq5",
+      "sha256": "3e28a264feac3205f7c6e2c6685af9fe37ef9e5845a82305a7d5af11e62e29fa",
+      "bytes": 10639,
+      "result": "SOURCE_SAVED",
+      "received_unix": 1794160330.1399484
+    }
+  ],
   "external_code_executed": false,
   "current_repository": "yulz008/GOLD_ORB",
-  "observed_unix": 1794157013.5668728,
+  "observed_unix": 1794160332.4739354,
   "seen_sources": [
     [
       "EA31337/EA31337",
@@ -327,6 +337,11 @@
     [
       "kibetval/forex-scalper-bot",
       "d6ad3abf53f47f9b4cc93e6a5f0fc5e3b5ed1adb",
+      "ForexScalperEA.mq5"
+    ],
+    [
+      "kibetval/forex-scalper-bot",
+      "e565e8d3f74f0091e0aec4daffe1d1833c914d9a",
       "ForexScalperEA.mq5"
     ],
     [
