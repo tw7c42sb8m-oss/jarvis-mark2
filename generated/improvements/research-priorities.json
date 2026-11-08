@@ -12,12 +12,6 @@
     "next_action": "REVIEW_SOURCE_AND_NATIVE_VALIDATION"
   },
   {
-    "repository": "ezaam253/Yasin-Testing",
-    "source_files": 1,
-    "license": null,
-    "next_action": "REVIEW_LICENSE"
-  },
-  {
     "repository": "geraked/metatrader5",
     "source_files": 2,
     "license": "MIT",
@@ -25,6 +19,12 @@
   },
   {
     "repository": "kibetval/forex-scalper-bot",
+    "source_files": 1,
+    "license": null,
+    "next_action": "REVIEW_LICENSE"
+  },
+  {
+    "repository": "maasagodfrey27-code/GoldScalper-MT5",
     "source_files": 1,
     "license": null,
     "next_action": "REVIEW_LICENSE"
