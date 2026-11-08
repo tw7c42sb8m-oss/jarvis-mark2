@@ -1,7 +1,7 @@
 {
   "agent": "JARVIS MARK 2",
   "role": "EA RESEARCH AND DEVELOPMENT",
-  "observed_unix": 1794174889.7203019,
+  "observed_unix": 1794178465.4970322,
   "status": "RESEARCH_COMPLETE",
   "runtime": "GITHUB_ACTIONS",
   "cloud_deployed": true,
@@ -114,7 +114,17 @@
       "files": [
         {
           "path": "ForexScalperEA.mq5",
-          "sha256": "3e28a264feac3205f7c6e2c6685af9fe37ef9e5845a82305a7d5af11e62e29fa"
+          "sha256": "3e28a264feac3205f7c6e2c6685af9fe37ef9e5845a82305a7d5af11e62e29fa",
+          "checks": {
+            "mentions_stop_loss": true,
+            "mentions_take_profit": true,
+            "uses_dll_import": false,
+            "uses_web_request": false,
+            "mentions_martingale_or_grid": false,
+            "mentions_order_execution": true
+          },
+          "assessment": "MANUAL_CODE_REVIEW_REQUIRED",
+          "profitability": "UNPROVEN"
         }
       ],
       "commit": "5d264e020b639b7a0ff47dbd8692105e2de73d65",
@@ -318,33 +328,23 @@
   ],
   "crawler": {
     "status": "WATCHING_FOR_SOURCE_UPDATES",
-    "visited": 1,
+    "visited": 0,
     "failed": 0,
     "current_url": null,
     "queue_remaining": 0,
-    "recent": [
-      {
-        "url": "https://raw.githubusercontent.com/kibetval/forex-scalper-bot/5d264e020b639b7a0ff47dbd8692105e2de73d65/ForexScalperEA.mq5",
-        "repository": "kibetval/forex-scalper-bot",
-        "path": "ForexScalperEA.mq5",
-        "sha256": "3e28a264feac3205f7c6e2c6685af9fe37ef9e5845a82305a7d5af11e62e29fa",
-        "bytes": 10639,
-        "result": "SOURCE_SAVED",
-        "received_unix": 1794174889.897357
-      }
-    ],
+    "recent": [],
     "external_code_executed": false,
     "current_repository": "yulz008/GOLD_ORB",
-    "observed_unix": 1794174892.5591543,
+    "observed_unix": 1794178468.6704044,
     "frontier_total_seen": 94
   },
   "spider": {
     "improvement_status": "WAITING_FOR_NEW_EVIDENCE",
     "improvements_accepted": 6,
-    "mission_run_id": "mission-869b73719945",
+    "mission_run_id": "mission-5f386e8fb361",
     "mission_status": "COMPLETED",
     "identity": "JARVIS MARK 2 / SPIDER",
-    "fleet_run_id": "fleet-82642e7a4609",
+    "fleet_run_id": "fleet-eb3a37a93853",
     "fleet_status": "COMPLETED",
     "counts": {
       "queued": 0,
@@ -356,7 +356,7 @@
       "workers": 24,
       "launched": 24
     },
-    "new_findings": 4,
+    "new_findings": 0,
     "open_findings": 151,
     "model_children": false,
     "worker_type": "DETERMINISTIC_TOOL_WORKER",
