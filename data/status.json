@@ -1,7 +1,7 @@
 {
   "agent": "JARVIS MARK 2",
   "role": "EA RESEARCH AND DEVELOPMENT",
-  "observed_unix": 1794128912.6926157,
+  "observed_unix": 1794132245.4235306,
   "status": "RESEARCH_COMPLETE",
   "runtime": "GITHUB_ACTIONS",
   "cloud_deployed": true,
@@ -141,7 +141,17 @@
       "files": [
         {
           "path": "GoldScalper.mq5",
-          "sha256": "443eb07ab92ef670d839d6fe79949c82cc616db328d22d55831df2d2d66af02e"
+          "sha256": "443eb07ab92ef670d839d6fe79949c82cc616db328d22d55831df2d2d66af02e",
+          "checks": {
+            "mentions_stop_loss": true,
+            "mentions_take_profit": true,
+            "uses_dll_import": false,
+            "uses_web_request": false,
+            "mentions_martingale_or_grid": false,
+            "mentions_order_execution": true
+          },
+          "assessment": "MANUAL_CODE_REVIEW_REQUIRED",
+          "profitability": "UNPROVEN"
         }
       ],
       "commit": "0c669ddfbb719be0e0dcaee40a405979a71cd879",
@@ -219,7 +229,7 @@
       "repository": "yulz008/GOLD_ORB",
       "url": "https://github.com/yulz008/GOLD_ORB",
       "updated_at": "2023-07-29T05:42:05Z",
-      "stars": 326,
+      "stars": 327,
       "license": null,
       "performance": null,
       "status": "SOURCE_SCREEN_ONLY",
@@ -318,33 +328,23 @@
   ],
   "crawler": {
     "status": "WATCHING_FOR_SOURCE_UPDATES",
-    "visited": 1,
+    "visited": 0,
     "failed": 0,
     "current_url": null,
     "queue_remaining": 0,
-    "recent": [
-      {
-        "url": "https://raw.githubusercontent.com/maasagodfrey27-code/GoldScalper-MT5/0c669ddfbb719be0e0dcaee40a405979a71cd879/GoldScalper.mq5",
-        "repository": "maasagodfrey27-code/GoldScalper-MT5",
-        "path": "GoldScalper.mq5",
-        "sha256": "443eb07ab92ef670d839d6fe79949c82cc616db328d22d55831df2d2d66af02e",
-        "bytes": 5111,
-        "result": "SOURCE_SAVED",
-        "received_unix": 1794128912.8696554
-      }
-    ],
+    "recent": [],
     "external_code_executed": false,
     "current_repository": "yulz008/GOLD_ORB",
-    "observed_unix": 1794128915.1609142,
+    "observed_unix": 1794132246.7551963,
     "frontier_total_seen": 91
   },
   "spider": {
     "improvement_status": "WAITING_FOR_NEW_EVIDENCE",
     "improvements_accepted": 6,
-    "mission_run_id": "mission-a5e0fb1dab13",
+    "mission_run_id": "mission-ae484e280cd5",
     "mission_status": "COMPLETED",
     "identity": "JARVIS MARK 2 / SPIDER",
-    "fleet_run_id": "fleet-a83917c9d58c",
+    "fleet_run_id": "fleet-2c91808d4a16",
     "fleet_status": "COMPLETED",
     "counts": {
       "queued": 0,
@@ -356,7 +356,7 @@
       "workers": 24,
       "launched": 24
     },
-    "new_findings": 4,
+    "new_findings": 0,
     "open_findings": 139,
     "model_children": false,
     "worker_type": "DETERMINISTIC_TOOL_WORKER",
