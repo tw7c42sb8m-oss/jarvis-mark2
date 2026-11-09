@@ -39,7 +39,7 @@
     ],
     "commit": "d3eb29c382acf715727d5cd6a0414151e821fc2d",
     "tree_truncated": false,
-    "last_reviewed_unix": 1794237320.365759
+    "last_reviewed_unix": 1794241403.9018483
   },
   "EA31337/EA31337": {
     "repository": "EA31337/EA31337",
@@ -67,7 +67,7 @@
     ],
     "commit": "9b9bd38c4e49dd6916f4fe3936e50e97fca7a692",
     "tree_truncated": false,
-    "last_reviewed_unix": 1794237320.365759
+    "last_reviewed_unix": 1794241403.9018483
   },
   "sibvic/mq5-templates": {
     "repository": "sibvic/mq5-templates",
@@ -109,7 +109,7 @@
     ],
     "commit": "6de6720fb67dcefda3f178850f73b5355309e1c8",
     "tree_truncated": false,
-    "last_reviewed_unix": 1794237320.365759
+    "last_reviewed_unix": 1794241403.9018483
   },
   "EarnForex/PositionSizer": {
     "repository": "EarnForex/PositionSizer",
@@ -137,7 +137,7 @@
     ],
     "commit": "78120406dc4170954aca129890db6824296ef730",
     "tree_truncated": false,
-    "last_reviewed_unix": 1794237320.365759
+    "last_reviewed_unix": 1794241403.9018483
   },
   "yulz008/GOLD_ORB": {
     "repository": "yulz008/GOLD_ORB",
@@ -165,7 +165,7 @@
     ],
     "commit": "8af0d735288c0e9378e35d06c46f23b21d9a5424",
     "tree_truncated": false,
-    "last_reviewed_unix": 1794237320.365759
+    "last_reviewed_unix": 1794241403.9018483
   },
   "kibetval/forex-scalper-bot": {
     "repository": "kibetval/forex-scalper-bot",
@@ -193,35 +193,7 @@
     ],
     "commit": "5d264e020b639b7a0ff47dbd8692105e2de73d65",
     "tree_truncated": false,
-    "last_reviewed_unix": 1794237320.365759
-  },
-  "tzainab06-a11y/gold-ai-trading-bot": {
-    "repository": "tzainab06-a11y/gold-ai-trading-bot",
-    "url": "https://github.com/tzainab06-a11y/gold-ai-trading-bot",
-    "updated_at": "2026-11-06T20:41:31Z",
-    "stars": 0,
-    "license": null,
-    "performance": null,
-    "status": "SOURCE_SCREEN_ONLY",
-    "files": [
-      {
-        "path": "AI_Gold_Scalper_Demo_v1_13.mq5",
-        "sha256": "9f7bf3acb1efede77b818264dca38ac6cccc2a7dbaf703f39ddf26dd60314b69",
-        "checks": {
-          "mentions_stop_loss": true,
-          "mentions_take_profit": true,
-          "uses_dll_import": false,
-          "uses_web_request": false,
-          "mentions_martingale_or_grid": false,
-          "mentions_order_execution": true
-        },
-        "assessment": "MANUAL_CODE_REVIEW_REQUIRED",
-        "profitability": "UNPROVEN"
-      }
-    ],
-    "commit": "fb003818c329f85c71a54a22682c55484c538cca",
-    "tree_truncated": false,
-    "last_reviewed_unix": 1794237320.365759
+    "last_reviewed_unix": 1794241403.9018483
   },
   "maasagodfrey27-code/GoldScalper-MT5": {
     "repository": "maasagodfrey27-code/GoldScalper-MT5",
@@ -248,6 +220,76 @@
       }
     ],
     "commit": "2929e8a427c2e638b6a4064139ee883b946bd14c",
+    "tree_truncated": false,
+    "last_reviewed_unix": 1794241403.9018483
+  },
+  "iantaurus2000-lab/XAUUSD-Scalping-V4": {
+    "repository": "iantaurus2000-lab/XAUUSD-Scalping-V4",
+    "url": "https://github.com/iantaurus2000-lab/XAUUSD-Scalping-V4",
+    "updated_at": "2026-11-09T16:03:53Z",
+    "stars": 0,
+    "license": null,
+    "performance": null,
+    "status": "SOURCE_SCREEN_ONLY",
+    "files": [
+      {
+        "path": "mt5/Experts/Rayyan4GatewayEA.mq5",
+        "sha256": "1398ee4fc0922bb3d11080de7243befd97df851fa0c84c940fe230a6d352f6f4",
+        "checks": {
+          "mentions_stop_loss": true,
+          "mentions_take_profit": true,
+          "uses_dll_import": false,
+          "uses_web_request": true,
+          "mentions_martingale_or_grid": false,
+          "mentions_order_execution": true
+        },
+        "assessment": "MANUAL_CODE_REVIEW_REQUIRED",
+        "profitability": "UNPROVEN"
+      },
+      {
+        "path": "mt5/Experts/RayyanD1Standalone.mq5",
+        "sha256": "bc3cd833507bbb8ffbbbfc66c841b9bd343ca5f13fdb3fc093dd70b188ac4672",
+        "checks": {
+          "mentions_stop_loss": true,
+          "mentions_take_profit": true,
+          "uses_dll_import": false,
+          "uses_web_request": true,
+          "mentions_martingale_or_grid": false,
+          "mentions_order_execution": true
+        },
+        "assessment": "MANUAL_CODE_REVIEW_REQUIRED",
+        "profitability": "UNPROVEN"
+      }
+    ],
+    "commit": "e2d2f45dbdd699917f0ea42a9f1adce812d14530",
+    "tree_truncated": false,
+    "last_reviewed_unix": 1794241403.9018483
+  },
+  "tzainab06-a11y/gold-ai-trading-bot": {
+    "repository": "tzainab06-a11y/gold-ai-trading-bot",
+    "url": "https://github.com/tzainab06-a11y/gold-ai-trading-bot",
+    "updated_at": "2026-11-06T20:41:31Z",
+    "stars": 0,
+    "license": null,
+    "performance": null,
+    "status": "SOURCE_SCREEN_ONLY",
+    "files": [
+      {
+        "path": "AI_Gold_Scalper_Demo_v1_13.mq5",
+        "sha256": "9f7bf3acb1efede77b818264dca38ac6cccc2a7dbaf703f39ddf26dd60314b69",
+        "checks": {
+          "mentions_stop_loss": true,
+          "mentions_take_profit": true,
+          "uses_dll_import": false,
+          "uses_web_request": false,
+          "mentions_martingale_or_grid": false,
+          "mentions_order_execution": true
+        },
+        "assessment": "MANUAL_CODE_REVIEW_REQUIRED",
+        "profitability": "UNPROVEN"
+      }
+    ],
+    "commit": "fb003818c329f85c71a54a22682c55484c538cca",
     "tree_truncated": false,
     "last_reviewed_unix": 1794237320.365759
   },
