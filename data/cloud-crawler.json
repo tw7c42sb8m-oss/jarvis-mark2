@@ -1,13 +1,23 @@
 {
   "status": "WATCHING_FOR_SOURCE_UPDATES",
-  "visited": 0,
+  "visited": 1,
   "failed": 0,
   "current_url": null,
   "queue_remaining": 0,
-  "recent": [],
+  "recent": [
+    {
+      "url": "https://raw.githubusercontent.com/maasagodfrey27-code/GoldScalper-MT5/2929e8a427c2e638b6a4064139ee883b946bd14c/GoldScalper.mq5",
+      "repository": "maasagodfrey27-code/GoldScalper-MT5",
+      "path": "GoldScalper.mq5",
+      "sha256": "64779e6edd7e17910ee74e15f528709837861438a90fe3aa4d29e388a838f1c0",
+      "bytes": 3085,
+      "result": "SOURCE_SAVED",
+      "received_unix": 1794237320.5510492
+    }
+  ],
   "external_code_executed": false,
   "current_repository": "yulz008/GOLD_ORB",
-  "observed_unix": 1794231453.3597956,
+  "observed_unix": 1794237325.3165581,
   "seen_sources": [
     [
       "EA31337/EA31337",
@@ -387,6 +397,11 @@
     [
       "maasagodfrey27-code/GoldScalper-MT5",
       "0c669ddfbb719be0e0dcaee40a405979a71cd879",
+      "GoldScalper.mq5"
+    ],
+    [
+      "maasagodfrey27-code/GoldScalper-MT5",
+      "2929e8a427c2e638b6a4064139ee883b946bd14c",
       "GoldScalper.mq5"
     ],
     [

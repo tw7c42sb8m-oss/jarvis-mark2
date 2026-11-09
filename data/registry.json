@@ -39,7 +39,7 @@
     ],
     "commit": "d3eb29c382acf715727d5cd6a0414151e821fc2d",
     "tree_truncated": false,
-    "last_reviewed_unix": 1794231450.0493414
+    "last_reviewed_unix": 1794237320.365759
   },
   "EA31337/EA31337": {
     "repository": "EA31337/EA31337",
@@ -67,7 +67,7 @@
     ],
     "commit": "9b9bd38c4e49dd6916f4fe3936e50e97fca7a692",
     "tree_truncated": false,
-    "last_reviewed_unix": 1794231450.0493414
+    "last_reviewed_unix": 1794237320.365759
   },
   "sibvic/mq5-templates": {
     "repository": "sibvic/mq5-templates",
@@ -109,7 +109,7 @@
     ],
     "commit": "6de6720fb67dcefda3f178850f73b5355309e1c8",
     "tree_truncated": false,
-    "last_reviewed_unix": 1794231450.0493414
+    "last_reviewed_unix": 1794237320.365759
   },
   "EarnForex/PositionSizer": {
     "repository": "EarnForex/PositionSizer",
@@ -137,7 +137,7 @@
     ],
     "commit": "78120406dc4170954aca129890db6824296ef730",
     "tree_truncated": false,
-    "last_reviewed_unix": 1794231450.0493414
+    "last_reviewed_unix": 1794237320.365759
   },
   "yulz008/GOLD_ORB": {
     "repository": "yulz008/GOLD_ORB",
@@ -165,7 +165,7 @@
     ],
     "commit": "8af0d735288c0e9378e35d06c46f23b21d9a5424",
     "tree_truncated": false,
-    "last_reviewed_unix": 1794231450.0493414
+    "last_reviewed_unix": 1794237320.365759
   },
   "kibetval/forex-scalper-bot": {
     "repository": "kibetval/forex-scalper-bot",
@@ -193,7 +193,7 @@
     ],
     "commit": "5d264e020b639b7a0ff47dbd8692105e2de73d65",
     "tree_truncated": false,
-    "last_reviewed_unix": 1794231450.0493414
+    "last_reviewed_unix": 1794237320.365759
   },
   "tzainab06-a11y/gold-ai-trading-bot": {
     "repository": "tzainab06-a11y/gold-ai-trading-bot",
@@ -221,12 +221,12 @@
     ],
     "commit": "fb003818c329f85c71a54a22682c55484c538cca",
     "tree_truncated": false,
-    "last_reviewed_unix": 1794231450.0493414
+    "last_reviewed_unix": 1794237320.365759
   },
   "maasagodfrey27-code/GoldScalper-MT5": {
     "repository": "maasagodfrey27-code/GoldScalper-MT5",
     "url": "https://github.com/maasagodfrey27-code/GoldScalper-MT5",
-    "updated_at": "2026-11-08T08:54:18Z",
+    "updated_at": "2026-11-09T14:10:12Z",
     "stars": 0,
     "license": null,
     "performance": null,
@@ -234,7 +234,7 @@
     "files": [
       {
         "path": "GoldScalper.mq5",
-        "sha256": "443eb07ab92ef670d839d6fe79949c82cc616db328d22d55831df2d2d66af02e",
+        "sha256": "64779e6edd7e17910ee74e15f528709837861438a90fe3aa4d29e388a838f1c0",
         "checks": {
           "mentions_stop_loss": true,
           "mentions_take_profit": true,
@@ -247,9 +247,9 @@
         "profitability": "UNPROVEN"
       }
     ],
-    "commit": "0c669ddfbb719be0e0dcaee40a405979a71cd879",
+    "commit": "2929e8a427c2e638b6a4064139ee883b946bd14c",
     "tree_truncated": false,
-    "last_reviewed_unix": 1794231450.0493414
+    "last_reviewed_unix": 1794237320.365759
   },
   "ezaam253/Yasin-Testing": {
     "repository": "ezaam253/Yasin-Testing",
