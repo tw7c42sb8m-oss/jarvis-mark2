@@ -7,7 +7,7 @@
   },
   {
     "repository": "EarnForex/PositionSizer",
-    "source_files": 7,
+    "source_files": 1,
     "license": "Apache-2.0",
     "next_action": "REVIEW_SOURCE_AND_NATIVE_VALIDATION"
   },
