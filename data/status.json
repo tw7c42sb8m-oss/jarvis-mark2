@@ -1,7 +1,7 @@
 {
   "agent": "JARVIS MARK 2",
   "role": "EA RESEARCH AND DEVELOPMENT",
-  "observed_unix": 1794360419.7244556,
+  "observed_unix": 1794366599.515434,
   "status": "RESEARCH_COMPLETE",
   "runtime": "GITHUB_ACTIONS",
   "cloud_deployed": true,
@@ -106,7 +106,7 @@
     {
       "repository": "iantaurus2000-lab/XAUUSD-Scalping-V4",
       "url": "https://github.com/iantaurus2000-lab/XAUUSD-Scalping-V4",
-      "updated_at": "2026-11-11T01:22:49Z",
+      "updated_at": "2026-11-11T02:40:28Z",
       "stars": 0,
       "license": null,
       "performance": null,
@@ -117,10 +117,6 @@
           "sha256": "1398ee4fc0922bb3d11080de7243befd97df851fa0c84c940fe230a6d352f6f4"
         },
         {
-          "path": "mt5/Experts/RayyanD1Standalone.mq5",
-          "sha256": "be0ceb83597de300688fa34f1642b6ddd4aeb817cdbe9d783424d5ade38e0fc7"
-        },
-        {
           "path": "mt5/Experts/uji-test-mt5.mq5",
           "sha256": "b7ed80cf8706cd6dd2ede37163494568f64e7297e5dd547c10ca4528241837ce"
         },
@@ -129,7 +125,7 @@
           "sha256": "7e3e62f04b8881335acc432d7050aacbd7d88758bea6ac722579af27173fcdc9"
         }
       ],
-      "commit": "57d1aba6f040c8b38c7a92321af31f74169d67bc",
+      "commit": "286235524f4606e212f0ce149d7be6b3ac8d305d",
       "tree_truncated": false
     },
     {
@@ -330,60 +326,59 @@
   ],
   "crawler": {
     "status": "WATCHING_FOR_SOURCE_UPDATES",
-    "visited": 4,
-    "failed": 0,
+    "visited": 3,
+    "failed": 1,
     "current_url": null,
     "queue_remaining": 0,
     "recent": [
       {
-        "url": "https://raw.githubusercontent.com/iantaurus2000-lab/XAUUSD-Scalping-V4/57d1aba6f040c8b38c7a92321af31f74169d67bc/MT5_EA_Test/uji-test-mt5.mq5",
+        "url": "https://raw.githubusercontent.com/iantaurus2000-lab/XAUUSD-Scalping-V4/286235524f4606e212f0ce149d7be6b3ac8d305d/MT5_EA_Test/uji-test-mt5.mq5",
         "repository": "iantaurus2000-lab/XAUUSD-Scalping-V4",
         "path": "MT5_EA_Test/uji-test-mt5.mq5",
         "sha256": "7e3e62f04b8881335acc432d7050aacbd7d88758bea6ac722579af27173fcdc9",
         "bytes": 28160,
         "result": "SOURCE_SAVED",
-        "received_unix": 1794360421.6532784
+        "received_unix": 1794366603.2985373
       },
       {
-        "url": "https://raw.githubusercontent.com/iantaurus2000-lab/XAUUSD-Scalping-V4/57d1aba6f040c8b38c7a92321af31f74169d67bc/mt5/Experts/uji-test-mt5.mq5",
+        "url": "https://raw.githubusercontent.com/iantaurus2000-lab/XAUUSD-Scalping-V4/286235524f4606e212f0ce149d7be6b3ac8d305d/mt5/Experts/RayyanD1Standalone.mq5",
+        "repository": "iantaurus2000-lab/XAUUSD-Scalping-V4",
+        "path": "mt5/Experts/RayyanD1Standalone.mq5",
+        "result": "FETCH_FAILED",
+        "error": "Source size limit",
+        "received_unix": 1794366602.9238245
+      },
+      {
+        "url": "https://raw.githubusercontent.com/iantaurus2000-lab/XAUUSD-Scalping-V4/286235524f4606e212f0ce149d7be6b3ac8d305d/mt5/Experts/uji-test-mt5.mq5",
         "repository": "iantaurus2000-lab/XAUUSD-Scalping-V4",
         "path": "mt5/Experts/uji-test-mt5.mq5",
         "sha256": "b7ed80cf8706cd6dd2ede37163494568f64e7297e5dd547c10ca4528241837ce",
         "bytes": 28929,
         "result": "SOURCE_SAVED",
-        "received_unix": 1794360421.565579
+        "received_unix": 1794366599.99246
       },
       {
-        "url": "https://raw.githubusercontent.com/iantaurus2000-lab/XAUUSD-Scalping-V4/57d1aba6f040c8b38c7a92321af31f74169d67bc/mt5/Experts/RayyanD1Standalone.mq5",
-        "repository": "iantaurus2000-lab/XAUUSD-Scalping-V4",
-        "path": "mt5/Experts/RayyanD1Standalone.mq5",
-        "sha256": "be0ceb83597de300688fa34f1642b6ddd4aeb817cdbe9d783424d5ade38e0fc7",
-        "bytes": 148797,
-        "result": "SOURCE_SAVED",
-        "received_unix": 1794360419.9545872
-      },
-      {
-        "url": "https://raw.githubusercontent.com/iantaurus2000-lab/XAUUSD-Scalping-V4/57d1aba6f040c8b38c7a92321af31f74169d67bc/mt5/Experts/Rayyan4GatewayEA.mq5",
+        "url": "https://raw.githubusercontent.com/iantaurus2000-lab/XAUUSD-Scalping-V4/286235524f4606e212f0ce149d7be6b3ac8d305d/mt5/Experts/Rayyan4GatewayEA.mq5",
         "repository": "iantaurus2000-lab/XAUUSD-Scalping-V4",
         "path": "mt5/Experts/Rayyan4GatewayEA.mq5",
         "sha256": "1398ee4fc0922bb3d11080de7243befd97df851fa0c84c940fe230a6d352f6f4",
         "bytes": 112033,
         "result": "SOURCE_SAVED",
-        "received_unix": 1794360419.8463678
+        "received_unix": 1794366599.7497523
       }
     ],
     "external_code_executed": false,
     "current_repository": "iantaurus2000-lab/XAUUSD-Scalping-V4",
-    "observed_unix": 1794360421.6563537,
-    "frontier_total_seen": 125
+    "observed_unix": 1794366603.3023891,
+    "frontier_total_seen": 129
   },
   "spider": {
     "improvement_status": "WAITING_FOR_NEW_EVIDENCE",
     "improvements_accepted": 6,
-    "mission_run_id": "mission-15905adb71f8",
+    "mission_run_id": "mission-3dd780089ed7",
     "mission_status": "COMPLETED",
     "identity": "JARVIS MARK 2 / SPIDER",
-    "fleet_run_id": "fleet-3a450ee80e28",
+    "fleet_run_id": "fleet-878850c708a7",
     "fleet_status": "COMPLETED",
     "counts": {
       "queued": 0,
@@ -396,7 +391,7 @@
       "launched": 24
     },
     "new_findings": 5,
-    "open_findings": 184,
+    "open_findings": 189,
     "model_children": false,
     "worker_type": "DETERMINISTIC_TOOL_WORKER",
     "external_ai_apis": 0
