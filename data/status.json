@@ -1,7 +1,7 @@
 {
   "agent": "JARVIS MARK 2",
   "role": "EA RESEARCH AND DEVELOPMENT",
-  "observed_unix": 1794433904.0105412,
+  "observed_unix": 1794438603.5769882,
   "status": "RESEARCH_COMPLETE",
   "runtime": "GITHUB_ACTIONS",
   "cloud_deployed": true,
@@ -60,47 +60,6 @@
         }
       ],
       "commit": "3b99c9dcc060bee8b9ebd602cc2556a8b41c9857",
-      "tree_truncated": false
-    },
-    {
-      "repository": "Ghost-Coder23/scalpingbot-mt5",
-      "url": "https://github.com/Ghost-Coder23/scalpingbot-mt5",
-      "updated_at": "2026-11-11T09:12:13Z",
-      "stars": 0,
-      "license": null,
-      "performance": null,
-      "status": "SOURCE_SCREEN_ONLY",
-      "files": [
-        {
-          "path": "EASniper.mq5",
-          "sha256": "a67495133da67a3c8dbf03b1ed8c229ef9b949ee2a0f0c1869162c5381dcda33",
-          "checks": {
-            "mentions_stop_loss": true,
-            "mentions_take_profit": true,
-            "uses_dll_import": false,
-            "uses_web_request": true,
-            "mentions_martingale_or_grid": false,
-            "mentions_order_execution": true
-          },
-          "assessment": "MANUAL_CODE_REVIEW_REQUIRED",
-          "profitability": "UNPROVEN"
-        },
-        {
-          "path": "ScalpingBot.mq5",
-          "sha256": "33bbd8df724c99c2cd82f4b1ffca45b04c19bfd04c6b4a198d530b00133dd2ca",
-          "checks": {
-            "mentions_stop_loss": true,
-            "mentions_take_profit": true,
-            "uses_dll_import": false,
-            "uses_web_request": false,
-            "mentions_martingale_or_grid": false,
-            "mentions_order_execution": false
-          },
-          "assessment": "MANUAL_CODE_REVIEW_REQUIRED",
-          "profitability": "UNPROVEN"
-        }
-      ],
-      "commit": "672a3295022d60e129c5bfeb7246d5e92ca30171",
       "tree_truncated": false
     },
     {
@@ -224,6 +183,23 @@
         }
       ],
       "commit": "676771a0cbca4d0fa6219acfdeb29fd64e5c4ed9",
+      "tree_truncated": false
+    },
+    {
+      "repository": "kibetval/forex-scalper-bot",
+      "url": "https://github.com/kibetval/forex-scalper-bot",
+      "updated_at": "2026-11-11T21:15:30Z",
+      "stars": 0,
+      "license": null,
+      "performance": null,
+      "status": "SOURCE_SCREEN_ONLY",
+      "files": [
+        {
+          "path": "ForexScalperEA.mq5",
+          "sha256": "3e28a264feac3205f7c6e2c6685af9fe37ef9e5845a82305a7d5af11e62e29fa"
+        }
+      ],
+      "commit": "6baa3a4b870a848ce591cf08fbecb06db0486d98",
       "tree_truncated": false
     },
     {
@@ -370,23 +346,33 @@
   ],
   "crawler": {
     "status": "WATCHING_FOR_SOURCE_UPDATES",
-    "visited": 0,
+    "visited": 1,
     "failed": 0,
     "current_url": null,
     "queue_remaining": 0,
-    "recent": [],
+    "recent": [
+      {
+        "url": "https://raw.githubusercontent.com/kibetval/forex-scalper-bot/6baa3a4b870a848ce591cf08fbecb06db0486d98/ForexScalperEA.mq5",
+        "repository": "kibetval/forex-scalper-bot",
+        "path": "ForexScalperEA.mq5",
+        "sha256": "3e28a264feac3205f7c6e2c6685af9fe37ef9e5845a82305a7d5af11e62e29fa",
+        "bytes": 10639,
+        "result": "SOURCE_SAVED",
+        "received_unix": 1794438603.8251307
+      }
+    ],
     "external_code_executed": false,
     "current_repository": "yulz008/GOLD_ORB",
-    "observed_unix": 1794433905.5784783,
-    "frontier_total_seen": 167
+    "observed_unix": 1794438608.0281162,
+    "frontier_total_seen": 168
   },
   "spider": {
     "improvement_status": "WAITING_FOR_NEW_EVIDENCE",
     "improvements_accepted": 6,
-    "mission_run_id": "mission-fdce647c8a4f",
+    "mission_run_id": "mission-eeb17b7690c2",
     "mission_status": "COMPLETED",
     "identity": "JARVIS MARK 2 / SPIDER",
-    "fleet_run_id": "fleet-cd8806c5740a",
+    "fleet_run_id": "fleet-6c175056bcdd",
     "fleet_status": "COMPLETED",
     "counts": {
       "queued": 0,
@@ -398,8 +384,8 @@
       "workers": 24,
       "launched": 24
     },
-    "new_findings": 0,
-    "open_findings": 229,
+    "new_findings": 4,
+    "open_findings": 233,
     "model_children": false,
     "worker_type": "DETERMINISTIC_TOOL_WORKER",
     "external_ai_apis": 0
