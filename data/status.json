@@ -1,7 +1,7 @@
 {
   "agent": "JARVIS MARK 2",
   "role": "EA RESEARCH AND DEVELOPMENT",
-  "observed_unix": 1794404031.5827637,
+  "observed_unix": 1794409855.916883,
   "status": "RESEARCH_COMPLETE",
   "runtime": "GITHUB_ACTIONS",
   "cloud_deployed": true,
@@ -12,7 +12,7 @@
       "repository": "EA31337/EA31337",
       "url": "https://github.com/EA31337/EA31337",
       "updated_at": "2026-04-07T14:41:25Z",
-      "stars": 1360,
+      "stars": 1361,
       "license": "GPL-3.0",
       "performance": null,
       "status": "SOURCE_SCREEN_ONLY",
@@ -106,7 +106,7 @@
     {
       "repository": "Nexora-Apparel/mt5-scalping-engine",
       "url": "https://github.com/Nexora-Apparel/mt5-scalping-engine",
-      "updated_at": "2026-11-11T13:33:39Z",
+      "updated_at": "2026-11-11T15:10:34Z",
       "stars": 0,
       "license": null,
       "performance": null,
@@ -114,7 +114,17 @@
       "files": [
         {
           "path": "MQL5/Experts/NexoraScalper.mq5",
-          "sha256": "0b9d3c43e2c415002998e7adfff5c0bb4fd9d277b2b7e9329983020c65a53a7e"
+          "sha256": "0b9d3c43e2c415002998e7adfff5c0bb4fd9d277b2b7e9329983020c65a53a7e",
+          "checks": {
+            "mentions_stop_loss": true,
+            "mentions_take_profit": true,
+            "uses_dll_import": false,
+            "uses_web_request": false,
+            "mentions_martingale_or_grid": false,
+            "mentions_order_execution": true
+          },
+          "assessment": "MANUAL_CODE_REVIEW_REQUIRED",
+          "profitability": "UNPROVEN"
         }
       ],
       "commit": "fd71bc0094631292cf864b67a10f5bea0e2ff3b7",
@@ -164,7 +174,7 @@
     {
       "repository": "iantaurus2000-lab/XAUUSD-Scalping-V4",
       "url": "https://github.com/iantaurus2000-lab/XAUUSD-Scalping-V4",
-      "updated_at": "2026-11-11T09:02:02Z",
+      "updated_at": "2026-11-11T14:08:47Z",
       "stars": 0,
       "license": null,
       "performance": null,
@@ -172,34 +182,18 @@
       "files": [
         {
           "path": "mt5/Experts/Rayyan4GatewayEA.mq5",
-          "sha256": "1398ee4fc0922bb3d11080de7243befd97df851fa0c84c940fe230a6d352f6f4",
-          "checks": {
-            "mentions_stop_loss": true,
-            "mentions_take_profit": true,
-            "uses_dll_import": false,
-            "uses_web_request": true,
-            "mentions_martingale_or_grid": false,
-            "mentions_order_execution": true
-          },
-          "assessment": "MANUAL_CODE_REVIEW_REQUIRED",
-          "profitability": "UNPROVEN"
+          "sha256": "1398ee4fc0922bb3d11080de7243befd97df851fa0c84c940fe230a6d352f6f4"
         },
         {
           "path": "mt5/Experts/uji-test-mt5.mq5",
-          "sha256": "b7ed80cf8706cd6dd2ede37163494568f64e7297e5dd547c10ca4528241837ce",
-          "checks": {
-            "mentions_stop_loss": true,
-            "mentions_take_profit": true,
-            "uses_dll_import": false,
-            "uses_web_request": false,
-            "mentions_martingale_or_grid": false,
-            "mentions_order_execution": true
-          },
-          "assessment": "MANUAL_CODE_REVIEW_REQUIRED",
-          "profitability": "UNPROVEN"
+          "sha256": "b7ed80cf8706cd6dd2ede37163494568f64e7297e5dd547c10ca4528241837ce"
+        },
+        {
+          "path": "MT5_EA_Test/uji-test-mt5.mq5",
+          "sha256": "7e3e62f04b8881335acc432d7050aacbd7d88758bea6ac722579af27173fcdc9"
         }
       ],
-      "commit": "59fae13f1c62615157bf3fa2b0096e25198f8c7d",
+      "commit": "676771a0cbca4d0fa6219acfdeb29fd64e5c4ed9",
       "tree_truncated": false
     },
     {
@@ -346,33 +340,59 @@
   ],
   "crawler": {
     "status": "WATCHING_FOR_SOURCE_UPDATES",
-    "visited": 1,
-    "failed": 0,
+    "visited": 3,
+    "failed": 1,
     "current_url": null,
     "queue_remaining": 0,
     "recent": [
       {
-        "url": "https://raw.githubusercontent.com/Nexora-Apparel/mt5-scalping-engine/fd71bc0094631292cf864b67a10f5bea0e2ff3b7/MQL5/Experts/NexoraScalper.mq5",
-        "repository": "Nexora-Apparel/mt5-scalping-engine",
-        "path": "MQL5/Experts/NexoraScalper.mq5",
-        "sha256": "0b9d3c43e2c415002998e7adfff5c0bb4fd9d277b2b7e9329983020c65a53a7e",
-        "bytes": 13485,
+        "url": "https://raw.githubusercontent.com/iantaurus2000-lab/XAUUSD-Scalping-V4/676771a0cbca4d0fa6219acfdeb29fd64e5c4ed9/MT5_EA_Test/uji-test-mt5.mq5",
+        "repository": "iantaurus2000-lab/XAUUSD-Scalping-V4",
+        "path": "MT5_EA_Test/uji-test-mt5.mq5",
+        "sha256": "7e3e62f04b8881335acc432d7050aacbd7d88758bea6ac722579af27173fcdc9",
+        "bytes": 28160,
         "result": "SOURCE_SAVED",
-        "received_unix": 1794404031.675207
+        "received_unix": 1794409859.834617
+      },
+      {
+        "url": "https://raw.githubusercontent.com/iantaurus2000-lab/XAUUSD-Scalping-V4/676771a0cbca4d0fa6219acfdeb29fd64e5c4ed9/mt5/Experts/RayyanD1Standalone.mq5",
+        "repository": "iantaurus2000-lab/XAUUSD-Scalping-V4",
+        "path": "mt5/Experts/RayyanD1Standalone.mq5",
+        "result": "FETCH_FAILED",
+        "error": "Source size limit",
+        "received_unix": 1794409859.7228892
+      },
+      {
+        "url": "https://raw.githubusercontent.com/iantaurus2000-lab/XAUUSD-Scalping-V4/676771a0cbca4d0fa6219acfdeb29fd64e5c4ed9/mt5/Experts/uji-test-mt5.mq5",
+        "repository": "iantaurus2000-lab/XAUUSD-Scalping-V4",
+        "path": "mt5/Experts/uji-test-mt5.mq5",
+        "sha256": "b7ed80cf8706cd6dd2ede37163494568f64e7297e5dd547c10ca4528241837ce",
+        "bytes": 28929,
+        "result": "SOURCE_SAVED",
+        "received_unix": 1794409856.1933722
+      },
+      {
+        "url": "https://raw.githubusercontent.com/iantaurus2000-lab/XAUUSD-Scalping-V4/676771a0cbca4d0fa6219acfdeb29fd64e5c4ed9/mt5/Experts/Rayyan4GatewayEA.mq5",
+        "repository": "iantaurus2000-lab/XAUUSD-Scalping-V4",
+        "path": "mt5/Experts/Rayyan4GatewayEA.mq5",
+        "sha256": "1398ee4fc0922bb3d11080de7243befd97df851fa0c84c940fe230a6d352f6f4",
+        "bytes": 112033,
+        "result": "SOURCE_SAVED",
+        "received_unix": 1794409856.0561244
       }
     ],
     "external_code_executed": false,
-    "current_repository": "yulz008/GOLD_ORB",
-    "observed_unix": 1794404033.3132565,
-    "frontier_total_seen": 142
+    "current_repository": "iantaurus2000-lab/XAUUSD-Scalping-V4",
+    "observed_unix": 1794409859.837801,
+    "frontier_total_seen": 146
   },
   "spider": {
     "improvement_status": "WAITING_FOR_NEW_EVIDENCE",
     "improvements_accepted": 6,
-    "mission_run_id": "mission-47534d61e3d7",
+    "mission_run_id": "mission-26c9bfa44753",
     "mission_status": "COMPLETED",
     "identity": "JARVIS MARK 2 / SPIDER",
-    "fleet_run_id": "fleet-ea5abf78e04d",
+    "fleet_run_id": "fleet-2ed6b61038ad",
     "fleet_status": "COMPLETED",
     "counts": {
       "queued": 0,
@@ -384,8 +404,8 @@
       "workers": 24,
       "launched": 24
     },
-    "new_findings": 4,
-    "open_findings": 212,
+    "new_findings": 5,
+    "open_findings": 217,
     "model_children": false,
     "worker_type": "DETERMINISTIC_TOOL_WORKER",
     "external_ai_apis": 0
