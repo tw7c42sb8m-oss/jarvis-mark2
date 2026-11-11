@@ -1,13 +1,23 @@
 {
   "status": "WATCHING_FOR_SOURCE_UPDATES",
-  "visited": 0,
+  "visited": 1,
   "failed": 0,
   "current_url": null,
   "queue_remaining": 0,
-  "recent": [],
+  "recent": [
+    {
+      "url": "https://raw.githubusercontent.com/Nexora-Apparel/mt5-scalping-engine/fd71bc0094631292cf864b67a10f5bea0e2ff3b7/MQL5/Experts/NexoraScalper.mq5",
+      "repository": "Nexora-Apparel/mt5-scalping-engine",
+      "path": "MQL5/Experts/NexoraScalper.mq5",
+      "sha256": "0b9d3c43e2c415002998e7adfff5c0bb4fd9d277b2b7e9329983020c65a53a7e",
+      "bytes": 13485,
+      "result": "SOURCE_SAVED",
+      "received_unix": 1794404031.675207
+    }
+  ],
   "external_code_executed": false,
   "current_repository": "yulz008/GOLD_ORB",
-  "observed_unix": 1794399116.858281,
+  "observed_unix": 1794404033.3132565,
   "seen_sources": [
     [
       "EA31337/EA31337",
@@ -178,6 +188,11 @@
       "Ghost-Coder23/scalpingbot-mt5",
       "b2d7e0904d83ba5557c92270155cb8a5163e2e37",
       "ScalpingBot.mqh"
+    ],
+    [
+      "Nexora-Apparel/mt5-scalping-engine",
+      "fd71bc0094631292cf864b67a10f5bea0e2ff3b7",
+      "MQL5/Experts/NexoraScalper.mq5"
     ],
     [
       "WHAM-FX/WHAM-FX-GOLD-AI-2026",

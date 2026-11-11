@@ -1,7 +1,7 @@
 {
   "agent": "JARVIS MARK 2",
   "role": "EA RESEARCH AND DEVELOPMENT",
-  "observed_unix": 1794399115.2390077,
+  "observed_unix": 1794404031.5827637,
   "status": "RESEARCH_COMPLETE",
   "runtime": "GITHUB_ACTIONS",
   "cloud_deployed": true,
@@ -104,6 +104,23 @@
       "tree_truncated": false
     },
     {
+      "repository": "Nexora-Apparel/mt5-scalping-engine",
+      "url": "https://github.com/Nexora-Apparel/mt5-scalping-engine",
+      "updated_at": "2026-11-11T13:33:39Z",
+      "stars": 0,
+      "license": null,
+      "performance": null,
+      "status": "SOURCE_SCREEN_ONLY",
+      "files": [
+        {
+          "path": "MQL5/Experts/NexoraScalper.mq5",
+          "sha256": "0b9d3c43e2c415002998e7adfff5c0bb4fd9d277b2b7e9329983020c65a53a7e"
+        }
+      ],
+      "commit": "fd71bc0094631292cf864b67a10f5bea0e2ff3b7",
+      "tree_truncated": false
+    },
+    {
       "repository": "geraked/metatrader5",
       "url": "https://github.com/geraked/metatrader5",
       "updated_at": "2025-11-15T04:39:29Z",
@@ -183,33 +200,6 @@
         }
       ],
       "commit": "59fae13f1c62615157bf3fa2b0096e25198f8c7d",
-      "tree_truncated": false
-    },
-    {
-      "repository": "kibetval/forex-scalper-bot",
-      "url": "https://github.com/kibetval/forex-scalper-bot",
-      "updated_at": "2026-11-11T05:57:00Z",
-      "stars": 0,
-      "license": null,
-      "performance": null,
-      "status": "SOURCE_SCREEN_ONLY",
-      "files": [
-        {
-          "path": "ForexScalperEA.mq5",
-          "sha256": "3e28a264feac3205f7c6e2c6685af9fe37ef9e5845a82305a7d5af11e62e29fa",
-          "checks": {
-            "mentions_stop_loss": true,
-            "mentions_take_profit": true,
-            "uses_dll_import": false,
-            "uses_web_request": false,
-            "mentions_martingale_or_grid": false,
-            "mentions_order_execution": true
-          },
-          "assessment": "MANUAL_CODE_REVIEW_REQUIRED",
-          "profitability": "UNPROVEN"
-        }
-      ],
-      "commit": "6e04861d5a57a01d07dc773c9622e458cb2b6a0a",
       "tree_truncated": false
     },
     {
@@ -356,23 +346,33 @@
   ],
   "crawler": {
     "status": "WATCHING_FOR_SOURCE_UPDATES",
-    "visited": 0,
+    "visited": 1,
     "failed": 0,
     "current_url": null,
     "queue_remaining": 0,
-    "recent": [],
+    "recent": [
+      {
+        "url": "https://raw.githubusercontent.com/Nexora-Apparel/mt5-scalping-engine/fd71bc0094631292cf864b67a10f5bea0e2ff3b7/MQL5/Experts/NexoraScalper.mq5",
+        "repository": "Nexora-Apparel/mt5-scalping-engine",
+        "path": "MQL5/Experts/NexoraScalper.mq5",
+        "sha256": "0b9d3c43e2c415002998e7adfff5c0bb4fd9d277b2b7e9329983020c65a53a7e",
+        "bytes": 13485,
+        "result": "SOURCE_SAVED",
+        "received_unix": 1794404031.675207
+      }
+    ],
     "external_code_executed": false,
     "current_repository": "yulz008/GOLD_ORB",
-    "observed_unix": 1794399116.858281,
-    "frontier_total_seen": 141
+    "observed_unix": 1794404033.3132565,
+    "frontier_total_seen": 142
   },
   "spider": {
     "improvement_status": "WAITING_FOR_NEW_EVIDENCE",
     "improvements_accepted": 6,
-    "mission_run_id": "mission-ba273b8834aa",
+    "mission_run_id": "mission-47534d61e3d7",
     "mission_status": "COMPLETED",
     "identity": "JARVIS MARK 2 / SPIDER",
-    "fleet_run_id": "fleet-fa12f076cb31",
+    "fleet_run_id": "fleet-ea5abf78e04d",
     "fleet_status": "COMPLETED",
     "counts": {
       "queued": 0,
@@ -384,8 +384,8 @@
       "workers": 24,
       "launched": 24
     },
-    "new_findings": 0,
-    "open_findings": 208,
+    "new_findings": 4,
+    "open_findings": 212,
     "model_children": false,
     "worker_type": "DETERMINISTIC_TOOL_WORKER",
     "external_ai_apis": 0
