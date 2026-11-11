@@ -1,7 +1,7 @@
 {
   "agent": "JARVIS MARK 2",
   "role": "EA RESEARCH AND DEVELOPMENT",
-  "observed_unix": 1794413550.714462,
+  "observed_unix": 1794417543.416873,
   "status": "RESEARCH_COMPLETE",
   "runtime": "GITHUB_ACTIONS",
   "cloud_deployed": true,
@@ -106,7 +106,7 @@
     {
       "repository": "Nexora-Apparel/mt5-scalping-engine",
       "url": "https://github.com/Nexora-Apparel/mt5-scalping-engine",
-      "updated_at": "2026-11-11T15:47:55Z",
+      "updated_at": "2026-11-11T17:18:43Z",
       "stars": 0,
       "license": null,
       "performance": null,
@@ -114,20 +114,26 @@
       "files": [
         {
           "path": "MQL5/Experts/NexoraScalper.mq5",
-          "sha256": "0b9d3c43e2c415002998e7adfff5c0bb4fd9d277b2b7e9329983020c65a53a7e",
-          "checks": {
-            "mentions_stop_loss": true,
-            "mentions_take_profit": true,
-            "uses_dll_import": false,
-            "uses_web_request": false,
-            "mentions_martingale_or_grid": false,
-            "mentions_order_execution": true
-          },
-          "assessment": "MANUAL_CODE_REVIEW_REQUIRED",
-          "profitability": "UNPROVEN"
+          "sha256": "0b9d3c43e2c415002998e7adfff5c0bb4fd9d277b2b7e9329983020c65a53a7e"
+        },
+        {
+          "path": "MQL5/Experts/VeltrixScalper.mq5",
+          "sha256": "8a36ed4f7eee517309c7afdd42b120b4e2b48fb11c9c78168523462a9afaa46f"
+        },
+        {
+          "path": "MQL5/Include/Veltrix/MarketGuard.mqh",
+          "sha256": "066236a77352db8ec2c8ec33324b05a24b2b44af3f590f2d1370da47b7091239"
+        },
+        {
+          "path": "MQL5/Include/Veltrix/PositionRegistry.mqh",
+          "sha256": "696a4af3d910e7f19c3379d7f1923acc6592ec1e4d4e1de6dad74a080df0d290"
+        },
+        {
+          "path": "MQL5/Include/Veltrix/RiskAllocator.mqh",
+          "sha256": "c82872c1eb27089b3e9739284a42f85002552b57930ccf9faac3a1a63c383d75"
         }
       ],
-      "commit": "fd71bc0094631292cf864b67a10f5bea0e2ff3b7",
+      "commit": "20716e0708926cfdb6e65665345f8dbea5bc1fb5",
       "tree_truncated": false
     },
     {
@@ -356,23 +362,69 @@
   ],
   "crawler": {
     "status": "WATCHING_FOR_SOURCE_UPDATES",
-    "visited": 0,
+    "visited": 5,
     "failed": 0,
     "current_url": null,
     "queue_remaining": 0,
-    "recent": [],
+    "recent": [
+      {
+        "url": "https://raw.githubusercontent.com/Nexora-Apparel/mt5-scalping-engine/20716e0708926cfdb6e65665345f8dbea5bc1fb5/MQL5/Include/Veltrix/RiskAllocator.mqh",
+        "repository": "Nexora-Apparel/mt5-scalping-engine",
+        "path": "MQL5/Include/Veltrix/RiskAllocator.mqh",
+        "sha256": "c82872c1eb27089b3e9739284a42f85002552b57930ccf9faac3a1a63c383d75",
+        "bytes": 6171,
+        "result": "SOURCE_SAVED",
+        "received_unix": 1794417547.0934005
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Nexora-Apparel/mt5-scalping-engine/20716e0708926cfdb6e65665345f8dbea5bc1fb5/MQL5/Include/Veltrix/PositionRegistry.mqh",
+        "repository": "Nexora-Apparel/mt5-scalping-engine",
+        "path": "MQL5/Include/Veltrix/PositionRegistry.mqh",
+        "sha256": "696a4af3d910e7f19c3379d7f1923acc6592ec1e4d4e1de6dad74a080df0d290",
+        "bytes": 5522,
+        "result": "SOURCE_SAVED",
+        "received_unix": 1794417546.9321835
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Nexora-Apparel/mt5-scalping-engine/20716e0708926cfdb6e65665345f8dbea5bc1fb5/MQL5/Include/Veltrix/MarketGuard.mqh",
+        "repository": "Nexora-Apparel/mt5-scalping-engine",
+        "path": "MQL5/Include/Veltrix/MarketGuard.mqh",
+        "sha256": "066236a77352db8ec2c8ec33324b05a24b2b44af3f590f2d1370da47b7091239",
+        "bytes": 5671,
+        "result": "SOURCE_SAVED",
+        "received_unix": 1794417546.8024518
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Nexora-Apparel/mt5-scalping-engine/20716e0708926cfdb6e65665345f8dbea5bc1fb5/MQL5/Experts/VeltrixScalper.mq5",
+        "repository": "Nexora-Apparel/mt5-scalping-engine",
+        "path": "MQL5/Experts/VeltrixScalper.mq5",
+        "sha256": "8a36ed4f7eee517309c7afdd42b120b4e2b48fb11c9c78168523462a9afaa46f",
+        "bytes": 3028,
+        "result": "SOURCE_SAVED",
+        "received_unix": 1794417543.972077
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Nexora-Apparel/mt5-scalping-engine/20716e0708926cfdb6e65665345f8dbea5bc1fb5/MQL5/Experts/NexoraScalper.mq5",
+        "repository": "Nexora-Apparel/mt5-scalping-engine",
+        "path": "MQL5/Experts/NexoraScalper.mq5",
+        "sha256": "0b9d3c43e2c415002998e7adfff5c0bb4fd9d277b2b7e9329983020c65a53a7e",
+        "bytes": 13485,
+        "result": "SOURCE_SAVED",
+        "received_unix": 1794417543.8144565
+      }
+    ],
     "external_code_executed": false,
-    "current_repository": "yulz008/GOLD_ORB",
-    "observed_unix": 1794413552.3974447,
-    "frontier_total_seen": 146
+    "current_repository": "Nexora-Apparel/mt5-scalping-engine",
+    "observed_unix": 1794417547.1030352,
+    "frontier_total_seen": 151
   },
   "spider": {
     "improvement_status": "WAITING_FOR_NEW_EVIDENCE",
     "improvements_accepted": 6,
-    "mission_run_id": "mission-362004d5362e",
+    "mission_run_id": "mission-63e2ce7bb409",
     "mission_status": "COMPLETED",
     "identity": "JARVIS MARK 2 / SPIDER",
-    "fleet_run_id": "fleet-22f925d20d5b",
+    "fleet_run_id": "fleet-6505003c5dea",
     "fleet_status": "COMPLETED",
     "counts": {
       "queued": 0,
@@ -384,8 +436,8 @@
       "workers": 24,
       "launched": 24
     },
-    "new_findings": 0,
-    "open_findings": 217,
+    "new_findings": 4,
+    "open_findings": 221,
     "model_children": false,
     "worker_type": "DETERMINISTIC_TOOL_WORKER",
     "external_ai_apis": 0

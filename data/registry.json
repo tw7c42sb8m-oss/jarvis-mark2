@@ -39,7 +39,7 @@
     ],
     "commit": "d3eb29c382acf715727d5cd6a0414151e821fc2d",
     "tree_truncated": false,
-    "last_reviewed_unix": 1794413550.714462
+    "last_reviewed_unix": 1794417543.416873
   },
   "EA31337/EA31337": {
     "repository": "EA31337/EA31337",
@@ -67,7 +67,7 @@
     ],
     "commit": "9b9bd38c4e49dd6916f4fe3936e50e97fca7a692",
     "tree_truncated": false,
-    "last_reviewed_unix": 1794413550.714462
+    "last_reviewed_unix": 1794417543.416873
   },
   "sibvic/mq5-templates": {
     "repository": "sibvic/mq5-templates",
@@ -109,7 +109,7 @@
     ],
     "commit": "6de6720fb67dcefda3f178850f73b5355309e1c8",
     "tree_truncated": false,
-    "last_reviewed_unix": 1794413550.714462
+    "last_reviewed_unix": 1794417543.416873
   },
   "EarnForex/PositionSizer": {
     "repository": "EarnForex/PositionSizer",
@@ -137,7 +137,7 @@
     ],
     "commit": "3b99c9dcc060bee8b9ebd602cc2556a8b41c9857",
     "tree_truncated": false,
-    "last_reviewed_unix": 1794413550.714462
+    "last_reviewed_unix": 1794417543.416873
   },
   "yulz008/GOLD_ORB": {
     "repository": "yulz008/GOLD_ORB",
@@ -165,7 +165,7 @@
     ],
     "commit": "8af0d735288c0e9378e35d06c46f23b21d9a5424",
     "tree_truncated": false,
-    "last_reviewed_unix": 1794413550.714462
+    "last_reviewed_unix": 1794417543.416873
   },
   "iantaurus2000-lab/XAUUSD-Scalping-V4": {
     "repository": "iantaurus2000-lab/XAUUSD-Scalping-V4",
@@ -207,7 +207,7 @@
     ],
     "commit": "676771a0cbca4d0fa6219acfdeb29fd64e5c4ed9",
     "tree_truncated": false,
-    "last_reviewed_unix": 1794413550.714462
+    "last_reviewed_unix": 1794417543.416873
   },
   "Ghost-Coder23/scalpingbot-mt5": {
     "repository": "Ghost-Coder23/scalpingbot-mt5",
@@ -249,12 +249,12 @@
     ],
     "commit": "672a3295022d60e129c5bfeb7246d5e92ca30171",
     "tree_truncated": false,
-    "last_reviewed_unix": 1794413550.714462
+    "last_reviewed_unix": 1794417543.416873
   },
   "Nexora-Apparel/mt5-scalping-engine": {
     "repository": "Nexora-Apparel/mt5-scalping-engine",
     "url": "https://github.com/Nexora-Apparel/mt5-scalping-engine",
-    "updated_at": "2026-11-11T15:47:55Z",
+    "updated_at": "2026-11-11T17:18:43Z",
     "stars": 0,
     "license": null,
     "performance": null,
@@ -273,11 +273,25 @@
         },
         "assessment": "MANUAL_CODE_REVIEW_REQUIRED",
         "profitability": "UNPROVEN"
+      },
+      {
+        "path": "MQL5/Experts/VeltrixScalper.mq5",
+        "sha256": "8a36ed4f7eee517309c7afdd42b120b4e2b48fb11c9c78168523462a9afaa46f",
+        "checks": {
+          "mentions_stop_loss": false,
+          "mentions_take_profit": false,
+          "uses_dll_import": false,
+          "uses_web_request": false,
+          "mentions_martingale_or_grid": false,
+          "mentions_order_execution": false
+        },
+        "assessment": "MANUAL_CODE_REVIEW_REQUIRED",
+        "profitability": "UNPROVEN"
       }
     ],
-    "commit": "fd71bc0094631292cf864b67a10f5bea0e2ff3b7",
+    "commit": "20716e0708926cfdb6e65665345f8dbea5bc1fb5",
     "tree_truncated": false,
-    "last_reviewed_unix": 1794413550.714462
+    "last_reviewed_unix": 1794417543.416873
   },
   "kibetval/forex-scalper-bot": {
     "repository": "kibetval/forex-scalper-bot",

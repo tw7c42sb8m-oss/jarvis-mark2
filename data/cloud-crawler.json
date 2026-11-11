@@ -1,13 +1,59 @@
 {
   "status": "WATCHING_FOR_SOURCE_UPDATES",
-  "visited": 0,
+  "visited": 5,
   "failed": 0,
   "current_url": null,
   "queue_remaining": 0,
-  "recent": [],
+  "recent": [
+    {
+      "url": "https://raw.githubusercontent.com/Nexora-Apparel/mt5-scalping-engine/20716e0708926cfdb6e65665345f8dbea5bc1fb5/MQL5/Include/Veltrix/RiskAllocator.mqh",
+      "repository": "Nexora-Apparel/mt5-scalping-engine",
+      "path": "MQL5/Include/Veltrix/RiskAllocator.mqh",
+      "sha256": "c82872c1eb27089b3e9739284a42f85002552b57930ccf9faac3a1a63c383d75",
+      "bytes": 6171,
+      "result": "SOURCE_SAVED",
+      "received_unix": 1794417547.0934005
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Nexora-Apparel/mt5-scalping-engine/20716e0708926cfdb6e65665345f8dbea5bc1fb5/MQL5/Include/Veltrix/PositionRegistry.mqh",
+      "repository": "Nexora-Apparel/mt5-scalping-engine",
+      "path": "MQL5/Include/Veltrix/PositionRegistry.mqh",
+      "sha256": "696a4af3d910e7f19c3379d7f1923acc6592ec1e4d4e1de6dad74a080df0d290",
+      "bytes": 5522,
+      "result": "SOURCE_SAVED",
+      "received_unix": 1794417546.9321835
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Nexora-Apparel/mt5-scalping-engine/20716e0708926cfdb6e65665345f8dbea5bc1fb5/MQL5/Include/Veltrix/MarketGuard.mqh",
+      "repository": "Nexora-Apparel/mt5-scalping-engine",
+      "path": "MQL5/Include/Veltrix/MarketGuard.mqh",
+      "sha256": "066236a77352db8ec2c8ec33324b05a24b2b44af3f590f2d1370da47b7091239",
+      "bytes": 5671,
+      "result": "SOURCE_SAVED",
+      "received_unix": 1794417546.8024518
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Nexora-Apparel/mt5-scalping-engine/20716e0708926cfdb6e65665345f8dbea5bc1fb5/MQL5/Experts/VeltrixScalper.mq5",
+      "repository": "Nexora-Apparel/mt5-scalping-engine",
+      "path": "MQL5/Experts/VeltrixScalper.mq5",
+      "sha256": "8a36ed4f7eee517309c7afdd42b120b4e2b48fb11c9c78168523462a9afaa46f",
+      "bytes": 3028,
+      "result": "SOURCE_SAVED",
+      "received_unix": 1794417543.972077
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Nexora-Apparel/mt5-scalping-engine/20716e0708926cfdb6e65665345f8dbea5bc1fb5/MQL5/Experts/NexoraScalper.mq5",
+      "repository": "Nexora-Apparel/mt5-scalping-engine",
+      "path": "MQL5/Experts/NexoraScalper.mq5",
+      "sha256": "0b9d3c43e2c415002998e7adfff5c0bb4fd9d277b2b7e9329983020c65a53a7e",
+      "bytes": 13485,
+      "result": "SOURCE_SAVED",
+      "received_unix": 1794417543.8144565
+    }
+  ],
   "external_code_executed": false,
-  "current_repository": "yulz008/GOLD_ORB",
-  "observed_unix": 1794413552.3974447,
+  "current_repository": "Nexora-Apparel/mt5-scalping-engine",
+  "observed_unix": 1794417547.1030352,
   "seen_sources": [
     [
       "EA31337/EA31337",
@@ -178,6 +224,31 @@
       "Ghost-Coder23/scalpingbot-mt5",
       "b2d7e0904d83ba5557c92270155cb8a5163e2e37",
       "ScalpingBot.mqh"
+    ],
+    [
+      "Nexora-Apparel/mt5-scalping-engine",
+      "20716e0708926cfdb6e65665345f8dbea5bc1fb5",
+      "MQL5/Experts/NexoraScalper.mq5"
+    ],
+    [
+      "Nexora-Apparel/mt5-scalping-engine",
+      "20716e0708926cfdb6e65665345f8dbea5bc1fb5",
+      "MQL5/Experts/VeltrixScalper.mq5"
+    ],
+    [
+      "Nexora-Apparel/mt5-scalping-engine",
+      "20716e0708926cfdb6e65665345f8dbea5bc1fb5",
+      "MQL5/Include/Veltrix/MarketGuard.mqh"
+    ],
+    [
+      "Nexora-Apparel/mt5-scalping-engine",
+      "20716e0708926cfdb6e65665345f8dbea5bc1fb5",
+      "MQL5/Include/Veltrix/PositionRegistry.mqh"
+    ],
+    [
+      "Nexora-Apparel/mt5-scalping-engine",
+      "20716e0708926cfdb6e65665345f8dbea5bc1fb5",
+      "MQL5/Include/Veltrix/RiskAllocator.mqh"
     ],
     [
       "Nexora-Apparel/mt5-scalping-engine",
