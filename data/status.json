@@ -1,7 +1,7 @@
 {
   "agent": "JARVIS MARK 2",
   "role": "EA RESEARCH AND DEVELOPMENT",
-  "observed_unix": 1794392334.3364794,
+  "observed_unix": 1794395783.011198,
   "status": "RESEARCH_COMPLETE",
   "runtime": "GITHUB_ACTIONS",
   "cloud_deployed": true,
@@ -73,15 +73,31 @@
       "files": [
         {
           "path": "EASniper.mq5",
-          "sha256": "a67495133da67a3c8dbf03b1ed8c229ef9b949ee2a0f0c1869162c5381dcda33"
+          "sha256": "a67495133da67a3c8dbf03b1ed8c229ef9b949ee2a0f0c1869162c5381dcda33",
+          "checks": {
+            "mentions_stop_loss": true,
+            "mentions_take_profit": true,
+            "uses_dll_import": false,
+            "uses_web_request": true,
+            "mentions_martingale_or_grid": false,
+            "mentions_order_execution": true
+          },
+          "assessment": "MANUAL_CODE_REVIEW_REQUIRED",
+          "profitability": "UNPROVEN"
         },
         {
           "path": "ScalpingBot.mq5",
-          "sha256": "33bbd8df724c99c2cd82f4b1ffca45b04c19bfd04c6b4a198d530b00133dd2ca"
-        },
-        {
-          "path": "ScalpingBot.mqh",
-          "sha256": "773955decfe6d4ca8ff9092de727e652a1ebb3477aff1595a975317f9c80cc9b"
+          "sha256": "33bbd8df724c99c2cd82f4b1ffca45b04c19bfd04c6b4a198d530b00133dd2ca",
+          "checks": {
+            "mentions_stop_loss": true,
+            "mentions_take_profit": true,
+            "uses_dll_import": false,
+            "uses_web_request": false,
+            "mentions_martingale_or_grid": false,
+            "mentions_order_execution": false
+          },
+          "assessment": "MANUAL_CODE_REVIEW_REQUIRED",
+          "profitability": "UNPROVEN"
         }
       ],
       "commit": "672a3295022d60e129c5bfeb7246d5e92ca30171",
@@ -340,51 +356,23 @@
   ],
   "crawler": {
     "status": "WATCHING_FOR_SOURCE_UPDATES",
-    "visited": 3,
+    "visited": 0,
     "failed": 0,
     "current_url": null,
     "queue_remaining": 0,
-    "recent": [
-      {
-        "url": "https://raw.githubusercontent.com/Ghost-Coder23/scalpingbot-mt5/672a3295022d60e129c5bfeb7246d5e92ca30171/ScalpingBot.mqh",
-        "repository": "Ghost-Coder23/scalpingbot-mt5",
-        "path": "ScalpingBot.mqh",
-        "sha256": "773955decfe6d4ca8ff9092de727e652a1ebb3477aff1595a975317f9c80cc9b",
-        "bytes": 24991,
-        "result": "SOURCE_SAVED",
-        "received_unix": 1794392336.6462045
-      },
-      {
-        "url": "https://raw.githubusercontent.com/Ghost-Coder23/scalpingbot-mt5/672a3295022d60e129c5bfeb7246d5e92ca30171/ScalpingBot.mq5",
-        "repository": "Ghost-Coder23/scalpingbot-mt5",
-        "path": "ScalpingBot.mq5",
-        "sha256": "33bbd8df724c99c2cd82f4b1ffca45b04c19bfd04c6b4a198d530b00133dd2ca",
-        "bytes": 9836,
-        "result": "SOURCE_SAVED",
-        "received_unix": 1794392334.5883234
-      },
-      {
-        "url": "https://raw.githubusercontent.com/Ghost-Coder23/scalpingbot-mt5/672a3295022d60e129c5bfeb7246d5e92ca30171/EASniper.mq5",
-        "repository": "Ghost-Coder23/scalpingbot-mt5",
-        "path": "EASniper.mq5",
-        "sha256": "a67495133da67a3c8dbf03b1ed8c229ef9b949ee2a0f0c1869162c5381dcda33",
-        "bytes": 29919,
-        "result": "SOURCE_SAVED",
-        "received_unix": 1794392334.4665797
-      }
-    ],
+    "recent": [],
     "external_code_executed": false,
-    "current_repository": "Ghost-Coder23/scalpingbot-mt5",
-    "observed_unix": 1794392336.6494758,
+    "current_repository": "yulz008/GOLD_ORB",
+    "observed_unix": 1794395786.0532887,
     "frontier_total_seen": 141
   },
   "spider": {
     "improvement_status": "WAITING_FOR_NEW_EVIDENCE",
     "improvements_accepted": 6,
-    "mission_run_id": "mission-72593f6de53e",
+    "mission_run_id": "mission-779d6a29fb85",
     "mission_status": "COMPLETED",
     "identity": "JARVIS MARK 2 / SPIDER",
-    "fleet_run_id": "fleet-4adb80751623",
+    "fleet_run_id": "fleet-d691690ee85d",
     "fleet_status": "COMPLETED",
     "counts": {
       "queued": 0,
@@ -396,7 +384,7 @@
       "workers": 24,
       "launched": 24
     },
-    "new_findings": 5,
+    "new_findings": 0,
     "open_findings": 208,
     "model_children": false,
     "worker_type": "DETERMINISTIC_TOOL_WORKER",

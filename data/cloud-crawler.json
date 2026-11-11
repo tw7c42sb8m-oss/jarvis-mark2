@@ -1,41 +1,13 @@
 {
   "status": "WATCHING_FOR_SOURCE_UPDATES",
-  "visited": 3,
+  "visited": 0,
   "failed": 0,
   "current_url": null,
   "queue_remaining": 0,
-  "recent": [
-    {
-      "url": "https://raw.githubusercontent.com/Ghost-Coder23/scalpingbot-mt5/672a3295022d60e129c5bfeb7246d5e92ca30171/ScalpingBot.mqh",
-      "repository": "Ghost-Coder23/scalpingbot-mt5",
-      "path": "ScalpingBot.mqh",
-      "sha256": "773955decfe6d4ca8ff9092de727e652a1ebb3477aff1595a975317f9c80cc9b",
-      "bytes": 24991,
-      "result": "SOURCE_SAVED",
-      "received_unix": 1794392336.6462045
-    },
-    {
-      "url": "https://raw.githubusercontent.com/Ghost-Coder23/scalpingbot-mt5/672a3295022d60e129c5bfeb7246d5e92ca30171/ScalpingBot.mq5",
-      "repository": "Ghost-Coder23/scalpingbot-mt5",
-      "path": "ScalpingBot.mq5",
-      "sha256": "33bbd8df724c99c2cd82f4b1ffca45b04c19bfd04c6b4a198d530b00133dd2ca",
-      "bytes": 9836,
-      "result": "SOURCE_SAVED",
-      "received_unix": 1794392334.5883234
-    },
-    {
-      "url": "https://raw.githubusercontent.com/Ghost-Coder23/scalpingbot-mt5/672a3295022d60e129c5bfeb7246d5e92ca30171/EASniper.mq5",
-      "repository": "Ghost-Coder23/scalpingbot-mt5",
-      "path": "EASniper.mq5",
-      "sha256": "a67495133da67a3c8dbf03b1ed8c229ef9b949ee2a0f0c1869162c5381dcda33",
-      "bytes": 29919,
-      "result": "SOURCE_SAVED",
-      "received_unix": 1794392334.4665797
-    }
-  ],
+  "recent": [],
   "external_code_executed": false,
-  "current_repository": "Ghost-Coder23/scalpingbot-mt5",
-  "observed_unix": 1794392336.6494758,
+  "current_repository": "yulz008/GOLD_ORB",
+  "observed_unix": 1794395786.0532887,
   "seen_sources": [
     [
       "EA31337/EA31337",
