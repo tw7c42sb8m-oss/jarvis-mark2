@@ -1,49 +1,41 @@
 {
   "status": "WATCHING_FOR_SOURCE_UPDATES",
   "visited": 3,
-  "failed": 1,
+  "failed": 0,
   "current_url": null,
   "queue_remaining": 0,
   "recent": [
     {
-      "url": "https://raw.githubusercontent.com/iantaurus2000-lab/XAUUSD-Scalping-V4/59fae13f1c62615157bf3fa2b0096e25198f8c7d/MT5_EA_Test/uji-test-mt5.mq5",
-      "repository": "iantaurus2000-lab/XAUUSD-Scalping-V4",
-      "path": "MT5_EA_Test/uji-test-mt5.mq5",
-      "sha256": "7e3e62f04b8881335acc432d7050aacbd7d88758bea6ac722579af27173fcdc9",
-      "bytes": 28160,
+      "url": "https://raw.githubusercontent.com/Ghost-Coder23/scalpingbot-mt5/672a3295022d60e129c5bfeb7246d5e92ca30171/ScalpingBot.mqh",
+      "repository": "Ghost-Coder23/scalpingbot-mt5",
+      "path": "ScalpingBot.mqh",
+      "sha256": "773955decfe6d4ca8ff9092de727e652a1ebb3477aff1595a975317f9c80cc9b",
+      "bytes": 24991,
       "result": "SOURCE_SAVED",
-      "received_unix": 1794388563.7539682
+      "received_unix": 1794392336.6462045
     },
     {
-      "url": "https://raw.githubusercontent.com/iantaurus2000-lab/XAUUSD-Scalping-V4/59fae13f1c62615157bf3fa2b0096e25198f8c7d/mt5/Experts/RayyanD1Standalone.mq5",
-      "repository": "iantaurus2000-lab/XAUUSD-Scalping-V4",
-      "path": "mt5/Experts/RayyanD1Standalone.mq5",
-      "result": "FETCH_FAILED",
-      "error": "Source size limit",
-      "received_unix": 1794388563.6228533
+      "url": "https://raw.githubusercontent.com/Ghost-Coder23/scalpingbot-mt5/672a3295022d60e129c5bfeb7246d5e92ca30171/ScalpingBot.mq5",
+      "repository": "Ghost-Coder23/scalpingbot-mt5",
+      "path": "ScalpingBot.mq5",
+      "sha256": "33bbd8df724c99c2cd82f4b1ffca45b04c19bfd04c6b4a198d530b00133dd2ca",
+      "bytes": 9836,
+      "result": "SOURCE_SAVED",
+      "received_unix": 1794392334.5883234
     },
     {
-      "url": "https://raw.githubusercontent.com/iantaurus2000-lab/XAUUSD-Scalping-V4/59fae13f1c62615157bf3fa2b0096e25198f8c7d/mt5/Experts/uji-test-mt5.mq5",
-      "repository": "iantaurus2000-lab/XAUUSD-Scalping-V4",
-      "path": "mt5/Experts/uji-test-mt5.mq5",
-      "sha256": "b7ed80cf8706cd6dd2ede37163494568f64e7297e5dd547c10ca4528241837ce",
-      "bytes": 28929,
+      "url": "https://raw.githubusercontent.com/Ghost-Coder23/scalpingbot-mt5/672a3295022d60e129c5bfeb7246d5e92ca30171/EASniper.mq5",
+      "repository": "Ghost-Coder23/scalpingbot-mt5",
+      "path": "EASniper.mq5",
+      "sha256": "a67495133da67a3c8dbf03b1ed8c229ef9b949ee2a0f0c1869162c5381dcda33",
+      "bytes": 29919,
       "result": "SOURCE_SAVED",
-      "received_unix": 1794388560.0070617
-    },
-    {
-      "url": "https://raw.githubusercontent.com/iantaurus2000-lab/XAUUSD-Scalping-V4/59fae13f1c62615157bf3fa2b0096e25198f8c7d/mt5/Experts/Rayyan4GatewayEA.mq5",
-      "repository": "iantaurus2000-lab/XAUUSD-Scalping-V4",
-      "path": "mt5/Experts/Rayyan4GatewayEA.mq5",
-      "sha256": "1398ee4fc0922bb3d11080de7243befd97df851fa0c84c940fe230a6d352f6f4",
-      "bytes": 112033,
-      "result": "SOURCE_SAVED",
-      "received_unix": 1794388559.7980533
+      "received_unix": 1794392334.4665797
     }
   ],
   "external_code_executed": false,
-  "current_repository": "iantaurus2000-lab/XAUUSD-Scalping-V4",
-  "observed_unix": 1794388563.7569556,
+  "current_repository": "Ghost-Coder23/scalpingbot-mt5",
+  "observed_unix": 1794392336.6494758,
   "seen_sources": [
     [
       "EA31337/EA31337",
@@ -189,6 +181,21 @@
       "EarnForex/PositionSizer",
       "dadf3d5c869c34cac40db3fb6858b188cf101a25",
       "MQL5/Experts/Position Sizer/Position Sizer.mq5"
+    ],
+    [
+      "Ghost-Coder23/scalpingbot-mt5",
+      "672a3295022d60e129c5bfeb7246d5e92ca30171",
+      "EASniper.mq5"
+    ],
+    [
+      "Ghost-Coder23/scalpingbot-mt5",
+      "672a3295022d60e129c5bfeb7246d5e92ca30171",
+      "ScalpingBot.mq5"
+    ],
+    [
+      "Ghost-Coder23/scalpingbot-mt5",
+      "672a3295022d60e129c5bfeb7246d5e92ca30171",
+      "ScalpingBot.mqh"
     ],
     [
       "Ghost-Coder23/scalpingbot-mt5",

@@ -39,13 +39,13 @@
     ],
     "commit": "d3eb29c382acf715727d5cd6a0414151e821fc2d",
     "tree_truncated": false,
-    "last_reviewed_unix": 1794388559.5762029
+    "last_reviewed_unix": 1794392334.3364794
   },
   "EA31337/EA31337": {
     "repository": "EA31337/EA31337",
     "url": "https://github.com/EA31337/EA31337",
     "updated_at": "2026-04-07T14:41:25Z",
-    "stars": 1359,
+    "stars": 1360,
     "license": "GPL-3.0",
     "performance": null,
     "status": "SOURCE_SCREEN_ONLY",
@@ -67,7 +67,7 @@
     ],
     "commit": "9b9bd38c4e49dd6916f4fe3936e50e97fca7a692",
     "tree_truncated": false,
-    "last_reviewed_unix": 1794388559.5762029
+    "last_reviewed_unix": 1794392334.3364794
   },
   "sibvic/mq5-templates": {
     "repository": "sibvic/mq5-templates",
@@ -109,7 +109,7 @@
     ],
     "commit": "6de6720fb67dcefda3f178850f73b5355309e1c8",
     "tree_truncated": false,
-    "last_reviewed_unix": 1794388559.5762029
+    "last_reviewed_unix": 1794392334.3364794
   },
   "EarnForex/PositionSizer": {
     "repository": "EarnForex/PositionSizer",
@@ -137,7 +137,7 @@
     ],
     "commit": "3b99c9dcc060bee8b9ebd602cc2556a8b41c9857",
     "tree_truncated": false,
-    "last_reviewed_unix": 1794388559.5762029
+    "last_reviewed_unix": 1794392334.3364794
   },
   "yulz008/GOLD_ORB": {
     "repository": "yulz008/GOLD_ORB",
@@ -165,7 +165,7 @@
     ],
     "commit": "8af0d735288c0e9378e35d06c46f23b21d9a5424",
     "tree_truncated": false,
-    "last_reviewed_unix": 1794388559.5762029
+    "last_reviewed_unix": 1794392334.3364794
   },
   "kibetval/forex-scalper-bot": {
     "repository": "kibetval/forex-scalper-bot",
@@ -193,35 +193,7 @@
     ],
     "commit": "6e04861d5a57a01d07dc773c9622e458cb2b6a0a",
     "tree_truncated": false,
-    "last_reviewed_unix": 1794388559.5762029
-  },
-  "maasagodfrey27-code/GoldScalper-MT5": {
-    "repository": "maasagodfrey27-code/GoldScalper-MT5",
-    "url": "https://github.com/maasagodfrey27-code/GoldScalper-MT5",
-    "updated_at": "2026-11-09T14:10:12Z",
-    "stars": 0,
-    "license": null,
-    "performance": null,
-    "status": "SOURCE_SCREEN_ONLY",
-    "files": [
-      {
-        "path": "GoldScalper.mq5",
-        "sha256": "64779e6edd7e17910ee74e15f528709837861438a90fe3aa4d29e388a838f1c0",
-        "checks": {
-          "mentions_stop_loss": true,
-          "mentions_take_profit": true,
-          "uses_dll_import": false,
-          "uses_web_request": false,
-          "mentions_martingale_or_grid": false,
-          "mentions_order_execution": true
-        },
-        "assessment": "MANUAL_CODE_REVIEW_REQUIRED",
-        "profitability": "UNPROVEN"
-      }
-    ],
-    "commit": "2929e8a427c2e638b6a4064139ee883b946bd14c",
-    "tree_truncated": false,
-    "last_reviewed_unix": 1794388559.5762029
+    "last_reviewed_unix": 1794392334.3364794
   },
   "iantaurus2000-lab/XAUUSD-Scalping-V4": {
     "repository": "iantaurus2000-lab/XAUUSD-Scalping-V4",
@@ -262,6 +234,76 @@
       }
     ],
     "commit": "59fae13f1c62615157bf3fa2b0096e25198f8c7d",
+    "tree_truncated": false,
+    "last_reviewed_unix": 1794392334.3364794
+  },
+  "Ghost-Coder23/scalpingbot-mt5": {
+    "repository": "Ghost-Coder23/scalpingbot-mt5",
+    "url": "https://github.com/Ghost-Coder23/scalpingbot-mt5",
+    "updated_at": "2026-11-11T09:12:13Z",
+    "stars": 0,
+    "license": null,
+    "performance": null,
+    "status": "SOURCE_SCREEN_ONLY",
+    "files": [
+      {
+        "path": "EASniper.mq5",
+        "sha256": "a67495133da67a3c8dbf03b1ed8c229ef9b949ee2a0f0c1869162c5381dcda33",
+        "checks": {
+          "mentions_stop_loss": true,
+          "mentions_take_profit": true,
+          "uses_dll_import": false,
+          "uses_web_request": true,
+          "mentions_martingale_or_grid": false,
+          "mentions_order_execution": true
+        },
+        "assessment": "MANUAL_CODE_REVIEW_REQUIRED",
+        "profitability": "UNPROVEN"
+      },
+      {
+        "path": "ScalpingBot.mq5",
+        "sha256": "33bbd8df724c99c2cd82f4b1ffca45b04c19bfd04c6b4a198d530b00133dd2ca",
+        "checks": {
+          "mentions_stop_loss": true,
+          "mentions_take_profit": true,
+          "uses_dll_import": false,
+          "uses_web_request": false,
+          "mentions_martingale_or_grid": false,
+          "mentions_order_execution": false
+        },
+        "assessment": "MANUAL_CODE_REVIEW_REQUIRED",
+        "profitability": "UNPROVEN"
+      }
+    ],
+    "commit": "672a3295022d60e129c5bfeb7246d5e92ca30171",
+    "tree_truncated": false,
+    "last_reviewed_unix": 1794392334.3364794
+  },
+  "maasagodfrey27-code/GoldScalper-MT5": {
+    "repository": "maasagodfrey27-code/GoldScalper-MT5",
+    "url": "https://github.com/maasagodfrey27-code/GoldScalper-MT5",
+    "updated_at": "2026-11-09T14:10:12Z",
+    "stars": 0,
+    "license": null,
+    "performance": null,
+    "status": "SOURCE_SCREEN_ONLY",
+    "files": [
+      {
+        "path": "GoldScalper.mq5",
+        "sha256": "64779e6edd7e17910ee74e15f528709837861438a90fe3aa4d29e388a838f1c0",
+        "checks": {
+          "mentions_stop_loss": true,
+          "mentions_take_profit": true,
+          "uses_dll_import": false,
+          "uses_web_request": false,
+          "mentions_martingale_or_grid": false,
+          "mentions_order_execution": true
+        },
+        "assessment": "MANUAL_CODE_REVIEW_REQUIRED",
+        "profitability": "UNPROVEN"
+      }
+    ],
+    "commit": "2929e8a427c2e638b6a4064139ee883b946bd14c",
     "tree_truncated": false,
     "last_reviewed_unix": 1794388559.5762029
   },
@@ -376,34 +418,6 @@
     "commit": "57f76d832ce0e80314a264c046274f40beb54f96",
     "tree_truncated": false,
     "last_reviewed_unix": 1793691356.3121269
-  },
-  "Ghost-Coder23/scalpingbot-mt5": {
-    "repository": "Ghost-Coder23/scalpingbot-mt5",
-    "url": "https://github.com/Ghost-Coder23/scalpingbot-mt5",
-    "updated_at": "2026-10-31T06:49:57Z",
-    "stars": 0,
-    "license": null,
-    "performance": null,
-    "status": "SOURCE_SCREEN_ONLY",
-    "files": [
-      {
-        "path": "ScalpingBot.mq5",
-        "sha256": "33bbd8df724c99c2cd82f4b1ffca45b04c19bfd04c6b4a198d530b00133dd2ca",
-        "checks": {
-          "mentions_stop_loss": true,
-          "mentions_take_profit": true,
-          "uses_dll_import": false,
-          "uses_web_request": false,
-          "mentions_martingale_or_grid": false,
-          "mentions_order_execution": false
-        },
-        "assessment": "MANUAL_CODE_REVIEW_REQUIRED",
-        "profitability": "UNPROVEN"
-      }
-    ],
-    "commit": "b2d7e0904d83ba5557c92270155cb8a5163e2e37",
-    "tree_truncated": false,
-    "last_reviewed_unix": 1793669265.4692469
   },
   "yanstd888/institutional-smc-scalper-mt5": {
     "repository": "yanstd888/institutional-smc-scalper-mt5",
