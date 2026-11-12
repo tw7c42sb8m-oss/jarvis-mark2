@@ -1,23 +1,13 @@
 {
   "status": "WATCHING_FOR_SOURCE_UPDATES",
-  "visited": 1,
+  "visited": 0,
   "failed": 0,
   "current_url": null,
   "queue_remaining": 0,
-  "recent": [
-    {
-      "url": "https://raw.githubusercontent.com/mt-abdulla-it/xm-ai-scalping-bot/b31fb9c731c3a230f3b8d640f9a832aac7122597/XM_AI_ScalpingBot.mq5",
-      "repository": "mt-abdulla-it/xm-ai-scalping-bot",
-      "path": "XM_AI_ScalpingBot.mq5",
-      "sha256": "f4167e7f2466564a7374fc2b0b9b63a38de5211fcc69260ac57cae959c2eb97d",
-      "bytes": 96510,
-      "result": "SOURCE_SAVED",
-      "received_unix": 1794514211.7579207
-    }
-  ],
+  "recent": [],
   "external_code_executed": false,
   "current_repository": "yulz008/GOLD_ORB",
-  "observed_unix": 1794514214.1855562,
+  "observed_unix": 1794517728.9096363,
   "seen_sources": [
     [
       "EA31337/EA31337",
