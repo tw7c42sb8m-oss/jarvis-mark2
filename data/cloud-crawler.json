@@ -1,86 +1,32 @@
 {
   "status": "WATCHING_FOR_SOURCE_UPDATES",
-  "visited": 8,
+  "visited": 2,
   "failed": 0,
   "current_url": null,
   "queue_remaining": 0,
   "recent": [
     {
-      "url": "https://raw.githubusercontent.com/Nexora-Apparel/mt5-scalping-engine/6bfc9b21f887d3769fccd547db4c11147eee23b9/MQL5/Include/Veltrix/FeatureCollector.mqh",
-      "repository": "Nexora-Apparel/mt5-scalping-engine",
-      "path": "MQL5/Include/Veltrix/FeatureCollector.mqh",
-      "sha256": "e7dfd558e3ad077a5feacb70ce012c569fdb80e2306e92eba2527e843ee5b416",
-      "bytes": 7699,
+      "url": "https://raw.githubusercontent.com/mt-abdulla-it/xm-ai-scalping-bot/184049f6a54b639e6f5a1dd06139304ee248f661/XM_AI_ScalpingBot.mq5",
+      "repository": "mt-abdulla-it/xm-ai-scalping-bot",
+      "path": "XM_AI_ScalpingBot.mq5",
+      "sha256": "221e9509499e25e74b8bf5e097399992dab05f87a59b38147a59105d2566caae",
+      "bytes": 96503,
       "result": "SOURCE_SAVED",
-      "received_unix": 1794496615.694831
+      "received_unix": 1794500564.1594973
     },
     {
-      "url": "https://raw.githubusercontent.com/Nexora-Apparel/mt5-scalping-engine/6bfc9b21f887d3769fccd547db4c11147eee23b9/MQL5/Include/Veltrix/ExecutionGuard.mqh",
-      "repository": "Nexora-Apparel/mt5-scalping-engine",
-      "path": "MQL5/Include/Veltrix/ExecutionGuard.mqh",
-      "sha256": "3da9ae5dcce9921da70735fd6d5b098e635e071323a1b793b8b864b353e03f28",
-      "bytes": 8254,
+      "url": "https://raw.githubusercontent.com/mci123/mt5-online-dahboard/7999ca7a07f58ef2a31177b45eb325e09e257f50/MT5_Online_Bridge_Two_Bots.mq5",
+      "repository": "mci123/mt5-online-dahboard",
+      "path": "MT5_Online_Bridge_Two_Bots.mq5",
+      "sha256": "bff1a54a43d53eaa758da914744e171b58cd94a5b2a5eea806bb0664b9b0fb23",
+      "bytes": 6800,
       "result": "SOURCE_SAVED",
-      "received_unix": 1794496615.6206422
-    },
-    {
-      "url": "https://raw.githubusercontent.com/Nexora-Apparel/mt5-scalping-engine/6bfc9b21f887d3769fccd547db4c11147eee23b9/MQL5/Include/Veltrix/ExecutionCoordinator.mqh",
-      "repository": "Nexora-Apparel/mt5-scalping-engine",
-      "path": "MQL5/Include/Veltrix/ExecutionCoordinator.mqh",
-      "sha256": "d83818f6eb882b78f6e594cd56c25c542650c700967ae03ad6550b33a9c3a0e6",
-      "bytes": 15271,
-      "result": "SOURCE_SAVED",
-      "received_unix": 1794496615.5470123
-    },
-    {
-      "url": "https://raw.githubusercontent.com/Nexora-Apparel/mt5-scalping-engine/6bfc9b21f887d3769fccd547db4c11147eee23b9/MQL5/Include/Veltrix/BrokerReconciler.mqh",
-      "repository": "Nexora-Apparel/mt5-scalping-engine",
-      "path": "MQL5/Include/Veltrix/BrokerReconciler.mqh",
-      "sha256": "e57a568f423afdda562dc924b659bc2395cee90823fa0cdc66202f99c5c89889",
-      "bytes": 8948,
-      "result": "SOURCE_SAVED",
-      "received_unix": 1794496615.4647489
-    },
-    {
-      "url": "https://raw.githubusercontent.com/Nexora-Apparel/mt5-scalping-engine/6bfc9b21f887d3769fccd547db4c11147eee23b9/MQL5/Scripts/FeatureDatasetExporterRuntimeTest.mq5",
-      "repository": "Nexora-Apparel/mt5-scalping-engine",
-      "path": "MQL5/Scripts/FeatureDatasetExporterRuntimeTest.mq5",
-      "sha256": "b456687dcf0bc926e5ec97c2e76621c88190ce9b8b66df3704246f5c33fc8f8e",
-      "bytes": 8460,
-      "result": "SOURCE_SAVED",
-      "received_unix": 1794496615.353462
-    },
-    {
-      "url": "https://raw.githubusercontent.com/Nexora-Apparel/mt5-scalping-engine/6bfc9b21f887d3769fccd547db4c11147eee23b9/MQL5/Experts/VeltrixScalper.mq5",
-      "repository": "Nexora-Apparel/mt5-scalping-engine",
-      "path": "MQL5/Experts/VeltrixScalper.mq5",
-      "sha256": "21872c89c1f5c6d51760814bcb7203ced9c43c16ed2be9c0bba76787310fc247",
-      "bytes": 8714,
-      "result": "SOURCE_SAVED",
-      "received_unix": 1794496615.2598867
-    },
-    {
-      "url": "https://raw.githubusercontent.com/Nexora-Apparel/mt5-scalping-engine/6bfc9b21f887d3769fccd547db4c11147eee23b9/MQL5/Experts/VeltrixDemoDiagnostics.mq5",
-      "repository": "Nexora-Apparel/mt5-scalping-engine",
-      "path": "MQL5/Experts/VeltrixDemoDiagnostics.mq5",
-      "sha256": "471c29e60005466715dd744fa4ebde16a7957c4930d2b96b82fa76a61f861785",
-      "bytes": 6649,
-      "result": "SOURCE_SAVED",
-      "received_unix": 1794496613.5896657
-    },
-    {
-      "url": "https://raw.githubusercontent.com/Nexora-Apparel/mt5-scalping-engine/6bfc9b21f887d3769fccd547db4c11147eee23b9/MQL5/Experts/NexoraScalper.mq5",
-      "repository": "Nexora-Apparel/mt5-scalping-engine",
-      "path": "MQL5/Experts/NexoraScalper.mq5",
-      "sha256": "0b9d3c43e2c415002998e7adfff5c0bb4fd9d277b2b7e9329983020c65a53a7e",
-      "bytes": 13485,
-      "result": "SOURCE_SAVED",
-      "received_unix": 1794496613.5063908
+      "received_unix": 1794500563.9409897
     }
   ],
   "external_code_executed": false,
-  "current_repository": "Nexora-Apparel/mt5-scalping-engine",
-  "observed_unix": 1794496615.6989036,
+  "current_repository": "mt-abdulla-it/xm-ai-scalping-bot",
+  "observed_unix": 1794500564.2255929,
   "seen_sources": [
     [
       "EA31337/EA31337",
@@ -1036,6 +982,16 @@
       "maasagodfrey27-code/GoldScalper-MT5",
       "5cd256dc2c6200f941d14ab7fe7aca35b1d6a917",
       "GoldScalper.mq5"
+    ],
+    [
+      "mci123/mt5-online-dahboard",
+      "7999ca7a07f58ef2a31177b45eb325e09e257f50",
+      "MT5_Online_Bridge_Two_Bots.mq5"
+    ],
+    [
+      "mt-abdulla-it/xm-ai-scalping-bot",
+      "184049f6a54b639e6f5a1dd06139304ee248f661",
+      "XM_AI_ScalpingBot.mq5"
     ],
     [
       "sibvic/mq5-templates",
