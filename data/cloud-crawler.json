@@ -1,32 +1,13 @@
 {
   "status": "WATCHING_FOR_SOURCE_UPDATES",
-  "visited": 2,
+  "visited": 0,
   "failed": 0,
   "current_url": null,
   "queue_remaining": 0,
-  "recent": [
-    {
-      "url": "https://raw.githubusercontent.com/mt-abdulla-it/xm-ai-scalping-bot/184049f6a54b639e6f5a1dd06139304ee248f661/XM_AI_ScalpingBot.mq5",
-      "repository": "mt-abdulla-it/xm-ai-scalping-bot",
-      "path": "XM_AI_ScalpingBot.mq5",
-      "sha256": "221e9509499e25e74b8bf5e097399992dab05f87a59b38147a59105d2566caae",
-      "bytes": 96503,
-      "result": "SOURCE_SAVED",
-      "received_unix": 1794500564.1594973
-    },
-    {
-      "url": "https://raw.githubusercontent.com/mci123/mt5-online-dahboard/7999ca7a07f58ef2a31177b45eb325e09e257f50/MT5_Online_Bridge_Two_Bots.mq5",
-      "repository": "mci123/mt5-online-dahboard",
-      "path": "MT5_Online_Bridge_Two_Bots.mq5",
-      "sha256": "bff1a54a43d53eaa758da914744e171b58cd94a5b2a5eea806bb0664b9b0fb23",
-      "bytes": 6800,
-      "result": "SOURCE_SAVED",
-      "received_unix": 1794500563.9409897
-    }
-  ],
+  "recent": [],
   "external_code_executed": false,
-  "current_repository": "mt-abdulla-it/xm-ai-scalping-bot",
-  "observed_unix": 1794500564.2255929,
+  "current_repository": "yulz008/GOLD_ORB",
+  "observed_unix": 1794504060.489012,
   "seen_sources": [
     [
       "EA31337/EA31337",
