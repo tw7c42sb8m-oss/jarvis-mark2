@@ -39,7 +39,7 @@
     ],
     "commit": "d3eb29c382acf715727d5cd6a0414151e821fc2d",
     "tree_truncated": false,
-    "last_reviewed_unix": 1794460859.9335432
+    "last_reviewed_unix": 1794464601.2762237
   },
   "EA31337/EA31337": {
     "repository": "EA31337/EA31337",
@@ -67,7 +67,7 @@
     ],
     "commit": "9b9bd38c4e49dd6916f4fe3936e50e97fca7a692",
     "tree_truncated": false,
-    "last_reviewed_unix": 1794460859.9335432
+    "last_reviewed_unix": 1794464601.2762237
   },
   "sibvic/mq5-templates": {
     "repository": "sibvic/mq5-templates",
@@ -109,7 +109,7 @@
     ],
     "commit": "6de6720fb67dcefda3f178850f73b5355309e1c8",
     "tree_truncated": false,
-    "last_reviewed_unix": 1794460859.9335432
+    "last_reviewed_unix": 1794464601.2762237
   },
   "EarnForex/PositionSizer": {
     "repository": "EarnForex/PositionSizer",
@@ -137,13 +137,13 @@
     ],
     "commit": "3b99c9dcc060bee8b9ebd602cc2556a8b41c9857",
     "tree_truncated": false,
-    "last_reviewed_unix": 1794460859.9335432
+    "last_reviewed_unix": 1794464601.2762237
   },
   "yulz008/GOLD_ORB": {
     "repository": "yulz008/GOLD_ORB",
     "url": "https://github.com/yulz008/GOLD_ORB",
     "updated_at": "2023-07-29T05:42:05Z",
-    "stars": 329,
+    "stars": 330,
     "license": null,
     "performance": null,
     "status": "SOURCE_SCREEN_ONLY",
@@ -165,12 +165,12 @@
     ],
     "commit": "8af0d735288c0e9378e35d06c46f23b21d9a5424",
     "tree_truncated": false,
-    "last_reviewed_unix": 1794460859.9335432
+    "last_reviewed_unix": 1794464601.2762237
   },
   "iantaurus2000-lab/XAUUSD-Scalping-V4": {
     "repository": "iantaurus2000-lab/XAUUSD-Scalping-V4",
     "url": "https://github.com/iantaurus2000-lab/XAUUSD-Scalping-V4",
-    "updated_at": "2026-11-11T14:08:47Z",
+    "updated_at": "2026-11-12T06:19:27Z",
     "stars": 0,
     "license": null,
     "performance": null,
@@ -205,9 +205,9 @@
         "profitability": "UNPROVEN"
       }
     ],
-    "commit": "676771a0cbca4d0fa6219acfdeb29fd64e5c4ed9",
+    "commit": "1c4af882a932ef26cb6f7ec4ee751034dbee5462",
     "tree_truncated": false,
-    "last_reviewed_unix": 1794460859.9335432
+    "last_reviewed_unix": 1794464601.2762237
   },
   "Nexora-Apparel/mt5-scalping-engine": {
     "repository": "Nexora-Apparel/mt5-scalping-engine",
@@ -249,7 +249,7 @@
     ],
     "commit": "0228686c9cfabd7a9539e2c07dc7ecb0d298f574",
     "tree_truncated": false,
-    "last_reviewed_unix": 1794460859.9335432
+    "last_reviewed_unix": 1794464601.2762237
   },
   "kibetval/forex-scalper-bot": {
     "repository": "kibetval/forex-scalper-bot",
@@ -277,7 +277,7 @@
     ],
     "commit": "6baa3a4b870a848ce591cf08fbecb06db0486d98",
     "tree_truncated": false,
-    "last_reviewed_unix": 1794460859.9335432
+    "last_reviewed_unix": 1794464601.2762237
   },
   "Ghost-Coder23/scalpingbot-mt5": {
     "repository": "Ghost-Coder23/scalpingbot-mt5",
