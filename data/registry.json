@@ -3,7 +3,7 @@
     "repository": "geraked/metatrader5",
     "url": "https://github.com/geraked/metatrader5",
     "updated_at": "2025-11-15T04:39:29Z",
-    "stars": 691,
+    "stars": 692,
     "license": "MIT",
     "performance": null,
     "status": "SOURCE_SCREEN_ONLY",
@@ -39,7 +39,7 @@
     ],
     "commit": "d3eb29c382acf715727d5cd6a0414151e821fc2d",
     "tree_truncated": false,
-    "last_reviewed_unix": 1794441748.342852
+    "last_reviewed_unix": 1794447415.7481031
   },
   "EA31337/EA31337": {
     "repository": "EA31337/EA31337",
@@ -67,7 +67,7 @@
     ],
     "commit": "9b9bd38c4e49dd6916f4fe3936e50e97fca7a692",
     "tree_truncated": false,
-    "last_reviewed_unix": 1794441748.342852
+    "last_reviewed_unix": 1794447415.7481031
   },
   "sibvic/mq5-templates": {
     "repository": "sibvic/mq5-templates",
@@ -109,7 +109,7 @@
     ],
     "commit": "6de6720fb67dcefda3f178850f73b5355309e1c8",
     "tree_truncated": false,
-    "last_reviewed_unix": 1794441748.342852
+    "last_reviewed_unix": 1794447415.7481031
   },
   "EarnForex/PositionSizer": {
     "repository": "EarnForex/PositionSizer",
@@ -137,7 +137,7 @@
     ],
     "commit": "3b99c9dcc060bee8b9ebd602cc2556a8b41c9857",
     "tree_truncated": false,
-    "last_reviewed_unix": 1794441748.342852
+    "last_reviewed_unix": 1794447415.7481031
   },
   "yulz008/GOLD_ORB": {
     "repository": "yulz008/GOLD_ORB",
@@ -165,7 +165,7 @@
     ],
     "commit": "8af0d735288c0e9378e35d06c46f23b21d9a5424",
     "tree_truncated": false,
-    "last_reviewed_unix": 1794441748.342852
+    "last_reviewed_unix": 1794447415.7481031
   },
   "iantaurus2000-lab/XAUUSD-Scalping-V4": {
     "repository": "iantaurus2000-lab/XAUUSD-Scalping-V4",
@@ -207,12 +207,12 @@
     ],
     "commit": "676771a0cbca4d0fa6219acfdeb29fd64e5c4ed9",
     "tree_truncated": false,
-    "last_reviewed_unix": 1794441748.342852
+    "last_reviewed_unix": 1794447415.7481031
   },
   "Nexora-Apparel/mt5-scalping-engine": {
     "repository": "Nexora-Apparel/mt5-scalping-engine",
     "url": "https://github.com/Nexora-Apparel/mt5-scalping-engine",
-    "updated_at": "2026-11-11T19:16:51Z",
+    "updated_at": "2026-11-12T01:00:04Z",
     "stars": 0,
     "license": null,
     "performance": null,
@@ -233,8 +233,8 @@
         "profitability": "UNPROVEN"
       },
       {
-        "path": "MQL5/Experts/VeltrixScalper.mq5",
-        "sha256": "21872c89c1f5c6d51760814bcb7203ced9c43c16ed2be9c0bba76787310fc247",
+        "path": "MQL5/Experts/VeltrixDemoDiagnostics.mq5",
+        "sha256": "471c29e60005466715dd744fa4ebde16a7957c4930d2b96b82fa76a61f861785",
         "checks": {
           "mentions_stop_loss": false,
           "mentions_take_profit": false,
@@ -247,9 +247,9 @@
         "profitability": "UNPROVEN"
       }
     ],
-    "commit": "80ac5dffb64771951c11e199de24d261571c3ba2",
+    "commit": "0228686c9cfabd7a9539e2c07dc7ecb0d298f574",
     "tree_truncated": false,
-    "last_reviewed_unix": 1794441748.342852
+    "last_reviewed_unix": 1794447415.7481031
   },
   "kibetval/forex-scalper-bot": {
     "repository": "kibetval/forex-scalper-bot",
@@ -277,7 +277,7 @@
     ],
     "commit": "6baa3a4b870a848ce591cf08fbecb06db0486d98",
     "tree_truncated": false,
-    "last_reviewed_unix": 1794441748.342852
+    "last_reviewed_unix": 1794447415.7481031
   },
   "Ghost-Coder23/scalpingbot-mt5": {
     "repository": "Ghost-Coder23/scalpingbot-mt5",
