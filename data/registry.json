@@ -39,13 +39,13 @@
     ],
     "commit": "d3eb29c382acf715727d5cd6a0414151e821fc2d",
     "tree_truncated": false,
-    "last_reviewed_unix": 1794504057.937133
+    "last_reviewed_unix": 1794507022.3293445
   },
   "EarnForex/PositionSizer": {
     "repository": "EarnForex/PositionSizer",
     "url": "https://github.com/EarnForex/PositionSizer",
     "updated_at": "2026-11-10T08:58:54Z",
-    "stars": 614,
+    "stars": 615,
     "license": "Apache-2.0",
     "performance": null,
     "status": "SOURCE_SCREEN_ONLY",
@@ -67,7 +67,7 @@
     ],
     "commit": "3b99c9dcc060bee8b9ebd602cc2556a8b41c9857",
     "tree_truncated": false,
-    "last_reviewed_unix": 1794504057.937133
+    "last_reviewed_unix": 1794507022.3293445
   },
   "yulz008/GOLD_ORB": {
     "repository": "yulz008/GOLD_ORB",
@@ -95,7 +95,7 @@
     ],
     "commit": "8af0d735288c0e9378e35d06c46f23b21d9a5424",
     "tree_truncated": false,
-    "last_reviewed_unix": 1794504057.937133
+    "last_reviewed_unix": 1794507022.3293445
   },
   "EA31337/EA31337": {
     "repository": "EA31337/EA31337",
@@ -123,7 +123,7 @@
     ],
     "commit": "9b9bd38c4e49dd6916f4fe3936e50e97fca7a692",
     "tree_truncated": false,
-    "last_reviewed_unix": 1794504057.937133
+    "last_reviewed_unix": 1794507022.3293445
   },
   "sibvic/mq5-templates": {
     "repository": "sibvic/mq5-templates",
@@ -165,19 +165,49 @@
     ],
     "commit": "6de6720fb67dcefda3f178850f73b5355309e1c8",
     "tree_truncated": false,
-    "last_reviewed_unix": 1794504057.937133
+    "last_reviewed_unix": 1794507022.3293445
   },
   "iantaurus2000-lab/XAUUSD-Scalping-V4": {
     "repository": "iantaurus2000-lab/XAUUSD-Scalping-V4",
     "url": "https://github.com/iantaurus2000-lab/XAUUSD-Scalping-V4",
-    "updated_at": "2026-11-12T13:17:55Z",
+    "updated_at": "2026-11-12T17:24:38Z",
     "stars": 0,
     "license": null,
     "performance": null,
     "status": "SOURCE_SCREEN_ONLY",
-    "files": [],
-    "error": "HTTP Error 403: rate limit exceeded",
-    "last_reviewed_unix": 1794500561.717582
+    "files": [
+      {
+        "path": "mt5/Experts/Rayyan4GatewayEA.mq5",
+        "sha256": "1398ee4fc0922bb3d11080de7243befd97df851fa0c84c940fe230a6d352f6f4",
+        "checks": {
+          "mentions_stop_loss": true,
+          "mentions_take_profit": true,
+          "uses_dll_import": false,
+          "uses_web_request": true,
+          "mentions_martingale_or_grid": false,
+          "mentions_order_execution": true
+        },
+        "assessment": "MANUAL_CODE_REVIEW_REQUIRED",
+        "profitability": "UNPROVEN"
+      },
+      {
+        "path": "mt5/Experts/uji-test-mt5.mq5",
+        "sha256": "b7ed80cf8706cd6dd2ede37163494568f64e7297e5dd547c10ca4528241837ce",
+        "checks": {
+          "mentions_stop_loss": true,
+          "mentions_take_profit": true,
+          "uses_dll_import": false,
+          "uses_web_request": false,
+          "mentions_martingale_or_grid": false,
+          "mentions_order_execution": true
+        },
+        "assessment": "MANUAL_CODE_REVIEW_REQUIRED",
+        "profitability": "UNPROVEN"
+      }
+    ],
+    "commit": "5cf289be7c67a476bc861d5dbbae6b6307c446ee",
+    "tree_truncated": false,
+    "last_reviewed_unix": 1794507022.3293445
   },
   "mci123/mt5-online-dahboard": {
     "repository": "mci123/mt5-online-dahboard",
@@ -187,9 +217,25 @@
     "license": null,
     "performance": null,
     "status": "SOURCE_SCREEN_ONLY",
-    "files": [],
-    "error": "HTTP Error 403: rate limit exceeded",
-    "last_reviewed_unix": 1794500561.717582
+    "files": [
+      {
+        "path": "MT5_Online_Bridge_Two_Bots.mq5",
+        "sha256": "bff1a54a43d53eaa758da914744e171b58cd94a5b2a5eea806bb0664b9b0fb23",
+        "checks": {
+          "mentions_stop_loss": true,
+          "mentions_take_profit": true,
+          "uses_dll_import": false,
+          "uses_web_request": true,
+          "mentions_martingale_or_grid": false,
+          "mentions_order_execution": true
+        },
+        "assessment": "MANUAL_CODE_REVIEW_REQUIRED",
+        "profitability": "UNPROVEN"
+      }
+    ],
+    "commit": "7999ca7a07f58ef2a31177b45eb325e09e257f50",
+    "tree_truncated": false,
+    "last_reviewed_unix": 1794507022.3293445
   },
   "mt-abdulla-it/xm-ai-scalping-bot": {
     "repository": "mt-abdulla-it/xm-ai-scalping-bot",
@@ -199,9 +245,25 @@
     "license": "MIT",
     "performance": null,
     "status": "SOURCE_SCREEN_ONLY",
-    "files": [],
-    "error": "HTTP Error 403: rate limit exceeded",
-    "last_reviewed_unix": 1794500561.717582
+    "files": [
+      {
+        "path": "XM_AI_ScalpingBot.mq5",
+        "sha256": "221e9509499e25e74b8bf5e097399992dab05f87a59b38147a59105d2566caae",
+        "checks": {
+          "mentions_stop_loss": true,
+          "mentions_take_profit": true,
+          "uses_dll_import": false,
+          "uses_web_request": false,
+          "mentions_martingale_or_grid": true,
+          "mentions_order_execution": true
+        },
+        "assessment": "MANUAL_CODE_REVIEW_REQUIRED",
+        "profitability": "UNPROVEN"
+      }
+    ],
+    "commit": "184049f6a54b639e6f5a1dd06139304ee248f661",
+    "tree_truncated": false,
+    "last_reviewed_unix": 1794507022.3293445
   },
   "Nexora-Apparel/mt5-scalping-engine": {
     "repository": "Nexora-Apparel/mt5-scalping-engine",
