@@ -25,25 +25,25 @@
   },
   {
     "repository": "mci123/mt5-online-dahboard",
-    "source_files": 0,
+    "source_files": 1,
     "license": null,
     "next_action": "REVIEW_LICENSE"
   },
   {
     "repository": "mt-abdulla-it/xm-ai-scalping-bot",
-    "source_files": 0,
+    "source_files": 1,
     "license": "MIT",
     "next_action": "REVIEW_SOURCE_AND_NATIVE_VALIDATION"
   },
   {
     "repository": "sibvic/mq5-templates",
-    "source_files": 0,
+    "source_files": 2,
     "license": "MIT",
     "next_action": "REVIEW_SOURCE_AND_NATIVE_VALIDATION"
   },
   {
     "repository": "yulz008/GOLD_ORB",
-    "source_files": 0,
+    "source_files": 1,
     "license": null,
     "next_action": "REVIEW_LICENSE"
   }
