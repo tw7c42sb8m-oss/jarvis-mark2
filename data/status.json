@@ -1,7 +1,7 @@
 {
   "agent": "JARVIS MARK 2",
   "role": "EA RESEARCH AND DEVELOPMENT",
-  "observed_unix": 1794590143.8507183,
+  "observed_unix": 1794593159.6331153,
   "status": "RESEARCH_COMPLETE",
   "runtime": "GITHUB_ACTIONS",
   "cloud_deployed": true,
@@ -155,7 +155,17 @@
       "files": [
         {
           "path": "ForexScalperEA.mq5",
-          "sha256": "3e28a264feac3205f7c6e2c6685af9fe37ef9e5845a82305a7d5af11e62e29fa"
+          "sha256": "3e28a264feac3205f7c6e2c6685af9fe37ef9e5845a82305a7d5af11e62e29fa",
+          "checks": {
+            "mentions_stop_loss": true,
+            "mentions_take_profit": true,
+            "uses_dll_import": false,
+            "uses_web_request": false,
+            "mentions_martingale_or_grid": false,
+            "mentions_order_execution": true
+          },
+          "assessment": "MANUAL_CODE_REVIEW_REQUIRED",
+          "profitability": "UNPROVEN"
         }
       ],
       "commit": "20a8f00a75a7dd9ceca6067f589e19cca078e9d6",
@@ -172,7 +182,17 @@
       "files": [
         {
           "path": "XM_AI_ScalpingBot.mq5",
-          "sha256": "09435993ca76072ae1026e745ece155d74f6edc267d12981866a9538b7a6a5fa"
+          "sha256": "09435993ca76072ae1026e745ece155d74f6edc267d12981866a9538b7a6a5fa",
+          "checks": {
+            "mentions_stop_loss": true,
+            "mentions_take_profit": true,
+            "uses_dll_import": false,
+            "uses_web_request": false,
+            "mentions_martingale_or_grid": true,
+            "mentions_order_execution": true
+          },
+          "assessment": "MANUAL_CODE_REVIEW_REQUIRED",
+          "profitability": "UNPROVEN"
         }
       ],
       "commit": "9250801cca2e4c4783de6eb078d2499a80b76837",
@@ -322,42 +342,23 @@
   ],
   "crawler": {
     "status": "WATCHING_FOR_SOURCE_UPDATES",
-    "visited": 2,
+    "visited": 0,
     "failed": 0,
     "current_url": null,
     "queue_remaining": 0,
-    "recent": [
-      {
-        "url": "https://raw.githubusercontent.com/mt-abdulla-it/xm-ai-scalping-bot/9250801cca2e4c4783de6eb078d2499a80b76837/XM_AI_ScalpingBot.mq5",
-        "repository": "mt-abdulla-it/xm-ai-scalping-bot",
-        "path": "XM_AI_ScalpingBot.mq5",
-        "sha256": "09435993ca76072ae1026e745ece155d74f6edc267d12981866a9538b7a6a5fa",
-        "bytes": 97389,
-        "result": "SOURCE_SAVED",
-        "received_unix": 1794590144.2444646
-      },
-      {
-        "url": "https://raw.githubusercontent.com/kibetval/forex-scalper-bot/20a8f00a75a7dd9ceca6067f589e19cca078e9d6/ForexScalperEA.mq5",
-        "repository": "kibetval/forex-scalper-bot",
-        "path": "ForexScalperEA.mq5",
-        "sha256": "3e28a264feac3205f7c6e2c6685af9fe37ef9e5845a82305a7d5af11e62e29fa",
-        "bytes": 10639,
-        "result": "SOURCE_SAVED",
-        "received_unix": 1794590144.0659463
-      }
-    ],
+    "recent": [],
     "external_code_executed": false,
     "current_repository": "yulz008/GOLD_ORB",
-    "observed_unix": 1794590147.7224963,
+    "observed_unix": 1794593161.3528302,
     "frontier_total_seen": 259
   },
   "spider": {
     "improvement_status": "WAITING_FOR_NEW_EVIDENCE",
     "improvements_accepted": 6,
-    "mission_run_id": "mission-14abf237bb17",
+    "mission_run_id": "mission-2e50abd467a2",
     "mission_status": "COMPLETED",
     "identity": "JARVIS MARK 2 / SPIDER",
-    "fleet_run_id": "fleet-54fb0539b93d",
+    "fleet_run_id": "fleet-764348e7993e",
     "fleet_status": "COMPLETED",
     "counts": {
       "queued": 0,
@@ -369,7 +370,7 @@
       "workers": 24,
       "launched": 24
     },
-    "new_findings": 8,
+    "new_findings": 0,
     "open_findings": 340,
     "model_children": false,
     "worker_type": "DETERMINISTIC_TOOL_WORKER",
