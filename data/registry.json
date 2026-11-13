@@ -39,7 +39,7 @@
     ],
     "commit": "d3eb29c382acf715727d5cd6a0414151e821fc2d",
     "tree_truncated": false,
-    "last_reviewed_unix": 1794582524.4255588
+    "last_reviewed_unix": 1794586161.8850172
   },
   "EarnForex/PositionSizer": {
     "repository": "EarnForex/PositionSizer",
@@ -67,7 +67,7 @@
     ],
     "commit": "3b99c9dcc060bee8b9ebd602cc2556a8b41c9857",
     "tree_truncated": false,
-    "last_reviewed_unix": 1794582524.4255588
+    "last_reviewed_unix": 1794586161.8850172
   },
   "yulz008/GOLD_ORB": {
     "repository": "yulz008/GOLD_ORB",
@@ -95,7 +95,7 @@
     ],
     "commit": "8af0d735288c0e9378e35d06c46f23b21d9a5424",
     "tree_truncated": false,
-    "last_reviewed_unix": 1794582524.4255588
+    "last_reviewed_unix": 1794586161.8850172
   },
   "EA31337/EA31337": {
     "repository": "EA31337/EA31337",
@@ -123,7 +123,7 @@
     ],
     "commit": "9b9bd38c4e49dd6916f4fe3936e50e97fca7a692",
     "tree_truncated": false,
-    "last_reviewed_unix": 1794582524.4255588
+    "last_reviewed_unix": 1794586161.8850172
   },
   "sibvic/mq5-templates": {
     "repository": "sibvic/mq5-templates",
@@ -165,12 +165,12 @@
     ],
     "commit": "6de6720fb67dcefda3f178850f73b5355309e1c8",
     "tree_truncated": false,
-    "last_reviewed_unix": 1794582524.4255588
+    "last_reviewed_unix": 1794586161.8850172
   },
   "iantaurus2000-lab/XAUUSD-Scalping-V4": {
     "repository": "iantaurus2000-lab/XAUUSD-Scalping-V4",
     "url": "https://github.com/iantaurus2000-lab/XAUUSD-Scalping-V4",
-    "updated_at": "2026-11-13T12:06:13Z",
+    "updated_at": "2026-11-13T15:35:26Z",
     "stars": 0,
     "license": null,
     "performance": null,
@@ -205,22 +205,22 @@
         "profitability": "UNPROVEN"
       }
     ],
-    "commit": "7f90eb660b582ea2d9cd532037b35eb37bfa1ef7",
+    "commit": "5019a0fdd28ff8996cc6bf451e16b4436c9b880d",
     "tree_truncated": false,
-    "last_reviewed_unix": 1794582524.4255588
+    "last_reviewed_unix": 1794586161.8850172
   },
   "mt-abdulla-it/xm-ai-scalping-bot": {
     "repository": "mt-abdulla-it/xm-ai-scalping-bot",
     "url": "https://github.com/mt-abdulla-it/xm-ai-scalping-bot",
-    "updated_at": "2026-11-12T19:29:53Z",
-    "stars": 1,
+    "updated_at": "2026-11-13T16:08:33Z",
+    "stars": 2,
     "license": "MIT",
     "performance": null,
     "status": "SOURCE_SCREEN_ONLY",
     "files": [
       {
         "path": "XM_AI_ScalpingBot.mq5",
-        "sha256": "f4167e7f2466564a7374fc2b0b9b63a38de5211fcc69260ac57cae959c2eb97d",
+        "sha256": "579da84c04b2ce915572287f0832fdbc915c4aaba2d0720dbecd1339e35907da",
         "checks": {
           "mentions_stop_loss": true,
           "mentions_take_profit": true,
@@ -233,9 +233,9 @@
         "profitability": "UNPROVEN"
       }
     ],
-    "commit": "b31fb9c731c3a230f3b8d640f9a832aac7122597",
+    "commit": "fccd279904bb41ba20ce19e4662187e334cac002",
     "tree_truncated": false,
-    "last_reviewed_unix": 1794582524.4255588
+    "last_reviewed_unix": 1794586161.8850172
   },
   "mci123/mt5-online-dahboard": {
     "repository": "mci123/mt5-online-dahboard",
@@ -263,7 +263,7 @@
     ],
     "commit": "7999ca7a07f58ef2a31177b45eb325e09e257f50",
     "tree_truncated": false,
-    "last_reviewed_unix": 1794582524.4255588
+    "last_reviewed_unix": 1794586161.8850172
   },
   "Nexora-Apparel/mt5-scalping-engine": {
     "repository": "Nexora-Apparel/mt5-scalping-engine",
