@@ -1,8 +1,8 @@
 {
   "agent": "JARVIS MARK 2",
   "role": "EA RESEARCH AND DEVELOPMENT",
-  "observed_unix": 1794550837.2481458,
-  "status": "RESEARCH_COMPLETE",
+  "observed_unix": 1794555761.1002495,
+  "status": "RESEARCH_PARTIAL",
   "runtime": "GITHUB_ACTIONS",
   "cloud_deployed": true,
   "broker_orders_sent": 0,
@@ -152,24 +152,8 @@
       "license": null,
       "performance": null,
       "status": "SOURCE_SCREEN_ONLY",
-      "files": [
-        {
-          "path": "MT5_Online_Bridge_Two_Bots.mq5",
-          "sha256": "bff1a54a43d53eaa758da914744e171b58cd94a5b2a5eea806bb0664b9b0fb23",
-          "checks": {
-            "mentions_stop_loss": true,
-            "mentions_take_profit": true,
-            "uses_dll_import": false,
-            "uses_web_request": true,
-            "mentions_martingale_or_grid": false,
-            "mentions_order_execution": true
-          },
-          "assessment": "MANUAL_CODE_REVIEW_REQUIRED",
-          "profitability": "UNPROVEN"
-        }
-      ],
-      "commit": "7999ca7a07f58ef2a31177b45eb325e09e257f50",
-      "tree_truncated": false
+      "files": [],
+      "error": "HTTP Error 403: rate limit exceeded"
     },
     {
       "repository": "mt-abdulla-it/xm-ai-scalping-bot",
@@ -179,24 +163,8 @@
       "license": "MIT",
       "performance": null,
       "status": "SOURCE_SCREEN_ONLY",
-      "files": [
-        {
-          "path": "XM_AI_ScalpingBot.mq5",
-          "sha256": "f4167e7f2466564a7374fc2b0b9b63a38de5211fcc69260ac57cae959c2eb97d",
-          "checks": {
-            "mentions_stop_loss": true,
-            "mentions_take_profit": true,
-            "uses_dll_import": false,
-            "uses_web_request": false,
-            "mentions_martingale_or_grid": true,
-            "mentions_order_execution": true
-          },
-          "assessment": "MANUAL_CODE_REVIEW_REQUIRED",
-          "profitability": "UNPROVEN"
-        }
-      ],
-      "commit": "b31fb9c731c3a230f3b8d640f9a832aac7122597",
-      "tree_truncated": false
+      "files": [],
+      "error": "HTTP Error 403: rate limit exceeded"
     },
     {
       "repository": "sibvic/mq5-templates",
@@ -206,38 +174,8 @@
       "license": "MIT",
       "performance": null,
       "status": "SOURCE_SCREEN_ONLY",
-      "files": [
-        {
-          "path": "templates/EA_Base.mq5",
-          "sha256": "cbdb4a15683a0ffbf553403a649a1babd39aba6997cd6876fc5a375eaa9a816b",
-          "checks": {
-            "mentions_stop_loss": true,
-            "mentions_take_profit": true,
-            "uses_dll_import": true,
-            "uses_web_request": false,
-            "mentions_martingale_or_grid": true,
-            "mentions_order_execution": true
-          },
-          "assessment": "MANUAL_CODE_REVIEW_REQUIRED",
-          "profitability": "UNPROVEN"
-        },
-        {
-          "path": "templates/arrows_indicator.mq5",
-          "sha256": "12d90c350d99d2a60519e480fabb0a0f2ed7710ac5d76649a01fd2508429c249",
-          "checks": {
-            "mentions_stop_loss": false,
-            "mentions_take_profit": false,
-            "uses_dll_import": false,
-            "uses_web_request": false,
-            "mentions_martingale_or_grid": false,
-            "mentions_order_execution": false
-          },
-          "assessment": "MANUAL_CODE_REVIEW_REQUIRED",
-          "profitability": "UNPROVEN"
-        }
-      ],
-      "commit": "6de6720fb67dcefda3f178850f73b5355309e1c8",
-      "tree_truncated": false
+      "files": [],
+      "error": "HTTP Error 403: rate limit exceeded"
     },
     {
       "repository": "yulz008/GOLD_ORB",
@@ -247,24 +185,8 @@
       "license": null,
       "performance": null,
       "status": "SOURCE_SCREEN_ONLY",
-      "files": [
-        {
-          "path": "GOLD_ORB/GOLD_ORB.mq5",
-          "sha256": "259258ce70cf11fd97fb6d25d51c0f02fa00a24aeab5eeca5f159c1403d0b11f",
-          "checks": {
-            "mentions_stop_loss": true,
-            "mentions_take_profit": true,
-            "uses_dll_import": false,
-            "uses_web_request": false,
-            "mentions_martingale_or_grid": false,
-            "mentions_order_execution": true
-          },
-          "assessment": "MANUAL_CODE_REVIEW_REQUIRED",
-          "profitability": "UNPROVEN"
-        }
-      ],
-      "commit": "8af0d735288c0e9378e35d06c46f23b21d9a5424",
-      "tree_truncated": false
+      "files": [],
+      "error": "HTTP Error 403: rate limit exceeded"
     }
   ],
   "generated_candidates": [
@@ -326,7 +248,28 @@
       ]
     }
   ],
-  "errors": [],
+  "errors": [
+    {
+      "stage": "source_screen",
+      "repository": "mci123/mt5-online-dahboard",
+      "error": "HTTP Error 403: rate limit exceeded"
+    },
+    {
+      "stage": "source_screen",
+      "repository": "mt-abdulla-it/xm-ai-scalping-bot",
+      "error": "HTTP Error 403: rate limit exceeded"
+    },
+    {
+      "stage": "source_screen",
+      "repository": "sibvic/mq5-templates",
+      "error": "HTTP Error 403: rate limit exceeded"
+    },
+    {
+      "stage": "source_screen",
+      "repository": "yulz008/GOLD_ORB",
+      "error": "HTTP Error 403: rate limit exceeded"
+    }
+  ],
   "best_ea": null,
   "winner_status": "NO_VERIFIED_WINNER",
   "next_tasks": [
@@ -349,16 +292,16 @@
     "recent": [],
     "external_code_executed": false,
     "current_repository": "yulz008/GOLD_ORB",
-    "observed_unix": 1794550839.763297,
+    "observed_unix": 1794555763.7010193,
     "frontier_total_seen": 244
   },
   "spider": {
     "improvement_status": "WAITING_FOR_NEW_EVIDENCE",
     "improvements_accepted": 6,
-    "mission_run_id": "mission-9c4253a97acf",
+    "mission_run_id": "mission-98aa757860a0",
     "mission_status": "COMPLETED",
     "identity": "JARVIS MARK 2 / SPIDER",
-    "fleet_run_id": "fleet-3ab2aeab99f0",
+    "fleet_run_id": "fleet-25339772f3ef",
     "fleet_status": "COMPLETED",
     "counts": {
       "queued": 0,
@@ -370,8 +313,8 @@
       "workers": 24,
       "launched": 24
     },
-    "new_findings": 0,
-    "open_findings": 304,
+    "new_findings": 9,
+    "open_findings": 313,
     "model_children": false,
     "worker_type": "DETERMINISTIC_TOOL_WORKER",
     "external_ai_apis": 0
