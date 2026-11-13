@@ -12,12 +12,6 @@
     "next_action": "REVIEW_SOURCE_AND_NATIVE_VALIDATION"
   },
   {
-    "repository": "Nexora-Apparel/mt5-scalping-engine",
-    "source_files": 8,
-    "license": null,
-    "next_action": "REVIEW_LICENSE"
-  },
-  {
     "repository": "geraked/metatrader5",
     "source_files": 2,
     "license": "MIT",
@@ -26,6 +20,12 @@
   {
     "repository": "iantaurus2000-lab/XAUUSD-Scalping-V4",
     "source_files": 2,
+    "license": null,
+    "next_action": "REVIEW_LICENSE"
+  },
+  {
+    "repository": "mci123/mt5-online-dahboard",
+    "source_files": 1,
     "license": null,
     "next_action": "REVIEW_LICENSE"
   },
