@@ -1,8 +1,8 @@
 {
   "agent": "JARVIS MARK 2",
   "role": "EA RESEARCH AND DEVELOPMENT",
-  "observed_unix": 1794633126.4061518,
-  "status": "RESEARCH_PARTIAL",
+  "observed_unix": 1794636370.118956,
+  "status": "RESEARCH_COMPLETE",
   "runtime": "GITHUB_ACTIONS",
   "cloud_deployed": true,
   "broker_orders_sent": 0,
@@ -70,13 +70,43 @@
       "license": "MIT",
       "performance": null,
       "status": "SOURCE_SCREEN_ONLY",
-      "files": [],
-      "error": "HTTP Error 403: rate limit exceeded"
+      "files": [
+        {
+          "path": "Experts/2MAAOS.mq5",
+          "sha256": "6be9d4196feebe94e7240ddfeb079ed677722735bea4a4c528a05ff17c341d77",
+          "checks": {
+            "mentions_stop_loss": true,
+            "mentions_take_profit": true,
+            "uses_dll_import": false,
+            "uses_web_request": false,
+            "mentions_martingale_or_grid": true,
+            "mentions_order_execution": false
+          },
+          "assessment": "MANUAL_CODE_REVIEW_REQUIRED",
+          "profitability": "UNPROVEN"
+        },
+        {
+          "path": "Experts/2MACDSTO.mq5",
+          "sha256": "b2e3a95fde70c88b46fcab0c635b2b31132e1fe0969c22aeaa76a6b008e60105",
+          "checks": {
+            "mentions_stop_loss": true,
+            "mentions_take_profit": true,
+            "uses_dll_import": false,
+            "uses_web_request": false,
+            "mentions_martingale_or_grid": true,
+            "mentions_order_execution": false
+          },
+          "assessment": "MANUAL_CODE_REVIEW_REQUIRED",
+          "profitability": "UNPROVEN"
+        }
+      ],
+      "commit": "d3eb29c382acf715727d5cd6a0414151e821fc2d",
+      "tree_truncated": false
     },
     {
       "repository": "iantaurus2000-lab/XAUUSD-Scalping-V4",
       "url": "https://github.com/iantaurus2000-lab/XAUUSD-Scalping-V4",
-      "updated_at": "2026-11-14T05:10:53Z",
+      "updated_at": "2026-11-14T05:17:22Z",
       "stars": 0,
       "license": null,
       "performance": null,
@@ -95,8 +125,8 @@
           "sha256": "7e3e62f04b8881335acc432d7050aacbd7d88758bea6ac722579af27173fcdc9"
         }
       ],
-      "error": "HTTP Error 403: rate limit exceeded",
-      "commit": "bc3bfdeab1b07a59974929957d8fcc55f7322d17"
+      "commit": "2fc996422646ef86545d3d41cd9fa3e2cac187b6",
+      "tree_truncated": false
     },
     {
       "repository": "kibetval/forex-scalper-bot",
@@ -106,8 +136,24 @@
       "license": null,
       "performance": null,
       "status": "SOURCE_SCREEN_ONLY",
-      "files": [],
-      "error": "HTTP Error 403: rate limit exceeded"
+      "files": [
+        {
+          "path": "ForexScalperEA.mq5",
+          "sha256": "3e28a264feac3205f7c6e2c6685af9fe37ef9e5845a82305a7d5af11e62e29fa",
+          "checks": {
+            "mentions_stop_loss": true,
+            "mentions_take_profit": true,
+            "uses_dll_import": false,
+            "uses_web_request": false,
+            "mentions_martingale_or_grid": false,
+            "mentions_order_execution": true
+          },
+          "assessment": "MANUAL_CODE_REVIEW_REQUIRED",
+          "profitability": "UNPROVEN"
+        }
+      ],
+      "commit": "9d66fab5d326e1ca2a891510a471e14f25c7d4a5",
+      "tree_truncated": false
     },
     {
       "repository": "mt-abdulla-it/xm-ai-scalping-bot",
@@ -117,8 +163,24 @@
       "license": "MIT",
       "performance": null,
       "status": "SOURCE_SCREEN_ONLY",
-      "files": [],
-      "error": "HTTP Error 403: rate limit exceeded"
+      "files": [
+        {
+          "path": "XM_AI_ScalpingBot.mq5",
+          "sha256": "09435993ca76072ae1026e745ece155d74f6edc267d12981866a9538b7a6a5fa",
+          "checks": {
+            "mentions_stop_loss": true,
+            "mentions_take_profit": true,
+            "uses_dll_import": false,
+            "uses_web_request": false,
+            "mentions_martingale_or_grid": true,
+            "mentions_order_execution": true
+          },
+          "assessment": "MANUAL_CODE_REVIEW_REQUIRED",
+          "profitability": "UNPROVEN"
+        }
+      ],
+      "commit": "9250801cca2e4c4783de6eb078d2499a80b76837",
+      "tree_truncated": false
     },
     {
       "repository": "sibvic/mq5-templates",
@@ -128,8 +190,38 @@
       "license": "MIT",
       "performance": null,
       "status": "SOURCE_SCREEN_ONLY",
-      "files": [],
-      "error": "HTTP Error 403: rate limit exceeded"
+      "files": [
+        {
+          "path": "templates/EA_Base.mq5",
+          "sha256": "cbdb4a15683a0ffbf553403a649a1babd39aba6997cd6876fc5a375eaa9a816b",
+          "checks": {
+            "mentions_stop_loss": true,
+            "mentions_take_profit": true,
+            "uses_dll_import": true,
+            "uses_web_request": false,
+            "mentions_martingale_or_grid": true,
+            "mentions_order_execution": true
+          },
+          "assessment": "MANUAL_CODE_REVIEW_REQUIRED",
+          "profitability": "UNPROVEN"
+        },
+        {
+          "path": "templates/arrows_indicator.mq5",
+          "sha256": "12d90c350d99d2a60519e480fabb0a0f2ed7710ac5d76649a01fd2508429c249",
+          "checks": {
+            "mentions_stop_loss": false,
+            "mentions_take_profit": false,
+            "uses_dll_import": false,
+            "uses_web_request": false,
+            "mentions_martingale_or_grid": false,
+            "mentions_order_execution": false
+          },
+          "assessment": "MANUAL_CODE_REVIEW_REQUIRED",
+          "profitability": "UNPROVEN"
+        }
+      ],
+      "commit": "6de6720fb67dcefda3f178850f73b5355309e1c8",
+      "tree_truncated": false
     },
     {
       "repository": "yulz008/GOLD_ORB",
@@ -139,8 +231,24 @@
       "license": null,
       "performance": null,
       "status": "SOURCE_SCREEN_ONLY",
-      "files": [],
-      "error": "HTTP Error 403: rate limit exceeded"
+      "files": [
+        {
+          "path": "GOLD_ORB/GOLD_ORB.mq5",
+          "sha256": "259258ce70cf11fd97fb6d25d51c0f02fa00a24aeab5eeca5f159c1403d0b11f",
+          "checks": {
+            "mentions_stop_loss": true,
+            "mentions_take_profit": true,
+            "uses_dll_import": false,
+            "uses_web_request": false,
+            "mentions_martingale_or_grid": false,
+            "mentions_order_execution": true
+          },
+          "assessment": "MANUAL_CODE_REVIEW_REQUIRED",
+          "profitability": "UNPROVEN"
+        }
+      ],
+      "commit": "8af0d735288c0e9378e35d06c46f23b21d9a5424",
+      "tree_truncated": false
     }
   ],
   "generated_candidates": [
@@ -202,38 +310,7 @@
       ]
     }
   ],
-  "errors": [
-    {
-      "stage": "source_screen",
-      "repository": "geraked/metatrader5",
-      "error": "HTTP Error 403: rate limit exceeded"
-    },
-    {
-      "stage": "source_screen",
-      "repository": "iantaurus2000-lab/XAUUSD-Scalping-V4",
-      "error": "HTTP Error 403: rate limit exceeded"
-    },
-    {
-      "stage": "source_screen",
-      "repository": "kibetval/forex-scalper-bot",
-      "error": "HTTP Error 403: rate limit exceeded"
-    },
-    {
-      "stage": "source_screen",
-      "repository": "mt-abdulla-it/xm-ai-scalping-bot",
-      "error": "HTTP Error 403: rate limit exceeded"
-    },
-    {
-      "stage": "source_screen",
-      "repository": "sibvic/mq5-templates",
-      "error": "HTTP Error 403: rate limit exceeded"
-    },
-    {
-      "stage": "source_screen",
-      "repository": "yulz008/GOLD_ORB",
-      "error": "HTTP Error 403: rate limit exceeded"
-    }
-  ],
+  "errors": [],
   "best_ea": null,
   "winner_status": "NO_VERIFIED_WINNER",
   "next_tasks": [
@@ -255,53 +332,53 @@
     "queue_remaining": 0,
     "recent": [
       {
-        "url": "https://raw.githubusercontent.com/iantaurus2000-lab/XAUUSD-Scalping-V4/bc3bfdeab1b07a59974929957d8fcc55f7322d17/MT5_EA_Test/uji-test-mt5.mq5",
+        "url": "https://raw.githubusercontent.com/iantaurus2000-lab/XAUUSD-Scalping-V4/2fc996422646ef86545d3d41cd9fa3e2cac187b6/MT5_EA_Test/uji-test-mt5.mq5",
         "repository": "iantaurus2000-lab/XAUUSD-Scalping-V4",
         "path": "MT5_EA_Test/uji-test-mt5.mq5",
         "sha256": "7e3e62f04b8881335acc432d7050aacbd7d88758bea6ac722579af27173fcdc9",
         "bytes": 28160,
         "result": "SOURCE_SAVED",
-        "received_unix": 1794633130.5023267
+        "received_unix": 1794636372.9406197
       },
       {
-        "url": "https://raw.githubusercontent.com/iantaurus2000-lab/XAUUSD-Scalping-V4/bc3bfdeab1b07a59974929957d8fcc55f7322d17/mt5/Experts/uji-test-mt5.mq5",
+        "url": "https://raw.githubusercontent.com/iantaurus2000-lab/XAUUSD-Scalping-V4/2fc996422646ef86545d3d41cd9fa3e2cac187b6/mt5/Experts/RayyanD1Standalone.mq5",
+        "repository": "iantaurus2000-lab/XAUUSD-Scalping-V4",
+        "path": "mt5/Experts/RayyanD1Standalone.mq5",
+        "result": "FETCH_FAILED",
+        "error": "Source size limit",
+        "received_unix": 1794636372.7698257
+      },
+      {
+        "url": "https://raw.githubusercontent.com/iantaurus2000-lab/XAUUSD-Scalping-V4/2fc996422646ef86545d3d41cd9fa3e2cac187b6/mt5/Experts/uji-test-mt5.mq5",
         "repository": "iantaurus2000-lab/XAUUSD-Scalping-V4",
         "path": "mt5/Experts/uji-test-mt5.mq5",
         "sha256": "b7ed80cf8706cd6dd2ede37163494568f64e7297e5dd547c10ca4528241837ce",
         "bytes": 28929,
         "result": "SOURCE_SAVED",
-        "received_unix": 1794633130.350036
+        "received_unix": 1794636370.576553
       },
       {
-        "url": "https://raw.githubusercontent.com/iantaurus2000-lab/XAUUSD-Scalping-V4/bc3bfdeab1b07a59974929957d8fcc55f7322d17/mt5/Experts/RayyanD1Standalone.mq5",
-        "repository": "iantaurus2000-lab/XAUUSD-Scalping-V4",
-        "path": "mt5/Experts/RayyanD1Standalone.mq5",
-        "result": "FETCH_FAILED",
-        "error": "Source size limit",
-        "received_unix": 1794633130.1915379
-      },
-      {
-        "url": "https://raw.githubusercontent.com/iantaurus2000-lab/XAUUSD-Scalping-V4/bc3bfdeab1b07a59974929957d8fcc55f7322d17/mt5/Experts/Rayyan4GatewayEA.mq5",
+        "url": "https://raw.githubusercontent.com/iantaurus2000-lab/XAUUSD-Scalping-V4/2fc996422646ef86545d3d41cd9fa3e2cac187b6/mt5/Experts/Rayyan4GatewayEA.mq5",
         "repository": "iantaurus2000-lab/XAUUSD-Scalping-V4",
         "path": "mt5/Experts/Rayyan4GatewayEA.mq5",
         "sha256": "1398ee4fc0922bb3d11080de7243befd97df851fa0c84c940fe230a6d352f6f4",
         "bytes": 112033,
         "result": "SOURCE_SAVED",
-        "received_unix": 1794633129.9818864
+        "received_unix": 1794636370.2745886
       }
     ],
     "external_code_executed": false,
     "current_repository": "iantaurus2000-lab/XAUUSD-Scalping-V4",
-    "observed_unix": 1794633130.5051491,
-    "frontier_total_seen": 268
+    "observed_unix": 1794636372.943015,
+    "frontier_total_seen": 272
   },
   "spider": {
     "improvement_status": "WAITING_FOR_NEW_EVIDENCE",
     "improvements_accepted": 6,
-    "mission_run_id": "mission-d89d901300ec",
+    "mission_run_id": "mission-216a4a9df32d",
     "mission_status": "COMPLETED",
     "identity": "JARVIS MARK 2 / SPIDER",
-    "fleet_run_id": "fleet-8fb79d591c3f",
+    "fleet_run_id": "fleet-ebf1db4de345",
     "fleet_status": "COMPLETED",
     "counts": {
       "queued": 0,
@@ -314,7 +391,7 @@
       "launched": 24
     },
     "new_findings": 5,
-    "open_findings": 354,
+    "open_findings": 359,
     "model_children": false,
     "worker_type": "DETERMINISTIC_TOOL_WORKER",
     "external_ai_apis": 0
