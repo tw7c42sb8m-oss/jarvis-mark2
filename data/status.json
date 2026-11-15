@@ -1,7 +1,7 @@
 {
   "agent": "JARVIS MARK 2",
   "role": "EA RESEARCH AND DEVELOPMENT",
-  "observed_unix": 1794758309.6705554,
+  "observed_unix": 1794761936.9124687,
   "status": "RESEARCH_COMPLETE",
   "runtime": "GITHUB_ACTIONS",
   "cloud_deployed": true,
@@ -114,32 +114,21 @@
       "files": [
         {
           "path": "mt5/Experts/Rayyan4GatewayEA.mq5",
-          "sha256": "1398ee4fc0922bb3d11080de7243befd97df851fa0c84c940fe230a6d352f6f4"
+          "sha256": "1398ee4fc0922bb3d11080de7243befd97df851fa0c84c940fe230a6d352f6f4",
+          "checks": {
+            "mentions_stop_loss": true,
+            "mentions_take_profit": true,
+            "uses_dll_import": false,
+            "uses_web_request": true,
+            "mentions_martingale_or_grid": false,
+            "mentions_order_execution": true
+          },
+          "assessment": "MANUAL_CODE_REVIEW_REQUIRED",
+          "profitability": "UNPROVEN"
         },
         {
           "path": "mt5/Experts/uji-test-mt5.mq5",
-          "sha256": "b7ed80cf8706cd6dd2ede37163494568f64e7297e5dd547c10ca4528241837ce"
-        },
-        {
-          "path": "MT5_EA_Test/uji-test-mt5.mq5",
-          "sha256": "7e3e62f04b8881335acc432d7050aacbd7d88758bea6ac722579af27173fcdc9"
-        }
-      ],
-      "commit": "aea7cc3c15b4ea7eb750831ede5f8999f26f9147",
-      "tree_truncated": false
-    },
-    {
-      "repository": "kibetval/forex-scalper-bot",
-      "url": "https://github.com/kibetval/forex-scalper-bot",
-      "updated_at": "2026-11-13T21:55:47Z",
-      "stars": 0,
-      "license": null,
-      "performance": null,
-      "status": "SOURCE_SCREEN_ONLY",
-      "files": [
-        {
-          "path": "ForexScalperEA.mq5",
-          "sha256": "3e28a264feac3205f7c6e2c6685af9fe37ef9e5845a82305a7d5af11e62e29fa",
+          "sha256": "b7ed80cf8706cd6dd2ede37163494568f64e7297e5dd547c10ca4528241837ce",
           "checks": {
             "mentions_stop_loss": true,
             "mentions_take_profit": true,
@@ -152,7 +141,24 @@
           "profitability": "UNPROVEN"
         }
       ],
-      "commit": "9d66fab5d326e1ca2a891510a471e14f25c7d4a5",
+      "commit": "aea7cc3c15b4ea7eb750831ede5f8999f26f9147",
+      "tree_truncated": false
+    },
+    {
+      "repository": "kibetval/forex-scalper-bot",
+      "url": "https://github.com/kibetval/forex-scalper-bot",
+      "updated_at": "2026-11-15T16:58:14Z",
+      "stars": 0,
+      "license": null,
+      "performance": null,
+      "status": "SOURCE_SCREEN_ONLY",
+      "files": [
+        {
+          "path": "ForexScalperEA.mq5",
+          "sha256": "3e28a264feac3205f7c6e2c6685af9fe37ef9e5845a82305a7d5af11e62e29fa"
+        }
+      ],
+      "commit": "3aabec31ab3ef3b0918d345159c62372ea2270ea",
       "tree_truncated": false
     },
     {
@@ -326,59 +332,33 @@
   ],
   "crawler": {
     "status": "WATCHING_FOR_SOURCE_UPDATES",
-    "visited": 3,
-    "failed": 1,
+    "visited": 1,
+    "failed": 0,
     "current_url": null,
     "queue_remaining": 0,
     "recent": [
       {
-        "url": "https://raw.githubusercontent.com/iantaurus2000-lab/XAUUSD-Scalping-V4/aea7cc3c15b4ea7eb750831ede5f8999f26f9147/MT5_EA_Test/uji-test-mt5.mq5",
-        "repository": "iantaurus2000-lab/XAUUSD-Scalping-V4",
-        "path": "MT5_EA_Test/uji-test-mt5.mq5",
-        "sha256": "7e3e62f04b8881335acc432d7050aacbd7d88758bea6ac722579af27173fcdc9",
-        "bytes": 28160,
+        "url": "https://raw.githubusercontent.com/kibetval/forex-scalper-bot/3aabec31ab3ef3b0918d345159c62372ea2270ea/ForexScalperEA.mq5",
+        "repository": "kibetval/forex-scalper-bot",
+        "path": "ForexScalperEA.mq5",
+        "sha256": "3e28a264feac3205f7c6e2c6685af9fe37ef9e5845a82305a7d5af11e62e29fa",
+        "bytes": 10639,
         "result": "SOURCE_SAVED",
-        "received_unix": 1794758312.974171
-      },
-      {
-        "url": "https://raw.githubusercontent.com/iantaurus2000-lab/XAUUSD-Scalping-V4/aea7cc3c15b4ea7eb750831ede5f8999f26f9147/mt5/Experts/RayyanD1Standalone.mq5",
-        "repository": "iantaurus2000-lab/XAUUSD-Scalping-V4",
-        "path": "mt5/Experts/RayyanD1Standalone.mq5",
-        "result": "FETCH_FAILED",
-        "error": "Source size limit",
-        "received_unix": 1794758312.8527706
-      },
-      {
-        "url": "https://raw.githubusercontent.com/iantaurus2000-lab/XAUUSD-Scalping-V4/aea7cc3c15b4ea7eb750831ede5f8999f26f9147/mt5/Experts/uji-test-mt5.mq5",
-        "repository": "iantaurus2000-lab/XAUUSD-Scalping-V4",
-        "path": "mt5/Experts/uji-test-mt5.mq5",
-        "sha256": "b7ed80cf8706cd6dd2ede37163494568f64e7297e5dd547c10ca4528241837ce",
-        "bytes": 28929,
-        "result": "SOURCE_SAVED",
-        "received_unix": 1794758309.9039876
-      },
-      {
-        "url": "https://raw.githubusercontent.com/iantaurus2000-lab/XAUUSD-Scalping-V4/aea7cc3c15b4ea7eb750831ede5f8999f26f9147/mt5/Experts/Rayyan4GatewayEA.mq5",
-        "repository": "iantaurus2000-lab/XAUUSD-Scalping-V4",
-        "path": "mt5/Experts/Rayyan4GatewayEA.mq5",
-        "sha256": "1398ee4fc0922bb3d11080de7243befd97df851fa0c84c940fe230a6d352f6f4",
-        "bytes": 112033,
-        "result": "SOURCE_SAVED",
-        "received_unix": 1794758309.7957454
+        "received_unix": 1794761937.0613353
       }
     ],
     "external_code_executed": false,
-    "current_repository": "iantaurus2000-lab/XAUUSD-Scalping-V4",
-    "observed_unix": 1794758312.9766045,
-    "frontier_total_seen": 304
+    "current_repository": "yulz008/GOLD_ORB",
+    "observed_unix": 1794761939.2448559,
+    "frontier_total_seen": 305
   },
   "spider": {
     "improvement_status": "WAITING_FOR_NEW_EVIDENCE",
     "improvements_accepted": 6,
-    "mission_run_id": "mission-ee46b7aec377",
+    "mission_run_id": "mission-c035902be7a6",
     "mission_status": "COMPLETED",
     "identity": "JARVIS MARK 2 / SPIDER",
-    "fleet_run_id": "fleet-2424939161d6",
+    "fleet_run_id": "fleet-b61aa33bfc0d",
     "fleet_status": "COMPLETED",
     "counts": {
       "queued": 0,
@@ -390,8 +370,8 @@
       "workers": 24,
       "launched": 24
     },
-    "new_findings": 5,
-    "open_findings": 399,
+    "new_findings": 4,
+    "open_findings": 403,
     "model_children": false,
     "worker_type": "DETERMINISTIC_TOOL_WORKER",
     "external_ai_apis": 0
