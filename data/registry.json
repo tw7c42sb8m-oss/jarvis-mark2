@@ -3,7 +3,7 @@
     "repository": "geraked/metatrader5",
     "url": "https://github.com/geraked/metatrader5",
     "updated_at": "2025-11-15T04:39:29Z",
-    "stars": 694,
+    "stars": 695,
     "license": "MIT",
     "performance": null,
     "status": "SOURCE_SCREEN_ONLY",
@@ -39,13 +39,13 @@
     ],
     "commit": "d3eb29c382acf715727d5cd6a0414151e821fc2d",
     "tree_truncated": false,
-    "last_reviewed_unix": 1794811998.074385
+    "last_reviewed_unix": 1794822951.055882
   },
   "EA31337/EA31337": {
     "repository": "EA31337/EA31337",
     "url": "https://github.com/EA31337/EA31337",
     "updated_at": "2026-04-07T14:41:25Z",
-    "stars": 1363,
+    "stars": 1364,
     "license": "GPL-3.0",
     "performance": null,
     "status": "SOURCE_SCREEN_ONLY",
@@ -67,7 +67,7 @@
     ],
     "commit": "9b9bd38c4e49dd6916f4fe3936e50e97fca7a692",
     "tree_truncated": false,
-    "last_reviewed_unix": 1794811998.074385
+    "last_reviewed_unix": 1794822951.055882
   },
   "sibvic/mq5-templates": {
     "repository": "sibvic/mq5-templates",
@@ -77,10 +77,39 @@
     "license": "MIT",
     "performance": null,
     "status": "SOURCE_SCREEN_ONLY",
-    "files": [],
+    "files": [
+      {
+        "path": "templates/EA_Base.mq5",
+        "sha256": "cbdb4a15683a0ffbf553403a649a1babd39aba6997cd6876fc5a375eaa9a816b",
+        "checks": {
+          "mentions_stop_loss": true,
+          "mentions_take_profit": true,
+          "uses_dll_import": true,
+          "uses_web_request": false,
+          "mentions_martingale_or_grid": true,
+          "mentions_order_execution": true
+        },
+        "assessment": "MANUAL_CODE_REVIEW_REQUIRED",
+        "profitability": "UNPROVEN"
+      },
+      {
+        "path": "templates/arrows_indicator.mq5",
+        "sha256": "12d90c350d99d2a60519e480fabb0a0f2ed7710ac5d76649a01fd2508429c249",
+        "checks": {
+          "mentions_stop_loss": false,
+          "mentions_take_profit": false,
+          "uses_dll_import": false,
+          "uses_web_request": false,
+          "mentions_martingale_or_grid": false,
+          "mentions_order_execution": false
+        },
+        "assessment": "MANUAL_CODE_REVIEW_REQUIRED",
+        "profitability": "UNPROVEN"
+      }
+    ],
     "commit": "6de6720fb67dcefda3f178850f73b5355309e1c8",
-    "error": "HTTP Error 403: rate limit exceeded",
-    "last_reviewed_unix": 1794811998.074385
+    "tree_truncated": false,
+    "last_reviewed_unix": 1794822951.055882
   },
   "EarnForex/PositionSizer": {
     "repository": "EarnForex/PositionSizer",
