@@ -39,7 +39,7 @@
     ],
     "commit": "d3eb29c382acf715727d5cd6a0414151e821fc2d",
     "tree_truncated": false,
-    "last_reviewed_unix": 1794842979.1150534
+    "last_reviewed_unix": 1794850395.0611405
   },
   "EA31337/EA31337": {
     "repository": "EA31337/EA31337",
@@ -67,7 +67,7 @@
     ],
     "commit": "9b9bd38c4e49dd6916f4fe3936e50e97fca7a692",
     "tree_truncated": false,
-    "last_reviewed_unix": 1794842979.1150534
+    "last_reviewed_unix": 1794850395.0611405
   },
   "sibvic/mq5-templates": {
     "repository": "sibvic/mq5-templates",
@@ -109,7 +109,7 @@
     ],
     "commit": "6de6720fb67dcefda3f178850f73b5355309e1c8",
     "tree_truncated": false,
-    "last_reviewed_unix": 1794842979.1150534
+    "last_reviewed_unix": 1794850395.0611405
   },
   "EarnForex/PositionSizer": {
     "repository": "EarnForex/PositionSizer",
@@ -137,7 +137,7 @@
     ],
     "commit": "3b99c9dcc060bee8b9ebd602cc2556a8b41c9857",
     "tree_truncated": false,
-    "last_reviewed_unix": 1794842979.1150534
+    "last_reviewed_unix": 1794850395.0611405
   },
   "yulz008/GOLD_ORB": {
     "repository": "yulz008/GOLD_ORB",
@@ -165,12 +165,12 @@
     ],
     "commit": "8af0d735288c0e9378e35d06c46f23b21d9a5424",
     "tree_truncated": false,
-    "last_reviewed_unix": 1794842979.1150534
+    "last_reviewed_unix": 1794850395.0611405
   },
   "iantaurus2000-lab/XAUUSD-Scalping-V4": {
     "repository": "iantaurus2000-lab/XAUUSD-Scalping-V4",
     "url": "https://github.com/iantaurus2000-lab/XAUUSD-Scalping-V4",
-    "updated_at": "2026-11-16T15:28:14Z",
+    "updated_at": "2026-11-16T16:48:28Z",
     "stars": 0,
     "license": null,
     "performance": null,
@@ -205,9 +205,9 @@
         "profitability": "UNPROVEN"
       }
     ],
-    "commit": "042cf64dad8e3b90361811af1ded3c9183faf746",
+    "commit": "d71c1c1bed1a1d84cb79993211395e5761de557d",
     "tree_truncated": false,
-    "last_reviewed_unix": 1794842979.1150534
+    "last_reviewed_unix": 1794850395.0611405
   },
   "mt-abdulla-it/xm-ai-scalping-bot": {
     "repository": "mt-abdulla-it/xm-ai-scalping-bot",
@@ -235,7 +235,7 @@
     ],
     "commit": "9250801cca2e4c4783de6eb078d2499a80b76837",
     "tree_truncated": false,
-    "last_reviewed_unix": 1794842979.1150534
+    "last_reviewed_unix": 1794850395.0611405
   },
   "kibetval/forex-scalper-bot": {
     "repository": "kibetval/forex-scalper-bot",
@@ -263,7 +263,7 @@
     ],
     "commit": "3aabec31ab3ef3b0918d345159c62372ea2270ea",
     "tree_truncated": false,
-    "last_reviewed_unix": 1794842979.1150534
+    "last_reviewed_unix": 1794850395.0611405
   },
   "mci123/mt5-online-dahboard": {
     "repository": "mci123/mt5-online-dahboard",
