@@ -1,7 +1,7 @@
 {
   "agent": "JARVIS MARK 2",
   "role": "EA RESEARCH AND DEVELOPMENT",
-  "observed_unix": 1795074175.223613,
+  "observed_unix": 1795080470.0416827,
   "status": "RESEARCH_COMPLETE",
   "runtime": "GITHUB_ACTIONS",
   "cloud_deployed": true,
@@ -114,11 +114,31 @@
       "files": [
         {
           "path": "mt5/Experts/uji-test-mt5.mq5",
-          "sha256": "b7ed80cf8706cd6dd2ede37163494568f64e7297e5dd547c10ca4528241837ce"
+          "sha256": "b7ed80cf8706cd6dd2ede37163494568f64e7297e5dd547c10ca4528241837ce",
+          "checks": {
+            "mentions_stop_loss": true,
+            "mentions_take_profit": true,
+            "uses_dll_import": false,
+            "uses_web_request": false,
+            "mentions_martingale_or_grid": false,
+            "mentions_order_execution": true
+          },
+          "assessment": "MANUAL_CODE_REVIEW_REQUIRED",
+          "profitability": "UNPROVEN"
         },
         {
           "path": "MT5_EA_Test/uji-test-mt5.mq5",
-          "sha256": "7e3e62f04b8881335acc432d7050aacbd7d88758bea6ac722579af27173fcdc9"
+          "sha256": "7e3e62f04b8881335acc432d7050aacbd7d88758bea6ac722579af27173fcdc9",
+          "checks": {
+            "mentions_stop_loss": true,
+            "mentions_take_profit": true,
+            "uses_dll_import": false,
+            "uses_web_request": false,
+            "mentions_martingale_or_grid": false,
+            "mentions_order_execution": true
+          },
+          "assessment": "MANUAL_CODE_REVIEW_REQUIRED",
+          "profitability": "UNPROVEN"
         }
       ],
       "commit": "ccd6310f060d9aec4229d6f60870766a9ba1b991",
@@ -322,58 +342,23 @@
   ],
   "crawler": {
     "status": "WATCHING_FOR_SOURCE_UPDATES",
-    "visited": 2,
-    "failed": 2,
+    "visited": 0,
+    "failed": 0,
     "current_url": null,
     "queue_remaining": 0,
-    "recent": [
-      {
-        "url": "https://raw.githubusercontent.com/iantaurus2000-lab/XAUUSD-Scalping-V4/ccd6310f060d9aec4229d6f60870766a9ba1b991/mt5/Experts/RayyanD1Standalone.mq5",
-        "repository": "iantaurus2000-lab/XAUUSD-Scalping-V4",
-        "path": "mt5/Experts/RayyanD1Standalone.mq5",
-        "result": "FETCH_FAILED",
-        "error": "Source size limit",
-        "received_unix": 1795074178.3316007
-      },
-      {
-        "url": "https://raw.githubusercontent.com/iantaurus2000-lab/XAUUSD-Scalping-V4/ccd6310f060d9aec4229d6f60870766a9ba1b991/mt5/Experts/Rayyan4GatewayEA.mq5",
-        "repository": "iantaurus2000-lab/XAUUSD-Scalping-V4",
-        "path": "mt5/Experts/Rayyan4GatewayEA.mq5",
-        "result": "FETCH_FAILED",
-        "error": "Source size limit",
-        "received_unix": 1795074178.1700068
-      },
-      {
-        "url": "https://raw.githubusercontent.com/iantaurus2000-lab/XAUUSD-Scalping-V4/ccd6310f060d9aec4229d6f60870766a9ba1b991/MT5_EA_Test/uji-test-mt5.mq5",
-        "repository": "iantaurus2000-lab/XAUUSD-Scalping-V4",
-        "path": "MT5_EA_Test/uji-test-mt5.mq5",
-        "sha256": "7e3e62f04b8881335acc432d7050aacbd7d88758bea6ac722579af27173fcdc9",
-        "bytes": 28160,
-        "result": "SOURCE_SAVED",
-        "received_unix": 1795074175.5070605
-      },
-      {
-        "url": "https://raw.githubusercontent.com/iantaurus2000-lab/XAUUSD-Scalping-V4/ccd6310f060d9aec4229d6f60870766a9ba1b991/mt5/Experts/uji-test-mt5.mq5",
-        "repository": "iantaurus2000-lab/XAUUSD-Scalping-V4",
-        "path": "mt5/Experts/uji-test-mt5.mq5",
-        "sha256": "b7ed80cf8706cd6dd2ede37163494568f64e7297e5dd547c10ca4528241837ce",
-        "bytes": 28929,
-        "result": "SOURCE_SAVED",
-        "received_unix": 1795074175.3753104
-      }
-    ],
+    "recent": [],
     "external_code_executed": false,
-    "current_repository": "iantaurus2000-lab/XAUUSD-Scalping-V4",
-    "observed_unix": 1795074178.333895,
+    "current_repository": "yulz008/GOLD_ORB",
+    "observed_unix": 1795080472.3962684,
     "frontier_total_seen": 351
   },
   "spider": {
     "improvement_status": "WAITING_FOR_NEW_EVIDENCE",
     "improvements_accepted": 6,
-    "mission_run_id": "mission-abb0110fab5d",
+    "mission_run_id": "mission-7343d10b6d81",
     "mission_status": "COMPLETED",
     "identity": "JARVIS MARK 2 / SPIDER",
-    "fleet_run_id": "fleet-ba0d8cdd05e0",
+    "fleet_run_id": "fleet-9821b65cdd49",
     "fleet_status": "COMPLETED",
     "counts": {
       "queued": 0,
@@ -385,7 +370,7 @@
       "workers": 24,
       "launched": 24
     },
-    "new_findings": 4,
+    "new_findings": 0,
     "open_findings": 465,
     "model_children": false,
     "worker_type": "DETERMINISTIC_TOOL_WORKER",
