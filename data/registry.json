@@ -39,7 +39,7 @@
     ],
     "commit": "d3eb29c382acf715727d5cd6a0414151e821fc2d",
     "tree_truncated": false,
-    "last_reviewed_unix": 1795057932.817898
+    "last_reviewed_unix": 1795062107.0801337
   },
   "EarnForex/PositionSizer": {
     "repository": "EarnForex/PositionSizer",
@@ -67,7 +67,7 @@
     ],
     "commit": "3b99c9dcc060bee8b9ebd602cc2556a8b41c9857",
     "tree_truncated": false,
-    "last_reviewed_unix": 1795057932.817898
+    "last_reviewed_unix": 1795062107.0801337
   },
   "yulz008/GOLD_ORB": {
     "repository": "yulz008/GOLD_ORB",
@@ -95,12 +95,12 @@
     ],
     "commit": "8af0d735288c0e9378e35d06c46f23b21d9a5424",
     "tree_truncated": false,
-    "last_reviewed_unix": 1795057932.817898
+    "last_reviewed_unix": 1795062107.0801337
   },
   "iantaurus2000-lab/XAUUSD-Scalping-V4": {
     "repository": "iantaurus2000-lab/XAUUSD-Scalping-V4",
     "url": "https://github.com/iantaurus2000-lab/XAUUSD-Scalping-V4",
-    "updated_at": "2026-11-18T15:27:39Z",
+    "updated_at": "2026-11-19T03:59:53Z",
     "stars": 0,
     "license": null,
     "performance": null,
@@ -135,14 +135,14 @@
         "profitability": "UNPROVEN"
       }
     ],
-    "commit": "d725cb8bff46b498949d6ac51f92ef208247d7f7",
+    "commit": "f3db1e93a32eaf856b9d5b7dbb352c22452b6aa4",
     "tree_truncated": false,
-    "last_reviewed_unix": 1795057932.817898
+    "last_reviewed_unix": 1795062107.0801337
   },
   "mt-abdulla-it/xm-ai-scalping-bot": {
     "repository": "mt-abdulla-it/xm-ai-scalping-bot",
     "url": "https://github.com/mt-abdulla-it/xm-ai-scalping-bot",
-    "updated_at": "2026-11-13T16:25:19Z",
+    "updated_at": "2026-11-19T03:55:41Z",
     "stars": 2,
     "license": "MIT",
     "performance": null,
@@ -165,7 +165,7 @@
     ],
     "commit": "9250801cca2e4c4783de6eb078d2499a80b76837",
     "tree_truncated": false,
-    "last_reviewed_unix": 1795057932.817898
+    "last_reviewed_unix": 1795062107.0801337
   },
   "kibetval/forex-scalper-bot": {
     "repository": "kibetval/forex-scalper-bot",
@@ -193,7 +193,7 @@
     ],
     "commit": "041daba127151a363adb3c710c5953a20b7efcd8",
     "tree_truncated": false,
-    "last_reviewed_unix": 1795057932.817898
+    "last_reviewed_unix": 1795062107.0801337
   },
   "EA31337/EA31337": {
     "repository": "EA31337/EA31337",
@@ -221,7 +221,7 @@
     ],
     "commit": "9b9bd38c4e49dd6916f4fe3936e50e97fca7a692",
     "tree_truncated": false,
-    "last_reviewed_unix": 1795057932.817898
+    "last_reviewed_unix": 1795062107.0801337
   },
   "sibvic/mq5-templates": {
     "repository": "sibvic/mq5-templates",
@@ -263,7 +263,7 @@
     ],
     "commit": "6de6720fb67dcefda3f178850f73b5355309e1c8",
     "tree_truncated": false,
-    "last_reviewed_unix": 1795057932.817898
+    "last_reviewed_unix": 1795062107.0801337
   },
   "mci123/mt5-online-dahboard": {
     "repository": "mci123/mt5-online-dahboard",
