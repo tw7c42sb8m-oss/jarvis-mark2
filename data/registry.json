@@ -39,7 +39,7 @@
     ],
     "commit": "d3eb29c382acf715727d5cd6a0414151e821fc2d",
     "tree_truncated": false,
-    "last_reviewed_unix": 1795109002.6254163
+    "last_reviewed_unix": 1795116239.8647609
   },
   "EarnForex/PositionSizer": {
     "repository": "EarnForex/PositionSizer",
@@ -67,7 +67,7 @@
     ],
     "commit": "3b99c9dcc060bee8b9ebd602cc2556a8b41c9857",
     "tree_truncated": false,
-    "last_reviewed_unix": 1795109002.6254163
+    "last_reviewed_unix": 1795116239.8647609
   },
   "yulz008/GOLD_ORB": {
     "repository": "yulz008/GOLD_ORB",
@@ -95,12 +95,12 @@
     ],
     "commit": "8af0d735288c0e9378e35d06c46f23b21d9a5424",
     "tree_truncated": false,
-    "last_reviewed_unix": 1795109002.6254163
+    "last_reviewed_unix": 1795116239.8647609
   },
   "iantaurus2000-lab/XAUUSD-Scalping-V4": {
     "repository": "iantaurus2000-lab/XAUUSD-Scalping-V4",
     "url": "https://github.com/iantaurus2000-lab/XAUUSD-Scalping-V4",
-    "updated_at": "2026-11-19T07:38:19Z",
+    "updated_at": "2026-11-19T19:10:43Z",
     "stars": 0,
     "license": null,
     "performance": null,
@@ -135,37 +135,9 @@
         "profitability": "UNPROVEN"
       }
     ],
-    "commit": "ccd6310f060d9aec4229d6f60870766a9ba1b991",
+    "commit": "9f695cbb1558b2af7ac24f1263fcc77d2e70e1d8",
     "tree_truncated": false,
-    "last_reviewed_unix": 1795109002.6254163
-  },
-  "mt-abdulla-it/xm-ai-scalping-bot": {
-    "repository": "mt-abdulla-it/xm-ai-scalping-bot",
-    "url": "https://github.com/mt-abdulla-it/xm-ai-scalping-bot",
-    "updated_at": "2026-11-19T03:55:41Z",
-    "stars": 2,
-    "license": "MIT",
-    "performance": null,
-    "status": "SOURCE_SCREEN_ONLY",
-    "files": [
-      {
-        "path": "XM_AI_ScalpingBot.mq5",
-        "sha256": "09435993ca76072ae1026e745ece155d74f6edc267d12981866a9538b7a6a5fa",
-        "checks": {
-          "mentions_stop_loss": true,
-          "mentions_take_profit": true,
-          "uses_dll_import": false,
-          "uses_web_request": false,
-          "mentions_martingale_or_grid": true,
-          "mentions_order_execution": true
-        },
-        "assessment": "MANUAL_CODE_REVIEW_REQUIRED",
-        "profitability": "UNPROVEN"
-      }
-    ],
-    "commit": "9250801cca2e4c4783de6eb078d2499a80b76837",
-    "tree_truncated": false,
-    "last_reviewed_unix": 1795109002.6254163
+    "last_reviewed_unix": 1795116239.8647609
   },
   "kibetval/forex-scalper-bot": {
     "repository": "kibetval/forex-scalper-bot",
@@ -193,7 +165,7 @@
     ],
     "commit": "041daba127151a363adb3c710c5953a20b7efcd8",
     "tree_truncated": false,
-    "last_reviewed_unix": 1795109002.6254163
+    "last_reviewed_unix": 1795116239.8647609
   },
   "EA31337/EA31337": {
     "repository": "EA31337/EA31337",
@@ -221,7 +193,7 @@
     ],
     "commit": "9b9bd38c4e49dd6916f4fe3936e50e97fca7a692",
     "tree_truncated": false,
-    "last_reviewed_unix": 1795109002.6254163
+    "last_reviewed_unix": 1795116239.8647609
   },
   "sibvic/mq5-templates": {
     "repository": "sibvic/mq5-templates",
@@ -262,6 +234,62 @@
       }
     ],
     "commit": "6de6720fb67dcefda3f178850f73b5355309e1c8",
+    "tree_truncated": false,
+    "last_reviewed_unix": 1795116239.8647609
+  },
+  "Dummydeveloper101/Fxboys-pro-scalper": {
+    "repository": "Dummydeveloper101/Fxboys-pro-scalper",
+    "url": "https://github.com/Dummydeveloper101/Fxboys-pro-scalper",
+    "updated_at": "2026-11-19T18:11:28Z",
+    "stars": 0,
+    "license": null,
+    "performance": null,
+    "status": "SOURCE_SCREEN_ONLY",
+    "files": [
+      {
+        "path": "FXBOYS_PRO_SCALPER_v0_1.mq5",
+        "sha256": "217ec1cffef9945ff002630d3ff434cc6adf6e51670f1edfc5e8e49cccd9f4ed",
+        "checks": {
+          "mentions_stop_loss": true,
+          "mentions_take_profit": true,
+          "uses_dll_import": false,
+          "uses_web_request": false,
+          "mentions_martingale_or_grid": false,
+          "mentions_order_execution": false
+        },
+        "assessment": "MANUAL_CODE_REVIEW_REQUIRED",
+        "profitability": "UNPROVEN"
+      }
+    ],
+    "commit": "f9ec3c902681d5fdce98a61bf7b4a132a9cc728b",
+    "tree_truncated": false,
+    "last_reviewed_unix": 1795116239.8647609
+  },
+  "mt-abdulla-it/xm-ai-scalping-bot": {
+    "repository": "mt-abdulla-it/xm-ai-scalping-bot",
+    "url": "https://github.com/mt-abdulla-it/xm-ai-scalping-bot",
+    "updated_at": "2026-11-19T03:55:41Z",
+    "stars": 2,
+    "license": "MIT",
+    "performance": null,
+    "status": "SOURCE_SCREEN_ONLY",
+    "files": [
+      {
+        "path": "XM_AI_ScalpingBot.mq5",
+        "sha256": "09435993ca76072ae1026e745ece155d74f6edc267d12981866a9538b7a6a5fa",
+        "checks": {
+          "mentions_stop_loss": true,
+          "mentions_take_profit": true,
+          "uses_dll_import": false,
+          "uses_web_request": false,
+          "mentions_martingale_or_grid": true,
+          "mentions_order_execution": true
+        },
+        "assessment": "MANUAL_CODE_REVIEW_REQUIRED",
+        "profitability": "UNPROVEN"
+      }
+    ],
+    "commit": "9250801cca2e4c4783de6eb078d2499a80b76837",
     "tree_truncated": false,
     "last_reviewed_unix": 1795109002.6254163
   },
