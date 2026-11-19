@@ -1,7 +1,7 @@
 {
   "agent": "JARVIS MARK 2",
   "role": "EA RESEARCH AND DEVELOPMENT",
-  "observed_unix": 1795122622.1406431,
+  "observed_unix": 1795126197.058356,
   "status": "RESEARCH_COMPLETE",
   "runtime": "GITHUB_ACTIONS",
   "cloud_deployed": true,
@@ -66,7 +66,7 @@
       "repository": "EarnForex/PositionSizer",
       "url": "https://github.com/EarnForex/PositionSizer",
       "updated_at": "2026-11-10T08:58:54Z",
-      "stars": 615,
+      "stars": 614,
       "license": "Apache-2.0",
       "performance": null,
       "status": "SOURCE_SCREEN_ONLY",
@@ -174,7 +174,7 @@
     {
       "repository": "kibetval/forex-scalper-bot",
       "url": "https://github.com/kibetval/forex-scalper-bot",
-      "updated_at": "2026-11-18T21:20:35Z",
+      "updated_at": "2026-11-19T21:22:58Z",
       "stars": 0,
       "license": null,
       "performance": null,
@@ -182,20 +182,10 @@
       "files": [
         {
           "path": "ForexScalperEA.mq5",
-          "sha256": "3e28a264feac3205f7c6e2c6685af9fe37ef9e5845a82305a7d5af11e62e29fa",
-          "checks": {
-            "mentions_stop_loss": true,
-            "mentions_take_profit": true,
-            "uses_dll_import": false,
-            "uses_web_request": false,
-            "mentions_martingale_or_grid": false,
-            "mentions_order_execution": true
-          },
-          "assessment": "MANUAL_CODE_REVIEW_REQUIRED",
-          "profitability": "UNPROVEN"
+          "sha256": "3e28a264feac3205f7c6e2c6685af9fe37ef9e5845a82305a7d5af11e62e29fa"
         }
       ],
-      "commit": "041daba127151a363adb3c710c5953a20b7efcd8",
+      "commit": "e198f7383c1fd665d9fbf59102930a0b08e08511",
       "tree_truncated": false
     },
     {
@@ -342,23 +332,33 @@
   ],
   "crawler": {
     "status": "WATCHING_FOR_SOURCE_UPDATES",
-    "visited": 0,
+    "visited": 1,
     "failed": 0,
     "current_url": null,
     "queue_remaining": 0,
-    "recent": [],
+    "recent": [
+      {
+        "url": "https://raw.githubusercontent.com/kibetval/forex-scalper-bot/e198f7383c1fd665d9fbf59102930a0b08e08511/ForexScalperEA.mq5",
+        "repository": "kibetval/forex-scalper-bot",
+        "path": "ForexScalperEA.mq5",
+        "sha256": "3e28a264feac3205f7c6e2c6685af9fe37ef9e5845a82305a7d5af11e62e29fa",
+        "bytes": 10639,
+        "result": "SOURCE_SAVED",
+        "received_unix": 1795126197.2145283
+      }
+    ],
     "external_code_executed": false,
     "current_repository": "yulz008/GOLD_ORB",
-    "observed_unix": 1795122625.8517628,
-    "frontier_total_seen": 356
+    "observed_unix": 1795126199.8885794,
+    "frontier_total_seen": 357
   },
   "spider": {
     "improvement_status": "WAITING_FOR_NEW_EVIDENCE",
     "improvements_accepted": 6,
-    "mission_run_id": "mission-b8499b4d8ffa",
+    "mission_run_id": "mission-f3ec60f20f11",
     "mission_status": "COMPLETED",
     "identity": "JARVIS MARK 2 / SPIDER",
-    "fleet_run_id": "fleet-d39109fac694",
+    "fleet_run_id": "fleet-bbfa7ce0f85c",
     "fleet_status": "COMPLETED",
     "counts": {
       "queued": 0,
@@ -370,8 +370,8 @@
       "workers": 24,
       "launched": 24
     },
-    "new_findings": 0,
-    "open_findings": 473,
+    "new_findings": 4,
+    "open_findings": 477,
     "model_children": false,
     "worker_type": "DETERMINISTIC_TOOL_WORKER",
     "external_ai_apis": 0

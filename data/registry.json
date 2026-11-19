@@ -39,13 +39,13 @@
     ],
     "commit": "d3eb29c382acf715727d5cd6a0414151e821fc2d",
     "tree_truncated": false,
-    "last_reviewed_unix": 1795122622.1406431
+    "last_reviewed_unix": 1795126197.058356
   },
   "EarnForex/PositionSizer": {
     "repository": "EarnForex/PositionSizer",
     "url": "https://github.com/EarnForex/PositionSizer",
     "updated_at": "2026-11-10T08:58:54Z",
-    "stars": 615,
+    "stars": 614,
     "license": "Apache-2.0",
     "performance": null,
     "status": "SOURCE_SCREEN_ONLY",
@@ -67,7 +67,7 @@
     ],
     "commit": "3b99c9dcc060bee8b9ebd602cc2556a8b41c9857",
     "tree_truncated": false,
-    "last_reviewed_unix": 1795122622.1406431
+    "last_reviewed_unix": 1795126197.058356
   },
   "yulz008/GOLD_ORB": {
     "repository": "yulz008/GOLD_ORB",
@@ -95,7 +95,7 @@
     ],
     "commit": "8af0d735288c0e9378e35d06c46f23b21d9a5424",
     "tree_truncated": false,
-    "last_reviewed_unix": 1795122622.1406431
+    "last_reviewed_unix": 1795126197.058356
   },
   "iantaurus2000-lab/XAUUSD-Scalping-V4": {
     "repository": "iantaurus2000-lab/XAUUSD-Scalping-V4",
@@ -137,12 +137,12 @@
     ],
     "commit": "9f695cbb1558b2af7ac24f1263fcc77d2e70e1d8",
     "tree_truncated": false,
-    "last_reviewed_unix": 1795122622.1406431
+    "last_reviewed_unix": 1795126197.058356
   },
   "kibetval/forex-scalper-bot": {
     "repository": "kibetval/forex-scalper-bot",
     "url": "https://github.com/kibetval/forex-scalper-bot",
-    "updated_at": "2026-11-18T21:20:35Z",
+    "updated_at": "2026-11-19T21:22:58Z",
     "stars": 0,
     "license": null,
     "performance": null,
@@ -163,9 +163,9 @@
         "profitability": "UNPROVEN"
       }
     ],
-    "commit": "041daba127151a363adb3c710c5953a20b7efcd8",
+    "commit": "e198f7383c1fd665d9fbf59102930a0b08e08511",
     "tree_truncated": false,
-    "last_reviewed_unix": 1795122622.1406431
+    "last_reviewed_unix": 1795126197.058356
   },
   "EA31337/EA31337": {
     "repository": "EA31337/EA31337",
@@ -193,7 +193,7 @@
     ],
     "commit": "9b9bd38c4e49dd6916f4fe3936e50e97fca7a692",
     "tree_truncated": false,
-    "last_reviewed_unix": 1795122622.1406431
+    "last_reviewed_unix": 1795126197.058356
   },
   "sibvic/mq5-templates": {
     "repository": "sibvic/mq5-templates",
@@ -235,7 +235,7 @@
     ],
     "commit": "6de6720fb67dcefda3f178850f73b5355309e1c8",
     "tree_truncated": false,
-    "last_reviewed_unix": 1795122622.1406431
+    "last_reviewed_unix": 1795126197.058356
   },
   "Dummydeveloper101/Fxboys-pro-scalper": {
     "repository": "Dummydeveloper101/Fxboys-pro-scalper",
@@ -263,7 +263,7 @@
     ],
     "commit": "f9ec3c902681d5fdce98a61bf7b4a132a9cc728b",
     "tree_truncated": false,
-    "last_reviewed_unix": 1795122622.1406431
+    "last_reviewed_unix": 1795126197.058356
   },
   "mt-abdulla-it/xm-ai-scalping-bot": {
     "repository": "mt-abdulla-it/xm-ai-scalping-bot",
