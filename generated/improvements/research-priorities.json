@@ -1,11 +1,5 @@
 [
   {
-    "repository": "Dummydeveloper101/Fxboys-pro-scalper",
-    "source_files": 1,
-    "license": null,
-    "next_action": "REVIEW_LICENSE"
-  },
-  {
     "repository": "EA31337/EA31337",
     "source_files": 1,
     "license": "GPL-3.0",
@@ -34,6 +28,12 @@
     "source_files": 1,
     "license": null,
     "next_action": "REVIEW_LICENSE"
+  },
+  {
+    "repository": "mt-abdulla-it/xm-ai-scalping-bot",
+    "source_files": 1,
+    "license": "MIT",
+    "next_action": "REVIEW_SOURCE_AND_NATIVE_VALIDATION"
   },
   {
     "repository": "sibvic/mq5-templates",
