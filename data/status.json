@@ -1,13 +1,40 @@
 {
   "agent": "JARVIS MARK 2",
   "role": "EA RESEARCH AND DEVELOPMENT",
-  "observed_unix": 1795252001.6619232,
+  "observed_unix": 1795255664.6331818,
   "status": "RESEARCH_COMPLETE",
   "runtime": "GITHUB_ACTIONS",
   "cloud_deployed": true,
   "broker_orders_sent": 0,
   "paid_services": false,
   "repositories": [
+    {
+      "repository": "Dummydeveloper101/Fxboys-pro-scalper",
+      "url": "https://github.com/Dummydeveloper101/Fxboys-pro-scalper",
+      "updated_at": "2026-11-19T18:11:28Z",
+      "stars": 0,
+      "license": null,
+      "performance": null,
+      "status": "SOURCE_SCREEN_ONLY",
+      "files": [
+        {
+          "path": "FXBOYS_PRO_SCALPER_v0_1.mq5",
+          "sha256": "217ec1cffef9945ff002630d3ff434cc6adf6e51670f1edfc5e8e49cccd9f4ed",
+          "checks": {
+            "mentions_stop_loss": true,
+            "mentions_take_profit": true,
+            "uses_dll_import": false,
+            "uses_web_request": false,
+            "mentions_martingale_or_grid": false,
+            "mentions_order_execution": false
+          },
+          "assessment": "MANUAL_CODE_REVIEW_REQUIRED",
+          "profitability": "UNPROVEN"
+        }
+      ],
+      "commit": "f9ec3c902681d5fdce98a61bf7b4a132a9cc728b",
+      "tree_truncated": false
+    },
     {
       "repository": "EA31337/EA31337",
       "url": "https://github.com/EA31337/EA31337",
@@ -147,7 +174,7 @@
     {
       "repository": "kibetval/forex-scalper-bot",
       "url": "https://github.com/kibetval/forex-scalper-bot",
-      "updated_at": "2026-11-20T02:59:34Z",
+      "updated_at": "2026-11-21T09:36:47Z",
       "stars": 0,
       "license": null,
       "performance": null,
@@ -155,37 +182,10 @@
       "files": [
         {
           "path": "ForexScalperEA.mq5",
-          "sha256": "3e28a264feac3205f7c6e2c6685af9fe37ef9e5845a82305a7d5af11e62e29fa",
-          "checks": {
-            "mentions_stop_loss": true,
-            "mentions_take_profit": true,
-            "uses_dll_import": false,
-            "uses_web_request": false,
-            "mentions_martingale_or_grid": false,
-            "mentions_order_execution": true
-          },
-          "assessment": "MANUAL_CODE_REVIEW_REQUIRED",
-          "profitability": "UNPROVEN"
+          "sha256": "3e28a264feac3205f7c6e2c6685af9fe37ef9e5845a82305a7d5af11e62e29fa"
         }
       ],
-      "commit": "3735a1f9195b23e47fdcd9c323840a9ab11ef8b6",
-      "tree_truncated": false
-    },
-    {
-      "repository": "mt-abdulla-it/xm-ai-scalping-bot",
-      "url": "https://github.com/mt-abdulla-it/xm-ai-scalping-bot",
-      "updated_at": "2026-11-21T09:02:44Z",
-      "stars": 2,
-      "license": "NOASSERTION",
-      "performance": null,
-      "status": "SOURCE_SCREEN_ONLY",
-      "files": [
-        {
-          "path": "XM_AI_ScalpingBot.mq5",
-          "sha256": "09435993ca76072ae1026e745ece155d74f6edc267d12981866a9538b7a6a5fa"
-        }
-      ],
-      "commit": "c75036a31448ee96a378dccb2c6552d3438f0bd5",
+      "commit": "98bc881be340309c4d9fdc26c5aa4d72e4728204",
       "tree_truncated": false
     },
     {
@@ -233,7 +233,7 @@
       "repository": "yulz008/GOLD_ORB",
       "url": "https://github.com/yulz008/GOLD_ORB",
       "updated_at": "2023-07-29T05:42:05Z",
-      "stars": 341,
+      "stars": 342,
       "license": null,
       "performance": null,
       "status": "SOURCE_SCREEN_ONLY",
@@ -338,27 +338,27 @@
     "queue_remaining": 0,
     "recent": [
       {
-        "url": "https://raw.githubusercontent.com/mt-abdulla-it/xm-ai-scalping-bot/c75036a31448ee96a378dccb2c6552d3438f0bd5/XM_AI_ScalpingBot.mq5",
-        "repository": "mt-abdulla-it/xm-ai-scalping-bot",
-        "path": "XM_AI_ScalpingBot.mq5",
-        "sha256": "09435993ca76072ae1026e745ece155d74f6edc267d12981866a9538b7a6a5fa",
-        "bytes": 97389,
+        "url": "https://raw.githubusercontent.com/kibetval/forex-scalper-bot/98bc881be340309c4d9fdc26c5aa4d72e4728204/ForexScalperEA.mq5",
+        "repository": "kibetval/forex-scalper-bot",
+        "path": "ForexScalperEA.mq5",
+        "sha256": "3e28a264feac3205f7c6e2c6685af9fe37ef9e5845a82305a7d5af11e62e29fa",
+        "bytes": 10639,
         "result": "SOURCE_SAVED",
-        "received_unix": 1795252001.8213468
+        "received_unix": 1795255664.7211604
       }
     ],
     "external_code_executed": false,
     "current_repository": "yulz008/GOLD_ORB",
-    "observed_unix": 1795252004.5259895,
-    "frontier_total_seen": 372
+    "observed_unix": 1795255666.087427,
+    "frontier_total_seen": 373
   },
   "spider": {
     "improvement_status": "WAITING_FOR_NEW_EVIDENCE",
     "improvements_accepted": 6,
-    "mission_run_id": "mission-5b4755e66896",
+    "mission_run_id": "mission-21c84c3a4045",
     "mission_status": "COMPLETED",
     "identity": "JARVIS MARK 2 / SPIDER",
-    "fleet_run_id": "fleet-b715a7b2a14b",
+    "fleet_run_id": "fleet-9623e3e5b4db",
     "fleet_status": "COMPLETED",
     "counts": {
       "queued": 0,
@@ -370,8 +370,8 @@
       "workers": 24,
       "launched": 24
     },
-    "new_findings": 5,
-    "open_findings": 503,
+    "new_findings": 4,
+    "open_findings": 507,
     "model_children": false,
     "worker_type": "DETERMINISTIC_TOOL_WORKER",
     "external_ai_apis": 0
