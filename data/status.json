@@ -1,13 +1,40 @@
 {
   "agent": "JARVIS MARK 2",
   "role": "EA RESEARCH AND DEVELOPMENT",
-  "observed_unix": 1795241662.6186867,
+  "observed_unix": 1795246460.0903716,
   "status": "RESEARCH_PARTIAL",
   "runtime": "GITHUB_ACTIONS",
   "cloud_deployed": true,
   "broker_orders_sent": 0,
   "paid_services": false,
   "repositories": [
+    {
+      "repository": "EA31337/EA31337",
+      "url": "https://github.com/EA31337/EA31337",
+      "updated_at": "2026-04-07T14:41:25Z",
+      "stars": 1370,
+      "license": "GPL-3.0",
+      "performance": null,
+      "status": "SOURCE_SCREEN_ONLY",
+      "files": [
+        {
+          "path": "src/EA31337.mq5",
+          "sha256": "21f7d34b1171396c416f3987b3cdf2f1c9921924c499dae59627a3fafb50786c",
+          "checks": {
+            "mentions_stop_loss": false,
+            "mentions_take_profit": false,
+            "uses_dll_import": false,
+            "uses_web_request": false,
+            "mentions_martingale_or_grid": false,
+            "mentions_order_execution": false
+          },
+          "assessment": "MANUAL_CODE_REVIEW_REQUIRED",
+          "profitability": "UNPROVEN"
+        }
+      ],
+      "commit": "9b9bd38c4e49dd6916f4fe3936e50e97fca7a692",
+      "tree_truncated": false
+    },
     {
       "repository": "EarnForex/PositionSizer",
       "url": "https://github.com/EarnForex/PositionSizer",
@@ -17,6 +44,7 @@
       "performance": null,
       "status": "SOURCE_SCREEN_ONLY",
       "files": [],
+      "commit": "3b99c9dcc060bee8b9ebd602cc2556a8b41c9857",
       "error": "HTTP Error 403: rate limit exceeded"
     },
     {
@@ -57,6 +85,17 @@
       "url": "https://github.com/mt-abdulla-it/xm-ai-scalping-bot",
       "updated_at": "2026-11-20T11:06:25Z",
       "stars": 2,
+      "license": "MIT",
+      "performance": null,
+      "status": "SOURCE_SCREEN_ONLY",
+      "files": [],
+      "error": "HTTP Error 403: rate limit exceeded"
+    },
+    {
+      "repository": "sibvic/mq5-templates",
+      "url": "https://github.com/sibvic/mq5-templates",
+      "updated_at": "2026-09-26T01:56:14Z",
+      "stars": 243,
       "license": "MIT",
       "performance": null,
       "status": "SOURCE_SCREEN_ONLY",
@@ -136,21 +175,6 @@
   ],
   "errors": [
     {
-      "stage": "curated_source",
-      "repository": "geraked/metatrader5",
-      "error": "HTTP Error 403: rate limit exceeded"
-    },
-    {
-      "stage": "curated_source",
-      "repository": "EA31337/EA31337",
-      "error": "HTTP Error 403: rate limit exceeded"
-    },
-    {
-      "stage": "curated_source",
-      "repository": "sibvic/mq5-templates",
-      "error": "HTTP Error 403: rate limit exceeded"
-    },
-    {
       "stage": "source_screen",
       "repository": "EarnForex/PositionSizer",
       "error": "HTTP Error 403: rate limit exceeded"
@@ -173,6 +197,11 @@
     {
       "stage": "source_screen",
       "repository": "mt-abdulla-it/xm-ai-scalping-bot",
+      "error": "HTTP Error 403: rate limit exceeded"
+    },
+    {
+      "stage": "source_screen",
+      "repository": "sibvic/mq5-templates",
       "error": "HTTP Error 403: rate limit exceeded"
     },
     {
@@ -203,29 +232,29 @@
     "recent": [],
     "external_code_executed": false,
     "current_repository": "yulz008/GOLD_ORB",
-    "observed_unix": 1795241664.6961265,
+    "observed_unix": 1795246462.875694,
     "frontier_total_seen": 371
   },
   "spider": {
     "improvement_status": "WAITING_FOR_NEW_EVIDENCE",
     "improvements_accepted": 6,
-    "mission_run_id": "mission-d060c2caa95d",
+    "mission_run_id": "mission-ad7f31d1a50c",
     "mission_status": "COMPLETED",
     "identity": "JARVIS MARK 2 / SPIDER",
-    "fleet_run_id": "fleet-f12100ea2a80",
+    "fleet_run_id": "fleet-74f097aa8873",
     "fleet_status": "COMPLETED",
     "counts": {
       "queued": 0,
       "running": 0,
-      "completed": 18,
+      "completed": 24,
       "failed": 0,
       "timed_out": 0,
-      "repositories": 6,
-      "workers": 18,
-      "launched": 18
+      "repositories": 8,
+      "workers": 24,
+      "launched": 24
     },
-    "new_findings": 0,
-    "open_findings": 497,
+    "new_findings": 1,
+    "open_findings": 498,
     "model_children": false,
     "worker_type": "DETERMINISTIC_TOOL_WORKER",
     "external_ai_apis": 0
