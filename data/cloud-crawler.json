@@ -6,18 +6,18 @@
   "queue_remaining": 0,
   "recent": [
     {
-      "url": "https://raw.githubusercontent.com/kibetval/forex-scalper-bot/e83575272b12885b744356b5fddb1e61b4305d7b/ForexScalperEA.mq5",
-      "repository": "kibetval/forex-scalper-bot",
-      "path": "ForexScalperEA.mq5",
-      "sha256": "3e28a264feac3205f7c6e2c6685af9fe37ef9e5845a82305a7d5af11e62e29fa",
-      "bytes": 10639,
+      "url": "https://raw.githubusercontent.com/WHAM-FX/WHAM-FX-GOLD-AI-2026/5bc50a5f2341ae2ef87c735610e126ec5b9ede78/WHAM_FX_GOLD_BOT.mq5",
+      "repository": "WHAM-FX/WHAM-FX-GOLD-AI-2026",
+      "path": "WHAM_FX_GOLD_BOT.mq5",
+      "sha256": "db1801746818ab8f0bc1c89ff3c71736ce466029c75bb03c5b2607ea254d4403",
+      "bytes": 6100,
       "result": "SOURCE_SAVED",
-      "received_unix": 1795471906.9032123
+      "received_unix": 1795475671.3441904
     }
   ],
   "external_code_executed": false,
-  "current_repository": "yulz008/GOLD_ORB",
-  "observed_unix": 1795471908.6463728,
+  "current_repository": "WHAM-FX/WHAM-FX-GOLD-AI-2026",
+  "observed_unix": 1795475671.3462672,
   "seen_sources": [
     [
       "Dummydeveloper101/Fxboys-pro-scalper",
@@ -587,6 +587,11 @@
     [
       "WHAM-FX/WHAM-FX-GOLD-AI-2026",
       "57f76d832ce0e80314a264c046274f40beb54f96",
+      "WHAM_FX_GOLD_BOT.mq5"
+    ],
+    [
+      "WHAM-FX/WHAM-FX-GOLD-AI-2026",
+      "5bc50a5f2341ae2ef87c735610e126ec5b9ede78",
       "WHAM_FX_GOLD_BOT.mq5"
     ],
     [
