@@ -12,12 +12,6 @@
     "next_action": "REVIEW_SOURCE_AND_NATIVE_VALIDATION"
   },
   {
-    "repository": "WHAM-FX/WHAM-FX-GOLD-AI-2026",
-    "source_files": 1,
-    "license": null,
-    "next_action": "REVIEW_LICENSE"
-  },
-  {
     "repository": "alkiz/xauusd-scalping-cent",
     "source_files": 1,
     "license": "MIT",
@@ -33,6 +27,12 @@
     "repository": "iantaurus2000-lab/XAUUSD-Scalping-V4",
     "source_files": 2,
     "license": null,
+    "next_action": "REVIEW_LICENSE"
+  },
+  {
+    "repository": "mt-abdulla-it/xm-ai-scalping-bot",
+    "source_files": 3,
+    "license": "NOASSERTION",
     "next_action": "REVIEW_LICENSE"
   },
   {
