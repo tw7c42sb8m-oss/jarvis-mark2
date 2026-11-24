@@ -1,13 +1,40 @@
 {
   "agent": "JARVIS MARK 2",
   "role": "EA RESEARCH AND DEVELOPMENT",
-  "observed_unix": 1795489966.781856,
+  "observed_unix": 1795494220.4794595,
   "status": "RESEARCH_PARTIAL",
   "runtime": "GITHUB_ACTIONS",
   "cloud_deployed": true,
   "broker_orders_sent": 0,
   "paid_services": false,
   "repositories": [
+    {
+      "repository": "EA31337/EA31337",
+      "url": "https://github.com/EA31337/EA31337",
+      "updated_at": "2026-04-07T14:41:25Z",
+      "stars": 1371,
+      "license": "GPL-3.0",
+      "performance": null,
+      "status": "SOURCE_SCREEN_ONLY",
+      "files": [
+        {
+          "path": "src/EA31337.mq5",
+          "sha256": "21f7d34b1171396c416f3987b3cdf2f1c9921924c499dae59627a3fafb50786c",
+          "checks": {
+            "mentions_stop_loss": false,
+            "mentions_take_profit": false,
+            "uses_dll_import": false,
+            "uses_web_request": false,
+            "mentions_martingale_or_grid": false,
+            "mentions_order_execution": false
+          },
+          "assessment": "MANUAL_CODE_REVIEW_REQUIRED",
+          "profitability": "UNPROVEN"
+        }
+      ],
+      "commit": "9b9bd38c4e49dd6916f4fe3936e50e97fca7a692",
+      "tree_truncated": false
+    },
     {
       "repository": "EarnForex/PositionSizer",
       "url": "https://github.com/EarnForex/PositionSizer",
@@ -16,8 +43,24 @@
       "license": "Apache-2.0",
       "performance": null,
       "status": "SOURCE_SCREEN_ONLY",
-      "files": [],
-      "error": "HTTP Error 403: rate limit exceeded"
+      "files": [
+        {
+          "path": "MQL5/Experts/Position Sizer/Position Sizer.mq5",
+          "sha256": "e8489467c0b4d8791524cacce5dba02f0c9dca8853ae131452f3208ee0ebf3c9",
+          "checks": {
+            "mentions_stop_loss": true,
+            "mentions_take_profit": true,
+            "uses_dll_import": false,
+            "uses_web_request": false,
+            "mentions_martingale_or_grid": false,
+            "mentions_order_execution": false
+          },
+          "assessment": "MANUAL_CODE_REVIEW_REQUIRED",
+          "profitability": "UNPROVEN"
+        }
+      ],
+      "commit": "3b99c9dcc060bee8b9ebd602cc2556a8b41c9857",
+      "tree_truncated": false
     },
     {
       "repository": "WHAM-FX/WHAM-FX-GOLD-AI-2026",
@@ -44,7 +87,7 @@
     {
       "repository": "iantaurus2000-lab/XAUUSD-Scalping-V4",
       "url": "https://github.com/iantaurus2000-lab/XAUUSD-Scalping-V4",
-      "updated_at": "2026-11-24T02:27:59Z",
+      "updated_at": "2026-11-24T03:16:35Z",
       "stars": 0,
       "license": null,
       "performance": null,
@@ -60,7 +103,7 @@
         }
       ],
       "error": "HTTP Error 403: rate limit exceeded",
-      "commit": "264ed67da46893dc34f82a64c9d8118cb78937d1"
+      "commit": "c7178fad1577be5a16361abfebf82eb256438939"
     },
     {
       "repository": "kibetval/forex-scalper-bot",
@@ -68,6 +111,17 @@
       "updated_at": "2026-11-23T21:12:40Z",
       "stars": 0,
       "license": null,
+      "performance": null,
+      "status": "SOURCE_SCREEN_ONLY",
+      "files": [],
+      "error": "HTTP Error 403: rate limit exceeded"
+    },
+    {
+      "repository": "sibvic/mq5-templates",
+      "url": "https://github.com/sibvic/mq5-templates",
+      "updated_at": "2026-09-26T01:56:14Z",
+      "stars": 244,
+      "license": "MIT",
       "performance": null,
       "status": "SOURCE_SCREEN_ONLY",
       "files": [],
@@ -146,26 +200,6 @@
   ],
   "errors": [
     {
-      "stage": "curated_source",
-      "repository": "geraked/metatrader5",
-      "error": "HTTP Error 403: rate limit exceeded"
-    },
-    {
-      "stage": "curated_source",
-      "repository": "EA31337/EA31337",
-      "error": "HTTP Error 403: rate limit exceeded"
-    },
-    {
-      "stage": "curated_source",
-      "repository": "sibvic/mq5-templates",
-      "error": "HTTP Error 403: rate limit exceeded"
-    },
-    {
-      "stage": "source_screen",
-      "repository": "EarnForex/PositionSizer",
-      "error": "HTTP Error 403: rate limit exceeded"
-    },
-    {
       "stage": "source_screen",
       "repository": "WHAM-FX/WHAM-FX-GOLD-AI-2026",
       "error": "HTTP Error 403: rate limit exceeded"
@@ -183,6 +217,11 @@
     {
       "stage": "source_screen",
       "repository": "kibetval/forex-scalper-bot",
+      "error": "HTTP Error 403: rate limit exceeded"
+    },
+    {
+      "stage": "source_screen",
+      "repository": "sibvic/mq5-templates",
       "error": "HTTP Error 403: rate limit exceeded"
     },
     {
@@ -212,65 +251,65 @@
     "queue_remaining": 0,
     "recent": [
       {
-        "url": "https://raw.githubusercontent.com/iantaurus2000-lab/XAUUSD-Scalping-V4/264ed67da46893dc34f82a64c9d8118cb78937d1/MT5_EA_Test/uji-test-mt5.mq5",
+        "url": "https://raw.githubusercontent.com/iantaurus2000-lab/XAUUSD-Scalping-V4/c7178fad1577be5a16361abfebf82eb256438939/MT5_EA_Test/uji-test-mt5.mq5",
         "repository": "iantaurus2000-lab/XAUUSD-Scalping-V4",
         "path": "MT5_EA_Test/uji-test-mt5.mq5",
         "sha256": "7e3e62f04b8881335acc432d7050aacbd7d88758bea6ac722579af27173fcdc9",
         "bytes": 28160,
         "result": "SOURCE_SAVED",
-        "received_unix": 1795489969.9935935
+        "received_unix": 1795494222.0786479
       },
       {
-        "url": "https://raw.githubusercontent.com/iantaurus2000-lab/XAUUSD-Scalping-V4/264ed67da46893dc34f82a64c9d8118cb78937d1/mt5/Experts/uji-test-mt5.mq5",
+        "url": "https://raw.githubusercontent.com/iantaurus2000-lab/XAUUSD-Scalping-V4/c7178fad1577be5a16361abfebf82eb256438939/mt5/Experts/uji-test-mt5.mq5",
         "repository": "iantaurus2000-lab/XAUUSD-Scalping-V4",
         "path": "mt5/Experts/uji-test-mt5.mq5",
         "sha256": "b7ed80cf8706cd6dd2ede37163494568f64e7297e5dd547c10ca4528241837ce",
         "bytes": 28929,
         "result": "SOURCE_SAVED",
-        "received_unix": 1795489969.8450367
+        "received_unix": 1795494221.9956138
       },
       {
-        "url": "https://raw.githubusercontent.com/iantaurus2000-lab/XAUUSD-Scalping-V4/264ed67da46893dc34f82a64c9d8118cb78937d1/mt5/Experts/RayyanD1Standalone.mq5",
+        "url": "https://raw.githubusercontent.com/iantaurus2000-lab/XAUUSD-Scalping-V4/c7178fad1577be5a16361abfebf82eb256438939/mt5/Experts/RayyanD1Standalone.mq5",
         "repository": "iantaurus2000-lab/XAUUSD-Scalping-V4",
         "path": "mt5/Experts/RayyanD1Standalone.mq5",
         "result": "FETCH_FAILED",
         "error": "Source size limit",
-        "received_unix": 1795489969.6875026
+        "received_unix": 1795494221.913546
       },
       {
-        "url": "https://raw.githubusercontent.com/iantaurus2000-lab/XAUUSD-Scalping-V4/264ed67da46893dc34f82a64c9d8118cb78937d1/mt5/Experts/Rayyan4GatewayEA.mq5",
+        "url": "https://raw.githubusercontent.com/iantaurus2000-lab/XAUUSD-Scalping-V4/c7178fad1577be5a16361abfebf82eb256438939/mt5/Experts/Rayyan4GatewayEA.mq5",
         "repository": "iantaurus2000-lab/XAUUSD-Scalping-V4",
         "path": "mt5/Experts/Rayyan4GatewayEA.mq5",
         "result": "FETCH_FAILED",
         "error": "Source size limit",
-        "received_unix": 1795489969.4779673
+        "received_unix": 1795494221.8179245
       }
     ],
     "external_code_executed": false,
     "current_repository": "iantaurus2000-lab/XAUUSD-Scalping-V4",
-    "observed_unix": 1795489969.9966304,
-    "frontier_total_seen": 402
+    "observed_unix": 1795494222.0807061,
+    "frontier_total_seen": 406
   },
   "spider": {
     "improvement_status": "WAITING_FOR_NEW_EVIDENCE",
     "improvements_accepted": 6,
-    "mission_run_id": "mission-7d89c15afbff",
+    "mission_run_id": "mission-289d94a85c11",
     "mission_status": "COMPLETED",
     "identity": "JARVIS MARK 2 / SPIDER",
-    "fleet_run_id": "fleet-df1bf15e0db0",
+    "fleet_run_id": "fleet-4dad648b4579",
     "fleet_status": "COMPLETED",
     "counts": {
       "queued": 0,
       "running": 0,
-      "completed": 18,
+      "completed": 24,
       "failed": 0,
       "timed_out": 0,
-      "repositories": 6,
-      "workers": 18,
-      "launched": 18
+      "repositories": 8,
+      "workers": 24,
+      "launched": 24
     },
     "new_findings": 4,
-    "open_findings": 563,
+    "open_findings": 567,
     "model_children": false,
     "worker_type": "DETERMINISTIC_TOOL_WORKER",
     "external_ai_apis": 0
