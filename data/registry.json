@@ -39,7 +39,7 @@
     ],
     "commit": "d3eb29c382acf715727d5cd6a0414151e821fc2d",
     "tree_truncated": false,
-    "last_reviewed_unix": 1795527621.9708624
+    "last_reviewed_unix": 1795533860.9100661
   },
   "EarnForex/PositionSizer": {
     "repository": "EarnForex/PositionSizer",
@@ -67,7 +67,7 @@
     ],
     "commit": "3b99c9dcc060bee8b9ebd602cc2556a8b41c9857",
     "tree_truncated": false,
-    "last_reviewed_unix": 1795527621.9708624
+    "last_reviewed_unix": 1795533860.9100661
   },
   "yulz008/GOLD_ORB": {
     "repository": "yulz008/GOLD_ORB",
@@ -95,12 +95,12 @@
     ],
     "commit": "8af0d735288c0e9378e35d06c46f23b21d9a5424",
     "tree_truncated": false,
-    "last_reviewed_unix": 1795527621.9708624
+    "last_reviewed_unix": 1795533860.9100661
   },
   "iantaurus2000-lab/XAUUSD-Scalping-V4": {
     "repository": "iantaurus2000-lab/XAUUSD-Scalping-V4",
     "url": "https://github.com/iantaurus2000-lab/XAUUSD-Scalping-V4",
-    "updated_at": "2026-11-24T13:24:09Z",
+    "updated_at": "2026-11-24T15:13:41Z",
     "stars": 0,
     "license": null,
     "performance": null,
@@ -135,37 +135,9 @@
         "profitability": "UNPROVEN"
       }
     ],
-    "commit": "1e339304626fb3b7fd2d37eb4417bb8914e6d6b0",
+    "commit": "39d4e6a4091684120810cb25fcd9d0c040eb5844",
     "tree_truncated": false,
-    "last_reviewed_unix": 1795527621.9708624
-  },
-  "kibetval/forex-scalper-bot": {
-    "repository": "kibetval/forex-scalper-bot",
-    "url": "https://github.com/kibetval/forex-scalper-bot",
-    "updated_at": "2026-11-23T21:12:40Z",
-    "stars": 0,
-    "license": null,
-    "performance": null,
-    "status": "SOURCE_SCREEN_ONLY",
-    "files": [
-      {
-        "path": "ForexScalperEA.mq5",
-        "sha256": "3e28a264feac3205f7c6e2c6685af9fe37ef9e5845a82305a7d5af11e62e29fa",
-        "checks": {
-          "mentions_stop_loss": true,
-          "mentions_take_profit": true,
-          "uses_dll_import": false,
-          "uses_web_request": false,
-          "mentions_martingale_or_grid": false,
-          "mentions_order_execution": true
-        },
-        "assessment": "MANUAL_CODE_REVIEW_REQUIRED",
-        "profitability": "UNPROVEN"
-      }
-    ],
-    "commit": "e83575272b12885b744356b5fddb1e61b4305d7b",
-    "tree_truncated": false,
-    "last_reviewed_unix": 1795527621.9708624
+    "last_reviewed_unix": 1795533860.9100661
   },
   "WHAM-FX/WHAM-FX-GOLD-AI-2026": {
     "repository": "WHAM-FX/WHAM-FX-GOLD-AI-2026",
@@ -193,7 +165,7 @@
     ],
     "commit": "5bc50a5f2341ae2ef87c735610e126ec5b9ede78",
     "tree_truncated": false,
-    "last_reviewed_unix": 1795527621.9708624
+    "last_reviewed_unix": 1795533860.9100661
   },
   "EA31337/EA31337": {
     "repository": "EA31337/EA31337",
@@ -221,7 +193,7 @@
     ],
     "commit": "9b9bd38c4e49dd6916f4fe3936e50e97fca7a692",
     "tree_truncated": false,
-    "last_reviewed_unix": 1795527621.9708624
+    "last_reviewed_unix": 1795533860.9100661
   },
   "sibvic/mq5-templates": {
     "repository": "sibvic/mq5-templates",
@@ -262,6 +234,62 @@
       }
     ],
     "commit": "6de6720fb67dcefda3f178850f73b5355309e1c8",
+    "tree_truncated": false,
+    "last_reviewed_unix": 1795533860.9100661
+  },
+  "alkiz/xauusd-scalping-cent": {
+    "repository": "alkiz/xauusd-scalping-cent",
+    "url": "https://github.com/alkiz/xauusd-scalping-cent",
+    "updated_at": "2026-11-24T14:17:15Z",
+    "stars": 0,
+    "license": "MIT",
+    "performance": null,
+    "status": "SOURCE_SCREEN_ONLY",
+    "files": [
+      {
+        "path": "ea-adapted/XAU_Cent_Scalper_M5.mq5",
+        "sha256": "29314abfe167db4cddc0ce80c0849243ca44415d920b4e10437fe5da3a433967",
+        "checks": {
+          "mentions_stop_loss": true,
+          "mentions_take_profit": true,
+          "uses_dll_import": false,
+          "uses_web_request": false,
+          "mentions_martingale_or_grid": true,
+          "mentions_order_execution": true
+        },
+        "assessment": "MANUAL_CODE_REVIEW_REQUIRED",
+        "profitability": "UNPROVEN"
+      }
+    ],
+    "commit": "82f3377a8e7f682ae14b62760ec892ef064daba7",
+    "tree_truncated": false,
+    "last_reviewed_unix": 1795533860.9100661
+  },
+  "kibetval/forex-scalper-bot": {
+    "repository": "kibetval/forex-scalper-bot",
+    "url": "https://github.com/kibetval/forex-scalper-bot",
+    "updated_at": "2026-11-23T21:12:40Z",
+    "stars": 0,
+    "license": null,
+    "performance": null,
+    "status": "SOURCE_SCREEN_ONLY",
+    "files": [
+      {
+        "path": "ForexScalperEA.mq5",
+        "sha256": "3e28a264feac3205f7c6e2c6685af9fe37ef9e5845a82305a7d5af11e62e29fa",
+        "checks": {
+          "mentions_stop_loss": true,
+          "mentions_take_profit": true,
+          "uses_dll_import": false,
+          "uses_web_request": false,
+          "mentions_martingale_or_grid": false,
+          "mentions_order_execution": true
+        },
+        "assessment": "MANUAL_CODE_REVIEW_REQUIRED",
+        "profitability": "UNPROVEN"
+      }
+    ],
+    "commit": "e83575272b12885b744356b5fddb1e61b4305d7b",
     "tree_truncated": false,
     "last_reviewed_unix": 1795527621.9708624
   },
