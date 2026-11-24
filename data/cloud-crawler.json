@@ -1,23 +1,13 @@
 {
   "status": "WATCHING_FOR_SOURCE_UPDATES",
-  "visited": 1,
+  "visited": 0,
   "failed": 0,
   "current_url": null,
   "queue_remaining": 0,
-  "recent": [
-    {
-      "url": "https://raw.githubusercontent.com/WHAM-FX/WHAM-FX-GOLD-AI-2026/5bc50a5f2341ae2ef87c735610e126ec5b9ede78/WHAM_FX_GOLD_BOT.mq5",
-      "repository": "WHAM-FX/WHAM-FX-GOLD-AI-2026",
-      "path": "WHAM_FX_GOLD_BOT.mq5",
-      "sha256": "db1801746818ab8f0bc1c89ff3c71736ce466029c75bb03c5b2607ea254d4403",
-      "bytes": 6100,
-      "result": "SOURCE_SAVED",
-      "received_unix": 1795475671.3441904
-    }
-  ],
+  "recent": [],
   "external_code_executed": false,
-  "current_repository": "WHAM-FX/WHAM-FX-GOLD-AI-2026",
-  "observed_unix": 1795475671.3462672,
+  "current_repository": "yulz008/GOLD_ORB",
+  "observed_unix": 1795478837.4400415,
   "seen_sources": [
     [
       "Dummydeveloper101/Fxboys-pro-scalper",
