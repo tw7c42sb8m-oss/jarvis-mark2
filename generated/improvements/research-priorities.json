@@ -12,12 +12,6 @@
     "next_action": "REVIEW_SOURCE_AND_NATIVE_VALIDATION"
   },
   {
-    "repository": "alkiz/xauusd-scalping-cent",
-    "source_files": 1,
-    "license": "MIT",
-    "next_action": "REVIEW_SOURCE_AND_NATIVE_VALIDATION"
-  },
-  {
     "repository": "geraked/metatrader5",
     "source_files": 2,
     "license": "MIT",
@@ -37,9 +31,15 @@
   },
   {
     "repository": "sibvic/mq5-templates",
-    "source_files": 7,
+    "source_files": 3,
     "license": "MIT",
     "next_action": "REVIEW_SOURCE_AND_NATIVE_VALIDATION"
+  },
+  {
+    "repository": "voq30113-bit/midas-smc-scalper",
+    "source_files": 2,
+    "license": null,
+    "next_action": "REVIEW_LICENSE"
   },
   {
     "repository": "yulz008/GOLD_ORB",

@@ -39,7 +39,7 @@
     ],
     "commit": "d3eb29c382acf715727d5cd6a0414151e821fc2d",
     "tree_truncated": false,
-    "last_reviewed_unix": 1795624187.6927867
+    "last_reviewed_unix": 1795629829.7294955
   },
   "EarnForex/PositionSizer": {
     "repository": "EarnForex/PositionSizer",
@@ -67,7 +67,7 @@
     ],
     "commit": "3b99c9dcc060bee8b9ebd602cc2556a8b41c9857",
     "tree_truncated": false,
-    "last_reviewed_unix": 1795624187.6927867
+    "last_reviewed_unix": 1795629829.7294955
   },
   "yulz008/GOLD_ORB": {
     "repository": "yulz008/GOLD_ORB",
@@ -95,7 +95,7 @@
     ],
     "commit": "8af0d735288c0e9378e35d06c46f23b21d9a5424",
     "tree_truncated": false,
-    "last_reviewed_unix": 1795624187.6927867
+    "last_reviewed_unix": 1795629829.7294955
   },
   "iantaurus2000-lab/XAUUSD-Scalping-V4": {
     "repository": "iantaurus2000-lab/XAUUSD-Scalping-V4",
@@ -137,7 +137,7 @@
     ],
     "commit": "374dc4ec8d75b04aea5504abf8c1f70145108a1c",
     "tree_truncated": false,
-    "last_reviewed_unix": 1795624187.6927867
+    "last_reviewed_unix": 1795629829.7294955
   },
   "EA31337/EA31337": {
     "repository": "EA31337/EA31337",
@@ -165,7 +165,7 @@
     ],
     "commit": "9b9bd38c4e49dd6916f4fe3936e50e97fca7a692",
     "tree_truncated": false,
-    "last_reviewed_unix": 1795624187.6927867
+    "last_reviewed_unix": 1795629829.7294955
   },
   "sibvic/mq5-templates": {
     "repository": "sibvic/mq5-templates",
@@ -207,7 +207,7 @@
     ],
     "commit": "2a432f70ab882407f90ccc58ed154881171995b5",
     "tree_truncated": false,
-    "last_reviewed_unix": 1795624187.6927867
+    "last_reviewed_unix": 1795629829.7294955
   },
   "mt-abdulla-it/xm-ai-scalping-bot": {
     "repository": "mt-abdulla-it/xm-ai-scalping-bot",
@@ -249,7 +249,49 @@
     ],
     "commit": "c1a44dd196a73e57615d334fa8d7677617ff799e",
     "tree_truncated": false,
-    "last_reviewed_unix": 1795624187.6927867
+    "last_reviewed_unix": 1795629829.7294955
+  },
+  "voq30113-bit/midas-smc-scalper": {
+    "repository": "voq30113-bit/midas-smc-scalper",
+    "url": "https://github.com/voq30113-bit/midas-smc-scalper",
+    "updated_at": "2026-11-25T17:50:48Z",
+    "stars": 0,
+    "license": null,
+    "performance": null,
+    "status": "SOURCE_SCREEN_ONLY",
+    "files": [
+      {
+        "path": "MIDAS_Gold_SMC_v3.4.mq5",
+        "sha256": "fbd94a775cdffbee256bc08a8603404c5e9dceceba0e11bb6cdd7828c8e98f07",
+        "checks": {
+          "mentions_stop_loss": true,
+          "mentions_take_profit": true,
+          "uses_dll_import": false,
+          "uses_web_request": false,
+          "mentions_martingale_or_grid": true,
+          "mentions_order_execution": true
+        },
+        "assessment": "MANUAL_CODE_REVIEW_REQUIRED",
+        "profitability": "UNPROVEN"
+      },
+      {
+        "path": "MIDAS_SMC_v4.mq5",
+        "sha256": "34474a885606c480ab1f7f4f492ba80ae0e11b83de83287faff765523f49c444",
+        "checks": {
+          "mentions_stop_loss": true,
+          "mentions_take_profit": true,
+          "uses_dll_import": false,
+          "uses_web_request": false,
+          "mentions_martingale_or_grid": false,
+          "mentions_order_execution": true
+        },
+        "assessment": "MANUAL_CODE_REVIEW_REQUIRED",
+        "profitability": "UNPROVEN"
+      }
+    ],
+    "commit": "a1178eda81e090e281bacf8b07411445b38b0e6b",
+    "tree_truncated": false,
+    "last_reviewed_unix": 1795629829.7294955
   },
   "alkiz/xauusd-scalping-cent": {
     "repository": "alkiz/xauusd-scalping-cent",
@@ -278,48 +320,6 @@
     "commit": "82f3377a8e7f682ae14b62760ec892ef064daba7",
     "tree_truncated": false,
     "last_reviewed_unix": 1795624187.6927867
-  },
-  "voq30113-bit/midas-smc-scalper": {
-    "repository": "voq30113-bit/midas-smc-scalper",
-    "url": "https://github.com/voq30113-bit/midas-smc-scalper",
-    "updated_at": "2026-11-25T14:29:31Z",
-    "stars": 0,
-    "license": null,
-    "performance": null,
-    "status": "SOURCE_SCREEN_ONLY",
-    "files": [
-      {
-        "path": "MIDAS_Gold_SMC_v3.4.mq5",
-        "sha256": "fbd94a775cdffbee256bc08a8603404c5e9dceceba0e11bb6cdd7828c8e98f07",
-        "checks": {
-          "mentions_stop_loss": true,
-          "mentions_take_profit": true,
-          "uses_dll_import": false,
-          "uses_web_request": false,
-          "mentions_martingale_or_grid": true,
-          "mentions_order_execution": true
-        },
-        "assessment": "MANUAL_CODE_REVIEW_REQUIRED",
-        "profitability": "UNPROVEN"
-      },
-      {
-        "path": "MIDAS_SMC_v4.mq5",
-        "sha256": "de70a666ef64505726ffaca088ddc0c3612af80de910c79e6ed0d927c0dd4891",
-        "checks": {
-          "mentions_stop_loss": true,
-          "mentions_take_profit": true,
-          "uses_dll_import": false,
-          "uses_web_request": false,
-          "mentions_martingale_or_grid": false,
-          "mentions_order_execution": true
-        },
-        "assessment": "MANUAL_CODE_REVIEW_REQUIRED",
-        "profitability": "UNPROVEN"
-      }
-    ],
-    "commit": "72264658cd85cfd5b9a4dcac0c14725b97adeb13",
-    "tree_truncated": false,
-    "last_reviewed_unix": 1795617355.2880895
   },
   "WHAM-FX/WHAM-FX-GOLD-AI-2026": {
     "repository": "WHAM-FX/WHAM-FX-GOLD-AI-2026",
