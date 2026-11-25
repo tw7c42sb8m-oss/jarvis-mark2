@@ -1,13 +1,41 @@
 {
   "status": "WATCHING_FOR_SOURCE_UPDATES",
-  "visited": 0,
+  "visited": 3,
   "failed": 0,
   "current_url": null,
   "queue_remaining": 0,
-  "recent": [],
+  "recent": [
+    {
+      "url": "https://raw.githubusercontent.com/mt-abdulla-it/xm-ai-scalping-bot/c1a44dd196a73e57615d334fa8d7677617ff799e/agensi_skill/XM_AI_ScalpingBot.mq5",
+      "repository": "mt-abdulla-it/xm-ai-scalping-bot",
+      "path": "agensi_skill/XM_AI_ScalpingBot.mq5",
+      "sha256": "f08e8e1ffd6b3f6f29cffb469e849f381bc0e3583b983c1a2b852e0fbce1eadb",
+      "bytes": 106277,
+      "result": "SOURCE_SAVED",
+      "received_unix": 1795605572.4201622
+    },
+    {
+      "url": "https://raw.githubusercontent.com/mt-abdulla-it/xm-ai-scalping-bot/c1a44dd196a73e57615d334fa8d7677617ff799e/XM_AI_ScalpingBot.mq5",
+      "repository": "mt-abdulla-it/xm-ai-scalping-bot",
+      "path": "XM_AI_ScalpingBot.mq5",
+      "sha256": "5d61585531cf78aa4191b552b5feb7b56493f55f260393ab23e9e10bbfa079be",
+      "bytes": 108033,
+      "result": "SOURCE_SAVED",
+      "received_unix": 1795605569.1895928
+    },
+    {
+      "url": "https://raw.githubusercontent.com/mt-abdulla-it/xm-ai-scalping-bot/c1a44dd196a73e57615d334fa8d7677617ff799e/CheckBTC.mq5",
+      "repository": "mt-abdulla-it/xm-ai-scalping-bot",
+      "path": "CheckBTC.mq5",
+      "sha256": "fe127cba4eb165f8499c67a39de204c6fe3f1d954d1967c4c134ed0f0204c2ce",
+      "bytes": 1521,
+      "result": "SOURCE_SAVED",
+      "received_unix": 1795605569.038698
+    }
+  ],
   "external_code_executed": false,
-  "current_repository": "yulz008/GOLD_ORB",
-  "observed_unix": 1795599475.9457524,
+  "current_repository": "mt-abdulla-it/xm-ai-scalping-bot",
+  "observed_unix": 1795605572.4232273,
   "seen_sources": [
     [
       "Dummydeveloper101/Fxboys-pro-scalper",
@@ -1982,6 +2010,21 @@
     [
       "mt-abdulla-it/xm-ai-scalping-bot",
       "b4c4c2a3273f680deb29677967a5ee44ae427277",
+      "agensi_skill/XM_AI_ScalpingBot.mq5"
+    ],
+    [
+      "mt-abdulla-it/xm-ai-scalping-bot",
+      "c1a44dd196a73e57615d334fa8d7677617ff799e",
+      "CheckBTC.mq5"
+    ],
+    [
+      "mt-abdulla-it/xm-ai-scalping-bot",
+      "c1a44dd196a73e57615d334fa8d7677617ff799e",
+      "XM_AI_ScalpingBot.mq5"
+    ],
+    [
+      "mt-abdulla-it/xm-ai-scalping-bot",
+      "c1a44dd196a73e57615d334fa8d7677617ff799e",
       "agensi_skill/XM_AI_ScalpingBot.mq5"
     ],
     [
