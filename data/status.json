@@ -1,7 +1,7 @@
 {
   "agent": "JARVIS MARK 2",
   "role": "EA RESEARCH AND DEVELOPMENT",
-  "observed_unix": 1795641486.3693917,
+  "observed_unix": 1795644996.500775,
   "status": "RESEARCH_COMPLETE",
   "runtime": "GITHUB_ACTIONS",
   "cloud_deployed": true,
@@ -229,7 +229,7 @@
     {
       "repository": "voq30113-bit/midas-smc-scalper",
       "url": "https://github.com/voq30113-bit/midas-smc-scalper",
-      "updated_at": "2026-11-25T21:15:46Z",
+      "updated_at": "2026-11-25T21:56:15Z",
       "stars": 0,
       "license": null,
       "performance": null,
@@ -244,7 +244,7 @@
           "sha256": "a85afe44b8e64feb8f690c2ea3ba7edd53e03f8e929fe4649ff7933ea11febf6"
         }
       ],
-      "commit": "a5505eb6e2a46b9a993483fa145fb15fc88018e7",
+      "commit": "d5631b877507a31041ae4c769b24353888b7a7d4",
       "tree_truncated": false
     },
     {
@@ -350,42 +350,60 @@
   ],
   "crawler": {
     "status": "WATCHING_FOR_SOURCE_UPDATES",
-    "visited": 2,
+    "visited": 4,
     "failed": 0,
     "current_url": null,
     "queue_remaining": 0,
     "recent": [
       {
-        "url": "https://raw.githubusercontent.com/voq30113-bit/midas-smc-scalper/a5505eb6e2a46b9a993483fa145fb15fc88018e7/MIDAS_SMC_v4.mq5",
+        "url": "https://raw.githubusercontent.com/voq30113-bit/midas-smc-scalper/d5631b877507a31041ae4c769b24353888b7a7d4/MIDAS_SMC_v4.mq5",
         "repository": "voq30113-bit/midas-smc-scalper",
         "path": "MIDAS_SMC_v4.mq5",
         "sha256": "a85afe44b8e64feb8f690c2ea3ba7edd53e03f8e929fe4649ff7933ea11febf6",
         "bytes": 134732,
         "result": "SOURCE_SAVED",
-        "received_unix": 1795641486.535604
+        "received_unix": 1795644999.7777169
       },
       {
-        "url": "https://raw.githubusercontent.com/voq30113-bit/midas-smc-scalper/a5505eb6e2a46b9a993483fa145fb15fc88018e7/MIDAS_Gold_SMC_v3.4.mq5",
+        "url": "https://raw.githubusercontent.com/voq30113-bit/midas-smc-scalper/d5631b877507a31041ae4c769b24353888b7a7d4/MIDAS_Gold_SMC_v3.4.mq5",
         "repository": "voq30113-bit/midas-smc-scalper",
         "path": "MIDAS_Gold_SMC_v3.4.mq5",
         "sha256": "fbd94a775cdffbee256bc08a8603404c5e9dceceba0e11bb6cdd7828c8e98f07",
         "bytes": 110727,
         "result": "SOURCE_SAVED",
-        "received_unix": 1795641486.4606125
+        "received_unix": 1795644999.590399
+      },
+      {
+        "url": "https://raw.githubusercontent.com/voq30113-bit/midas-smc-scalper/6c4edc0f9b4053751739942216645d236cd9e08c/MIDAS_SMC_v4.mq5",
+        "repository": "voq30113-bit/midas-smc-scalper",
+        "path": "MIDAS_SMC_v4.mq5",
+        "sha256": "a85afe44b8e64feb8f690c2ea3ba7edd53e03f8e929fe4649ff7933ea11febf6",
+        "bytes": 134732,
+        "result": "SOURCE_SAVED",
+        "received_unix": 1795644997.04927
+      },
+      {
+        "url": "https://raw.githubusercontent.com/voq30113-bit/midas-smc-scalper/6c4edc0f9b4053751739942216645d236cd9e08c/MIDAS_Gold_SMC_v3.4.mq5",
+        "repository": "voq30113-bit/midas-smc-scalper",
+        "path": "MIDAS_Gold_SMC_v3.4.mq5",
+        "sha256": "fbd94a775cdffbee256bc08a8603404c5e9dceceba0e11bb6cdd7828c8e98f07",
+        "bytes": 110727,
+        "result": "SOURCE_SAVED",
+        "received_unix": 1795644996.7478137
       }
     ],
     "external_code_executed": false,
-    "current_repository": "yulz008/GOLD_ORB",
-    "observed_unix": 1795641488.0651977,
-    "frontier_total_seen": 472
+    "current_repository": "voq30113-bit/midas-smc-scalper",
+    "observed_unix": 1795644999.7897527,
+    "frontier_total_seen": 476
   },
   "spider": {
     "improvement_status": "WAITING_FOR_NEW_EVIDENCE",
     "improvements_accepted": 6,
-    "mission_run_id": "mission-e048d72e5379",
+    "mission_run_id": "mission-5b70e69b58e3",
     "mission_status": "COMPLETED",
     "identity": "JARVIS MARK 2 / SPIDER",
-    "fleet_run_id": "fleet-b65f92efa855",
+    "fleet_run_id": "fleet-c86443b1a3e4",
     "fleet_status": "COMPLETED",
     "counts": {
       "queued": 0,
@@ -398,7 +416,7 @@
       "launched": 24
     },
     "new_findings": 5,
-    "open_findings": 649,
+    "open_findings": 654,
     "model_children": false,
     "worker_type": "DETERMINISTIC_TOOL_WORKER",
     "external_ai_apis": 0
