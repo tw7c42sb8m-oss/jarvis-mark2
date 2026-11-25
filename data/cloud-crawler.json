@@ -1,41 +1,32 @@
 {
   "status": "WATCHING_FOR_SOURCE_UPDATES",
-  "visited": 3,
+  "visited": 2,
   "failed": 0,
   "current_url": null,
   "queue_remaining": 0,
   "recent": [
     {
-      "url": "https://raw.githubusercontent.com/sibvic/mq5-templates/2a432f70ab882407f90ccc58ed154881171995b5/snippets/Actions/CloseAllAction.mqh",
-      "repository": "sibvic/mq5-templates",
-      "path": "snippets/Actions/CloseAllAction.mqh",
-      "sha256": "dfa022e433929ccba27c46e2939769ac942709546984c7162ebda68c3ff3066d",
-      "bytes": 629,
-      "result": "SOURCE_SAVED",
-      "received_unix": 1795629832.4049237
-    },
-    {
-      "url": "https://raw.githubusercontent.com/voq30113-bit/midas-smc-scalper/a1178eda81e090e281bacf8b07411445b38b0e6b/MIDAS_SMC_v4.mq5",
+      "url": "https://raw.githubusercontent.com/voq30113-bit/midas-smc-scalper/8767a0e9f23f3ab6b648c68fa0a3132b05bbb4f2/MIDAS_SMC_v4.mq5",
       "repository": "voq30113-bit/midas-smc-scalper",
       "path": "MIDAS_SMC_v4.mq5",
       "sha256": "34474a885606c480ab1f7f4f492ba80ae0e11b83de83287faff765523f49c444",
       "bytes": 130027,
       "result": "SOURCE_SAVED",
-      "received_unix": 1795629830.35952
+      "received_unix": 1795634328.9209242
     },
     {
-      "url": "https://raw.githubusercontent.com/voq30113-bit/midas-smc-scalper/a1178eda81e090e281bacf8b07411445b38b0e6b/MIDAS_Gold_SMC_v3.4.mq5",
+      "url": "https://raw.githubusercontent.com/voq30113-bit/midas-smc-scalper/8767a0e9f23f3ab6b648c68fa0a3132b05bbb4f2/MIDAS_Gold_SMC_v3.4.mq5",
       "repository": "voq30113-bit/midas-smc-scalper",
       "path": "MIDAS_Gold_SMC_v3.4.mq5",
       "sha256": "fbd94a775cdffbee256bc08a8603404c5e9dceceba0e11bb6cdd7828c8e98f07",
       "bytes": 110727,
       "result": "SOURCE_SAVED",
-      "received_unix": 1795629830.2508101
+      "received_unix": 1795634328.7719073
     }
   ],
   "external_code_executed": false,
-  "current_repository": "sibvic/mq5-templates",
-  "observed_unix": 1795629832.4078925,
+  "current_repository": "yulz008/GOLD_ORB",
+  "observed_unix": 1795634332.1222136,
   "seen_sources": [
     [
       "Dummydeveloper101/Fxboys-pro-scalper",
@@ -2275,6 +2266,16 @@
     [
       "voq30113-bit/midas-smc-scalper",
       "72264658cd85cfd5b9a4dcac0c14725b97adeb13",
+      "MIDAS_SMC_v4.mq5"
+    ],
+    [
+      "voq30113-bit/midas-smc-scalper",
+      "8767a0e9f23f3ab6b648c68fa0a3132b05bbb4f2",
+      "MIDAS_Gold_SMC_v3.4.mq5"
+    ],
+    [
+      "voq30113-bit/midas-smc-scalper",
+      "8767a0e9f23f3ab6b648c68fa0a3132b05bbb4f2",
       "MIDAS_SMC_v4.mq5"
     ],
     [
