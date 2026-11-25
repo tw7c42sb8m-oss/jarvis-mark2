@@ -6,27 +6,27 @@
   "queue_remaining": 0,
   "recent": [
     {
-      "url": "https://raw.githubusercontent.com/voq30113-bit/midas-smc-scalper/8767a0e9f23f3ab6b648c68fa0a3132b05bbb4f2/MIDAS_SMC_v4.mq5",
+      "url": "https://raw.githubusercontent.com/voq30113-bit/midas-smc-scalper/67d61f67b6381c201a516db40f6f47de76f096f1/MIDAS_SMC_v4.mq5",
       "repository": "voq30113-bit/midas-smc-scalper",
       "path": "MIDAS_SMC_v4.mq5",
-      "sha256": "34474a885606c480ab1f7f4f492ba80ae0e11b83de83287faff765523f49c444",
-      "bytes": 130027,
+      "sha256": "c43759c792449968b156d4d1ec0348a63f2960a448cc431901e7fb1dbbcb27d3",
+      "bytes": 134491,
       "result": "SOURCE_SAVED",
-      "received_unix": 1795634328.9209242
+      "received_unix": 1795637656.0749862
     },
     {
-      "url": "https://raw.githubusercontent.com/voq30113-bit/midas-smc-scalper/8767a0e9f23f3ab6b648c68fa0a3132b05bbb4f2/MIDAS_Gold_SMC_v3.4.mq5",
+      "url": "https://raw.githubusercontent.com/voq30113-bit/midas-smc-scalper/67d61f67b6381c201a516db40f6f47de76f096f1/MIDAS_Gold_SMC_v3.4.mq5",
       "repository": "voq30113-bit/midas-smc-scalper",
       "path": "MIDAS_Gold_SMC_v3.4.mq5",
       "sha256": "fbd94a775cdffbee256bc08a8603404c5e9dceceba0e11bb6cdd7828c8e98f07",
       "bytes": 110727,
       "result": "SOURCE_SAVED",
-      "received_unix": 1795634328.7719073
+      "received_unix": 1795637655.9786916
     }
   ],
   "external_code_executed": false,
   "current_repository": "yulz008/GOLD_ORB",
-  "observed_unix": 1795634332.1222136,
+  "observed_unix": 1795637657.61383,
   "seen_sources": [
     [
       "Dummydeveloper101/Fxboys-pro-scalper",
@@ -2256,6 +2256,16 @@
     [
       "voq30113-bit/midas-smc-scalper",
       "3983f3a05b90d5a96f6fed86d195e20b9033de1c",
+      "MIDAS_SMC_v4.mq5"
+    ],
+    [
+      "voq30113-bit/midas-smc-scalper",
+      "67d61f67b6381c201a516db40f6f47de76f096f1",
+      "MIDAS_Gold_SMC_v3.4.mq5"
+    ],
+    [
+      "voq30113-bit/midas-smc-scalper",
+      "67d61f67b6381c201a516db40f6f47de76f096f1",
       "MIDAS_SMC_v4.mq5"
     ],
     [
