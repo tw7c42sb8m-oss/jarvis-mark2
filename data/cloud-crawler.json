@@ -6,45 +6,45 @@
   "queue_remaining": 0,
   "recent": [
     {
-      "url": "https://raw.githubusercontent.com/voq30113-bit/midas-smc-scalper/a6e653f0bcbe85f62dcaef11995198a520f70a75/tools/MIDAS_ExportBars.mq5",
+      "url": "https://raw.githubusercontent.com/voq30113-bit/midas-smc-scalper/14ecc6ebdb1d69dbfbb6e2a3ae0bfe1f296784d9/tools/MIDAS_ExportBars.mq5",
       "repository": "voq30113-bit/midas-smc-scalper",
       "path": "tools/MIDAS_ExportBars.mq5",
       "sha256": "64df51862034186fea6e907102f442d569a6004ab54e9330dfc8286ed285759e",
       "bytes": 1566,
       "result": "SOURCE_SAVED",
-      "received_unix": 1795727595.7400024
+      "received_unix": 1795731402.602339
     },
     {
-      "url": "https://raw.githubusercontent.com/voq30113-bit/midas-smc-scalper/a6e653f0bcbe85f62dcaef11995198a520f70a75/tools/MIDAS_DukaImport.mq5",
+      "url": "https://raw.githubusercontent.com/voq30113-bit/midas-smc-scalper/14ecc6ebdb1d69dbfbb6e2a3ae0bfe1f296784d9/tools/MIDAS_DukaImport.mq5",
       "repository": "voq30113-bit/midas-smc-scalper",
       "path": "tools/MIDAS_DukaImport.mq5",
       "sha256": "cf33e3ef21b7822be0bd692f8b647457bb10087fd9dec12af7f0116ebf802471",
       "bytes": 2815,
       "result": "SOURCE_SAVED",
-      "received_unix": 1795727595.6067953
+      "received_unix": 1795731402.4976838
     },
     {
-      "url": "https://raw.githubusercontent.com/voq30113-bit/midas-smc-scalper/a6e653f0bcbe85f62dcaef11995198a520f70a75/MIDAS_SMC_v4.mq5",
+      "url": "https://raw.githubusercontent.com/voq30113-bit/midas-smc-scalper/14ecc6ebdb1d69dbfbb6e2a3ae0bfe1f296784d9/MIDAS_SMC_v4.mq5",
       "repository": "voq30113-bit/midas-smc-scalper",
       "path": "MIDAS_SMC_v4.mq5",
       "sha256": "997b4221c7573f7fc4697f1c9d497469adca8a02771063011864ec23b1ec6a99",
       "bytes": 140275,
       "result": "SOURCE_SAVED",
-      "received_unix": 1795727593.0316892
+      "received_unix": 1795731400.456838
     },
     {
-      "url": "https://raw.githubusercontent.com/voq30113-bit/midas-smc-scalper/a6e653f0bcbe85f62dcaef11995198a520f70a75/MIDAS_Gold_SMC_v3.4.mq5",
+      "url": "https://raw.githubusercontent.com/voq30113-bit/midas-smc-scalper/14ecc6ebdb1d69dbfbb6e2a3ae0bfe1f296784d9/MIDAS_Gold_SMC_v3.4.mq5",
       "repository": "voq30113-bit/midas-smc-scalper",
       "path": "MIDAS_Gold_SMC_v3.4.mq5",
       "sha256": "fbd94a775cdffbee256bc08a8603404c5e9dceceba0e11bb6cdd7828c8e98f07",
       "bytes": 110727,
       "result": "SOURCE_SAVED",
-      "received_unix": 1795727592.8903515
+      "received_unix": 1795731400.2950425
     }
   ],
   "external_code_executed": false,
   "current_repository": "voq30113-bit/midas-smc-scalper",
-  "observed_unix": 1795727595.7496681,
+  "observed_unix": 1795731402.6056025,
   "seen_sources": [
     [
       "Dummydeveloper101/Fxboys-pro-scalper",
@@ -2450,6 +2450,26 @@
       "tzainab06-a11y/gold-ai-trading-bot",
       "fb003818c329f85c71a54a22682c55484c538cca",
       "AI_Gold_Scalper_Demo_v1_13.mq5"
+    ],
+    [
+      "voq30113-bit/midas-smc-scalper",
+      "14ecc6ebdb1d69dbfbb6e2a3ae0bfe1f296784d9",
+      "MIDAS_Gold_SMC_v3.4.mq5"
+    ],
+    [
+      "voq30113-bit/midas-smc-scalper",
+      "14ecc6ebdb1d69dbfbb6e2a3ae0bfe1f296784d9",
+      "MIDAS_SMC_v4.mq5"
+    ],
+    [
+      "voq30113-bit/midas-smc-scalper",
+      "14ecc6ebdb1d69dbfbb6e2a3ae0bfe1f296784d9",
+      "tools/MIDAS_DukaImport.mq5"
+    ],
+    [
+      "voq30113-bit/midas-smc-scalper",
+      "14ecc6ebdb1d69dbfbb6e2a3ae0bfe1f296784d9",
+      "tools/MIDAS_ExportBars.mq5"
     ],
     [
       "voq30113-bit/midas-smc-scalper",
