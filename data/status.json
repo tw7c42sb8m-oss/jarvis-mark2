@@ -1,7 +1,7 @@
 {
   "agent": "JARVIS MARK 2",
   "role": "EA RESEARCH AND DEVELOPMENT",
-  "observed_unix": 1795663082.2476215,
+  "observed_unix": 1795667186.647586,
   "status": "RESEARCH_COMPLETE",
   "runtime": "GITHUB_ACTIONS",
   "cloud_deployed": true,
@@ -106,7 +106,7 @@
     {
       "repository": "iantaurus2000-lab/XAUUSD-Scalping-V4",
       "url": "https://github.com/iantaurus2000-lab/XAUUSD-Scalping-V4",
-      "updated_at": "2026-11-25T16:20:36Z",
+      "updated_at": "2026-11-26T04:12:29Z",
       "stars": 0,
       "license": null,
       "performance": null,
@@ -114,40 +114,20 @@
       "files": [
         {
           "path": "mt5/Experts/uji-test-mt5.mq5",
-          "sha256": "b7ed80cf8706cd6dd2ede37163494568f64e7297e5dd547c10ca4528241837ce",
-          "checks": {
-            "mentions_stop_loss": true,
-            "mentions_take_profit": true,
-            "uses_dll_import": false,
-            "uses_web_request": false,
-            "mentions_martingale_or_grid": false,
-            "mentions_order_execution": true
-          },
-          "assessment": "MANUAL_CODE_REVIEW_REQUIRED",
-          "profitability": "UNPROVEN"
+          "sha256": "b7ed80cf8706cd6dd2ede37163494568f64e7297e5dd547c10ca4528241837ce"
         },
         {
           "path": "MT5_EA_Test/uji-test-mt5.mq5",
-          "sha256": "7e3e62f04b8881335acc432d7050aacbd7d88758bea6ac722579af27173fcdc9",
-          "checks": {
-            "mentions_stop_loss": true,
-            "mentions_take_profit": true,
-            "uses_dll_import": false,
-            "uses_web_request": false,
-            "mentions_martingale_or_grid": false,
-            "mentions_order_execution": true
-          },
-          "assessment": "MANUAL_CODE_REVIEW_REQUIRED",
-          "profitability": "UNPROVEN"
+          "sha256": "7e3e62f04b8881335acc432d7050aacbd7d88758bea6ac722579af27173fcdc9"
         }
       ],
-      "commit": "374dc4ec8d75b04aea5504abf8c1f70145108a1c",
+      "commit": "ab03dd4b9f0aae2c6bc4df91ebe7f40bdca65386",
       "tree_truncated": false
     },
     {
       "repository": "mt-abdulla-it/xm-ai-scalping-bot",
       "url": "https://github.com/mt-abdulla-it/xm-ai-scalping-bot",
-      "updated_at": "2026-11-25T09:44:12Z",
+      "updated_at": "2026-11-26T03:55:38Z",
       "stars": 2,
       "license": "NOASSERTION",
       "performance": null,
@@ -237,11 +217,31 @@
       "files": [
         {
           "path": "MIDAS_Gold_SMC_v3.4.mq5",
-          "sha256": "fbd94a775cdffbee256bc08a8603404c5e9dceceba0e11bb6cdd7828c8e98f07"
+          "sha256": "fbd94a775cdffbee256bc08a8603404c5e9dceceba0e11bb6cdd7828c8e98f07",
+          "checks": {
+            "mentions_stop_loss": true,
+            "mentions_take_profit": true,
+            "uses_dll_import": false,
+            "uses_web_request": false,
+            "mentions_martingale_or_grid": true,
+            "mentions_order_execution": true
+          },
+          "assessment": "MANUAL_CODE_REVIEW_REQUIRED",
+          "profitability": "UNPROVEN"
         },
         {
           "path": "MIDAS_SMC_v4.mq5",
-          "sha256": "a85afe44b8e64feb8f690c2ea3ba7edd53e03f8e929fe4649ff7933ea11febf6"
+          "sha256": "a85afe44b8e64feb8f690c2ea3ba7edd53e03f8e929fe4649ff7933ea11febf6",
+          "checks": {
+            "mentions_stop_loss": true,
+            "mentions_take_profit": true,
+            "uses_dll_import": false,
+            "uses_web_request": false,
+            "mentions_martingale_or_grid": false,
+            "mentions_order_execution": true
+          },
+          "assessment": "MANUAL_CODE_REVIEW_REQUIRED",
+          "profitability": "UNPROVEN"
         }
       ],
       "commit": "1a363df6186be4762f1c2560565d839f361613a9",
@@ -351,41 +351,65 @@
   "crawler": {
     "status": "WATCHING_FOR_SOURCE_UPDATES",
     "visited": 2,
-    "failed": 0,
+    "failed": 3,
     "current_url": null,
     "queue_remaining": 0,
     "recent": [
       {
-        "url": "https://raw.githubusercontent.com/voq30113-bit/midas-smc-scalper/1a363df6186be4762f1c2560565d839f361613a9/MIDAS_SMC_v4.mq5",
-        "repository": "voq30113-bit/midas-smc-scalper",
-        "path": "MIDAS_SMC_v4.mq5",
-        "sha256": "a85afe44b8e64feb8f690c2ea3ba7edd53e03f8e929fe4649ff7933ea11febf6",
-        "bytes": 134732,
-        "result": "SOURCE_SAVED",
-        "received_unix": 1795663082.5933225
+        "url": "https://raw.githubusercontent.com/iantaurus2000-lab/XAUUSD-Scalping-V4/ab03dd4b9f0aae2c6bc4df91ebe7f40bdca65386/mt5/Experts/RayyanD1Standalone_127_BACKUP.mq5",
+        "repository": "iantaurus2000-lab/XAUUSD-Scalping-V4",
+        "path": "mt5/Experts/RayyanD1Standalone_127_BACKUP.mq5",
+        "result": "FETCH_FAILED",
+        "error": "Source size limit",
+        "received_unix": 1795667189.7621114
       },
       {
-        "url": "https://raw.githubusercontent.com/voq30113-bit/midas-smc-scalper/1a363df6186be4762f1c2560565d839f361613a9/MIDAS_Gold_SMC_v3.4.mq5",
-        "repository": "voq30113-bit/midas-smc-scalper",
-        "path": "MIDAS_Gold_SMC_v3.4.mq5",
-        "sha256": "fbd94a775cdffbee256bc08a8603404c5e9dceceba0e11bb6cdd7828c8e98f07",
-        "bytes": 110727,
+        "url": "https://raw.githubusercontent.com/iantaurus2000-lab/XAUUSD-Scalping-V4/ab03dd4b9f0aae2c6bc4df91ebe7f40bdca65386/mt5/Experts/RayyanD1Standalone.mq5",
+        "repository": "iantaurus2000-lab/XAUUSD-Scalping-V4",
+        "path": "mt5/Experts/RayyanD1Standalone.mq5",
+        "result": "FETCH_FAILED",
+        "error": "Source size limit",
+        "received_unix": 1795667189.579954
+      },
+      {
+        "url": "https://raw.githubusercontent.com/iantaurus2000-lab/XAUUSD-Scalping-V4/ab03dd4b9f0aae2c6bc4df91ebe7f40bdca65386/mt5/Experts/Rayyan4GatewayEA.mq5",
+        "repository": "iantaurus2000-lab/XAUUSD-Scalping-V4",
+        "path": "mt5/Experts/Rayyan4GatewayEA.mq5",
+        "result": "FETCH_FAILED",
+        "error": "Source size limit",
+        "received_unix": 1795667189.4355943
+      },
+      {
+        "url": "https://raw.githubusercontent.com/iantaurus2000-lab/XAUUSD-Scalping-V4/ab03dd4b9f0aae2c6bc4df91ebe7f40bdca65386/MT5_EA_Test/uji-test-mt5.mq5",
+        "repository": "iantaurus2000-lab/XAUUSD-Scalping-V4",
+        "path": "MT5_EA_Test/uji-test-mt5.mq5",
+        "sha256": "7e3e62f04b8881335acc432d7050aacbd7d88758bea6ac722579af27173fcdc9",
+        "bytes": 28160,
         "result": "SOURCE_SAVED",
-        "received_unix": 1795663082.433061
+        "received_unix": 1795667186.9900432
+      },
+      {
+        "url": "https://raw.githubusercontent.com/iantaurus2000-lab/XAUUSD-Scalping-V4/ab03dd4b9f0aae2c6bc4df91ebe7f40bdca65386/mt5/Experts/uji-test-mt5.mq5",
+        "repository": "iantaurus2000-lab/XAUUSD-Scalping-V4",
+        "path": "mt5/Experts/uji-test-mt5.mq5",
+        "sha256": "b7ed80cf8706cd6dd2ede37163494568f64e7297e5dd547c10ca4528241837ce",
+        "bytes": 28929,
+        "result": "SOURCE_SAVED",
+        "received_unix": 1795667186.8011875
       }
     ],
     "external_code_executed": false,
-    "current_repository": "yulz008/GOLD_ORB",
-    "observed_unix": 1795663084.904691,
-    "frontier_total_seen": 484
+    "current_repository": "iantaurus2000-lab/XAUUSD-Scalping-V4",
+    "observed_unix": 1795667189.7650514,
+    "frontier_total_seen": 489
   },
   "spider": {
     "improvement_status": "WAITING_FOR_NEW_EVIDENCE",
     "improvements_accepted": 6,
-    "mission_run_id": "mission-c09d7fac3acb",
+    "mission_run_id": "mission-c95cc14266e5",
     "mission_status": "COMPLETED",
     "identity": "JARVIS MARK 2 / SPIDER",
-    "fleet_run_id": "fleet-d0ac7d805ab1",
+    "fleet_run_id": "fleet-a82bea1ecf03",
     "fleet_status": "COMPLETED",
     "counts": {
       "queued": 0,
@@ -397,8 +421,8 @@
       "workers": 24,
       "launched": 24
     },
-    "new_findings": 5,
-    "open_findings": 674,
+    "new_findings": 4,
+    "open_findings": 678,
     "model_children": false,
     "worker_type": "DETERMINISTIC_TOOL_WORKER",
     "external_ai_apis": 0
