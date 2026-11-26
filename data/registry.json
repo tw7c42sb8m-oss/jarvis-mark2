@@ -39,7 +39,7 @@
     ],
     "commit": "d3eb29c382acf715727d5cd6a0414151e821fc2d",
     "tree_truncated": false,
-    "last_reviewed_unix": 1795679215.5978835
+    "last_reviewed_unix": 1795685613.8573751
   },
   "EarnForex/PositionSizer": {
     "repository": "EarnForex/PositionSizer",
@@ -67,7 +67,7 @@
     ],
     "commit": "3b99c9dcc060bee8b9ebd602cc2556a8b41c9857",
     "tree_truncated": false,
-    "last_reviewed_unix": 1795679215.5978835
+    "last_reviewed_unix": 1795685613.8573751
   },
   "yulz008/GOLD_ORB": {
     "repository": "yulz008/GOLD_ORB",
@@ -95,7 +95,7 @@
     ],
     "commit": "8af0d735288c0e9378e35d06c46f23b21d9a5424",
     "tree_truncated": false,
-    "last_reviewed_unix": 1795679215.5978835
+    "last_reviewed_unix": 1795685613.8573751
   },
   "iantaurus2000-lab/XAUUSD-Scalping-V4": {
     "repository": "iantaurus2000-lab/XAUUSD-Scalping-V4",
@@ -137,7 +137,7 @@
     ],
     "commit": "ebafe00953f59cc948a5d42a6f59344e47b6a468",
     "tree_truncated": false,
-    "last_reviewed_unix": 1795679215.5978835
+    "last_reviewed_unix": 1795685613.8573751
   },
   "EA31337/EA31337": {
     "repository": "EA31337/EA31337",
@@ -165,7 +165,7 @@
     ],
     "commit": "9b9bd38c4e49dd6916f4fe3936e50e97fca7a692",
     "tree_truncated": false,
-    "last_reviewed_unix": 1795679215.5978835
+    "last_reviewed_unix": 1795685613.8573751
   },
   "sibvic/mq5-templates": {
     "repository": "sibvic/mq5-templates",
@@ -207,7 +207,7 @@
     ],
     "commit": "75feee83c90f377fa4df6c05897449415c5030e5",
     "tree_truncated": false,
-    "last_reviewed_unix": 1795679215.5978835
+    "last_reviewed_unix": 1795685613.8573751
   },
   "mt-abdulla-it/xm-ai-scalping-bot": {
     "repository": "mt-abdulla-it/xm-ai-scalping-bot",
@@ -249,12 +249,12 @@
     ],
     "commit": "c1a44dd196a73e57615d334fa8d7677617ff799e",
     "tree_truncated": false,
-    "last_reviewed_unix": 1795679215.5978835
+    "last_reviewed_unix": 1795685613.8573751
   },
   "voq30113-bit/midas-smc-scalper": {
     "repository": "voq30113-bit/midas-smc-scalper",
     "url": "https://github.com/voq30113-bit/midas-smc-scalper",
-    "updated_at": "2026-11-26T07:35:27Z",
+    "updated_at": "2026-11-26T09:17:26Z",
     "stars": 0,
     "license": null,
     "performance": null,
@@ -289,9 +289,9 @@
         "profitability": "UNPROVEN"
       }
     ],
-    "commit": "2cace4a2e3495cd77f7e288601513faf3edd501c",
+    "commit": "a44b6eebb9d1d5fac2b2d1861e1b78705c019a2f",
     "tree_truncated": false,
-    "last_reviewed_unix": 1795679215.5978835
+    "last_reviewed_unix": 1795685613.8573751
   },
   "alkiz/xauusd-scalping-cent": {
     "repository": "alkiz/xauusd-scalping-cent",
