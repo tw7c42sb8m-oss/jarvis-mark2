@@ -39,7 +39,7 @@
     ],
     "commit": "d3eb29c382acf715727d5cd6a0414151e821fc2d",
     "tree_truncated": false,
-    "last_reviewed_unix": 1795778000.9277387
+    "last_reviewed_unix": 1795781856.407682
   },
   "EarnForex/PositionSizer": {
     "repository": "EarnForex/PositionSizer",
@@ -67,7 +67,7 @@
     ],
     "commit": "3b99c9dcc060bee8b9ebd602cc2556a8b41c9857",
     "tree_truncated": false,
-    "last_reviewed_unix": 1795778000.9277387
+    "last_reviewed_unix": 1795781856.407682
   },
   "yulz008/GOLD_ORB": {
     "repository": "yulz008/GOLD_ORB",
@@ -95,7 +95,77 @@
     ],
     "commit": "8af0d735288c0e9378e35d06c46f23b21d9a5424",
     "tree_truncated": false,
-    "last_reviewed_unix": 1795778000.9277387
+    "last_reviewed_unix": 1795781856.407682
+  },
+  "EA31337/EA31337": {
+    "repository": "EA31337/EA31337",
+    "url": "https://github.com/EA31337/EA31337",
+    "updated_at": "2026-04-07T14:41:25Z",
+    "stars": 1379,
+    "license": "GPL-3.0",
+    "performance": null,
+    "status": "SOURCE_SCREEN_ONLY",
+    "files": [
+      {
+        "path": "src/EA31337.mq5",
+        "sha256": "21f7d34b1171396c416f3987b3cdf2f1c9921924c499dae59627a3fafb50786c",
+        "checks": {
+          "mentions_stop_loss": false,
+          "mentions_take_profit": false,
+          "uses_dll_import": false,
+          "uses_web_request": false,
+          "mentions_martingale_or_grid": false,
+          "mentions_order_execution": false
+        },
+        "assessment": "MANUAL_CODE_REVIEW_REQUIRED",
+        "profitability": "UNPROVEN"
+      }
+    ],
+    "commit": "9b9bd38c4e49dd6916f4fe3936e50e97fca7a692",
+    "tree_truncated": false,
+    "last_reviewed_unix": 1795781856.407682
+  },
+  "sibvic/mq5-templates": {
+    "repository": "sibvic/mq5-templates",
+    "url": "https://github.com/sibvic/mq5-templates",
+    "updated_at": "2026-11-27T11:46:50Z",
+    "stars": 244,
+    "license": "MIT",
+    "performance": null,
+    "status": "SOURCE_SCREEN_ONLY",
+    "files": [
+      {
+        "path": "templates/EA_Base.mq5",
+        "sha256": "cbdb4a15683a0ffbf553403a649a1babd39aba6997cd6876fc5a375eaa9a816b",
+        "checks": {
+          "mentions_stop_loss": true,
+          "mentions_take_profit": true,
+          "uses_dll_import": true,
+          "uses_web_request": false,
+          "mentions_martingale_or_grid": true,
+          "mentions_order_execution": true
+        },
+        "assessment": "MANUAL_CODE_REVIEW_REQUIRED",
+        "profitability": "UNPROVEN"
+      },
+      {
+        "path": "templates/arrows_indicator.mq5",
+        "sha256": "12d90c350d99d2a60519e480fabb0a0f2ed7710ac5d76649a01fd2508429c249",
+        "checks": {
+          "mentions_stop_loss": false,
+          "mentions_take_profit": false,
+          "uses_dll_import": false,
+          "uses_web_request": false,
+          "mentions_martingale_or_grid": false,
+          "mentions_order_execution": false
+        },
+        "assessment": "MANUAL_CODE_REVIEW_REQUIRED",
+        "profitability": "UNPROVEN"
+      }
+    ],
+    "commit": "2e4d64664934adcbe08fea78bee60f708888f31a",
+    "tree_truncated": false,
+    "last_reviewed_unix": 1795781856.407682
   },
   "iantaurus2000-lab/XAUUSD-Scalping-V4": {
     "repository": "iantaurus2000-lab/XAUUSD-Scalping-V4",
@@ -178,76 +248,6 @@
       }
     ],
     "commit": "c41eb68c322d3cf498d5e1e111e9093c1f7bd612",
-    "tree_truncated": false,
-    "last_reviewed_unix": 1795778000.9277387
-  },
-  "EA31337/EA31337": {
-    "repository": "EA31337/EA31337",
-    "url": "https://github.com/EA31337/EA31337",
-    "updated_at": "2026-04-07T14:41:25Z",
-    "stars": 1379,
-    "license": "GPL-3.0",
-    "performance": null,
-    "status": "SOURCE_SCREEN_ONLY",
-    "files": [
-      {
-        "path": "src/EA31337.mq5",
-        "sha256": "21f7d34b1171396c416f3987b3cdf2f1c9921924c499dae59627a3fafb50786c",
-        "checks": {
-          "mentions_stop_loss": false,
-          "mentions_take_profit": false,
-          "uses_dll_import": false,
-          "uses_web_request": false,
-          "mentions_martingale_or_grid": false,
-          "mentions_order_execution": false
-        },
-        "assessment": "MANUAL_CODE_REVIEW_REQUIRED",
-        "profitability": "UNPROVEN"
-      }
-    ],
-    "commit": "9b9bd38c4e49dd6916f4fe3936e50e97fca7a692",
-    "tree_truncated": false,
-    "last_reviewed_unix": 1795778000.9277387
-  },
-  "sibvic/mq5-templates": {
-    "repository": "sibvic/mq5-templates",
-    "url": "https://github.com/sibvic/mq5-templates",
-    "updated_at": "2026-11-27T08:49:47Z",
-    "stars": 244,
-    "license": "MIT",
-    "performance": null,
-    "status": "SOURCE_SCREEN_ONLY",
-    "files": [
-      {
-        "path": "templates/EA_Base.mq5",
-        "sha256": "cbdb4a15683a0ffbf553403a649a1babd39aba6997cd6876fc5a375eaa9a816b",
-        "checks": {
-          "mentions_stop_loss": true,
-          "mentions_take_profit": true,
-          "uses_dll_import": true,
-          "uses_web_request": false,
-          "mentions_martingale_or_grid": true,
-          "mentions_order_execution": true
-        },
-        "assessment": "MANUAL_CODE_REVIEW_REQUIRED",
-        "profitability": "UNPROVEN"
-      },
-      {
-        "path": "templates/arrows_indicator.mq5",
-        "sha256": "12d90c350d99d2a60519e480fabb0a0f2ed7710ac5d76649a01fd2508429c249",
-        "checks": {
-          "mentions_stop_loss": false,
-          "mentions_take_profit": false,
-          "uses_dll_import": false,
-          "uses_web_request": false,
-          "mentions_martingale_or_grid": false,
-          "mentions_order_execution": false
-        },
-        "assessment": "MANUAL_CODE_REVIEW_REQUIRED",
-        "profitability": "UNPROVEN"
-      }
-    ],
-    "commit": "f55092c57cde8071763f2b5e34471fe7a7907f50",
     "tree_truncated": false,
     "last_reviewed_unix": 1795778000.9277387
   },
