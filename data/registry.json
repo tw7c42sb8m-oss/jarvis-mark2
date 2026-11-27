@@ -9,7 +9,7 @@
     "status": "SOURCE_SCREEN_ONLY",
     "files": [],
     "error": "HTTP Error 403: rate limit exceeded",
-    "last_reviewed_unix": 1795796719.5652246
+    "last_reviewed_unix": 1795802875.8800123
   },
   "EarnForex/PositionSizer": {
     "repository": "EarnForex/PositionSizer",
@@ -20,9 +20,8 @@
     "performance": null,
     "status": "SOURCE_SCREEN_ONLY",
     "files": [],
-    "commit": "3b99c9dcc060bee8b9ebd602cc2556a8b41c9857",
     "error": "HTTP Error 403: rate limit exceeded",
-    "last_reviewed_unix": 1795796719.5652246
+    "last_reviewed_unix": 1795802875.8800123
   },
   "yulz008/GOLD_ORB": {
     "repository": "yulz008/GOLD_ORB",
@@ -34,7 +33,43 @@
     "status": "SOURCE_SCREEN_ONLY",
     "files": [],
     "error": "HTTP Error 403: rate limit exceeded",
-    "last_reviewed_unix": 1795796719.5652246
+    "last_reviewed_unix": 1795802875.8800123
+  },
+  "iantaurus2000-lab/XAUUSD-Scalping-V4": {
+    "repository": "iantaurus2000-lab/XAUUSD-Scalping-V4",
+    "url": "https://github.com/iantaurus2000-lab/XAUUSD-Scalping-V4",
+    "updated_at": "2026-11-27T14:37:26Z",
+    "stars": 0,
+    "license": null,
+    "performance": null,
+    "status": "SOURCE_SCREEN_ONLY",
+    "files": [],
+    "error": "HTTP Error 403: rate limit exceeded",
+    "last_reviewed_unix": 1795802875.8800123
+  },
+  "voq30113-bit/midas-smc-scalper": {
+    "repository": "voq30113-bit/midas-smc-scalper",
+    "url": "https://github.com/voq30113-bit/midas-smc-scalper",
+    "updated_at": "2026-11-27T17:58:16Z",
+    "stars": 0,
+    "license": null,
+    "performance": null,
+    "status": "SOURCE_SCREEN_ONLY",
+    "files": [],
+    "error": "HTTP Error 403: rate limit exceeded",
+    "last_reviewed_unix": 1795802875.8800123
+  },
+  "kibetval/forex-scalper-bot": {
+    "repository": "kibetval/forex-scalper-bot",
+    "url": "https://github.com/kibetval/forex-scalper-bot",
+    "updated_at": "2026-11-27T08:05:28Z",
+    "stars": 0,
+    "license": null,
+    "performance": null,
+    "status": "SOURCE_SCREEN_ONLY",
+    "files": [],
+    "error": "HTTP Error 403: rate limit exceeded",
+    "last_reviewed_unix": 1795802875.8800123
   },
   "EA31337/EA31337": {
     "repository": "EA31337/EA31337",
@@ -70,42 +105,6 @@
     "updated_at": "2026-11-27T15:55:29Z",
     "stars": 244,
     "license": "MIT",
-    "performance": null,
-    "status": "SOURCE_SCREEN_ONLY",
-    "files": [],
-    "error": "HTTP Error 403: rate limit exceeded",
-    "last_reviewed_unix": 1795796719.5652246
-  },
-  "iantaurus2000-lab/XAUUSD-Scalping-V4": {
-    "repository": "iantaurus2000-lab/XAUUSD-Scalping-V4",
-    "url": "https://github.com/iantaurus2000-lab/XAUUSD-Scalping-V4",
-    "updated_at": "2026-11-27T14:37:26Z",
-    "stars": 0,
-    "license": null,
-    "performance": null,
-    "status": "SOURCE_SCREEN_ONLY",
-    "files": [],
-    "error": "HTTP Error 403: rate limit exceeded",
-    "last_reviewed_unix": 1795796719.5652246
-  },
-  "voq30113-bit/midas-smc-scalper": {
-    "repository": "voq30113-bit/midas-smc-scalper",
-    "url": "https://github.com/voq30113-bit/midas-smc-scalper",
-    "updated_at": "2026-11-27T16:17:31Z",
-    "stars": 0,
-    "license": null,
-    "performance": null,
-    "status": "SOURCE_SCREEN_ONLY",
-    "files": [],
-    "error": "HTTP Error 403: rate limit exceeded",
-    "last_reviewed_unix": 1795796719.5652246
-  },
-  "kibetval/forex-scalper-bot": {
-    "repository": "kibetval/forex-scalper-bot",
-    "url": "https://github.com/kibetval/forex-scalper-bot",
-    "updated_at": "2026-11-27T08:05:28Z",
-    "stars": 0,
-    "license": null,
     "performance": null,
     "status": "SOURCE_SCREEN_ONLY",
     "files": [],
