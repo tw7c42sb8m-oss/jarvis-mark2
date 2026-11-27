@@ -7,43 +7,43 @@
   },
   {
     "repository": "EarnForex/PositionSizer",
-    "source_files": 1,
+    "source_files": 0,
     "license": "Apache-2.0",
     "next_action": "REVIEW_SOURCE_AND_NATIVE_VALIDATION"
   },
   {
     "repository": "geraked/metatrader5",
-    "source_files": 2,
+    "source_files": 0,
     "license": "MIT",
     "next_action": "REVIEW_SOURCE_AND_NATIVE_VALIDATION"
   },
   {
     "repository": "iantaurus2000-lab/XAUUSD-Scalping-V4",
-    "source_files": 2,
+    "source_files": 0,
     "license": null,
     "next_action": "REVIEW_LICENSE"
   },
   {
     "repository": "kibetval/forex-scalper-bot",
-    "source_files": 1,
+    "source_files": 0,
     "license": null,
     "next_action": "REVIEW_LICENSE"
   },
   {
     "repository": "sibvic/mq5-templates",
-    "source_files": 5,
-    "license": "MIT",
-    "next_action": "REVIEW_SOURCE_AND_NATIVE_VALIDATION"
+    "source_files": 8,
+    "license": null,
+    "next_action": "REVIEW_LICENSE"
   },
   {
     "repository": "voq30113-bit/midas-smc-scalper",
-    "source_files": 2,
+    "source_files": 4,
     "license": null,
     "next_action": "REVIEW_LICENSE"
   },
   {
     "repository": "yulz008/GOLD_ORB",
-    "source_files": 1,
+    "source_files": 0,
     "license": null,
     "next_action": "REVIEW_LICENSE"
   }
