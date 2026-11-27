@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "run_id": "mission-f05aa0d95361",
-  "input_fingerprint": "dd95ac928fbfcd18d0f2fed764120eb012026c1c9e500fbdce4133166231f59c",
+  "run_id": "mission-7782410e1ab7",
+  "input_fingerprint": "7a0eff349287d52698e47b9e6e2e1b6d4be20365d57b742f91b8280c2b5c67e7",
   "status": "COMPLETED",
-  "started_unix": 1795781859.1268456,
-  "completed_unix": 1795781859.3390708,
-  "supervisor_pid": 2214,
+  "started_unix": 1795786829.7366776,
+  "completed_unix": 1795786829.9088185,
+  "supervisor_pid": 2217,
   "objective_status": "NOT_ACHIEVED",
   "verdict": "WAITING_FOR_NATIVE_VALIDATION_AND_DEMO_EVIDENCE",
   "verified_winner": null,
@@ -59,7 +59,7 @@
         }
       ],
       "files_verified": 4,
-      "repository_count": 5,
+      "repository_count": 8,
       "notice": "License metadata recognition is not a distribution-obligation review."
     },
     "EA_ENGINEERING": {
@@ -505,16 +505,16 @@
   },
   "nodes": [
     {
-      "id": "mission-f05aa0d95361/evidence_triage",
+      "id": "mission-7782410e1ab7/evidence_triage",
       "name": "Evidence Triage",
       "task": "EVIDENCE_TRIAGE",
       "role": "TRIAGE",
       "ui_node": "TRIAGE",
       "kind": "DETERMINISTIC_MISSION_WORKER",
       "status": "COMPLETED",
-      "pid": 2277,
-      "started_unix": 1795781859.1276565,
-      "completed_unix": 1795781859.17886,
+      "pid": 2310,
+      "started_unix": 1795786829.7373624,
+      "completed_unix": 1795786829.778649,
       "result": {
         "agent": "EVIDENCE_TRIAGE",
         "model_provider": null,
@@ -561,21 +561,21 @@
           }
         ],
         "files_verified": 4,
-        "repository_count": 5,
+        "repository_count": 8,
         "notice": "License metadata recognition is not a distribution-obligation review."
       }
     },
     {
-      "id": "mission-f05aa0d95361/ea_engineering",
+      "id": "mission-7782410e1ab7/ea_engineering",
       "name": "Ea Engineering",
       "task": "EA_ENGINEERING",
       "role": "ENGINEER",
       "ui_node": "ENGINEER",
       "kind": "DETERMINISTIC_MISSION_WORKER",
       "status": "COMPLETED",
-      "pid": 2278,
-      "started_unix": 1795781859.1802118,
-      "completed_unix": 1795781859.235387,
+      "pid": 2311,
+      "started_unix": 1795786829.7797174,
+      "completed_unix": 1795786829.823689,
       "result": {
         "agent": "EA_ENGINEERING",
         "model_provider": null,
@@ -665,16 +665,16 @@
       }
     },
     {
-      "id": "mission-f05aa0d95361/validation_review",
+      "id": "mission-7782410e1ab7/validation_review",
       "name": "Validation Review",
       "task": "VALIDATION_REVIEW",
       "role": "VALIDATOR",
       "ui_node": "VALIDATOR",
       "kind": "DETERMINISTIC_MISSION_WORKER",
       "status": "COMPLETED",
-      "pid": 2279,
-      "started_unix": 1795781859.236759,
-      "completed_unix": 1795781859.286872,
+      "pid": 2312,
+      "started_unix": 1795786829.8248072,
+      "completed_unix": 1795786829.8654814,
       "result": {
         "agent": "VALIDATION_REVIEW",
         "model_provider": null,
@@ -828,16 +828,16 @@
       }
     },
     {
-      "id": "mission-f05aa0d95361/mission_planner",
+      "id": "mission-7782410e1ab7/mission_planner",
       "name": "Mission Planner",
       "task": "MISSION_PLANNER",
       "role": "DIRECTOR",
       "ui_node": "DIRECTOR",
       "kind": "DETERMINISTIC_MISSION_WORKER",
       "status": "COMPLETED",
-      "pid": 2280,
-      "started_unix": 1795781859.2884429,
-      "completed_unix": 1795781859.3380604,
+      "pid": 2313,
+      "started_unix": 1795786829.8666425,
+      "completed_unix": 1795786829.9080284,
       "result": {
         "agent": "MISSION_PLANNER",
         "model_provider": null,
