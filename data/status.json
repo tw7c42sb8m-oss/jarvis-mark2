@@ -1,7 +1,7 @@
 {
   "agent": "JARVIS MARK 2",
   "role": "EA RESEARCH AND DEVELOPMENT",
-  "observed_unix": 1795734966.3336327,
+  "observed_unix": 1795738423.884884,
   "status": "RESEARCH_COMPLETE",
   "runtime": "GITHUB_ACTIONS",
   "cloud_deployed": true,
@@ -215,7 +215,7 @@
     {
       "repository": "voq30113-bit/midas-smc-scalper",
       "url": "https://github.com/voq30113-bit/midas-smc-scalper",
-      "updated_at": "2026-11-26T23:10:17Z",
+      "updated_at": "2026-11-27T00:10:42Z",
       "stars": 0,
       "license": null,
       "performance": null,
@@ -238,7 +238,7 @@
           "sha256": "64df51862034186fea6e907102f442d569a6004ab54e9330dfc8286ed285759e"
         }
       ],
-      "commit": "41fa945c9b2c897b089ee98880340f9cd3bea53c",
+      "commit": "ab6559e87b7b187b564c7e17ac94311ae41c17ab",
       "tree_truncated": false
     },
     {
@@ -350,54 +350,54 @@
     "queue_remaining": 0,
     "recent": [
       {
-        "url": "https://raw.githubusercontent.com/voq30113-bit/midas-smc-scalper/41fa945c9b2c897b089ee98880340f9cd3bea53c/tools/MIDAS_ExportBars.mq5",
+        "url": "https://raw.githubusercontent.com/voq30113-bit/midas-smc-scalper/ab6559e87b7b187b564c7e17ac94311ae41c17ab/tools/MIDAS_ExportBars.mq5",
         "repository": "voq30113-bit/midas-smc-scalper",
         "path": "tools/MIDAS_ExportBars.mq5",
         "sha256": "64df51862034186fea6e907102f442d569a6004ab54e9330dfc8286ed285759e",
         "bytes": 1566,
         "result": "SOURCE_SAVED",
-        "received_unix": 1795734967.9926589
+        "received_unix": 1795738426.7685876
       },
       {
-        "url": "https://raw.githubusercontent.com/voq30113-bit/midas-smc-scalper/41fa945c9b2c897b089ee98880340f9cd3bea53c/tools/MIDAS_DukaImport.mq5",
+        "url": "https://raw.githubusercontent.com/voq30113-bit/midas-smc-scalper/ab6559e87b7b187b564c7e17ac94311ae41c17ab/tools/MIDAS_DukaImport.mq5",
         "repository": "voq30113-bit/midas-smc-scalper",
         "path": "tools/MIDAS_DukaImport.mq5",
         "sha256": "cf33e3ef21b7822be0bd692f8b647457bb10087fd9dec12af7f0116ebf802471",
         "bytes": 2815,
         "result": "SOURCE_SAVED",
-        "received_unix": 1795734967.9113526
+        "received_unix": 1795738426.583518
       },
       {
-        "url": "https://raw.githubusercontent.com/voq30113-bit/midas-smc-scalper/41fa945c9b2c897b089ee98880340f9cd3bea53c/MIDAS_SMC_v4.mq5",
+        "url": "https://raw.githubusercontent.com/voq30113-bit/midas-smc-scalper/ab6559e87b7b187b564c7e17ac94311ae41c17ab/MIDAS_SMC_v4.mq5",
         "repository": "voq30113-bit/midas-smc-scalper",
         "path": "MIDAS_SMC_v4.mq5",
         "sha256": "997b4221c7573f7fc4697f1c9d497469adca8a02771063011864ec23b1ec6a99",
         "bytes": 140275,
         "result": "SOURCE_SAVED",
-        "received_unix": 1795734966.552239
+        "received_unix": 1795738424.3136458
       },
       {
-        "url": "https://raw.githubusercontent.com/voq30113-bit/midas-smc-scalper/41fa945c9b2c897b089ee98880340f9cd3bea53c/MIDAS_Gold_SMC_v3.4.mq5",
+        "url": "https://raw.githubusercontent.com/voq30113-bit/midas-smc-scalper/ab6559e87b7b187b564c7e17ac94311ae41c17ab/MIDAS_Gold_SMC_v3.4.mq5",
         "repository": "voq30113-bit/midas-smc-scalper",
         "path": "MIDAS_Gold_SMC_v3.4.mq5",
         "sha256": "fbd94a775cdffbee256bc08a8603404c5e9dceceba0e11bb6cdd7828c8e98f07",
         "bytes": 110727,
         "result": "SOURCE_SAVED",
-        "received_unix": 1795734966.4514194
+        "received_unix": 1795738424.08866
       }
     ],
     "external_code_executed": false,
     "current_repository": "voq30113-bit/midas-smc-scalper",
-    "observed_unix": 1795734967.9959145,
-    "frontier_total_seen": 551
+    "observed_unix": 1795738426.7725403,
+    "frontier_total_seen": 555
   },
   "spider": {
     "improvement_status": "WAITING_FOR_NEW_EVIDENCE",
     "improvements_accepted": 6,
-    "mission_run_id": "mission-a2c85287c540",
+    "mission_run_id": "mission-98b0c0b78d8f",
     "mission_status": "COMPLETED",
     "identity": "JARVIS MARK 2 / SPIDER",
-    "fleet_run_id": "fleet-d0f73e86c45f",
+    "fleet_run_id": "fleet-c6c458152ecc",
     "fleet_status": "COMPLETED",
     "counts": {
       "queued": 0,
@@ -410,7 +410,7 @@
       "launched": 24
     },
     "new_findings": 5,
-    "open_findings": 764,
+    "open_findings": 769,
     "model_children": false,
     "worker_type": "DETERMINISTIC_TOOL_WORKER",
     "external_ai_apis": 0
