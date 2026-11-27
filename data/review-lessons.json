@@ -1,6 +1,5 @@
 {
   "processed_runs": [
-    "fleet-1846f63f1025",
     "fleet-a1dfcf15afca",
     "fleet-0ea4882fc22d",
     "fleet-996d712889f2",
@@ -99,7 +98,8 @@
     "fleet-3b8dd1f4e46b",
     "fleet-d0f73e86c45f",
     "fleet-c6c458152ecc",
-    "fleet-fb2a4748a64e"
+    "fleet-fb2a4748a64e",
+    "fleet-504528e910df"
   ],
   "findings": {
     "854d3d4d3c5e8692f172": {
@@ -696,11 +696,11 @@
       "commit": null,
       "rule": "NATIVE_MT5_COMPILE_NOT_VERIFIED",
       "first_seen_unix": 1793517921.8865366,
-      "reviews_seen": 17,
+      "reviews_seen": 18,
       "state": "OPEN",
       "evidence_kind": "STATIC_CHECK_NOT_PROFIT_TEST",
-      "last_seen_unix": 1795489970.5832314,
-      "last_run_id": "fleet-df1bf15e0db0"
+      "last_seen_unix": 1795749689.6974154,
+      "last_run_id": "fleet-504528e910df"
     },
     "2fc9fdac181d50577367": {
       "id": "2fc9fdac181d50577367",
@@ -708,11 +708,11 @@
       "commit": null,
       "rule": "PROFITABILITY_NOT_VERIFIED",
       "first_seen_unix": 1793517921.8865366,
-      "reviews_seen": 17,
+      "reviews_seen": 18,
       "state": "OPEN",
       "evidence_kind": "STATIC_CHECK_NOT_PROFIT_TEST",
-      "last_seen_unix": 1795489970.5832314,
-      "last_run_id": "fleet-df1bf15e0db0"
+      "last_seen_unix": 1795749689.6974154,
+      "last_run_id": "fleet-504528e910df"
     },
     "0a56fe542e299570ac6a": {
       "id": "0a56fe542e299570ac6a",
@@ -720,11 +720,11 @@
       "commit": null,
       "rule": "SIGNAL_PARITY_NOT_VERIFIED",
       "first_seen_unix": 1793517921.8865366,
-      "reviews_seen": 17,
+      "reviews_seen": 18,
       "state": "OPEN",
       "evidence_kind": "STATIC_CHECK_NOT_PROFIT_TEST",
-      "last_seen_unix": 1795489970.5832314,
-      "last_run_id": "fleet-df1bf15e0db0"
+      "last_seen_unix": 1795749689.6974154,
+      "last_run_id": "fleet-504528e910df"
     },
     "4ae18bf576a0eeec71b1": {
       "id": "4ae18bf576a0eeec71b1",
@@ -732,11 +732,11 @@
       "commit": null,
       "rule": "SOURCE_EVIDENCE_INCOMPLETE",
       "first_seen_unix": 1793517921.8865366,
-      "reviews_seen": 17,
+      "reviews_seen": 18,
       "state": "OPEN",
       "evidence_kind": "STATIC_CHECK_NOT_PROFIT_TEST",
-      "last_seen_unix": 1795489970.5832314,
-      "last_run_id": "fleet-df1bf15e0db0"
+      "last_seen_unix": 1795749689.6974154,
+      "last_run_id": "fleet-504528e910df"
     },
     "357e8218ec845a98acb4": {
       "id": "357e8218ec845a98acb4",
@@ -864,11 +864,11 @@
       "commit": null,
       "rule": "NATIVE_MT5_COMPILE_NOT_VERIFIED",
       "first_seen_unix": 1793517921.8865366,
-      "reviews_seen": 21,
+      "reviews_seen": 22,
       "state": "OPEN",
       "evidence_kind": "STATIC_CHECK_NOT_PROFIT_TEST",
-      "last_seen_unix": 1795494222.6733816,
-      "last_run_id": "fleet-4dad648b4579"
+      "last_seen_unix": 1795749689.6974154,
+      "last_run_id": "fleet-504528e910df"
     },
     "5992b855283926b3fa22": {
       "id": "5992b855283926b3fa22",
@@ -876,11 +876,11 @@
       "commit": null,
       "rule": "PROFITABILITY_NOT_VERIFIED",
       "first_seen_unix": 1793517921.8865366,
-      "reviews_seen": 21,
+      "reviews_seen": 22,
       "state": "OPEN",
       "evidence_kind": "STATIC_CHECK_NOT_PROFIT_TEST",
-      "last_seen_unix": 1795494222.6733816,
-      "last_run_id": "fleet-4dad648b4579"
+      "last_seen_unix": 1795749689.6974154,
+      "last_run_id": "fleet-504528e910df"
     },
     "299ebea068620992a8f9": {
       "id": "299ebea068620992a8f9",
@@ -888,11 +888,11 @@
       "commit": null,
       "rule": "SIGNAL_PARITY_NOT_VERIFIED",
       "first_seen_unix": 1793517921.8865366,
-      "reviews_seen": 21,
+      "reviews_seen": 22,
       "state": "OPEN",
       "evidence_kind": "STATIC_CHECK_NOT_PROFIT_TEST",
-      "last_seen_unix": 1795494222.6733816,
-      "last_run_id": "fleet-4dad648b4579"
+      "last_seen_unix": 1795749689.6974154,
+      "last_run_id": "fleet-504528e910df"
     },
     "ececa1fab8cc9c266cea": {
       "id": "ececa1fab8cc9c266cea",
@@ -900,11 +900,11 @@
       "commit": null,
       "rule": "SOURCE_EVIDENCE_INCOMPLETE",
       "first_seen_unix": 1793517921.8865366,
-      "reviews_seen": 21,
+      "reviews_seen": 22,
       "state": "OPEN",
       "evidence_kind": "STATIC_CHECK_NOT_PROFIT_TEST",
-      "last_seen_unix": 1795494222.6733816,
-      "last_run_id": "fleet-4dad648b4579"
+      "last_seen_unix": 1795749689.6974154,
+      "last_run_id": "fleet-504528e910df"
     },
     "7013d2da44d3c1667a62": {
       "id": "7013d2da44d3c1667a62",
@@ -972,11 +972,11 @@
       "commit": null,
       "rule": "LICENSE_UNCONFIRMED",
       "first_seen_unix": 1793517921.8865366,
-      "reviews_seen": 25,
+      "reviews_seen": 26,
       "state": "OPEN",
       "evidence_kind": "STATIC_CHECK_NOT_PROFIT_TEST",
-      "last_seen_unix": 1795494222.6733816,
-      "last_run_id": "fleet-4dad648b4579"
+      "last_seen_unix": 1795749689.6974154,
+      "last_run_id": "fleet-504528e910df"
     },
     "92dc2353773dc69cd463": {
       "id": "92dc2353773dc69cd463",
@@ -984,11 +984,11 @@
       "commit": null,
       "rule": "NATIVE_MT5_COMPILE_NOT_VERIFIED",
       "first_seen_unix": 1793517921.8865366,
-      "reviews_seen": 25,
+      "reviews_seen": 26,
       "state": "OPEN",
       "evidence_kind": "STATIC_CHECK_NOT_PROFIT_TEST",
-      "last_seen_unix": 1795494222.6733816,
-      "last_run_id": "fleet-4dad648b4579"
+      "last_seen_unix": 1795749689.6974154,
+      "last_run_id": "fleet-504528e910df"
     },
     "c31018262551a06190b8": {
       "id": "c31018262551a06190b8",
@@ -996,11 +996,11 @@
       "commit": null,
       "rule": "PROFITABILITY_NOT_VERIFIED",
       "first_seen_unix": 1793517921.8865366,
-      "reviews_seen": 25,
+      "reviews_seen": 26,
       "state": "OPEN",
       "evidence_kind": "STATIC_CHECK_NOT_PROFIT_TEST",
-      "last_seen_unix": 1795494222.6733816,
-      "last_run_id": "fleet-4dad648b4579"
+      "last_seen_unix": 1795749689.6974154,
+      "last_run_id": "fleet-504528e910df"
     },
     "b342e97eb8c84d57b7cf": {
       "id": "b342e97eb8c84d57b7cf",
@@ -1008,11 +1008,11 @@
       "commit": null,
       "rule": "SIGNAL_PARITY_NOT_VERIFIED",
       "first_seen_unix": 1793517921.8865366,
-      "reviews_seen": 25,
+      "reviews_seen": 26,
       "state": "OPEN",
       "evidence_kind": "STATIC_CHECK_NOT_PROFIT_TEST",
-      "last_seen_unix": 1795494222.6733816,
-      "last_run_id": "fleet-4dad648b4579"
+      "last_seen_unix": 1795749689.6974154,
+      "last_run_id": "fleet-504528e910df"
     },
     "b28e484c38abc8704638": {
       "id": "b28e484c38abc8704638",
@@ -1020,11 +1020,11 @@
       "commit": null,
       "rule": "SOURCE_EVIDENCE_INCOMPLETE",
       "first_seen_unix": 1793517921.8865366,
-      "reviews_seen": 25,
+      "reviews_seen": 26,
       "state": "OPEN",
       "evidence_kind": "STATIC_CHECK_NOT_PROFIT_TEST",
-      "last_seen_unix": 1795494222.6733816,
-      "last_run_id": "fleet-4dad648b4579"
+      "last_seen_unix": 1795749689.6974154,
+      "last_run_id": "fleet-504528e910df"
     },
     "1ac58a357407951ae854": {
       "id": "1ac58a357407951ae854",
@@ -3264,11 +3264,11 @@
       "commit": null,
       "rule": "LICENSE_UNCONFIRMED",
       "first_seen_unix": 1794500564.7489858,
-      "reviews_seen": 14,
+      "reviews_seen": 15,
       "state": "OPEN",
       "evidence_kind": "STATIC_CHECK_NOT_PROFIT_TEST",
-      "last_seen_unix": 1795475671.7947109,
-      "last_run_id": "fleet-c90f3d681339"
+      "last_seen_unix": 1795749689.6974154,
+      "last_run_id": "fleet-504528e910df"
     },
     "7dec618090dbaff57ecf": {
       "id": "7dec618090dbaff57ecf",
@@ -3276,11 +3276,11 @@
       "commit": null,
       "rule": "NATIVE_MT5_COMPILE_NOT_VERIFIED",
       "first_seen_unix": 1794500564.7489858,
-      "reviews_seen": 14,
+      "reviews_seen": 15,
       "state": "OPEN",
       "evidence_kind": "STATIC_CHECK_NOT_PROFIT_TEST",
-      "last_seen_unix": 1795475671.7947109,
-      "last_run_id": "fleet-c90f3d681339"
+      "last_seen_unix": 1795749689.6974154,
+      "last_run_id": "fleet-504528e910df"
     },
     "6acc42cf107dd2f81e0c": {
       "id": "6acc42cf107dd2f81e0c",
@@ -3288,11 +3288,11 @@
       "commit": null,
       "rule": "PROFITABILITY_NOT_VERIFIED",
       "first_seen_unix": 1794500564.7489858,
-      "reviews_seen": 14,
+      "reviews_seen": 15,
       "state": "OPEN",
       "evidence_kind": "STATIC_CHECK_NOT_PROFIT_TEST",
-      "last_seen_unix": 1795475671.7947109,
-      "last_run_id": "fleet-c90f3d681339"
+      "last_seen_unix": 1795749689.6974154,
+      "last_run_id": "fleet-504528e910df"
     },
     "1cdb78cd93f6f90df6c0": {
       "id": "1cdb78cd93f6f90df6c0",
@@ -3300,11 +3300,11 @@
       "commit": null,
       "rule": "SIGNAL_PARITY_NOT_VERIFIED",
       "first_seen_unix": 1794500564.7489858,
-      "reviews_seen": 14,
+      "reviews_seen": 15,
       "state": "OPEN",
       "evidence_kind": "STATIC_CHECK_NOT_PROFIT_TEST",
-      "last_seen_unix": 1795475671.7947109,
-      "last_run_id": "fleet-c90f3d681339"
+      "last_seen_unix": 1795749689.6974154,
+      "last_run_id": "fleet-504528e910df"
     },
     "242ac2da59619c2575be": {
       "id": "242ac2da59619c2575be",
@@ -3312,11 +3312,11 @@
       "commit": null,
       "rule": "SOURCE_EVIDENCE_INCOMPLETE",
       "first_seen_unix": 1794500564.7489858,
-      "reviews_seen": 14,
+      "reviews_seen": 15,
       "state": "OPEN",
       "evidence_kind": "STATIC_CHECK_NOT_PROFIT_TEST",
-      "last_seen_unix": 1795475671.7947109,
-      "last_run_id": "fleet-c90f3d681339"
+      "last_seen_unix": 1795749689.6974154,
+      "last_run_id": "fleet-504528e910df"
     },
     "6d3da986327a08fe7466": {
       "id": "6d3da986327a08fe7466",
@@ -9437,10 +9437,118 @@
       "evidence_kind": "STATIC_CHECK_NOT_PROFIT_TEST",
       "last_seen_unix": 1795743884.389127,
       "last_run_id": "fleet-fb2a4748a64e"
+    },
+    "6e5d45fc3dd09a9ded3a": {
+      "id": "6e5d45fc3dd09a9ded3a",
+      "repository": "alkiz/xauusd-scalping-cent",
+      "commit": null,
+      "rule": "NATIVE_MT5_COMPILE_NOT_VERIFIED",
+      "first_seen_unix": 1795749689.6974154,
+      "reviews_seen": 1,
+      "state": "OPEN",
+      "evidence_kind": "STATIC_CHECK_NOT_PROFIT_TEST",
+      "last_seen_unix": 1795749689.6974154,
+      "last_run_id": "fleet-504528e910df"
+    },
+    "307f53b4a6664964882e": {
+      "id": "307f53b4a6664964882e",
+      "repository": "alkiz/xauusd-scalping-cent",
+      "commit": null,
+      "rule": "PROFITABILITY_NOT_VERIFIED",
+      "first_seen_unix": 1795749689.6974154,
+      "reviews_seen": 1,
+      "state": "OPEN",
+      "evidence_kind": "STATIC_CHECK_NOT_PROFIT_TEST",
+      "last_seen_unix": 1795749689.6974154,
+      "last_run_id": "fleet-504528e910df"
+    },
+    "6ddf781134b27f18c8e8": {
+      "id": "6ddf781134b27f18c8e8",
+      "repository": "alkiz/xauusd-scalping-cent",
+      "commit": null,
+      "rule": "SIGNAL_PARITY_NOT_VERIFIED",
+      "first_seen_unix": 1795749689.6974154,
+      "reviews_seen": 1,
+      "state": "OPEN",
+      "evidence_kind": "STATIC_CHECK_NOT_PROFIT_TEST",
+      "last_seen_unix": 1795749689.6974154,
+      "last_run_id": "fleet-504528e910df"
+    },
+    "ec5a7582cf248c0ce7a5": {
+      "id": "ec5a7582cf248c0ce7a5",
+      "repository": "alkiz/xauusd-scalping-cent",
+      "commit": null,
+      "rule": "SOURCE_EVIDENCE_INCOMPLETE",
+      "first_seen_unix": 1795749689.6974154,
+      "reviews_seen": 1,
+      "state": "OPEN",
+      "evidence_kind": "STATIC_CHECK_NOT_PROFIT_TEST",
+      "last_seen_unix": 1795749689.6974154,
+      "last_run_id": "fleet-504528e910df"
+    },
+    "635a187e0555d6f4340c": {
+      "id": "635a187e0555d6f4340c",
+      "repository": "voq30113-bit/midas-smc-scalper",
+      "commit": "dbf2d0e65e46e113e7f6392876ca6f5712148bba",
+      "rule": "LICENSE_UNCONFIRMED",
+      "first_seen_unix": 1795749689.6974154,
+      "reviews_seen": 1,
+      "state": "OPEN",
+      "evidence_kind": "STATIC_CHECK_NOT_PROFIT_TEST",
+      "last_seen_unix": 1795749689.6974154,
+      "last_run_id": "fleet-504528e910df"
+    },
+    "b3a1ea4972915afea12c": {
+      "id": "b3a1ea4972915afea12c",
+      "repository": "voq30113-bit/midas-smc-scalper",
+      "commit": "dbf2d0e65e46e113e7f6392876ca6f5712148bba",
+      "rule": "REVIEW_MENTIONS_GRID_OR_MARTINGALE",
+      "first_seen_unix": 1795749689.6974154,
+      "reviews_seen": 1,
+      "state": "OPEN",
+      "evidence_kind": "STATIC_CHECK_NOT_PROFIT_TEST",
+      "last_seen_unix": 1795749689.6974154,
+      "last_run_id": "fleet-504528e910df"
+    },
+    "aff0b2ced6c54f8dccc2": {
+      "id": "aff0b2ced6c54f8dccc2",
+      "repository": "voq30113-bit/midas-smc-scalper",
+      "commit": "dbf2d0e65e46e113e7f6392876ca6f5712148bba",
+      "rule": "NATIVE_MT5_COMPILE_NOT_VERIFIED",
+      "first_seen_unix": 1795749689.6974154,
+      "reviews_seen": 1,
+      "state": "OPEN",
+      "evidence_kind": "STATIC_CHECK_NOT_PROFIT_TEST",
+      "last_seen_unix": 1795749689.6974154,
+      "last_run_id": "fleet-504528e910df"
+    },
+    "d0abc659210b548ea4d1": {
+      "id": "d0abc659210b548ea4d1",
+      "repository": "voq30113-bit/midas-smc-scalper",
+      "commit": "dbf2d0e65e46e113e7f6392876ca6f5712148bba",
+      "rule": "PROFITABILITY_NOT_VERIFIED",
+      "first_seen_unix": 1795749689.6974154,
+      "reviews_seen": 1,
+      "state": "OPEN",
+      "evidence_kind": "STATIC_CHECK_NOT_PROFIT_TEST",
+      "last_seen_unix": 1795749689.6974154,
+      "last_run_id": "fleet-504528e910df"
+    },
+    "c4ee838fa8c3abec4694": {
+      "id": "c4ee838fa8c3abec4694",
+      "repository": "voq30113-bit/midas-smc-scalper",
+      "commit": "dbf2d0e65e46e113e7f6392876ca6f5712148bba",
+      "rule": "SIGNAL_PARITY_NOT_VERIFIED",
+      "first_seen_unix": 1795749689.6974154,
+      "reviews_seen": 1,
+      "state": "OPEN",
+      "evidence_kind": "STATIC_CHECK_NOT_PROFIT_TEST",
+      "last_seen_unix": 1795749689.6974154,
+      "last_run_id": "fleet-504528e910df"
     }
   },
-  "last_review_unix": 1795743884.389127,
-  "last_run_id": "fleet-fb2a4748a64e",
+  "last_review_unix": 1795749689.6974154,
+  "last_run_id": "fleet-504528e910df",
   "new_findings_this_review": 9,
   "model_weights_trained": false,
   "automatic_code_changes": false,
