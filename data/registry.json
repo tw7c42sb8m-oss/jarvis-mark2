@@ -39,7 +39,7 @@
     ],
     "commit": "d3eb29c382acf715727d5cd6a0414151e821fc2d",
     "tree_truncated": false,
-    "last_reviewed_unix": 1795824465.6529691
+    "last_reviewed_unix": 1795830081.4765356
   },
   "EarnForex/PositionSizer": {
     "repository": "EarnForex/PositionSizer",
@@ -67,7 +67,7 @@
     ],
     "commit": "3b99c9dcc060bee8b9ebd602cc2556a8b41c9857",
     "tree_truncated": false,
-    "last_reviewed_unix": 1795824465.6529691
+    "last_reviewed_unix": 1795830081.4765356
   },
   "yulz008/GOLD_ORB": {
     "repository": "yulz008/GOLD_ORB",
@@ -95,7 +95,7 @@
     ],
     "commit": "8af0d735288c0e9378e35d06c46f23b21d9a5424",
     "tree_truncated": false,
-    "last_reviewed_unix": 1795824465.6529691
+    "last_reviewed_unix": 1795830081.4765356
   },
   "iantaurus2000-lab/XAUUSD-Scalping-V4": {
     "repository": "iantaurus2000-lab/XAUUSD-Scalping-V4",
@@ -137,12 +137,12 @@
     ],
     "commit": "4480563cd2816abc4531a5c54a4c9b735d8c77ca",
     "tree_truncated": false,
-    "last_reviewed_unix": 1795824465.6529691
+    "last_reviewed_unix": 1795830081.4765356
   },
   "voq30113-bit/midas-smc-scalper": {
     "repository": "voq30113-bit/midas-smc-scalper",
     "url": "https://github.com/voq30113-bit/midas-smc-scalper",
-    "updated_at": "2026-11-28T00:00:52Z",
+    "updated_at": "2026-11-28T01:21:33Z",
     "stars": 0,
     "license": null,
     "performance": null,
@@ -177,9 +177,9 @@
         "profitability": "UNPROVEN"
       }
     ],
-    "commit": "c6b09a1d0e1e810b8c5fee6070baa60c069e0127",
+    "commit": "99f446d29ab04abfdba44dc7b0aaf807acc12ba1",
     "tree_truncated": false,
-    "last_reviewed_unix": 1795824465.6529691
+    "last_reviewed_unix": 1795830081.4765356
   },
   "kibetval/forex-scalper-bot": {
     "repository": "kibetval/forex-scalper-bot",
@@ -207,7 +207,7 @@
     ],
     "commit": "5437ff25e9a533e1f7b2e7ebb6d4c8b1dbfba92b",
     "tree_truncated": false,
-    "last_reviewed_unix": 1795824465.6529691
+    "last_reviewed_unix": 1795830081.4765356
   },
   "EA31337/EA31337": {
     "repository": "EA31337/EA31337",
@@ -235,7 +235,7 @@
     ],
     "commit": "9b9bd38c4e49dd6916f4fe3936e50e97fca7a692",
     "tree_truncated": false,
-    "last_reviewed_unix": 1795824465.6529691
+    "last_reviewed_unix": 1795830081.4765356
   },
   "sibvic/mq5-templates": {
     "repository": "sibvic/mq5-templates",
@@ -277,7 +277,7 @@
     ],
     "commit": "14a6208d2638a313529ddce95c3f3ce35e394fa2",
     "tree_truncated": false,
-    "last_reviewed_unix": 1795824465.6529691
+    "last_reviewed_unix": 1795830081.4765356
   },
   "alkiz/xauusd-scalping-cent": {
     "repository": "alkiz/xauusd-scalping-cent",
