@@ -1,13 +1,40 @@
 {
   "agent": "JARVIS MARK 2",
   "role": "EA RESEARCH AND DEVELOPMENT",
-  "observed_unix": 1795821231.955501,
-  "status": "RESEARCH_PARTIAL",
+  "observed_unix": 1795824465.6529691,
+  "status": "RESEARCH_COMPLETE",
   "runtime": "GITHUB_ACTIONS",
   "cloud_deployed": true,
   "broker_orders_sent": 0,
   "paid_services": false,
   "repositories": [
+    {
+      "repository": "EA31337/EA31337",
+      "url": "https://github.com/EA31337/EA31337",
+      "updated_at": "2026-04-07T14:41:25Z",
+      "stars": 1380,
+      "license": "GPL-3.0",
+      "performance": null,
+      "status": "SOURCE_SCREEN_ONLY",
+      "files": [
+        {
+          "path": "src/EA31337.mq5",
+          "sha256": "21f7d34b1171396c416f3987b3cdf2f1c9921924c499dae59627a3fafb50786c",
+          "checks": {
+            "mentions_stop_loss": false,
+            "mentions_take_profit": false,
+            "uses_dll_import": false,
+            "uses_web_request": false,
+            "mentions_martingale_or_grid": false,
+            "mentions_order_execution": false
+          },
+          "assessment": "MANUAL_CODE_REVIEW_REQUIRED",
+          "profitability": "UNPROVEN"
+        }
+      ],
+      "commit": "9b9bd38c4e49dd6916f4fe3936e50e97fca7a692",
+      "tree_truncated": false
+    },
     {
       "repository": "EarnForex/PositionSizer",
       "url": "https://github.com/EarnForex/PositionSizer",
@@ -16,8 +43,24 @@
       "license": "Apache-2.0",
       "performance": null,
       "status": "SOURCE_SCREEN_ONLY",
-      "files": [],
-      "error": "HTTP Error 403: rate limit exceeded"
+      "files": [
+        {
+          "path": "MQL5/Experts/Position Sizer/Position Sizer.mq5",
+          "sha256": "e8489467c0b4d8791524cacce5dba02f0c9dca8853ae131452f3208ee0ebf3c9",
+          "checks": {
+            "mentions_stop_loss": true,
+            "mentions_take_profit": true,
+            "uses_dll_import": false,
+            "uses_web_request": false,
+            "mentions_martingale_or_grid": false,
+            "mentions_order_execution": false
+          },
+          "assessment": "MANUAL_CODE_REVIEW_REQUIRED",
+          "profitability": "UNPROVEN"
+        }
+      ],
+      "commit": "3b99c9dcc060bee8b9ebd602cc2556a8b41c9857",
+      "tree_truncated": false
     },
     {
       "repository": "geraked/metatrader5",
@@ -27,8 +70,38 @@
       "license": "MIT",
       "performance": null,
       "status": "SOURCE_SCREEN_ONLY",
-      "files": [],
-      "error": "HTTP Error 403: rate limit exceeded"
+      "files": [
+        {
+          "path": "Experts/2MAAOS.mq5",
+          "sha256": "6be9d4196feebe94e7240ddfeb079ed677722735bea4a4c528a05ff17c341d77",
+          "checks": {
+            "mentions_stop_loss": true,
+            "mentions_take_profit": true,
+            "uses_dll_import": false,
+            "uses_web_request": false,
+            "mentions_martingale_or_grid": true,
+            "mentions_order_execution": false
+          },
+          "assessment": "MANUAL_CODE_REVIEW_REQUIRED",
+          "profitability": "UNPROVEN"
+        },
+        {
+          "path": "Experts/2MACDSTO.mq5",
+          "sha256": "b2e3a95fde70c88b46fcab0c635b2b31132e1fe0969c22aeaa76a6b008e60105",
+          "checks": {
+            "mentions_stop_loss": true,
+            "mentions_take_profit": true,
+            "uses_dll_import": false,
+            "uses_web_request": false,
+            "mentions_martingale_or_grid": true,
+            "mentions_order_execution": false
+          },
+          "assessment": "MANUAL_CODE_REVIEW_REQUIRED",
+          "profitability": "UNPROVEN"
+        }
+      ],
+      "commit": "d3eb29c382acf715727d5cd6a0414151e821fc2d",
+      "tree_truncated": false
     },
     {
       "repository": "iantaurus2000-lab/XAUUSD-Scalping-V4",
@@ -38,8 +111,38 @@
       "license": null,
       "performance": null,
       "status": "SOURCE_SCREEN_ONLY",
-      "files": [],
-      "error": "HTTP Error 403: rate limit exceeded"
+      "files": [
+        {
+          "path": "mt5/Experts/uji-test-mt5.mq5",
+          "sha256": "b7ed80cf8706cd6dd2ede37163494568f64e7297e5dd547c10ca4528241837ce",
+          "checks": {
+            "mentions_stop_loss": true,
+            "mentions_take_profit": true,
+            "uses_dll_import": false,
+            "uses_web_request": false,
+            "mentions_martingale_or_grid": false,
+            "mentions_order_execution": true
+          },
+          "assessment": "MANUAL_CODE_REVIEW_REQUIRED",
+          "profitability": "UNPROVEN"
+        },
+        {
+          "path": "MT5_EA_Test/uji-test-mt5.mq5",
+          "sha256": "7e3e62f04b8881335acc432d7050aacbd7d88758bea6ac722579af27173fcdc9",
+          "checks": {
+            "mentions_stop_loss": true,
+            "mentions_take_profit": true,
+            "uses_dll_import": false,
+            "uses_web_request": false,
+            "mentions_martingale_or_grid": false,
+            "mentions_order_execution": true
+          },
+          "assessment": "MANUAL_CODE_REVIEW_REQUIRED",
+          "profitability": "UNPROVEN"
+        }
+      ],
+      "commit": "4480563cd2816abc4531a5c54a4c9b735d8c77ca",
+      "tree_truncated": false
     },
     {
       "repository": "kibetval/forex-scalper-bot",
@@ -49,13 +152,70 @@
       "license": null,
       "performance": null,
       "status": "SOURCE_SCREEN_ONLY",
-      "files": [],
-      "error": "HTTP Error 403: rate limit exceeded"
+      "files": [
+        {
+          "path": "ForexScalperEA.mq5",
+          "sha256": "3e28a264feac3205f7c6e2c6685af9fe37ef9e5845a82305a7d5af11e62e29fa",
+          "checks": {
+            "mentions_stop_loss": true,
+            "mentions_take_profit": true,
+            "uses_dll_import": false,
+            "uses_web_request": false,
+            "mentions_martingale_or_grid": false,
+            "mentions_order_execution": true
+          },
+          "assessment": "MANUAL_CODE_REVIEW_REQUIRED",
+          "profitability": "UNPROVEN"
+        }
+      ],
+      "commit": "5437ff25e9a533e1f7b2e7ebb6d4c8b1dbfba92b",
+      "tree_truncated": false
+    },
+    {
+      "repository": "sibvic/mq5-templates",
+      "url": "https://github.com/sibvic/mq5-templates",
+      "updated_at": "2026-11-27T15:55:29Z",
+      "stars": 244,
+      "license": "MIT",
+      "performance": null,
+      "status": "SOURCE_SCREEN_ONLY",
+      "files": [
+        {
+          "path": "templates/EA_Base.mq5",
+          "sha256": "cbdb4a15683a0ffbf553403a649a1babd39aba6997cd6876fc5a375eaa9a816b",
+          "checks": {
+            "mentions_stop_loss": true,
+            "mentions_take_profit": true,
+            "uses_dll_import": true,
+            "uses_web_request": false,
+            "mentions_martingale_or_grid": true,
+            "mentions_order_execution": true
+          },
+          "assessment": "MANUAL_CODE_REVIEW_REQUIRED",
+          "profitability": "UNPROVEN"
+        },
+        {
+          "path": "templates/arrows_indicator.mq5",
+          "sha256": "12d90c350d99d2a60519e480fabb0a0f2ed7710ac5d76649a01fd2508429c249",
+          "checks": {
+            "mentions_stop_loss": false,
+            "mentions_take_profit": false,
+            "uses_dll_import": false,
+            "uses_web_request": false,
+            "mentions_martingale_or_grid": false,
+            "mentions_order_execution": false
+          },
+          "assessment": "MANUAL_CODE_REVIEW_REQUIRED",
+          "profitability": "UNPROVEN"
+        }
+      ],
+      "commit": "14a6208d2638a313529ddce95c3f3ce35e394fa2",
+      "tree_truncated": false
     },
     {
       "repository": "voq30113-bit/midas-smc-scalper",
       "url": "https://github.com/voq30113-bit/midas-smc-scalper",
-      "updated_at": "2026-11-27T23:00:26Z",
+      "updated_at": "2026-11-28T00:00:52Z",
       "stars": 0,
       "license": null,
       "performance": null,
@@ -78,8 +238,8 @@
           "sha256": "64df51862034186fea6e907102f442d569a6004ab54e9330dfc8286ed285759e"
         }
       ],
-      "error": "HTTP Error 403: rate limit exceeded",
-      "commit": "c912658af3e6903ca5c21b674f0a4213fafa2aff"
+      "commit": "c6b09a1d0e1e810b8c5fee6070baa60c069e0127",
+      "tree_truncated": false
     },
     {
       "repository": "yulz008/GOLD_ORB",
@@ -89,8 +249,24 @@
       "license": null,
       "performance": null,
       "status": "SOURCE_SCREEN_ONLY",
-      "files": [],
-      "error": "HTTP Error 403: rate limit exceeded"
+      "files": [
+        {
+          "path": "GOLD_ORB/GOLD_ORB.mq5",
+          "sha256": "259258ce70cf11fd97fb6d25d51c0f02fa00a24aeab5eeca5f159c1403d0b11f",
+          "checks": {
+            "mentions_stop_loss": true,
+            "mentions_take_profit": true,
+            "uses_dll_import": false,
+            "uses_web_request": false,
+            "mentions_martingale_or_grid": false,
+            "mentions_order_execution": true
+          },
+          "assessment": "MANUAL_CODE_REVIEW_REQUIRED",
+          "profitability": "UNPROVEN"
+        }
+      ],
+      "commit": "8af0d735288c0e9378e35d06c46f23b21d9a5424",
+      "tree_truncated": false
     }
   ],
   "generated_candidates": [
@@ -152,53 +328,7 @@
       ]
     }
   ],
-  "errors": [
-    {
-      "stage": "curated_source",
-      "repository": "geraked/metatrader5",
-      "error": "HTTP Error 403: rate limit exceeded"
-    },
-    {
-      "stage": "curated_source",
-      "repository": "EA31337/EA31337",
-      "error": "HTTP Error 403: rate limit exceeded"
-    },
-    {
-      "stage": "curated_source",
-      "repository": "sibvic/mq5-templates",
-      "error": "HTTP Error 403: rate limit exceeded"
-    },
-    {
-      "stage": "source_screen",
-      "repository": "EarnForex/PositionSizer",
-      "error": "HTTP Error 403: rate limit exceeded"
-    },
-    {
-      "stage": "source_screen",
-      "repository": "geraked/metatrader5",
-      "error": "HTTP Error 403: rate limit exceeded"
-    },
-    {
-      "stage": "source_screen",
-      "repository": "iantaurus2000-lab/XAUUSD-Scalping-V4",
-      "error": "HTTP Error 403: rate limit exceeded"
-    },
-    {
-      "stage": "source_screen",
-      "repository": "kibetval/forex-scalper-bot",
-      "error": "HTTP Error 403: rate limit exceeded"
-    },
-    {
-      "stage": "source_screen",
-      "repository": "voq30113-bit/midas-smc-scalper",
-      "error": "HTTP Error 403: rate limit exceeded"
-    },
-    {
-      "stage": "source_screen",
-      "repository": "yulz008/GOLD_ORB",
-      "error": "HTTP Error 403: rate limit exceeded"
-    }
-  ],
+  "errors": [],
   "best_ea": null,
   "winner_status": "NO_VERIFIED_WINNER",
   "next_tasks": [
@@ -220,67 +350,67 @@
     "queue_remaining": 0,
     "recent": [
       {
-        "url": "https://raw.githubusercontent.com/voq30113-bit/midas-smc-scalper/c912658af3e6903ca5c21b674f0a4213fafa2aff/tools/MIDAS_ExportBars.mq5",
+        "url": "https://raw.githubusercontent.com/voq30113-bit/midas-smc-scalper/c6b09a1d0e1e810b8c5fee6070baa60c069e0127/tools/MIDAS_ExportBars.mq5",
         "repository": "voq30113-bit/midas-smc-scalper",
         "path": "tools/MIDAS_ExportBars.mq5",
         "sha256": "64df51862034186fea6e907102f442d569a6004ab54e9330dfc8286ed285759e",
         "bytes": 1566,
         "result": "SOURCE_SAVED",
-        "received_unix": 1795821234.8349159
+        "received_unix": 1795824469.7212272
       },
       {
-        "url": "https://raw.githubusercontent.com/voq30113-bit/midas-smc-scalper/c912658af3e6903ca5c21b674f0a4213fafa2aff/tools/MIDAS_DukaImport.mq5",
+        "url": "https://raw.githubusercontent.com/voq30113-bit/midas-smc-scalper/c6b09a1d0e1e810b8c5fee6070baa60c069e0127/tools/MIDAS_DukaImport.mq5",
         "repository": "voq30113-bit/midas-smc-scalper",
         "path": "tools/MIDAS_DukaImport.mq5",
         "sha256": "cf33e3ef21b7822be0bd692f8b647457bb10087fd9dec12af7f0116ebf802471",
         "bytes": 2815,
         "result": "SOURCE_SAVED",
-        "received_unix": 1795821234.7052808
+        "received_unix": 1795824469.431809
       },
       {
-        "url": "https://raw.githubusercontent.com/voq30113-bit/midas-smc-scalper/c912658af3e6903ca5c21b674f0a4213fafa2aff/MIDAS_SMC_v4.mq5",
+        "url": "https://raw.githubusercontent.com/voq30113-bit/midas-smc-scalper/c6b09a1d0e1e810b8c5fee6070baa60c069e0127/MIDAS_SMC_v4.mq5",
         "repository": "voq30113-bit/midas-smc-scalper",
         "path": "MIDAS_SMC_v4.mq5",
         "sha256": "997b4221c7573f7fc4697f1c9d497469adca8a02771063011864ec23b1ec6a99",
         "bytes": 140275,
         "result": "SOURCE_SAVED",
-        "received_unix": 1795821234.5512652
+        "received_unix": 1795824465.998426
       },
       {
-        "url": "https://raw.githubusercontent.com/voq30113-bit/midas-smc-scalper/c912658af3e6903ca5c21b674f0a4213fafa2aff/MIDAS_Gold_SMC_v3.4.mq5",
+        "url": "https://raw.githubusercontent.com/voq30113-bit/midas-smc-scalper/c6b09a1d0e1e810b8c5fee6070baa60c069e0127/MIDAS_Gold_SMC_v3.4.mq5",
         "repository": "voq30113-bit/midas-smc-scalper",
         "path": "MIDAS_Gold_SMC_v3.4.mq5",
         "sha256": "fbd94a775cdffbee256bc08a8603404c5e9dceceba0e11bb6cdd7828c8e98f07",
         "bytes": 110727,
         "result": "SOURCE_SAVED",
-        "received_unix": 1795821234.3900845
+        "received_unix": 1795824465.8239136
       }
     ],
     "external_code_executed": false,
     "current_repository": "voq30113-bit/midas-smc-scalper",
-    "observed_unix": 1795821234.8378465,
-    "frontier_total_seen": 684
+    "observed_unix": 1795824469.7242506,
+    "frontier_total_seen": 688
   },
   "spider": {
     "improvement_status": "WAITING_FOR_NEW_EVIDENCE",
     "improvements_accepted": 6,
-    "mission_run_id": "mission-91704e675f59",
+    "mission_run_id": "mission-c333825b1791",
     "mission_status": "COMPLETED",
     "identity": "JARVIS MARK 2 / SPIDER",
-    "fleet_run_id": "fleet-ab23b6f4edd7",
+    "fleet_run_id": "fleet-f04b7733d066",
     "fleet_status": "COMPLETED",
     "counts": {
       "queued": 0,
       "running": 0,
-      "completed": 18,
+      "completed": 24,
       "failed": 0,
       "timed_out": 0,
-      "repositories": 6,
-      "workers": 18,
-      "launched": 18
+      "repositories": 8,
+      "workers": 24,
+      "launched": 24
     },
     "new_findings": 5,
-    "open_findings": 912,
+    "open_findings": 917,
     "model_children": false,
     "worker_type": "DETERMINISTIC_TOOL_WORKER",
     "external_ai_apis": 0
