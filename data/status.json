@@ -1,7 +1,7 @@
 {
   "agent": "JARVIS MARK 2",
   "role": "EA RESEARCH AND DEVELOPMENT",
-  "observed_unix": 1795864170.2556539,
+  "observed_unix": 1795867550.0751686,
   "status": "RESEARCH_COMPLETE",
   "runtime": "GITHUB_ACTIONS",
   "cloud_deployed": true,
@@ -104,50 +104,26 @@
       "tree_truncated": false
     },
     {
-      "repository": "iantaurus2000-lab/XAUUSD-Scalping-V4",
-      "url": "https://github.com/iantaurus2000-lab/XAUUSD-Scalping-V4",
-      "updated_at": "2026-11-27T14:37:26Z",
+      "repository": "kibetval/forex-scalper-bot",
+      "url": "https://github.com/kibetval/forex-scalper-bot",
+      "updated_at": "2026-11-28T10:10:46Z",
       "stars": 0,
       "license": null,
       "performance": null,
       "status": "SOURCE_SCREEN_ONLY",
       "files": [
         {
-          "path": "mt5/Experts/uji-test-mt5.mq5",
-          "sha256": "b7ed80cf8706cd6dd2ede37163494568f64e7297e5dd547c10ca4528241837ce",
-          "checks": {
-            "mentions_stop_loss": true,
-            "mentions_take_profit": true,
-            "uses_dll_import": false,
-            "uses_web_request": false,
-            "mentions_martingale_or_grid": false,
-            "mentions_order_execution": true
-          },
-          "assessment": "MANUAL_CODE_REVIEW_REQUIRED",
-          "profitability": "UNPROVEN"
-        },
-        {
-          "path": "MT5_EA_Test/uji-test-mt5.mq5",
-          "sha256": "7e3e62f04b8881335acc432d7050aacbd7d88758bea6ac722579af27173fcdc9",
-          "checks": {
-            "mentions_stop_loss": true,
-            "mentions_take_profit": true,
-            "uses_dll_import": false,
-            "uses_web_request": false,
-            "mentions_martingale_or_grid": false,
-            "mentions_order_execution": true
-          },
-          "assessment": "MANUAL_CODE_REVIEW_REQUIRED",
-          "profitability": "UNPROVEN"
+          "path": "ForexScalperEA.mq5",
+          "sha256": "3e28a264feac3205f7c6e2c6685af9fe37ef9e5845a82305a7d5af11e62e29fa"
         }
       ],
-      "commit": "4480563cd2816abc4531a5c54a4c9b735d8c77ca",
+      "commit": "ab363f288835a2f6189c7e12d7452218557f80c8",
       "tree_truncated": false
     },
     {
       "repository": "primeturfsa/Institutional-Scalper",
       "url": "https://github.com/primeturfsa/Institutional-Scalper",
-      "updated_at": "2026-11-28T10:42:03Z",
+      "updated_at": "2026-11-28T11:48:50Z",
       "stars": 0,
       "license": null,
       "performance": null,
@@ -155,7 +131,17 @@
       "files": [
         {
           "path": "mt5/InstitutionalScalper.mq5",
-          "sha256": "7460802adfee81ed2516ba76bc0c8807fa30da90da2533a6fd5a254c4fe1adf9"
+          "sha256": "7460802adfee81ed2516ba76bc0c8807fa30da90da2533a6fd5a254c4fe1adf9",
+          "checks": {
+            "mentions_stop_loss": true,
+            "mentions_take_profit": true,
+            "uses_dll_import": false,
+            "uses_web_request": false,
+            "mentions_martingale_or_grid": true,
+            "mentions_order_execution": true
+          },
+          "assessment": "MANUAL_CODE_REVIEW_REQUIRED",
+          "profitability": "UNPROVEN"
         }
       ],
       "commit": "34d716e9e28bfcbd2a32d5fa73ad52a670f9cdba",
@@ -205,7 +191,7 @@
     {
       "repository": "voq30113-bit/midas-smc-scalper",
       "url": "https://github.com/voq30113-bit/midas-smc-scalper",
-      "updated_at": "2026-11-28T11:05:47Z",
+      "updated_at": "2026-11-28T11:46:05Z",
       "stars": 0,
       "license": null,
       "performance": null,
@@ -228,7 +214,7 @@
           "sha256": "64df51862034186fea6e907102f442d569a6004ab54e9330dfc8286ed285759e"
         }
       ],
-      "commit": "35330e91e674bdcf81afaba1d3907be45dc73931",
+      "commit": "5c1d429f39d037233bc3eccf38c4bd2ce7b2cb8d",
       "tree_truncated": false
     },
     {
@@ -340,63 +326,63 @@
     "queue_remaining": 0,
     "recent": [
       {
-        "url": "https://raw.githubusercontent.com/voq30113-bit/midas-smc-scalper/35330e91e674bdcf81afaba1d3907be45dc73931/tools/MIDAS_ExportBars.mq5",
+        "url": "https://raw.githubusercontent.com/voq30113-bit/midas-smc-scalper/5c1d429f39d037233bc3eccf38c4bd2ce7b2cb8d/tools/MIDAS_ExportBars.mq5",
         "repository": "voq30113-bit/midas-smc-scalper",
         "path": "tools/MIDAS_ExportBars.mq5",
         "sha256": "64df51862034186fea6e907102f442d569a6004ab54e9330dfc8286ed285759e",
         "bytes": 1566,
         "result": "SOURCE_SAVED",
-        "received_unix": 1795864173.8304446
+        "received_unix": 1795867552.0163646
       },
       {
-        "url": "https://raw.githubusercontent.com/voq30113-bit/midas-smc-scalper/35330e91e674bdcf81afaba1d3907be45dc73931/tools/MIDAS_DukaImport.mq5",
+        "url": "https://raw.githubusercontent.com/voq30113-bit/midas-smc-scalper/5c1d429f39d037233bc3eccf38c4bd2ce7b2cb8d/tools/MIDAS_DukaImport.mq5",
         "repository": "voq30113-bit/midas-smc-scalper",
         "path": "tools/MIDAS_DukaImport.mq5",
         "sha256": "cf33e3ef21b7822be0bd692f8b647457bb10087fd9dec12af7f0116ebf802471",
         "bytes": 2815,
         "result": "SOURCE_SAVED",
-        "received_unix": 1795864173.7030354
+        "received_unix": 1795867551.9415596
       },
       {
-        "url": "https://raw.githubusercontent.com/voq30113-bit/midas-smc-scalper/35330e91e674bdcf81afaba1d3907be45dc73931/MIDAS_SMC_v4.mq5",
+        "url": "https://raw.githubusercontent.com/voq30113-bit/midas-smc-scalper/5c1d429f39d037233bc3eccf38c4bd2ce7b2cb8d/MIDAS_SMC_v4.mq5",
         "repository": "voq30113-bit/midas-smc-scalper",
         "path": "MIDAS_SMC_v4.mq5",
         "sha256": "997b4221c7573f7fc4697f1c9d497469adca8a02771063011864ec23b1ec6a99",
         "bytes": 140275,
         "result": "SOURCE_SAVED",
-        "received_unix": 1795864170.7096584
+        "received_unix": 1795867550.3954432
       },
       {
-        "url": "https://raw.githubusercontent.com/voq30113-bit/midas-smc-scalper/35330e91e674bdcf81afaba1d3907be45dc73931/MIDAS_Gold_SMC_v3.4.mq5",
+        "url": "https://raw.githubusercontent.com/voq30113-bit/midas-smc-scalper/5c1d429f39d037233bc3eccf38c4bd2ce7b2cb8d/MIDAS_Gold_SMC_v3.4.mq5",
         "repository": "voq30113-bit/midas-smc-scalper",
         "path": "MIDAS_Gold_SMC_v3.4.mq5",
         "sha256": "fbd94a775cdffbee256bc08a8603404c5e9dceceba0e11bb6cdd7828c8e98f07",
         "bytes": 110727,
         "result": "SOURCE_SAVED",
-        "received_unix": 1795864170.5752728
+        "received_unix": 1795867550.2984955
       },
       {
-        "url": "https://raw.githubusercontent.com/primeturfsa/Institutional-Scalper/34d716e9e28bfcbd2a32d5fa73ad52a670f9cdba/mt5/InstitutionalScalper.mq5",
-        "repository": "primeturfsa/Institutional-Scalper",
-        "path": "mt5/InstitutionalScalper.mq5",
-        "sha256": "7460802adfee81ed2516ba76bc0c8807fa30da90da2533a6fd5a254c4fe1adf9",
-        "bytes": 28111,
+        "url": "https://raw.githubusercontent.com/kibetval/forex-scalper-bot/ab363f288835a2f6189c7e12d7452218557f80c8/ForexScalperEA.mq5",
+        "repository": "kibetval/forex-scalper-bot",
+        "path": "ForexScalperEA.mq5",
+        "sha256": "3e28a264feac3205f7c6e2c6685af9fe37ef9e5845a82305a7d5af11e62e29fa",
+        "bytes": 10639,
         "result": "SOURCE_SAVED",
-        "received_unix": 1795864170.4211342
+        "received_unix": 1795867550.1966453
       }
     ],
     "external_code_executed": false,
     "current_repository": "voq30113-bit/midas-smc-scalper",
-    "observed_unix": 1795864173.834464,
-    "frontier_total_seen": 731
+    "observed_unix": 1795867552.0193155,
+    "frontier_total_seen": 736
   },
   "spider": {
     "improvement_status": "WAITING_FOR_NEW_EVIDENCE",
     "improvements_accepted": 6,
-    "mission_run_id": "mission-2482edbb547b",
+    "mission_run_id": "mission-c2ca373f5761",
     "mission_status": "COMPLETED",
     "identity": "JARVIS MARK 2 / SPIDER",
-    "fleet_run_id": "fleet-b3732f90e2d6",
+    "fleet_run_id": "fleet-2b74bbbd13e1",
     "fleet_status": "COMPLETED",
     "counts": {
       "queued": 0,
@@ -408,8 +394,8 @@
       "workers": 24,
       "launched": 24
     },
-    "new_findings": 10,
-    "open_findings": 977,
+    "new_findings": 9,
+    "open_findings": 986,
     "model_children": false,
     "worker_type": "DETERMINISTIC_TOOL_WORKER",
     "external_ai_apis": 0
