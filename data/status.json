@@ -1,7 +1,7 @@
 {
   "agent": "JARVIS MARK 2",
   "role": "EA RESEARCH AND DEVELOPMENT",
-  "observed_unix": 1795851517.8779252,
+  "observed_unix": 1795857101.9125776,
   "status": "RESEARCH_COMPLETE",
   "runtime": "GITHUB_ACTIONS",
   "cloud_deployed": true,
@@ -145,30 +145,20 @@
       "tree_truncated": false
     },
     {
-      "repository": "kibetval/forex-scalper-bot",
-      "url": "https://github.com/kibetval/forex-scalper-bot",
-      "updated_at": "2026-11-27T08:05:28Z",
+      "repository": "primeturfsa/Institutional-Scalper",
+      "url": "https://github.com/primeturfsa/Institutional-Scalper",
+      "updated_at": "2026-11-28T09:10:13Z",
       "stars": 0,
       "license": null,
       "performance": null,
       "status": "SOURCE_SCREEN_ONLY",
       "files": [
         {
-          "path": "ForexScalperEA.mq5",
-          "sha256": "3e28a264feac3205f7c6e2c6685af9fe37ef9e5845a82305a7d5af11e62e29fa",
-          "checks": {
-            "mentions_stop_loss": true,
-            "mentions_take_profit": true,
-            "uses_dll_import": false,
-            "uses_web_request": false,
-            "mentions_martingale_or_grid": false,
-            "mentions_order_execution": true
-          },
-          "assessment": "MANUAL_CODE_REVIEW_REQUIRED",
-          "profitability": "UNPROVEN"
+          "path": "mt5/InstitutionalScalper.mq5",
+          "sha256": "7460802adfee81ed2516ba76bc0c8807fa30da90da2533a6fd5a254c4fe1adf9"
         }
       ],
-      "commit": "5437ff25e9a533e1f7b2e7ebb6d4c8b1dbfba92b",
+      "commit": "248be832d76b1a6b1eb6007ee910037c75e9f4bb",
       "tree_truncated": false
     },
     {
@@ -215,7 +205,7 @@
     {
       "repository": "voq30113-bit/midas-smc-scalper",
       "url": "https://github.com/voq30113-bit/midas-smc-scalper",
-      "updated_at": "2026-11-28T07:24:07Z",
+      "updated_at": "2026-11-28T09:04:57Z",
       "stars": 0,
       "license": null,
       "performance": null,
@@ -238,7 +228,7 @@
           "sha256": "64df51862034186fea6e907102f442d569a6004ab54e9330dfc8286ed285759e"
         }
       ],
-      "commit": "ceb19b89e84692c37f8b4e84a670f8576945e828",
+      "commit": "d280cb5f7adf520823391c74bf9632899b45be7a",
       "tree_truncated": false
     },
     {
@@ -344,60 +334,69 @@
   ],
   "crawler": {
     "status": "WATCHING_FOR_SOURCE_UPDATES",
-    "visited": 4,
+    "visited": 5,
     "failed": 0,
     "current_url": null,
     "queue_remaining": 0,
     "recent": [
       {
-        "url": "https://raw.githubusercontent.com/voq30113-bit/midas-smc-scalper/ceb19b89e84692c37f8b4e84a670f8576945e828/tools/MIDAS_ExportBars.mq5",
+        "url": "https://raw.githubusercontent.com/voq30113-bit/midas-smc-scalper/d280cb5f7adf520823391c74bf9632899b45be7a/tools/MIDAS_ExportBars.mq5",
         "repository": "voq30113-bit/midas-smc-scalper",
         "path": "tools/MIDAS_ExportBars.mq5",
         "sha256": "64df51862034186fea6e907102f442d569a6004ab54e9330dfc8286ed285759e",
         "bytes": 1566,
         "result": "SOURCE_SAVED",
-        "received_unix": 1795851521.4439917
+        "received_unix": 1795857104.8179882
       },
       {
-        "url": "https://raw.githubusercontent.com/voq30113-bit/midas-smc-scalper/ceb19b89e84692c37f8b4e84a670f8576945e828/tools/MIDAS_DukaImport.mq5",
+        "url": "https://raw.githubusercontent.com/voq30113-bit/midas-smc-scalper/d280cb5f7adf520823391c74bf9632899b45be7a/tools/MIDAS_DukaImport.mq5",
         "repository": "voq30113-bit/midas-smc-scalper",
         "path": "tools/MIDAS_DukaImport.mq5",
         "sha256": "cf33e3ef21b7822be0bd692f8b647457bb10087fd9dec12af7f0116ebf802471",
         "bytes": 2815,
         "result": "SOURCE_SAVED",
-        "received_unix": 1795851521.3164732
+        "received_unix": 1795857104.6804564
       },
       {
-        "url": "https://raw.githubusercontent.com/voq30113-bit/midas-smc-scalper/ceb19b89e84692c37f8b4e84a670f8576945e828/MIDAS_SMC_v4.mq5",
+        "url": "https://raw.githubusercontent.com/voq30113-bit/midas-smc-scalper/d280cb5f7adf520823391c74bf9632899b45be7a/MIDAS_SMC_v4.mq5",
         "repository": "voq30113-bit/midas-smc-scalper",
         "path": "MIDAS_SMC_v4.mq5",
         "sha256": "997b4221c7573f7fc4697f1c9d497469adca8a02771063011864ec23b1ec6a99",
         "bytes": 140275,
         "result": "SOURCE_SAVED",
-        "received_unix": 1795851518.207135
+        "received_unix": 1795857102.461701
       },
       {
-        "url": "https://raw.githubusercontent.com/voq30113-bit/midas-smc-scalper/ceb19b89e84692c37f8b4e84a670f8576945e828/MIDAS_Gold_SMC_v3.4.mq5",
+        "url": "https://raw.githubusercontent.com/voq30113-bit/midas-smc-scalper/d280cb5f7adf520823391c74bf9632899b45be7a/MIDAS_Gold_SMC_v3.4.mq5",
         "repository": "voq30113-bit/midas-smc-scalper",
         "path": "MIDAS_Gold_SMC_v3.4.mq5",
         "sha256": "fbd94a775cdffbee256bc08a8603404c5e9dceceba0e11bb6cdd7828c8e98f07",
         "bytes": 110727,
         "result": "SOURCE_SAVED",
-        "received_unix": 1795851518.0720167
+        "received_unix": 1795857102.2808347
+      },
+      {
+        "url": "https://raw.githubusercontent.com/primeturfsa/Institutional-Scalper/248be832d76b1a6b1eb6007ee910037c75e9f4bb/mt5/InstitutionalScalper.mq5",
+        "repository": "primeturfsa/Institutional-Scalper",
+        "path": "mt5/InstitutionalScalper.mq5",
+        "sha256": "7460802adfee81ed2516ba76bc0c8807fa30da90da2533a6fd5a254c4fe1adf9",
+        "bytes": 28111,
+        "result": "SOURCE_SAVED",
+        "received_unix": 1795857102.0852556
       }
     ],
     "external_code_executed": false,
     "current_repository": "voq30113-bit/midas-smc-scalper",
-    "observed_unix": 1795851521.4477255,
-    "frontier_total_seen": 716
+    "observed_unix": 1795857104.822769,
+    "frontier_total_seen": 721
   },
   "spider": {
     "improvement_status": "WAITING_FOR_NEW_EVIDENCE",
     "improvements_accepted": 6,
-    "mission_run_id": "mission-dd37fd43b55c",
+    "mission_run_id": "mission-ce4c0937dded",
     "mission_status": "COMPLETED",
     "identity": "JARVIS MARK 2 / SPIDER",
-    "fleet_run_id": "fleet-ceac6aa3679c",
+    "fleet_run_id": "fleet-c6df96b7f384",
     "fleet_status": "COMPLETED",
     "counts": {
       "queued": 0,
@@ -409,8 +408,8 @@
       "workers": 24,
       "launched": 24
     },
-    "new_findings": 5,
-    "open_findings": 947,
+    "new_findings": 10,
+    "open_findings": 957,
     "model_children": false,
     "worker_type": "DETERMINISTIC_TOOL_WORKER",
     "external_ai_apis": 0
